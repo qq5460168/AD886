@@ -28,21 +28,20 @@ def download_rules(url):
         if url.startswith('file:'):
             file_path = url.split('file:')[1].strip()
             with open(file_path, 'r', encoding='utf-8') as f:
-                raw_lines = [line.rstrip('\n') for line in f]  # 保留原始行
+                lines = [line.strip() for line in f]
         else:
             resp = requests.get(url, headers={'User-Agent': USER_AGENT}, timeout=15)
             resp.raise_for_status()
-            raw_lines = resp.text.splitlines()
+            lines = [line.strip() for line in resp.text.splitlines()]
         
         valid_rules = []
-        for raw_line in raw_lines:
-            line = raw_line.strip()
+        for line in lines:
             if is_valid_rule(line):
                 valid_rules.append(line)
             else:
                 # 排除注释和空白行后记录无效规则
                 if line and not (COMMENT_REGEX.match(line) or BLANK_REGEX.match(line)):
-                    invalid_rules.append(raw_line)  # 保存原始行
+                    invalid_rules.append(line)
         return valid_rules, invalid_rules
     except Exception as e:
         print(f"⚠️ 处理失败: {url} - {str(e)}")
@@ -60,7 +59,7 @@ def is_valid_rule(line):
     ])
 
 def main():
-    # 读取规则源列表（不再处理注释）
+    # 读取规则源列表
     with open(RULE_SOURCES_FILE) as f:
         sources = [line.strip() for line in f if line.strip()]
 
@@ -76,22 +75,14 @@ def main():
             error_reports[url] = invalid_rules
             print(f"  发现 {len(invalid_rules)} 条无效规则")
 
-    # 输出错误报告并写入文件
+    # 输出错误报告
     if error_reports:
         print("\n⚠️ 错误规则汇总:")
-        with open('user-rules.txt', 'w', encoding='utf-8') as f:
-            for source, rules in error_reports.items():
-                print(f"来源: {source}")
-                f.write(f"# 来源: {source}\n")
-                for rule in rules:
-                    print(f"  - {rule}")
-                    f.write(f"{rule}\n")
-                f.write("\n")
-                print("---")
-        print("已将所有无效规则写入 user-rules.txt")
-    else:
-        open('user-rules.txt', 'w').close()
-        print("未检测到无效规则，已清空 user-rules.txt")
+        for source, rules in error_reports.items():
+            print(f"来源: {source}")
+            for rule in rules:
+                print(f"  - {rule}")
+            print("---")
 
     # 排序并生成最终文件
     sorted_rules = sorted(merged_rules, key=lambda x: (
