@@ -1,33 +1,37 @@
+# title.py 优化后
 import datetime
 import pytz
 import glob
+import sys
 
-# 获取当前时间并转换为北京时间
-utc_time = datetime.datetime.now(pytz.timezone('UTC'))
-beijing_time = utc_time.astimezone(pytz.timezone('Asia/Shanghai')).strftime('%Y-%m-%d %H:%M:%S')
+def inject_metadata():
+    try:
+        beijing_tz = pytz.timezone('Asia/Shanghai')
+        beijing_time = datetime.datetime.now(beijing_tz).strftime('%Y-%m-%d %H:%M:%S')
+        
+        for file_path in glob.glob('./*.txt'):
+            if 'whitelist' in file_path:  # 跳过白名单文件
+                continue
+            
+            with open(file_path, 'r+', encoding='utf-8') as f:
+                content = f.read()
+                line_count = content.count('\n') + 1
+                f.seek(0)
+                header = (
+                    f"[个人合并 2.0]\n"
+                    f"! Title: 去广告规则 - 酷安反馈优化\n"
+                    f"! Homepage: https://github.com/qq5460168/666\n"
+                    f"! Expires: 12 Hours\n"
+                    f"! Version: {beijing_time}（北京时间）\n"
+                    f"! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列\n"
+                    f"! Total count: {line_count}\n\n"
+                )
+                f.write(header + content)
+                print(f'📄 已更新文件头部: {file_path}')
+                
+    except Exception as e:
+        print(f'❌ 注入元数据失败: {str(e)}', file=sys.stderr)
+        sys.exit(1)
 
-# 获取文件列表
-file_list = glob.glob('.././*.txt')  # 将路径替换为你的文件所在的目录
-
-# 遍历文件列表
-for file_path in file_list:
-    # 打开文件并读取内容
-    with open(file_path, 'r') as file:
-        content = file.read()
-
-    # 计算文件的行数
-    line_count = content.count('\n') + 1
-
-    # 在文件顶部插入内容
-    new_content = f"[个人合并 2.0]\n" \
-                  f"! Title: 去广告规则，酷安反馈反馈\n" \
-                  f"! Homepage: https://github.com/qq5460168/666\n" \
-                  f"! Expires: 12 Hours\n" \
-                  f"! Version: {beijing_time}（北京时间）\n" \
-                  f"! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列\n" \
-                  f"! Total count: {line_count}\n" \
-                  f"{content}"
-
-    # 将更新后的内容写入文件
-    with open(file_path, 'w') as file:
-        file.write(new_content)
+if __name__ == "__main__":
+    inject_metadata()
