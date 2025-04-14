@@ -1,38 +1,77 @@
-name: Update Rules
-on: 
+name: Rules Auto-Update
+on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */2 * * *'
-    
+    - cron: '0 0,12 * * *'  # 每天 UTC 00:00 和 12:00 (北京时间 08:00 和 20:00)
+
 jobs:
-  update:
+  secure-update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15  # 设置超时防止卡死
+    permissions:
+      contents: write   # 最小权限原则
+      actions: read
+
     steps:
-      - uses: actions/checkout@v4
-          
-      - name: Update Rules
-        continue-on-error: true
-        run: |
-          bash ./data/script/update-rules.sh
-          
-      - name: Update ReadMe
-        run: |
-          bash ./data/script/clean-readme.sh
-
-      - name: Git push assets to Github
-        run: |
-          git init
-          git config --local user.email "916899380@qq.com"
-          git config --local user.name "qq5460168"
-          git branch -m master
-          git add --all
-          git commit -m "Updated at $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间）"
-          git push -u origin -f
-
-      - name: Delete workflow runs 
-        uses: Mattraks/delete-workflow-runs@main
+      # ========== 初始化阶段 ==========
+      - name: Checkout with History
+        uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repository: ${{ github.repository }}
-          retain_days: 0
-          keep_minimum_runs: 0
+          fetch-depth: 0  # 获取完整提交历史
+
+      - name: Setup Git Safety
+        run: |
+          git config --global --add safe.directory $GITHUB_WORKSPACE
+          git config --global user.name "AutoUpdater[Bot]"
+          git config --global user.email "916899380+autoupdater[bot]@users.noreply.github.com"
+
+      # ========== 规则更新阶段 ==========
+      - name: Update Filter Rules
+        env:
+          TZ: Asia/Shanghai
+        run: |
+          set -euo pipefail  # 启用严格错误检查
+          echo "▶️ Starting rules update..."
+          bash ./data/script/update-rules.sh
+          echo "✅ Rules updated successfully"
+
+      - name: Update Documentation
+        run: |
+          set -euo pipefail
+          echo "📝 Updating documentation..."
+          bash ./data/script/clean-readme.sh
+          git add README.md
+          echo "✅ Documentation updated"
+
+      # ========== 提交验证阶段 ==========
+      - name: Check for Changes
+        id: changes
+        run: |
+          if git diff --quiet --exit-code; then
+            echo "🔄 No changes detected"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "💾 Changes detected"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit Changes
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git commit -m "chore: Auto update at $(date +'%Y-%m-%d %H:%M:%S') (Asia/Shanghai)" -a
+          echo "📨 Commit ready for push"
+
+      # ========== 安全推送阶段 ==========
+      - name: Push Changes
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git pull --rebase  # 防止推送冲突
+          git push origin HEAD:master
+          echo "🚀 Changes pushed successfully"
+
+      # ========== 清理阶段 ==========
+      - name: Cleanup Workflow Runs
+        uses: rokroskar/workflow-run-cleanup-action@v2
+        with:
+          preserve_runs: 10  # 保留最近10次运行
+          older_than_days: 3  # 保留3天内的记录
