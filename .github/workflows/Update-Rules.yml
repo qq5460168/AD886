@@ -25,7 +25,6 @@ jobs:
       run: |
         python merge_rules.py
         echo "规则更新时间: $(date -u '+%Y-%m-%d %H:%M:%S')" >> update.log
-
 - name: Commit changes
   env:
     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
