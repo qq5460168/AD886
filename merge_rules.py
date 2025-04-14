@@ -13,15 +13,28 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
 COMMENT_REGEX = re.compile(r'^[!#]')     # 注释行
 BLANK_REGEX = re.compile(r'^\s*$')       # 空白行
 DOMAIN_REGEX = re.compile(
-    r'^(\|\|?)?([a-zA-Z0-9-*_.]+)(\^|\$|/)?.*$'
+    r'^(@@)?(\|\|?)?([a-zA-Z0-9-*_.]+)(\^|\$|/)?.*$'  # 支持白名单规则
+)    r'^(\|\|?)?([a-zA-Z0-9-*_.]+)(\^|\$|/)?.*$'
 )                                        # 基础域名规则
 ELEMENT_REGEX = re.compile(r'##.+')      # 元素隐藏规则
 REGEX_RULE_REGEX = re.compile(r'^/.*/$') # 正则表达式规则
 MODIFIER_REGEX = re.compile(             # 修饰符检测
     r'\$(~?[\w-]+(=[^,\s]+)?(,~?[\w-]+(=[^,\s]+)?)*)$'
 )
-
+MODIFIER_REGEX = re.compile(
+    r'\$(~?[\w-]+(=[^,\s]+)?(,~?[\w-]+(=[^,\s]+)?)*)$'
+)
 def download_rules(url):
+    if url.startswith('file:'):
+        file_path = url.split('file:')[1].strip()
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                return [line.strip() for line in f]
+        except FileNotFoundError:
+            print(f"⚠️ 本地文件未找到: {file_path}")
+            return []
+    else:
+        # 原有下载逻辑
     """下载规则文件并返回行列表"""
     try:
         resp = requests.get(url, headers={'User-Agent': USER_AGENT}, timeout=15)
