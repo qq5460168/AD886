@@ -1,86 +1,35 @@
-name: Rules Auto-Update
+name: Update Filter Rules
+
 on:
-  workflow_dispatch:
   schedule:
-    - cron: '0 0,12 * * *'
+    - cron: '0 0 * * *'  # 每天 UTC 时间 0 点运行
+  workflow_dispatch:      # 允许手动触发
 
 jobs:
-  secure-update:
+  merge-rules:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
-    permissions:
-      contents: write
-      actions: read
-
+    
     steps:
-      # ========== 初始化阶段 ==========
-      - name: Checkout with History
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+    - name: Checkout code
+      uses: actions/checkout@v2
 
-      - name: Setup Git Safety
-        run: |
-          git config --global --add safe.directory $GITHUB_WORKSPACE
-          git config --global user.name "AutoUpdater[Bot]"
-          git config --global user.email "916899380+autoupdater[bot]@users.noreply.github.com"
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.10'
 
-      # ========== 缓存优化 ==========
-      - name: Cache Rules Directory
-        uses: actions/cache@v3
-        id: rules-cache
-        with:
-          path: |
-            ./data/rules
-            ./data/dns
-          key: ${{ runner.os }}-rules-${{ hashFiles('**/rules.txt') }}
+    - name: Install dependencies
+      run: pip install requests
 
-      # ========== 规则更新阶段 ==========
-      - name: Update Filter Rules
-        env:
-          TZ: Asia/Shanghai
-        run: |
-          set -euo pipefail
-          echo "▶️ Starting rules update..."
-          bash ./data/script/update-rules.sh
-          echo "✅ Rules updated successfully"
+    - name: Run merge script
+      run: |
+        python merge_rules.py
+        echo "规则更新时间: $(date -u '+%Y-%m-%d %H:%M:%S')" >> update.log
 
-      # ========== 自动化测试阶段 ==========
-      - name: Validate AdGuard Syntax
-        run: |
-          wget -q https://static.adguard.com/adguardhome/release/AdGuardHome_linux_amd64.tar.gz
-          tar -xzf AdGuardHome_linux_amd64.tar.gz
-          ./AdGuardHome/AdGuardHome --check-config -w ./data/rules/rules.txt
-          ./AdGuardHome/AdGuardHome --check-config -w ./data/dns/dns.txt
-          echo "✅ AdGuard 语法验证通过"
-
-      # ========== 文档更新与提交 ==========
-      - name: Update Documentation
-        run: |
-          set -euo pipefail
-          bash ./data/script/clean-readme.sh
-          git add README.md
-
-      - name: Check for Changes
-        id: changes
-        run: |
-          if git diff --quiet --exit-code; then
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-          else
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Commit Changes
-        if: steps.changes.outputs.has_changes == 'true'
-        run: |
-          git commit -m "chore: Auto update at $(date +'%Y-%m-%d %H:%M:%S') (Asia/Shanghai)" -a
-          git pull --rebase
-          git push origin HEAD:master
-
-      # ========== 清理阶段 ==========
-      - name: Cleanup Workflow Runs
-        uses: actions/delete-workflow-runs@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          retain-days: 3
-          keep-minimum-runs: 10
+    - name: Commit changes
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add merged-filter.txt
+        git commit -m "自动更新规则: $(date -u '+%Y-%m-%d')" || echo "无变更"
+        git push
