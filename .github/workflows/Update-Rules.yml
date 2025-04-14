@@ -7,7 +7,7 @@ on:
 jobs:
   secure-update:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 20
     permissions:
       contents: write
       actions: read
