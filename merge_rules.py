@@ -5,48 +5,52 @@ import requests
 from datetime import datetime
 
 # 配置参数
-RULE_SOURCES_FILE = 'sources.txt'         # 规则源列表文件
-OUTPUT_FILE = 'merged-filter.txt'        # 输出文件名
+RULE_SOURCES_FILE = 'sources.txt'
+OUTPUT_FILE = 'merged-filter.txt'
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
 
 # 正则表达式模式
-COMMENT_REGEX = re.compile(r'^[!#]')     # 注释行
-BLANK_REGEX = re.compile(r'^\s*$')       # 空白行
+COMMENT_REGEX = re.compile(r'^[!#]')
+BLANK_REGEX = re.compile(r'^\s*$')
 DOMAIN_REGEX = re.compile(
-    r'^(@@)?(\|\|?)?([a-zA-Z0-9-*_.]+)(\^|\$|/)?.*$'  # 合并后的域名规则，支持白名单
+    r'^(@@)?(\|\|?)?([a-zA-Z0-9-*_.]+)(\^|\$|/)?.*$'
 )
-ELEMENT_REGEX = re.compile(r'##.+')      # 元素隐藏规则
-REGEX_RULE_REGEX = re.compile(r'^/.*/$') # 正则表达式规则
-MODIFIER_REGEX = re.compile(             # 修饰符检测（修复重复定义）
+ELEMENT_REGEX = re.compile(r'##.+')
+REGEX_RULE_REGEX = re.compile(r'^/.*/$')
+MODIFIER_REGEX = re.compile(
     r'\$(~?[\w-]+(=[^,\s]+)?(,~?[\w-]+(=[^,\s]+)?)*)$'
 )
 
 def download_rules(url):
-    """下载规则文件并返回行列表（修复逻辑断裂）"""
-    if url.startswith('file:'):
-        file_path = url.split('file:')[1].strip()
-        try:
+    """返回 (有效规则列表, 无效规则列表)"""
+    invalid_rules = []
+    try:
+        if url.startswith('file:'):
+            file_path = url.split('file:')[1].strip()
             with open(file_path, 'r', encoding='utf-8') as f:
-                return [line.strip() for line in f]
-        except FileNotFoundError:
-            print(f"⚠️ 本地文件未找到: {file_path}")
-            return []
-    else:
-        try:
+                lines = [line.strip() for line in f]
+        else:
             resp = requests.get(url, headers={'User-Agent': USER_AGENT}, timeout=15)
             resp.raise_for_status()
-            return [line.strip() for line in resp.text.splitlines()]
-        except Exception as e:
-            print(f"⚠️ 下载失败: {url} - {str(e)}")
-            return []
+            lines = [line.strip() for line in resp.text.splitlines()]
+        
+        valid_rules = []
+        for line in lines:
+            if is_valid_rule(line):
+                valid_rules.append(line)
+            else:
+                # 排除注释和空白行后记录无效规则
+                if line and not (COMMENT_REGEX.match(line) or BLANK_REGEX.match(line)):
+                    invalid_rules.append(line)
+        return valid_rules, invalid_rules
+    except Exception as e:
+        print(f"⚠️ 处理失败: {url} - {str(e)}")
+        return [], []
 
 def is_valid_rule(line):
     """验证规则有效性"""
-    # 跳过注释和空行
     if COMMENT_REGEX.match(line) or BLANK_REGEX.match(line):
         return False
-    
-    # 检查各类型规则
     return any([
         DOMAIN_REGEX.match(line),
         ELEMENT_REGEX.search(line),
@@ -59,24 +63,31 @@ def main():
     with open(RULE_SOURCES_FILE) as f:
         sources = [line.strip() for line in f if line.strip()]
 
-    # 下载并合并所有规则
     merged_rules = set()
+    error_reports = {}
+
     for url in sources:
         print(f"📥 正在处理: {url}")
-        rules = download_rules(url)
-        valid_count = 0
+        valid_rules, invalid_rules = download_rules(url)
+        merged_rules.update(valid_rules)
         
-        for line in rules:
-            if is_valid_rule(line):
-                merged_rules.add(line)
-                valid_count += 1
-        
-        print(f"  已添加 {valid_count} 条有效规则")
+        if invalid_rules:
+            error_reports[url] = invalid_rules
+            print(f"  发现 {len(invalid_rules)} 条无效规则")
+
+    # 输出错误报告
+    if error_reports:
+        print("\n⚠️ 错误规则汇总:")
+        for source, rules in error_reports.items():
+            print(f"来源: {source}")
+            for rule in rules:
+                print(f"  - {rule}")
+            print("---")
 
     # 排序并生成最终文件
     sorted_rules = sorted(merged_rules, key=lambda x: (
-        not x.startswith('||'),  # 域名规则在前
-        not x.startswith('##'),  # 元素隐藏规则在后
+        not x.startswith('||'),
+        not x.startswith('##'),
         x
     ))
 
@@ -93,9 +104,10 @@ def main():
     # 写入文件
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write('\n'.join(header))
+        f.write('\n')
         f.write('\n'.join(sorted_rules))
     
-    print(f"✅ 处理完成！最终规则数: {len(sorted_rules)}")
+    print(f"\n✅ 处理完成！最终规则数: {len(sorted_rules)}")
 
 if __name__ == '__main__':
     main()
