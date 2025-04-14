@@ -13,18 +13,16 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
 COMMENT_REGEX = re.compile(r'^[!#]')     # 注释行
 BLANK_REGEX = re.compile(r'^\s*$')       # 空白行
 DOMAIN_REGEX = re.compile(
-    r'^(@@)?(\|\|?)?([a-zA-Z0-9-*_.]+)(\^|\$|/)?.*$'  # 支持白名单规则
-)    r'^(\|\|?)?([a-zA-Z0-9-*_.]+)(\^|\$|/)?.*$'
-)                                        # 基础域名规则
+    r'^(@@)?(\|\|?)?([a-zA-Z0-9-*_.]+)(\^|\$|/)?.*$'  # 合并后的域名规则，支持白名单
+)
 ELEMENT_REGEX = re.compile(r'##.+')      # 元素隐藏规则
 REGEX_RULE_REGEX = re.compile(r'^/.*/$') # 正则表达式规则
-MODIFIER_REGEX = re.compile(             # 修饰符检测
+MODIFIER_REGEX = re.compile(             # 修饰符检测（修复重复定义）
     r'\$(~?[\w-]+(=[^,\s]+)?(,~?[\w-]+(=[^,\s]+)?)*)$'
 )
-MODIFIER_REGEX = re.compile(
-    r'\$(~?[\w-]+(=[^,\s]+)?(,~?[\w-]+(=[^,\s]+)?)*)$'
-)
+
 def download_rules(url):
+    """下载规则文件并返回行列表（修复逻辑断裂）"""
     if url.startswith('file:'):
         file_path = url.split('file:')[1].strip()
         try:
@@ -34,15 +32,13 @@ def download_rules(url):
             print(f"⚠️ 本地文件未找到: {file_path}")
             return []
     else:
-        # 原有下载逻辑
-    """下载规则文件并返回行列表"""
-    try:
-        resp = requests.get(url, headers={'User-Agent': USER_AGENT}, timeout=15)
-        resp.raise_for_status()
-        return [line.strip() for line in resp.text.splitlines()]
-    except Exception as e:
-        print(f"⚠️ 下载失败: {url} - {str(e)}")
-        return []
+        try:
+            resp = requests.get(url, headers={'User-Agent': USER_AGENT}, timeout=15)
+            resp.raise_for_status()
+            return [line.strip() for line in resp.text.splitlines()]
+        except Exception as e:
+            print(f"⚠️ 下载失败: {url} - {str(e)}")
+            return []
 
 def is_valid_rule(line):
     """验证规则有效性"""
