@@ -1,24 +1,31 @@
+# rule.py 优化后
 import os
+import shutil
+import sys
 
-# 去重开始
-print("规则去重中")
-os.chdir(".././")  # 将当前目录更改为.././目录下
-files = os.listdir()  # 得到文件夹下的所有文件名称
-result = []
-for file in files:  # 遍历文件夹
-    if not os.path.isdir(file):  # 判断是否是文件夹，不是文件夹才打开
-        if os.path.splitext(file)[1] == '.txt':
-            # print('开始去重'+(file))
-            f = open(file, encoding="utf8")  # 打开文件
-            result = list(set(f.readlines()))
-            result.sort()
-            fo = open('test' + (file), "w", encoding="utf8")
-            fo.writelines(result)
-            f.close()
-            fo.close()
-            os.remove(file)
-            os.rename('test' + (file), (file))
-            # print((file) + '去重完成')
+def deduplicate_rules():
+    try:
+        os.chdir(".././")
+        for file in os.listdir():
+            if file.endswith('.txt') and os.path.isfile(file):
+                print(f'🔍 开始处理文件: {file}')
+                temp_file = f'{file}.tmp'
+                
+                # 使用临时文件避免数据丢失
+                with open(file, 'r', encoding='utf-8') as f_in, \
+                     open(temp_file, 'w', encoding='utf-8') as f_out:
+                    unique_lines = set(f_in.readlines())
+                    f_out.writelines(sorted(unique_lines))
+                
+                # 替换原文件前进行备份
+                shutil.copyfile(file, f'{file}.bak')
+                os.replace(temp_file, file)
+                print(f'✅ 完成去重: {file} (备份: {file}.bak)')
+                
+        print("🎉 所有规则文件处理完成")
+    except Exception as e:
+        print(f'❌ 发生错误: {str(e)}', file=sys.stderr)
+        sys.exit(1)
 
-# 处理完毕
-print("规则去重完成")
+if __name__ == "__main__":
+    deduplicate_rules()
