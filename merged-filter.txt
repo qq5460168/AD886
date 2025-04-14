@@ -1,6 +1,6 @@
 ! Title: Merged AdGuard Filter
 ! Description: Merged from multiple sources, filtered and deduplicated
-! Updated: 2025-04-14T10:32:28Z
+! Updated: 2025-04-14T10:34:52Z
 ! Rules count: 17379
 ! Homepage: https://github.com/yourusername/yourrepo
 
