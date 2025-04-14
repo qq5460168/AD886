@@ -30,8 +30,8 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        git config --global user.name "AutoUpdater[Bot]"
-        git config --global user.email "916899380+autoupdater[bot]@users.noreply.github.com"
+        git config --global user.name "qq5460168"
+        git config --global user.email "916899380@qq.com"
         git add merged-filter.txt update.log
         git commit -m "自动更新规则: $(date -u '+%Y-%m-%d')" || echo "无变更"
         git push "https://${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
