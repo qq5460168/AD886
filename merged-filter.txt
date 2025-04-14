@@ -1,8 +1,9 @@
 ! Title: Merged AdGuard Filter
 ! Description: Merged from multiple sources, filtered and deduplicated
-! Updated: 2025-04-14T10:13:43Z
+! Updated: 2025-04-14T10:32:28Z
 ! Rules count: 17379
 ! Homepage: https://github.com/yourusername/yourrepo
+
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
