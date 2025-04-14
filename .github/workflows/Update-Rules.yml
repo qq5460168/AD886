@@ -2,8 +2,8 @@ name: Update Filter Rules
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 时间 0 点运行
-  workflow_dispatch:      # 允许手动触发
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   merge-rules:
@@ -11,10 +11,12 @@ jobs:
     
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
+      with:
+        persist-credentials: true  # 关键配置
 
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: '3.10'
 
@@ -25,17 +27,20 @@ jobs:
       run: |
         python merge_rules.py
         echo "规则更新时间: $(date -u '+%Y-%m-%d %H:%M:%S')" >> update.log
+        ls -la merged-filter.txt update.log
+        if [ ! -f merged-filter.txt ]; then
+          exit 1
+        fi
 
-    - name: Commit changes  # 确保此步骤缩进在 jobs.merge-rules.steps 下
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Commit changes
       run: |
+        git config --global --add safe.directory /github/workspace
         git config --global user.name "AutoUpdater[Bot]"
         git config --global user.email "916899380+autoupdater[bot]@users.noreply.github.com"
         git add merged-filter.txt update.log
-        if [ -n "$(git status --porcelain)" ]; then
-          git commit -m "自动更新规则: $(date -u '+%Y-%m-%d')"
-          git push "https://${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-        else
+        if git diff-index --quiet HEAD --; then
           echo "无变更可提交"
+        else
+          git commit -m "自动更新规则: $(date -u '+%Y-%m-%d')"
+          git push
         fi
