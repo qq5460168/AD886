@@ -26,10 +26,12 @@ jobs:
         python merge_rules.py
         echo "规则更新时间: $(date -u '+%Y-%m-%d %H:%M:%S')" >> update.log
 
-    - name: Commit changes
-      run: |
-          git config --global user.name "AutoUpdater[Bot]"
-          git config --global user.email "916899380+autoupdater[bot]@users.noreply.github.com"
-        git add merged-filter.txt
-        git commit -m "自动更新规则: $(date -u '+%Y-%m-%d')" || echo "无变更"
-        git push
+- name: Commit changes
+  env:
+    GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  run: |
+    git config --global user.name "AutoUpdater[Bot]"
+    git config --global user.email "autoupdater@example.com"
+    git add merged-filter.txt update.log
+    git commit -m "自动更新规则: $(date -u '+%Y-%m-%d')" || echo "无变更"
+    git push "https://${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
