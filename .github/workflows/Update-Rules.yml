@@ -13,7 +13,69 @@ jobs:
       actions: read
 
     steps:
-      # ...其他步骤保持不变...
+      # ========== 初始化阶段 ==========
+      - name: Checkout with History
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Git Safety
+        run: |
+          git config --global --add safe.directory $GITHUB_WORKSPACE
+          git config --global user.name "AutoUpdater[Bot]"
+          git config --global user.email "916899380+autoupdater[bot]@users.noreply.github.com"
+
+      # ========== 缓存优化 ==========
+      - name: Cache Rules Directory
+        uses: actions/cache@v3
+        id: rules-cache
+        with:
+          path: |
+            ./data/rules
+            ./data/dns
+          key: ${{ runner.os }}-rules-${{ hashFiles('**/rules.txt') }}
+
+      # ========== 规则更新阶段 ==========
+      - name: Update Filter Rules
+        env:
+          TZ: Asia/Shanghai
+        run: |
+          set -euo pipefail
+          echo "▶️ Starting rules update..."
+          bash ./data/script/update-rules.sh
+          echo "✅ Rules updated successfully"
+
+      # ========== 自动化测试阶段 ==========
+      - name: Validate AdGuard Syntax
+        run: |
+          wget -q https://static.adguard.com/adguardhome/release/AdGuardHome_linux_amd64.tar.gz
+          tar -xzf AdGuardHome_linux_amd64.tar.gz
+          ./AdGuardHome/AdGuardHome --check-config -w ./data/rules/rules.txt
+          ./AdGuardHome/AdGuardHome --check-config -w ./data/dns/dns.txt
+          echo "✅ AdGuard 语法验证通过"
+
+      # ========== 文档更新与提交 ==========
+      - name: Update Documentation
+        run: |
+          set -euo pipefail
+          bash ./data/script/clean-readme.sh
+          git add README.md
+
+      - name: Check for Changes
+        id: changes
+        run: |
+          if git diff --quiet --exit-code; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit Changes
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git commit -m "chore: Auto update at $(date +'%Y-%m-%d %H:%M:%S') (Asia/Shanghai)" -a
+          git pull --rebase
+          git push origin HEAD:master
 
       # ========== 清理阶段 ==========
       - name: Cleanup Workflow Runs
