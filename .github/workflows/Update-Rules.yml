@@ -3,7 +3,7 @@ name: Update Filter Rules
 on:
   schedule:
     - cron: '0 0 * * *'  # 每天 UTC 时间 0 点运行
-  workflow_dispatch:
+  workflow_dispatch:      # 允许手动触发
 
 jobs:
   merge-rules:
@@ -11,13 +11,10 @@ jobs:
     
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4  # 更新到最新版本
-      with:
-        fetch-depth: 0          # 获取完整提交历史
-        persist-credentials: true  # 保持认证信息
+      uses: actions/checkout@v2
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v2
       with:
         python-version: '3.10'
 
@@ -29,16 +26,10 @@ jobs:
         python merge_rules.py
         echo "规则更新时间: $(date -u '+%Y-%m-%d %H:%M:%S')" >> update.log
 
-- name: Commit changes
-  env:
-    GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  run: |
-    git config --global user.name "AutoUpdater[Bot]"
-    git config --global user.email "916899380+autoupdater[bot]@users.noreply.github.com"
-    
-    # Check for changes and push if any
-    git diff --quiet && git diff --staged --quiet || {
-      git add merged-filter.txt update.log
-      git commit -m "自动更新规则: $(date -u '+%Y-%m-%d')"
-      git push origin HEAD:${{ github.ref }}
-    }
+    - name: Commit changes
+      run: |
+          git config --global user.name "AutoUpdater[Bot]"
+          git config --global user.email "916899380+autoupdater[bot]@users.noreply.github.com"
+        git add merged-filter.txt
+        git commit -m "自动更新规则: $(date -u '+%Y-%m-%d')" || echo "无变更"
+        git push
