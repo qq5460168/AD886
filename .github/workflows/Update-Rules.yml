@@ -13,6 +13,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
       with:
+        fetch-depth: 0  # 获取完整提交历史
         persist-credentials: true
 
     - name: Set up Python
@@ -21,17 +22,49 @@ jobs:
         python-version: '3.10'
 
     - name: Install dependencies
-      run: pip install requests
+      run: pip install -r requirements.txt
+
+    - name: Get previous rule count
+      id: prev_count
+      run: |
+        if [ -f last_rule_count.txt ]; then
+          echo "prev_rules=$(cat last_rule_count.txt)" >> $GITHUB_OUTPUT
+        else
+          echo "prev_rules=0" >> $GITHUB_OUTPUT
+        fi
 
     - name: Run merge script
       run: |
         export TZ=Asia/Shanghai
         python merge_rules.py
-        echo "规则更新时间: $(date +'%Y-%m-%d %H:%M:%S%:z')" >> update.log
-        ls -la merged-filter.txt update.log
-        if [ ! -f merged-filter.txt ]; then
-          exit 1
+        
+        # 获取当前规则数
+        current_rules=$(grep '! Rules: ' merged-filter.txt | awk '{print $3}')
+        echo "当前规则数: $current_rules" >> update.log
+        
+        # 计算规则变化
+        prev_rules=${{ steps.prev_count.outputs.prev_rules }}
+        change=$((current_rules - prev_rules))
+        
+        # 生成变化符号
+        if [ $change -gt 0 ]; then
+          symbol="↑+"
+        elif [ $change -lt 0 ]; then
+          symbol="↓"
+        else
+          symbol="→"
         fi
+        
+        # 写入详细日志
+        echo "规则更新时间: $(date +'%Y-%m-%d %H:%M:%S%:z')" >> update.log
+        echo "规则变化: $symbol$change (前次: $prev_rules → 本次: $current_rules)" >> update.log
+        echo "----------------------------------------" >> update.log
+        
+        # 保存当前规则数
+        echo $current_rules > last_rule_count.txt
+        
+        # 验证文件存在
+        ls -la merged-filter.txt update.log last_rule_count.txt
 
     - name: Commit changes
       run: |
@@ -39,11 +72,11 @@ jobs:
         git config --global --add safe.directory /github/workspace
         git config --global user.name "AutoUpdater[Bot]"
         git config --global user.email "916899380+autoupdater[bot]@users.noreply.github.com"
-        git add merged-filter.txt update.log
+        git add merged-filter.txt update.log last_rule_count.txt
         if git diff-index --quiet HEAD --; then
           echo "无变更可提交"
         else
           commit_time=$(date +'%Y-%m-%d %H:%M:%S%:z')
-          git commit -m "自动更新规则: ${commit_time}"
+          git commit -m "自动更新规则: ${commit_time} (变更: $symbol$change)"
           git push
         fi
