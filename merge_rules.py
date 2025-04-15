@@ -1,97 +1,113 @@
 #!/usr/bin/env python3
 import os
+import re
 import requests
 from datetime import datetime
-from urllib.parse import urlparse
-from adblockparser import AdblockRule
 
 # 配置参数
 RULE_SOURCES_FILE = 'sources.txt'
-USER_RULES_FILE = 'user-rules.txt'
 OUTPUT_FILE = 'merged-filter.txt'
-USER_AGENT = 'MergedFilterBot/1.0 (+https://github.com/yourusername/yourrepo)'
+USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
 
-# 初始化专业规则验证器
-validator = AdblockRule(
-    supported_options=['domain', 'script', 'stylesheet', 'image']
+# 正则表达式模式
+COMMENT_REGEX = re.compile(r'^[!#]')
+BLANK_REGEX = re.compile(r'^\s*$')
+DOMAIN_REGEX = re.compile(
+    r'^(@@)?(\|\|?)?([a-zA-Z0-9-*_.]+)(\^|\$|/)?.*$'
+)
+ELEMENT_REGEX = re.compile(r'##.+')
+REGEX_RULE_REGEX = re.compile(r'^/.*/$')
+MODIFIER_REGEX = re.compile(
+    r'\$(~?[\w-]+(=[^,\s]+)?(,~?[\w-]+(=[^,\s]+)?)*)$'
 )
 
-def is_valid_rule(line: str) -> bool:
-    """优化后的有效性验证"""
-    line = line.strip()
-    if not line or line.startswith(('!', '#')):
-        return False
-    
+def download_rules(url):
+    """返回 (有效规则列表, 无效规则列表)"""
+    invalid_rules = []
     try:
-        return validator.is_filter(line) and all([
-            'eval(' not in line.lower(),
-            'script:' not in line.lower(),
-            '$' not in line or 'redirect=' not in line  # 过滤重定向规则
-        ])
-    except:
-        return False
-
-def load_rules(source: str) -> tuple:
-    """增强的规则加载方法"""
-    try:
-        # 处理本地文件
-        if urlparse(source).scheme in ['file', '']:
-            path = source.replace('file:', '').strip()
-            with open(path, 'r', encoding='utf-8') as f:
-                lines = [l.strip() for l in f]
-        # 处理远程URL
+        if url.startswith('file:'):
+            file_path = url.split('file:')[1].strip()
+            with open(file_path, 'r', encoding='utf-8') as f:
+                lines = [line.strip() for line in f]
         else:
-            resp = requests.get(source, headers={'User-Agent': USER_AGENT}, timeout=15)
+            resp = requests.get(url, headers={'User-Agent': USER_AGENT}, timeout=15)
             resp.raise_for_status()
-            lines = resp.text.splitlines()
+            lines = [line.strip() for line in resp.text.splitlines()]
         
-        return (
-            [line for line in lines if is_valid_rule(line)],
-            [line for line in lines if line.strip() and not is_valid_rule(line)]
-        )
-    
+        valid_rules = []
+        for line in lines:
+            if is_valid_rule(line):
+                valid_rules.append(line)
+            else:
+                # 排除注释和空白行后记录无效规则
+                if line and not (COMMENT_REGEX.match(line) or BLANK_REGEX.match(line)):
+                    invalid_rules.append(line)
+        return valid_rules, invalid_rules
     except Exception as e:
-        print(f"⚠️ 加载失败: {source} - {type(e).__name__}: {str(e)}")
+        print(f"⚠️ 处理失败: {url} - {str(e)}")
         return [], []
 
+def is_valid_rule(line):
+    """验证规则有效性"""
+    if COMMENT_REGEX.match(line) or BLANK_REGEX.match(line):
+        return False
+    return any([
+        DOMAIN_REGEX.match(line),
+        ELEMENT_REGEX.search(line),
+        REGEX_RULE_REGEX.match(line),
+        MODIFIER_REGEX.search(line)
+    ])
+
 def main():
-    # 加载所有规则源
-    sources = []
+    # 读取规则源列表
     with open(RULE_SOURCES_FILE) as f:
-        sources.extend([l.strip() for l in f if l.strip()])
-    
-    if os.path.exists(USER_RULES_FILE):
-        sources.append(f'file:{USER_RULES_FILE}')
+        sources = [line.strip() for line in f if line.strip()]
 
     merged_rules = set()
-    errors = {}
+    error_reports = {}
 
-    for src in sources:
-        print(f"🔍 处理中: {src}")
-        valid, invalid = load_rules(src)
-        merged_rules.update(valid)
-        if invalid:
-            errors[src] = invalid
-            print(f"  拦截无效规则: {len(invalid)} 条")
+    for url in sources:
+        print(f"📥 正在处理: {url}")
+        valid_rules, invalid_rules = download_rules(url)
+        merged_rules.update(valid_rules)
+        
+        if invalid_rules:
+            error_reports[url] = invalid_rules
+            print(f"  发现 {len(invalid_rules)} 条无效规则")
 
-    # 生成最终文件
+    # 输出错误报告
+    if error_reports:
+        print("\n⚠️ 错误规则汇总:")
+        for source, rules in error_reports.items():
+            print(f"来源: {source}")
+            for rule in rules:
+                print(f"  - {rule}")
+            print("---")
+
+    # 排序并生成最终文件
     sorted_rules = sorted(merged_rules, key=lambda x: (
-        (0 if x.startswith('||') else 1),
-        (0 if x.startswith('##') else 1),
-        x.lower()
+        not x.startswith('||'),
+        not x.startswith('##'),
+        x
     ))
 
+    # 生成文件头
+    header = [
+        '! Title: Merged AdGuard Filter',
+        '! Description: Merged from multiple sources, filtered and deduplicated',
+        f'! Updated: {datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")}',
+        f'! Rules count: {len(sorted_rules)}',
+        '! Homepage: https://github.com/yourusername/yourrepo',
+        ''
+    ]
+
+    # 写入文件
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        f.write('\n'.join([
-            '! Title: Verified Filter List',
-            f'! Updated: {datetime.utcnow().isoformat() + "Z"}',
-            f'! Rules: {len(sorted_rules)}',
-            '! Homepage: https://example.com\n'
-        ]))
+        f.write('\n'.join(header))
+        f.write('\n')
         f.write('\n'.join(sorted_rules))
     
-    print(f"\n✅ 成功生成 {len(sorted_rules)} 条规则")
-    print(f"🛡️ 共拦截 {sum(len(v) for v in errors.values())} 条危险规则")
+    print(f"\n✅ 处理完成！最终规则数: {len(sorted_rules)}")
 
 if __name__ == '__main__':
     main()
