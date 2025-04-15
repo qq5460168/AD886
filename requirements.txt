@@ -1,7 +1,6 @@
 requests==2.31.0
 adblockparser==0.7
 urllib3==1.26.18
-requirements.txt
 aiohttp==3.9.3
 hyperscan==5.4.2
 onnxruntime==1.17.0
