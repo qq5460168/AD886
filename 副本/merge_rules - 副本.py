@@ -93,11 +93,12 @@ def main():
 
     # 生成文件头
     header = [
-        '! Title: Merged AdGuard Filter',
+        '! Title: 那个谁520 个人合并规则',
         '! Description: Merged from multiple sources, filtered and deduplicated',
+		f'! Rules: {len(sorted_rules)}',  # 必须保留这个统计行
         f'! Updated: {datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")}',
         f'! Rules count: {len(sorted_rules)}',
-        '! Homepage: https://github.com/yourusername/yourrepo',
+        '! Homepage: https://github.com/qq5460168/AD886',
         ''
     ]
 
