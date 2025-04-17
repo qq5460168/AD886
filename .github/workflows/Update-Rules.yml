@@ -1,43 +1,49 @@
-name: Update Rules
+name: Update Filter Rules
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # 每日运行一次
-  workflow_dispatch:  # 手动触发
+    - cron: '0 0 * * *'  # 每天 UTC 时间 0 点运行（对应北京时间 8 点）
+  workflow_dispatch:
 
 jobs:
-  update-rules:
+  merge-rules:
     runs-on: ubuntu-latest
-
+    
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v3
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        persist-credentials: true
 
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: 3.x
+        python-version: '3.10'
 
-    - name: Install Dependencies
-      run: pip install -r requirements.txt
+    - name: Install dependencies
+      run: pip install requests
 
-    - name: Generate rule_stats.json
+    - name: Run merge script
       run: |
-        python -c "
-        import json
-        from datetime import datetime
-        stats = {
-            'rule_count': 12345,  # 替换为计算规则数量的逻辑
-            'last_update': datetime.utcnow().strftime('%Y-%m-%d')
-        }
-        with open('rule_stats.json', 'w', encoding='utf-8') as f:
-            json.dump(stats, f, ensure_ascii=False, indent=4)
-        "
+        export TZ=Asia/Shanghai
+        python merge_rules.py
+        echo "规则更新时间: $(date +'%Y-%m-%d %H:%M:%S%:z')" >> update.log
+        ls -la merged-filter.txt update.log
+        if [ ! -f merged-filter.txt ]; then
+          exit 1
+        fi
 
-    - name: Commit and Push Changes
+    - name: Commit changes
       run: |
-        git config user.name 'github-actions[bot]'
-        git config user.email 'github-actions[bot]@users.noreply.github.com'
-        git add rule_stats.json
-        git commit -m "Update rule_stats.json"
-        git push
+        export TZ=Asia/Shanghai
+        git config --global --add safe.directory /github/workspace
+        git config --global user.name "AutoUpdater[Bot]"
+        git config --global user.email "916899380+autoupdater[bot]@users.noreply.github.com"
+        git add merged-filter.txt update.log
+        if git diff-index --quiet HEAD --; then
+          echo "无变更可提交"
+        else
+          commit_time=$(date +'%Y-%m-%d %H:%M:%S%:z')
+          git commit -m "自动更新规则: ${commit_time}"
+          git push
+        fi
