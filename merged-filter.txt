@@ -1,7 +1,7 @@
 ! Title: 那个谁520 个人合并规则
 ! Description: Merged from multiple sources, filtered and deduplicated
 ! Rules: 17379
-! Updated: 2025-04-16T15:46:02Z
+! Updated: 2025-04-17T01:26:43Z
 ! Rules count: 17379
 ! Homepage: https://github.com/qq5460168/AD886
 
@@ -15101,20 +15101,19 @@
 127.0.0.1 zz.bdstatic.com
 13.107.246.73                 vscode.dev  # Timeout
 13.107.42.16                  pipelines.actions.githubusercontent.com
-140.82.112.21                 collector.github.com
+140.82.112.21                 api.individual.githubcopilot.com
+140.82.112.21                 central.github.com
+140.82.112.22                 collector.github.com
 140.82.113.17                 github.community
-140.82.113.21                 central.github.com
-140.82.113.22                 education.github.com
-140.82.113.25                 alive.github.com
-140.82.114.22                 api.individual.githubcopilot.com
+140.82.114.22                 education.github.com
+140.82.114.26                 alive.github.com
 140.82.114.26                 live.github.com
 142.250.115.188     alt6-mtalk.google.com
 142.250.141.188     alt2-mtalk.google.com
 142.250.152.188     alt8-mtalk.google.com
 142.250.157.188     mtalk.google.com
 151.101.193.194               github.global.ssl.fastly.net
-16.15.201.127                 github-production-user-asset-6210df.s3.amazonaws.com
-16.15.216.207                 github-com.s3.amazonaws.com
+16.15.184.27                  github-production-repository-file-5c1aeb.s3.amazonaws.com
 163.com##.freeVip
 163.com##.js-open-app
 173.194.202.188     alt4-mtalk.google.com
@@ -15169,7 +15168,7 @@
 23.53.35.199 cdn.akamai.steamstatic.com
 23.53.35.202 community.akamai.steamstatic.com
 23.53.35.204 store.akamai.steamstatic.com
-3.5.31.110                    github-cloud.s3.amazonaws.com
+3.5.28.116                    github-production-release-asset-2e65be.s3.amazonaws.com
 31.216.145.5 mega.nz
 423down.com##LI.item:has(.sticky-post)
 45.116.79.187 ads.api.fakeloc.cc
@@ -15182,9 +15181,10 @@
 47.102.115.14 translate.googleapis.com
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
+52.217.12.220                 github-cloud.s3.amazonaws.com
+52.217.235.81                 github-com.s3.amazonaws.com
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
-54.231.133.129                github-production-release-asset-2e65be.s3.amazonaws.com
-54.231.204.41                 github-production-repository-file-5c1aeb.s3.amazonaws.com
+54.231.193.153                github-production-user-asset-6210df.s3.amazonaws.com
 5dm.app##[src*="sinaimg.cn"]
 64.233.171.188      alt3-mtalk.google.com
 66.203.124.31 g.cdn1.mega.co.nz
