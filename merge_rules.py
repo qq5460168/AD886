@@ -2,11 +2,13 @@
 import os
 import re
 import requests
+import json
 from datetime import datetime
 
 # 配置参数
 RULE_SOURCES_FILE = 'sources.txt'
 OUTPUT_FILE = 'merged-filter.txt'
+STATS_FILE = 'rule_stats.json'
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
 
 # 正则表达式模块化
@@ -33,6 +35,7 @@ def is_valid_rule(line):
 def download_rules(url):
     """下载规则并验证"""
     invalid_rules = []
+    valid_rules = []
     try:
         if url.startswith('file:'):
             file_path = url.split('file:')[1].strip()
@@ -43,17 +46,25 @@ def download_rules(url):
             resp.raise_for_status()
             lines = [line.strip() for line in resp.text.splitlines()]
 
-        valid_rules = []
         for line in lines:
             if is_valid_rule(line):
                 valid_rules.append(line)
             else:
                 if line and not (REGEX_PATTERNS["comment"].match(line) or REGEX_PATTERNS["blank"].match(line)):
                     invalid_rules.append(line)
-        return valid_rules, invalid_rules
     except Exception as e:
-        print(f"⚠️ 处理失败: {url} - {str(e)}")
-        return [], []
+        print(f"⚠️ 下载失败: {url} - {str(e)}")
+    return valid_rules, invalid_rules
+
+def write_stats(rule_count):
+    """写入规则统计信息到 JSON 文件"""
+    stats = {
+        "rule_count": rule_count,
+        "last_update": datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')
+    }
+    with open(STATS_FILE, 'w', encoding='utf-8') as f:
+        json.dump(stats, f, indent=4)
+    print(f"✅ 已更新统计信息: {STATS_FILE}")
 
 def main():
     print("📂 开始处理规则文件")
@@ -72,13 +83,6 @@ def main():
             error_reports[url] = invalid_rules
             print(f"  ⚠️ 发现 {len(invalid_rules)} 条无效规则")
 
-    if error_reports:
-        print("\n⚠️ 错误规则汇总:")
-        for source, rules in error_reports.items():
-            print(f"来源: {source}")
-            for rule in rules:
-                print(f"  - {rule}")
-
     # 排序规则
     sorted_rules = sorted(merged_rules, key=lambda x: (
         not x.startswith('||'),
@@ -90,6 +94,9 @@ def main():
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write('\n'.join(sorted_rules))
     print(f"✅ 规则合并完成，输出到 {OUTPUT_FILE}")
+
+    # 写入统计信息
+    write_stats(len(merged_rules))
 
 if __name__ == "__main__":
     main()
