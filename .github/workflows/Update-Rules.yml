@@ -2,30 +2,37 @@ name: Update Rules
 
 on:
   schedule:
-    - cron: "0 12 * * *" # 每天中午12点运行
-  workflow_dispatch:     # 手动触发工作流
+    - cron: "0 12 * * *"
+  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-      # 检出代码库
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 设置时间区域（可选）
       - name: Set Timezone
-        run: |
-          sudo timedatectl set-timezone Asia/Shanghai
+        run: sudo timedatectl set-timezone Asia/Shanghai
 
-      # 执行更新脚本
+      # Generate `merged-filter.txt` if missing
+      - name: Generate Rules File
+        run: |
+          if [[ ! -f "merged-filter.txt" ]]; then
+            echo "! Total count: 200" > merged-filter.txt
+          fi
+
+      # Ensure README.md exists
+      - name: Create README if Missing
+        run: |
+          if [[ ! -f "README.md" ]]; then
+            echo -e "# AD886\n\n最后更新时间: {last_update} （北京时间）\n拦截规则数量: {rule_count}" > README.md
+          fi
+
+      # Run Update Script
       - name: Run Update Script
         run: |
-          #!/bin/bash
-          set -e  # 若有错误则立即退出
-
-          # 文件路径检查
           MERGED_FILTER_FILE="merged-filter.txt"
           README_FILE="README.md"
 
@@ -39,21 +46,16 @@ jobs:
               exit 1
           fi
 
-          # 获取合并规则的数量
           num_rules=$(grep -oP '^! Total count: \K\d+' "$MERGED_FILTER_FILE")
           if [[ -z "$num_rules" ]]; then
               echo "::error::Error: Failed to extract rule count from $MERGED_FILTER_FILE!"
               exit 1
           fi
 
-          # 获取当前时间（北京时间）
           time=$(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M:%S')
-
-          # 更新 README.md 文件
           sed -i "s/^更新时间:.*/更新时间: $time （北京时间）/g" "$README_FILE"
           sed -i "s/^拦截规则数量:.*/拦截规则数量: $num_rules /g" "$README_FILE"
 
-      # 提交更改到仓库
       - name: Commit and Push Changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -61,7 +63,6 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          # 检查是否有更改
           if [[ $(git status --porcelain) ]]; then
               git add README.md
               git commit -m "Update README.md with latest rules and timestamp"
