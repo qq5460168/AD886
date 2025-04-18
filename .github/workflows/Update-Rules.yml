@@ -2,89 +2,52 @@ name: Update Rules
 
 on:
   schedule:
-    - cron: "0 12 * * *"
-  workflow_dispatch:
+    - cron: "0 12 * * *" # 每天中午12点运行
+  workflow_dispatch:     # 手动触发工作流
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: 检出代码库
+      # 检出代码库
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: 设置时区为上海
+      # 设置时间区域（可选）
       - name: Set Timezone
         run: sudo timedatectl set-timezone Asia/Shanghai
 
-      # Step 3: 确保生成 merged-filter.txt 文件
-      - name: Ensure Merged Filter File
+      # 执行更新脚本
+      - name: Run Update Script
         run: |
-          MERGED_FILTER_FILE="merged-filter.txt"
-          if [[ ! -f "$MERGED_FILTER_FILE" ]]; then
-              echo "! Total count: 0" > "$MERGED_FILTER_FILE"
-              echo "Info: Merged filter file created with default content."
+          #!/bin/sh
+
+          # 获取合并规则的数量
+          if [ -f "merged-filter.txt" ]; then
+              num_rules=$(sed -n 's/^! Total count: //p' merged-filter.txt)
           else
-              echo "Info: Merged filter file already exists."
+              echo "Error: merged-filter.txt not found!" >&2
+              exit 1
           fi
 
-      # Step 4: 确保生成 README.md 文件
-      - name: Ensure README File
-        run: |
-          README_FILE="README.md"
-          if [[ ! -f "$README_FILE" ]]; then
-              echo -e "# AD886\n\n最后更新时间: 未知 （北京时间）\n拦截规则数量: 未知" > "$README_FILE"
-              echo "Info: README file created with default content."
+          # 获取当前时间（北京时间）
+          time=$(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')
+
+          # 更新README.md中的更新时间
+          if [ -f "README.md" ]; then
+              sed -i "s/^更新时间:.*/更新时间: $time （北京时间） /g" README.md
+              sed -i "s/^拦截规则数量:.*/拦截规则数量: $num_rules /g" README.md
           else
-              echo "Info: README file already exists."
-          fi
-
-      # Step 5: 验证文件并更新内容
-      - name: Validate and Update Files
-        run: |
-          MERGED_FILTER_FILE="merged-filter.txt"
-          README_FILE="README.md"
-
-          # 检查 merged-filter.txt 文件是否存在
-          if [[ ! -f "$MERGED_FILTER_FILE" ]]; then
-              echo "::error::Error: $MERGED_FILTER_FILE not found!"
+              echo "Error: README.md not found!" >&2
               exit 1
           fi
 
-          # 检查 README.md 文件是否存在
-          if [[ ! -f "$README_FILE" ]]; then
-              echo "::error::Error: $README_FILE not found!"
-              exit 1
-          fi
-
-          # 提取规则数量
-          num_rules=$(grep -oP '^! Total count: \K\d+' "$MERGED_FILTER_FILE")
-          if [[ -z "$num_rules" ]]; then
-              echo "::error::Error: Failed to extract rule count from $MERGED_FILTER_FILE!"
-              exit 1
-          fi
-
-          # 获取当前时间
-          time=$(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M:%S')
-
-          # 更新 README.md 文件
-          sed -i "s/^最后更新时间:.*/最后更新时间: $time （北京时间）/g" "$README_FILE"
-          sed -i "s/^拦截规则数量:.*/拦截规则数量: $num_rules/g" "$README_FILE"
-          echo "Info: README file updated successfully."
-
-      # Step 6: 提交并推送更改
+      # 提交更改到仓库
       - name: Commit and Push Changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-          if [[ $(git status --porcelain) ]]; then
-              git add README.md
-              git commit -m "Update README.md with latest rules and timestamp"
-              git push
-              echo "Info: Changes committed and pushed successfully."
-          else
-              echo "Info: No changes to commit."
+          git add README.md
+          git commit -m "Update README.md with latest rules and timestamp" || echo "No changes to commit"
+          git push
