@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 import os
 import re
 import requests
@@ -31,12 +32,11 @@ def is_valid_rule(line):
     """
     if REGEX_PATTERNS["comment"].match(line) or REGEX_PATTERNS["blank"].match(line):
         return False
-    return any([
-        REGEX_PATTERNS["domain"].match(line),
-        REGEX_PATTERNS["element"].search(line),
-        REGEX_PATTERNS["regex_rule"].match(line),
-        REGEX_PATTERNS["modifier"].search(line)
-    ])
+    return any(
+        pattern.match(line)
+        for pattern in [REGEX_PATTERNS["domain"], REGEX_PATTERNS["element"], 
+                        REGEX_PATTERNS["regex_rule"], REGEX_PATTERNS["modifier"]]
+    )
 
 def download_rules(url):
     """
@@ -44,16 +44,14 @@ def download_rules(url):
     :param url: 规则来源 URL 或本地文件路径
     :return: (有效规则列表, 无效规则列表)
     """
-    valid_rules = []
-    invalid_rules = []
+    valid_rules, invalid_rules = [], []
     try:
+        lines = []
         if url.startswith('file:'):
-            # 读取本地文件
             file_path = url.split('file:')[1].strip()
             with open(file_path, 'r', encoding='utf-8') as f:
                 lines = [line.strip() for line in f]
         else:
-            # 下载远程文件
             resp = requests.get(url, headers={'User-Agent': USER_AGENT}, timeout=15)
             resp.raise_for_status()
             lines = [line.strip() for line in resp.text.splitlines()]
@@ -61,7 +59,7 @@ def download_rules(url):
         for line in lines:
             if is_valid_rule(line):
                 valid_rules.append(line)
-            elif line and not (REGEX_PATTERNS["comment"].match(line) or REGEX_PATTERNS["blank"].match(line)):
+            elif line and not REGEX_PATTERNS["comment"].match(line) and not REGEX_PATTERNS["blank"].match(line):
                 invalid_rules.append(line)
 
     except requests.exceptions.RequestException as e:
@@ -92,6 +90,18 @@ def write_stats(rule_count, total_count, title, version):
         json.dump(stats, f, indent=4)
     print(f"✅ 已更新统计信息: {STATS_FILE}")
 
+def sort_rules(rules):
+    """
+    对规则进行排序
+    :param rules: 规则集合
+    :return: 排序后的规则列表
+    """
+    return sorted(rules, key=lambda x: (
+        not x.startswith('||'),  # 优先域名规则
+        not x.startswith('##'),  # 其次是元素规则
+        x                        # 最后按字典顺序排序
+    ))
+
 def main():
     """
     主函数：处理规则合并、验证和统计
@@ -120,11 +130,7 @@ def main():
             print(f"  ⚠️ 发现 {len(invalid_rules)} 条无效规则")
 
     # 排序规则
-    sorted_rules = sorted(merged_rules, key=lambda x: (
-        not x.startswith('||'),
-        not x.startswith('##'),
-        x
-    ))
+    sorted_rules = sort_rules(merged_rules)
 
     # 写入到输出文件
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
@@ -135,7 +141,7 @@ def main():
     print(f"✅ 规则合并完成，输出到 {OUTPUT_FILE}")
 
     # 写入统计信息
-    write_stats(len(sorted_rules), len(sorted_rules), TITLE, VERSION)
+    write_stats(len(sorted_rules), len(merged_rules), TITLE, VERSION)
 
     # 输出错误报告
     if error_reports:
