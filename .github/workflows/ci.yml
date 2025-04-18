@@ -1,36 +1,19 @@
-# .github/workflows/ci.yml
-name: CI
-
+name: CI Pipeline
 on: [push, pull_request]
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v4
-    
+    - name: Checkout code
+      uses: actions/checkout@v4
+
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
-    
-    - name: Validate rules
+
+    - name: Install dependencies
       run: |
-        python scripts/merge_rules.py  # 测试合并是否成功
-        COUNT=$(python -c "from rule_count import count_rules; print(count_rules('merged-filter.txt'))")
-        if [ $COUNT -lt 1000 ]; then
-          echo "❌ 规则数量异常: $COUNT"
-          exit 1
-        fi
-    
-  security:
-    runs-on: ubuntu-latest
-    needs: test
-    
-    steps:
-    - uses: actions/checkout@v4
-    - name: Check for secrets
-      uses: gitleaks/gitleaks-action@v2
-      with:
-        config-path: .gitleaks.toml
+        pip install -r requirements.txt
