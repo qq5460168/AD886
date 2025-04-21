@@ -1,3 +1,0 @@
-requests==2.31.0
-adblockparser==0.7
-urllib3==1.26.18
