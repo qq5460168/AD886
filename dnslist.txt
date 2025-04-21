@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Title: 几十KB的轻量规则
-! Homepage: https://github.com/damengzhu/banad
+! Title: 反馈群538268498
+! Homepage: https://github.com/790953214/qy-Ads-Rule
 ! by: 酷安@大萌主
 ! Total Count: 557
-! Update Time: 2025-04-21 22:54:32（北京时间）
+! Update Time: 2025-04-21 22:56:29（北京时间）
 ||*.ads.heytapmobi.com^
 ||*.applovin.com^
 ||*.jomoxc.com^
