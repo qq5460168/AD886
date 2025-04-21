@@ -1,15 +1,55 @@
 #!/bin/bash
-time=$(echo "$(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间）")
-dnstotal=$(cat jiekouAD.txt | grep -E "^(\|\|)[^\/\^]+\^$" | wc -l)
-echo -e "[Adblock Plus 2.0]\n! Title: 几十KB的轻量规则\n! Homepage: https://github.com/damengzhu/banad\n! by: 酷安@大萌主\n! Total Count: $dnstotal\n! Update Time:$time" >dnslist.txt
-cat jiekouAD.txt | grep -E "^(\|\|)[^\/\^]+\^$" | sort -u >>dnslist.txt
-sed -n '/^#Reserved area start/,/^#Reserved area end/p' hosts.txt >reservedHost.txt
-echo -e "#Title: 几十KB的轻量规则\n#Homepage: https://github.com/damengzhu/banad\n#by: 酷安@大萌主\n#Total Count: HOSTCOUNT\n#Update Time: $time\n127.0.0.1 localhost\n::1 localhost" >hosts.txt
-cat dnslist.txt | grep -Ev "\!|\[|\*" | sed -e 's/||/0.0.0.0 /g' -e "s/\^//g" | sort -u >>hosts.txt
-cat reservedHost.txt >>hosts.txt && rm -f reservedHost.txt
-hosttotal=$(cat hosts.txt | grep -E "^0\.0\.0\.0" | wc -l)
+
+# 获取北京时间
+time=$(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')'（北京时间）'
+
+# 统计 DNS 规则总数
+dnstotal=$(grep -E "^(\|\|)[^\/\^]+\^$" jiekouAD.txt | wc -l)
+
+# 生成 Adblock Plus 格式规则文件
+{
+  echo "[Adblock Plus 2.0]"
+  echo "! Title: 几十KB的轻量规则"
+  echo "! Homepage: https://github.com/damengzhu/banad"
+  echo "! by: 酷安@大萌主"
+  echo "! Total Count: $dnstotal"
+  echo "! Update Time: $time"
+  grep -E "^(\|\|)[^\/\^]+\^$" jiekouAD.txt | sort -u
+} > dnslist.txt
+
+# 提取保留区域
+sed -n '/^#Reserved area start/,/^#Reserved area end/p' hosts.txt > reservedHost.txt
+
+# 生成 hosts 文件
+{
+  echo "# Title: 几十KB的轻量规则"
+  echo "# Homepage: https://github.com/damengzhu/banad"
+  echo "# by: 酷安@大萌主"
+  echo "# Total Count: HOSTCOUNT"
+  echo "# Update Time: $time"
+  echo "127.0.0.1 localhost"
+  echo "::1 localhost"
+  grep -Ev "\!|\[|\*" dnslist.txt | sed -e 's/||/0.0.0.0 /g' -e "s/\^//g" | sort -u
+  cat reservedHost.txt
+} > hosts.txt
+rm -f reservedHost.txt
+
+# 统计 hosts 规则总数并替换占位符
+hosttotal=$(grep -E "^0\.0\.0\.0" hosts.txt | wc -l)
 sed -i "s/HOSTCOUNT/$hosttotal/" hosts.txt
+
+# 更新 jiekouAD.txt
 sed -i "s/! Update Time:.*/! Update Time: $time/g" jiekouAD.txt
-total=$(cat jiekouAD.txt | grep -v "^!" | wc -l)
+total=$(grep -v "^!" jiekouAD.txt | wc -l)
 sed -i "s/! Total Count:.*/! Total Count: $total/g" jiekouAD.txt
+
+# 转换为 Clash 格式规则并生成 Clash.yaml
+{
+  echo "proxies:"
+  echo "rules:"
+  grep -E "^(\|\|)[^\/\^]+\^$" jiekouAD.txt | sed -E 's/^\|\|([^\/\^]+)\^$/- DOMAIN-SUFFIX,\1/g' | sort -u
+} > Clash.yaml
+
+# 脚本完成
+echo "规则已生成并保存为 dnslist.txt、hosts.txt 和 Clash.yaml"
 exit 0
