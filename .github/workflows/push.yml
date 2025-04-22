@@ -1,9 +1,12 @@
-name: Update Rules
+name: Update Rules and Run AD Script
 
 on:
   push:
     branches: [ main ]
   workflow_dispatch:
+  schedule:
+    # 每天凌晨 1 点运行 (UTC 时间)
+    - cron: '0 1 * * *'
 
 env:
   TZ: Asia/Shanghai
@@ -49,3 +52,19 @@ jobs:
           set -euxo pipefail
           echo "Triggering downstream repository update..."
           bash ./shell/manual-update.sh
+
+  run-ad-script:
+    name: Run AD.sh Script
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 获取完整提交历史
+
+      - name: Run AD.sh
+        run: |
+          set -euxo pipefail
+          echo "Starting AD.sh script..."
+          bash ./shell/AD.sh
+          echo "AD.sh script completed."
