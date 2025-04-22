@@ -2,7 +2,7 @@
 # Homepage: https://github.com/790953214/qy-Ads-Rule
 # by: 酷安@晴雅
 # Total Count: 3202
-# Update Time: 2025-04-22 23:51:43（北京时间）
+# Update Time: 2025-04-23 00:02:53（北京时间）
 127.0.0.1 localhost
 ::1 localhost
 127.0.0.1 02539717.com
