@@ -4,9 +4,9 @@ on:
   push:
     branches: [ main ]
   workflow_dispatch:
-  schedule:
-    # 每天凌晨 1 点运行 (UTC 时间)
-    - cron: '0 1 * * *'
+schedule:
+  # 每 4 个小时运行一次
+  - cron: '0 */4 * * *'
 
 env:
   TZ: Asia/Shanghai
