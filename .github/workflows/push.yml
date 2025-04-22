@@ -2,35 +2,53 @@ name: Update Rules and Run AD Script
 
 on:
   push:
-    branches: [ main ]
-  workflow_dispatch:
-  schedule:
-    # 每 4 个小时运行一次
+    branches: [ main ]  # 仅在 main 分支推送时触发
+  workflow_dispatch:     # 支持手动触发
+  schedule:              # 每 4 小时运行一次（基于 UTC 时间）
     - cron: '0 */4 * * *'
 
 env:
   TZ: Asia/Shanghai
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub 提供的默认 Token
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub 提供的默认 Token
 
 jobs:
   update-rules:
     name: Generate and Push Rules
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15  # 增加超时时间，避免任务因超时失败
 
     steps:
+      # Step 1: 检出代码库
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0  # 获取完整提交历史
 
+      # Step 2: 检查脚本文件是否存在
+      - name: Validate Shell Scripts
+        run: |
+          set -euxo pipefail
+          REQUIRED_SCRIPTS=("shell/make.sh" "shell/manual-update.sh")
+          for script in "${REQUIRED_SCRIPTS[@]}"; do
+            if [[ ! -f "$script" ]]; then
+              echo "Error: Required script '$script' not found!"
+              exit 1
+            fi
+          done
+          echo "All required scripts are present."
+
+      # Step 3: 生成规则
       - name: Generate Rules
         run: |
           set -euxo pipefail
           echo "Starting rule generation..."
-          bash ./shell/make.sh
+          bash ./shell/make.sh || {
+            echo "Error: make.sh script failed!"
+            exit 1
+          }
           echo "Rules generated successfully."
 
+      # Step 4: 提交并推送更改
       - name: Commit and Push Changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -38,7 +56,7 @@ jobs:
           set -euxo pipefail
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
+          
           # 检测是否有变更
           if git diff --quiet; then
             echo "No changes to commit."
@@ -49,14 +67,15 @@ jobs:
           git commit -m "Automated update: $(date +'%Y-%m-%d %H:%M:%S %Z')"
           git push origin HEAD:main
 
+      # Step 5: 触发下游更新
       - name: Trigger Downstream Update
         env:
-          GITHUBTOKEN: ${{ secrets.GITHUB_TOKEN }} # 确保脚本可以读取 GITHUBTOKEN
+          GITHUBTOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euxo pipefail
           echo "Triggering downstream repository update..."
           bash ./shell/manual-update.sh || {
-            echo "Error occurred in manual-update.sh"
+            echo "Error: manual-update.sh script failed!"
             exit 1
           }
 
@@ -64,17 +83,29 @@ jobs:
     name: Run AD.sh Script
     runs-on: ubuntu-latest
     steps:
+      # Step 1: 检出代码库
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 获取完整提交历史
+          fetch-depth: 0
 
+      # Step 2: 检查 AD.sh 是否存在
+      - name: Validate AD Script
+        run: |
+          set -euxo pipefail
+          if [[ ! -f "shell/AD.sh" ]]; then
+            echo "Error: AD.sh script not found!"
+            exit 1
+          fi
+          echo "AD.sh script is present."
+
+      # Step 3: 运行 AD.sh
       - name: Run AD.sh
         run: |
           set -euxo pipefail
           echo "Starting AD.sh script..."
           bash ./shell/AD.sh || {
-            echo "Error occurred in AD.sh"
+            echo "Error occurred in AD.sh script!"
             exit 1
           }
-          echo "AD.sh script completed."
+          echo "AD.sh script completed successfully."
