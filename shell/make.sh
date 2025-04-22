@@ -32,9 +32,9 @@ generate_dns_rules() {
   
   {
     echo "[Adblock Plus 2.0]"
-    echo "! Title: 反馈群538268498"
-    echo "! Homepage: https://github.com/790953214/qy-Ads-Rule"
-    echo "! by: 酷安@大萌主"
+    echo "! Title:去酷安反馈反馈"
+    echo "! Homepage: https://github.com"
+    echo "! by: 酷安@那个谁520"
     echo "! Total Count: $dnstotal"
     echo "! Update Time: $UPDATE_TIME"
     grep -E "^(\|\|)[^\/\^]+\^$" "$AD_FILE" | sort -u
