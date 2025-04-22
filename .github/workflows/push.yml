@@ -24,7 +24,7 @@ jobs:
 
         run: |
 
-          bash ./make.sh
+          bash ./shell/make.sh
 
           git init
 
@@ -46,4 +46,4 @@ jobs:
 
         run: |
 
-          bash ./manual-update.sh
+          bash ./shell/manual-update.sh
