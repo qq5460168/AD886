@@ -29,7 +29,7 @@ sed -n '/^#Reserved area start/,/^#Reserved area end/p' hosts.txt > reservedHost
   echo "# Update Time: $time"
   echo "127.0.0.1 localhost"
   echo "::1 localhost"
-  grep -Ev "\!|\[|\*" dnslist.txt | sed -e 's/||/0.0.0.0 /g' -e "s/\^//g" | sort -u
+  grep -Ev "\!|\[|\*" dnslist.txt | sed -e 's/||/127.0.0.1 /g' -e "s/\^//g" | sort -u
   cat reservedHost.txt
 } > hosts.txt
 rm -f reservedHost.txt
