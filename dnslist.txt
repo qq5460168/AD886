@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Title: 反馈群538268498
-! Homepage: https://github.com/790953214/qy-Ads-Rule
-! by: 酷安@大萌主
+! Title:去酷安反馈反馈
+! Homepage: https://github.com
+! by: 酷安@那个谁520
 ! Total Count: 3471
-! Update Time: 2025-04-23 00:18:15（北京时间）
+! Update Time: 2025-04-23 00:25:06（北京时间）
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
