@@ -24,7 +24,7 @@ jobs:
 
         run: |
         
-        bash ./shell/AD.sh
+
     
           bash ./shell/make.sh
 
