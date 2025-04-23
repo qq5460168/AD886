@@ -3,7 +3,7 @@ set -euo pipefail
 trap 'echo "Error occurred at line $LINENO. Exiting script."; exit 1' ERR
 
 # 配置路径：默认保存到用户主目录
-OUTPUT_DIR="${OUTPUT_DIR:-$HOME}"
+readonly OUTPUT_DIR="$HOME"
 readonly AD_FILE="$OUTPUT_DIR/AD.txt"
 readonly HOSTS_FILE="$OUTPUT_DIR/hosts.txt"
 readonly DNSLIST_FILE="$OUTPUT_DIR/dnslist.txt"
@@ -33,7 +33,8 @@ check_files() {
 # 生成 DNS 规则
 generate_dns_rules() {
   echo "Generating DNS rules..."
-  local dnstotal=$(grep -Ec "^(\|\|)[^\/\^]+\^$" "$AD_FILE")
+  local dnstotal
+  dnstotal=$(grep -Ec "^(\|\|)[^\/\^]+\^$" "$AD_FILE")
   if [[ $dnstotal -eq 0 ]]; then
     echo "Warning: No valid DNS rules found in $AD_FILE."
   fi
