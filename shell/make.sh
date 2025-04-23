@@ -9,9 +9,9 @@ dnstotal=$(grep -E "^(\|\|)[^\/\^]+\^$" AD.txt | wc -l)
 # 生成 Adblock Plus 格式规则文件
 {
   echo "[Adblock Plus 2.0]"
-  echo "! Title: 反馈群538268498"
-  echo "! Homepage: https://github.com/790953214/qy-Ads-Rule"
-  echo "! by: 酷安@大萌主"
+  echo "! Title: 酷安反馈反馈"
+  echo "! Homepage: https://github.com/qq5460168/AD886"
+  echo "! by: 酷安@那个谁520"
   echo "! Total Count: $dnstotal"
   echo "! Update Time: $time"
   grep -E "^(\|\|)[^\/\^]+\^$" AD.txt | sort -u
@@ -22,9 +22,9 @@ sed -n '/^#Reserved area start/,/^#Reserved area end/p' hosts.txt > reservedHost
 
 # 生成 hosts 文件
 {
-  echo "# Title: 反馈群538268498"
-  echo "# Homepage: https://github.com/790953214/qy-Ads-Rule"
-  echo "# by: 酷安@晴雅"
+  echo "# Title: 酷安反馈反馈"
+  echo "# Homepage: https://github.com/qq5460168/AD886"
+  echo "# by: 酷安@那个谁520"
   echo "# Total Count: HOSTCOUNT"
   echo "# Update Time: $time"
   echo "127.0.0.1 localhost"
