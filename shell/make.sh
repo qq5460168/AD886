@@ -14,7 +14,8 @@ clash_file="Clash.yaml"
 qxlist_file="qx.list"          # Quantumult X 规则文件路径
 srs_file="singbox.srs"         # SingBox SRS 格式规则文件路径
 invizible_file="invizible.txt" # Invizible Pro 规则文件路径
-shadowrocket_file="Shadowrocket.list" # 新增 Shadowrocket 规则文件路径
+shadowrocket_file="Shadowrocket.list" # Shadowrocket 规则文件路径
+adclose_file="AdClose.txt"     # AdClose 规则文件路径
 
 # 打印日志函数
 log() {
@@ -134,7 +135,19 @@ generate_shadowrocket() {
   } > "$shadowrocket_file"
 }
 
-# 脚本主流程
+# 生成 AdClose 规则文件
+generate_adclose() {
+  log "生成 AdClose 格式规则文件 (${adclose_file})..."
+  {
+    echo "# Title: AdClose Rules"
+    echo "# Homepage: https://github.com/qq5460168/AD886"
+    echo "# by: 酷安@那个谁520"
+    echo "# Update Time: $time"
+    grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/domain, \1/' | sort -u
+  } > "$adclose_file"
+}
+
+# 主流程
 main() {
   log "开始生成规则文件..."
   generate_dnslist
@@ -145,6 +158,7 @@ main() {
   generate_srs
   generate_invizible
   generate_shadowrocket
+  generate_adclose
   log "规则已成功生成并保存为以下文件："
   log "1. $dnslist_file"
   log "2. $hosts_file"
@@ -153,6 +167,7 @@ main() {
   log "5. $srs_file"
   log "6. $invizible_file"
   log "7. $shadowrocket_file"
+  log "8. $adclose_file"
 }
 
 main
