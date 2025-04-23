@@ -1,124 +1,49 @@
-name: Update Rules and Run AD Script
+name: Update Rules
 
 on:
+
   push:
-    branches: [ main ]  # 仅在 main 分支推送时触发
-  workflow_dispatch:     # 支持手动触发
-  schedule:              # 每 4 小时运行一次（基于 UTC 时间）
-    - cron: '0 */4 * * *'
+
+  workflow_dispatch:
 
 env:
-  TZ: Asia/Shanghai  # 设置时区为上海
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub 提供的默认 Token
+
+  GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
 
 jobs:
-  update-rules:
-    name: Generate and Push Rules
+
+  Pushed:
+
     runs-on: ubuntu-latest
-    timeout-minutes: 20  # 增加超时时间，避免复杂任务因超时失败
 
     steps:
-      # Step 1: 检出代码库
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # 获取完整提交历史
 
-      # Step 2: 检查脚本文件是否存在
-      - name: Validate Shell Scripts
+      - uses: actions/checkout@main
+
+      - name: Make Rules and Git push assets to github
+
         run: |
-          set -euxo pipefail
-          if [[ ! -d "shell" ]]; then
-            echo "Error: 'shell' directory not found!"
-            exit 1
-          fi
-          REQUIRED_SCRIPTS=("shell/make.sh" "shell/manual-update.sh")
-          for script in "${REQUIRED_SCRIPTS[@]}"; do
-            if [[ ! -f "$script" ]]; then
-              echo "Error: Required script '$script' not found!"
-              exit 1
-            fi
-          done
-          echo "All required scripts are present."
 
-      # Step 3: 生成规则
-      - name: Generate Rules
+          bash ./shell/make.sh
+
+          git init
+
+          git config --local user.name "action"
+
+          git config --local user.email "action@github.com"
+
+          git branch -m main
+
+          git add --all
+
+          git commit -m "Updated at $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间）"
+
+          git push --force -u origin          
+
+          
+
+      - name: Manual-Update AdRules Repository
+
         run: |
-          set -euxo pipefail
-          echo "Starting rule generation..."
-          bash ./shell/make.sh > ./shell/make.log 2>&1 || {
-            echo "Error: make.sh script failed! Check make.log for details."
-            cat ./shell/make.log
-            exit 1
-          }
-          echo "Rules generated successfully."
 
-      # Step 4: 提交并推送更改
-      - name: Commit and Push Changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set -euxo pipefail
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet; then
-            echo "No changes to commit."
-            exit 0
-          fi
-          git add .
-          git commit -m "Automated update: $(date +'%Y-%m-%d %H:%M:%S %Z')"
-          git push origin HEAD:main || {
-            echo "Error: Failed to push changes. Check branch protection rules or token permissions."
-            exit 1
-          }
-
-      # Step 5: 触发下游更新
-      - name: Trigger Downstream Update
-        env:
-          GITHUBTOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set -euxo pipefail
-          echo "Triggering downstream repository update..."
-          bash ./shell/manual-update.sh > ./shell/manual-update.log 2>&1 || {
-            echo "Error: manual-update.sh script failed! Check manual-update.log for details."
-            cat ./shell/manual-update.log || echo "No log file found."
-            exit 1
-          }
-
-  run-ad-script:
-    name: Run AD.sh Script
-    runs-on: ubuntu-latest
-    timeout-minutes: 10  # 适用于较短任务
-
-    steps:
-      # Step 1: 检出代码库
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      # Step 2: 检查 AD.sh 文件是否存在
-      - name: Validate AD Script
-        run: |
-          set -euxo pipefail
-          if [[ ! -d "shell" ]]; then
-            echo "Error: 'shell' directory not found!"
-            exit 1
-          fi
-          if [[ ! -f "shell/AD.sh" ]]; then
-            echo "Error: AD.sh script not found!"
-            exit 1
-          fi
-          echo "AD.sh script is present."
-
-      # Step 3: 运行 AD.sh
-      - name: Run AD.sh
-        run: |
-          set -euxo pipefail
-          echo "Starting AD.sh script..."
-          bash ./shell/AD.sh > ./shell/AD.log 2>&1 || {
-            echo "Error occurred in AD.sh script! Check AD.log for details."
-            cat ./shell/AD.log || echo "No log file found."
-            exit 1
-          }
-          echo "AD.sh script completed successfully."
+          bash ./shell/manual-update.sh
