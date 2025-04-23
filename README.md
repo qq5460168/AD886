@@ -17,4 +17,4 @@
 
 ### Hosts文件
 ```bash
-curl -o /etc/hosts https://raw.githubusercontent.com/790953214/qy-Ads-Rule/main/hosts.txt
+curl -o /etc/hosts https://raw.githubusercontent.com/qq5460168/AD886/refs/heads/main/hosts.txt
