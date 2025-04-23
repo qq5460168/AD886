@@ -11,9 +11,10 @@ dnslist_file="dnslist.txt"
 hosts_file="hosts.txt"
 reserved_file="reservedHost.txt"
 clash_file="Clash.yaml"
-qxlist_file="qx.list"        # Quantumult X 规则文件路径
-srs_file="singbox.srs"       # SingBox SRS 格式规则文件路径
-invizible_file="invizible.txt"  # 新增 Invizible Pro 规则文件路径
+qxlist_file="qx.list"          # Quantumult X 规则文件路径
+srs_file="singbox.srs"         # SingBox SRS 格式规则文件路径
+invizible_file="invizible.txt" # Invizible Pro 规则文件路径
+shadowrocket_file="Shadowrocket.list" # 新增 Shadowrocket 规则文件路径
 
 # 打印日志函数
 log() {
@@ -121,6 +122,18 @@ generate_invizible() {
   } > "$invizible_file"
 }
 
+# 生成 Shadowrocket 规则文件
+generate_shadowrocket() {
+  log "生成 Shadowrocket 格式规则文件 (${shadowrocket_file})..."
+  {
+    echo "# Title: Shadowrocket Rules"
+    echo "# Homepage: https://github.com/qq5460168/AD886"
+    echo "# by: 酷安@那个谁520"
+    echo "# Update Time: $time"
+    grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/DOMAIN-SUFFIX,\1,REJECT/' | sort -u
+  } > "$shadowrocket_file"
+}
+
 # 脚本主流程
 main() {
   log "开始生成规则文件..."
@@ -131,6 +144,7 @@ main() {
   generate_qxlist
   generate_srs
   generate_invizible
+  generate_shadowrocket
   log "规则已成功生成并保存为以下文件："
   log "1. $dnslist_file"
   log "2. $hosts_file"
@@ -138,6 +152,7 @@ main() {
   log "4. $qxlist_file"
   log "5. $srs_file"
   log "6. $invizible_file"
+  log "7. $shadowrocket_file"
 }
 
 main
