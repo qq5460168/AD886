@@ -1,7 +1,7 @@
 # Title: QX Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2025-04-24 01:01:59（北京时间）
+# Update Time: 2025-04-24 01:06:36（北京时间）
 DOMAIN,*-*.ad*kwai.com,reject
 DOMAIN,*-*.ap-east-1.elb.amazonaws.com,reject
 DOMAIN,*-*.ap-southeast-1.elb.amazonaws.com,reject
