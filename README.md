@@ -6,8 +6,8 @@
 
 | 类型             | 链接                                                                                       |
 |------------------|------------------------------------------------------------------------------------------|
-| 黑名单规则       | [black.txt](https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt)          |
-| 白名单规则       | [white.txt](https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt)          |
+| adguard黑名单规则       | [black.txt](https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt)          |
+| adguard白名单规则       | [white.txt](https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt)          |
 | DNS规则          | [dnslist.txt](https://raw.githubusercontent.com/qq5460168/AD886/main/dnslist.txt)        |
 | Hosts规则        | [hosts.txt](https://raw.githubusercontent.com/qq5460168/AD886/main/hosts.txt)            |
 | Clash规则        | [Clash.yaml](https://raw.githubusercontent.com/qq5460168/AD886/main/Clash.yaml)          |
