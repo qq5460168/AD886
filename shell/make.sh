@@ -9,7 +9,8 @@ dnslist_file="dnslist.txt"
 hosts_file="hosts.txt"
 reserved_file="reservedHost.txt"
 clash_file="Clash.yaml"
-qxlist_file="qx.list"  # 新增 qx.list 文件路径
+qxlist_file="qx.list"        # Quantumult X 规则文件路径
+srs_file="singbox.srs"       # 新增 SingBox SRS 格式规则文件路径
 
 # 打印日志函数
 log() {
@@ -91,10 +92,21 @@ log "生成 QX 规则文件 (${qxlist_file})..."
   grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/DOMAIN,\1,reject/' | sort -u
 } > "$qxlist_file"
 
+# 从 AD.txt 提取规则并生成 SingBox SRS 格式规则
+log "生成 SingBox SRS 格式规则文件 (${srs_file})..."
+{
+  echo "# Title: SingBox SRS Rules"
+  echo "# Homepage: https://github.com/qq5460168/AD886"
+  echo "# by: 酷安@那个谁520"
+  echo "# Update Time: $time"
+  grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/full:DOMAIN-SUFFIX,\1,block/' | sort -u
+} > "$srs_file"
+
 # 脚本完成
 log "规则已成功生成并保存为以下文件："
 log "1. $dnslist_file"
 log "2. $hosts_file"
 log "3. $clash_file"
 log "4. $qxlist_file"
+log "5. $srs_file"
 exit 0
