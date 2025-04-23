@@ -11,11 +11,19 @@ dnslist_file="dnslist.txt"
 hosts_file="hosts.txt"
 reserved_file="reservedHost.txt"
 clash_file="Clash.yaml"
-qxlist_file="qx.list"          # Quantumult X 规则文件路径
-srs_file="singbox.srs"         # SingBox SRS 格式规则文件路径
-invizible_file="invizible.txt" # Invizible Pro 规则文件路径
-shadowrocket_file="Shadowrocket.list" # Shadowrocket 规则文件路径
-adclose_file="AdClose.txt"     # AdClose 规则文件路径
+qxlist_file="qx.list"
+srs_file="singbox.srs"
+invizible_file="invizible.txt"
+shadowrocket_file="Shadowrocket.list"
+adclose_file="AdClose.txt"
+clash_payload_file="ClashPayload.yaml"
+surge_file="Surge.list"
+loon_file="Loon.list"
+adguard_file="AdGuardHome.txt"
+smartdns_file="SmartDNS.conf"
+privoxy_file="Privoxy.action"
+v2ray_file="V2Ray.json"
+dnsmasq_file="DNSMASQ.conf"
 
 # 打印日志函数
 log() {
@@ -34,7 +42,7 @@ check_file() {
 log "检查必要文件..."
 check_file "$ad_file"
 
-# 统计 DNS 规则总数
+# 生成 Adblock Plus 格式规则
 generate_dnslist() {
   log "生成 Adblock Plus 格式规则文件 (${dnslist_file})..."
   local dnstotal=$(grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | wc -l)
@@ -69,7 +77,7 @@ generate_hosts() {
   sed -i "s/HOSTCOUNT/$hosttotal/" "$hosts_file"
 }
 
-# 更新 AD.txt 文件
+# 更新 AD 文件
 update_ad_file() {
   log "更新 AD.txt 文件中的时间和总数..."
   sed -i "s/! Update Time:.*/! Update Time: $time/g" "$ad_file"
@@ -77,74 +85,76 @@ update_ad_file() {
   sed -i "s/! Total Count:.*/! Total Count: $total/g" "$ad_file"
 }
 
-# 生成 Clash 格式规则
-generate_clash() {
-  log "生成 Clash 格式规则文件 (${clash_file})..."
+# 生成 Clash Payload 格式规则
+generate_clash_payload() {
+  log "生成 Clash Payload 格式规则文件 (${clash_payload_file})..."
   {
-    echo "proxies:"
-    echo "rules:"
-    grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/- DOMAIN-SUFFIX,\1/g' | sort -u
-  } > "$clash_file"
+    echo "payload:"
+    grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/  - \'\1\'/' | sort -u
+  } > "$clash_payload_file"
 }
 
-# 生成 Quantumult X 规则
-generate_qxlist() {
-  log "生成 QX 规则文件 (${qxlist_file})..."
+# 生成 Surge 规则
+generate_surge() {
+  log "生成 Surge 格式规则文件 (${surge_file})..."
   {
-    echo "# Title: QX Rules"
-    echo "# Homepage: https://github.com/qq5460168/AD886"
-    echo "# by: 酷安@那个谁520"
-    echo "# Update Time: $time"
-    grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/DOMAIN,\1,reject/' | sort -u
-  } > "$qxlist_file"
-}
-
-# 生成 SingBox SRS 格式规则
-generate_srs() {
-  log "生成 SingBox SRS 格式规则文件 (${srs_file})..."
-  {
-    echo "# Title: SingBox SRS Rules"
-    echo "# Homepage: https://github.com/qq5460168/AD886"
-    echo "# by: 酷安@那个谁520"
-    echo "# Update Time: $time"
-    grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/full:DOMAIN-SUFFIX,\1,block/' | sort -u
-  } > "$srs_file"
-}
-
-# 生成 Invizible Pro 规则文件
-generate_invizible() {
-  log "生成 Invizible Pro 格式规则文件 (${invizible_file})..."
-  {
-    echo "# Title: Invizible Pro Rules"
-    echo "# Homepage: https://github.com/qq5460168/AD886"
-    echo "# by: 酷安@那个谁520"
-    echo "# Update Time: $time"
-    grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/\1/' | sort -u
-  } > "$invizible_file"
-}
-
-# 生成 Shadowrocket 规则文件
-generate_shadowrocket() {
-  log "生成 Shadowrocket 格式规则文件 (${shadowrocket_file})..."
-  {
-    echo "# Title: Shadowrocket Rules"
+    echo "# Title: Surge Rules"
     echo "# Homepage: https://github.com/qq5460168/AD886"
     echo "# by: 酷安@那个谁520"
     echo "# Update Time: $time"
     grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/DOMAIN-SUFFIX,\1,REJECT/' | sort -u
-  } > "$shadowrocket_file"
+  } > "$surge_file"
 }
 
-# 生成 AdClose 规则文件
-generate_adclose() {
-  log "生成 AdClose 格式规则文件 (${adclose_file})..."
+# 生成 Loon 规则
+generate_loon() {
+  log "生成 Loon 格式规则文件 (${loon_file})..."
   {
-    echo "# Title: AdClose Rules"
+    echo "# Title: Loon Rules"
     echo "# Homepage: https://github.com/qq5460168/AD886"
     echo "# by: 酷安@那个谁520"
     echo "# Update Time: $time"
-    grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/domain, \1/' | sort -u
-  } > "$adclose_file"
+    grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/DOMAIN-SUFFIX,\1,REJECT/' | sort -u
+  } > "$loon_file"
+}
+
+# 生成 AdGuard Home 规则
+generate_adguard() {
+  log "生成 AdGuard Home 格式规则文件 (${adguard_file})..."
+  grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sort -u > "$adguard_file"
+}
+
+# 生成 SmartDNS 规则
+generate_smartdns() {
+  log "生成 SmartDNS 格式规则文件 (${smartdns_file})..."
+  grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/address=\/\1\/#/' | sort -u > "$smartdns_file"
+}
+
+# 生成 Privoxy 规则
+generate_privoxy() {
+  log "生成 Privoxy 格式规则文件 (${privoxy_file})..."
+  {
+    echo "{+block}"
+    grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/\1/' | sort -u
+  } > "$privoxy_file"
+}
+
+# 生成 V2Ray 路由规则
+generate_v2ray() {
+  log "生成 V2Ray 路由规则文件 (${v2ray_file})..."
+  {
+    echo "{"
+    echo "  \"domain\": ["
+    grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/    \"domain:\1\",/' | sed '$ s/,$//' | sort -u
+    echo "  ]"
+    echo "}"
+  } > "$v2ray_file"
+}
+
+# 生成 DNSMASQ 规则
+generate_dnsmasq() {
+  log "生成 DNSMASQ 格式规则文件 (${dnsmasq_file})..."
+  grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/address=\/\1\/#/' | sort -u > "$dnsmasq_file"
 }
 
 # 主流程
@@ -153,21 +163,25 @@ main() {
   generate_dnslist
   generate_hosts
   update_ad_file
-  generate_clash
-  generate_qxlist
-  generate_srs
-  generate_invizible
-  generate_shadowrocket
-  generate_adclose
+  generate_clash_payload
+  generate_surge
+  generate_loon
+  generate_adguard
+  generate_smartdns
+  generate_privoxy
+  generate_v2ray
+  generate_dnsmasq
   log "规则已成功生成并保存为以下文件："
   log "1. $dnslist_file"
   log "2. $hosts_file"
-  log "3. $clash_file"
-  log "4. $qxlist_file"
-  log "5. $srs_file"
-  log "6. $invizible_file"
-  log "7. $shadowrocket_file"
-  log "8. $adclose_file"
+  log "3. $clash_payload_file"
+  log "4. $surge_file"
+  log "5. $loon_file"
+  log "6. $adguard_file"
+  log "7. $smartdns_file"
+  log "8. $privoxy_file"
+  log "9. $v2ray_file"
+  log "10. $dnsmasq_file"
 }
 
 main
