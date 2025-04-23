@@ -23,7 +23,9 @@ jobs:
       - name: Make Rules and Git push assets to github
 
         run: |
-
+        
+        bash ./shell/AD.sh
+    
           bash ./shell/make.sh
 
           git init
