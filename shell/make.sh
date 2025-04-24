@@ -15,6 +15,7 @@ srs_file="singbox.srs"         # SingBox SRS 格式规则文件路径
 invizible_file="invizible.txt" # Invizible Pro 规则文件路径
 shadowrocket_file="Shadowrocket.list" # Shadowrocket 规则文件路径
 adclose_file="AdClose.txt"     # AdClose 规则文件路径
+clash_file="clash.yaml"        # Clash 规则文件路径
 
 # 打印日志函数
 log() {
@@ -32,6 +33,19 @@ check_file() {
 # 初始化检查
 log "检查必要文件..."
 check_file "$ad_file"
+
+# 生成 Clash 格式规则文件
+generate_clash() {
+  log "生成 Clash 格式规则文件 (${clash_file})..."
+  {
+    echo "# Title: Clash Rules"
+    echo "# Homepage: https://github.com/qq5460168/AD886"
+    echo "# by: 酷安@那个谁520"
+    echo "# Update Time: $time"
+    echo "payload:"
+    grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/  - DOMAIN-SUFFIX,\1,REJECT/' | sort -u
+  } > "$clash_file"
+}
 
 # 统计 DNS 规则总数
 generate_dnslist() {
@@ -147,6 +161,7 @@ main() {
   generate_invizible
   generate_shadowrocket
   generate_adclose
+  generate_clash # 新增 Clash 规则生成调用
   log "规则已成功生成并保存为以下文件："
   log "1. $dnslist_file"
   log "2. $hosts_file"
@@ -155,6 +170,7 @@ main() {
   log "5. $invizible_file"
   log "6. $shadowrocket_file"
   log "7. $adclose_file"
+  log "8. $clash_file" # 输出 Clash 文件日志
 }
 
 main
