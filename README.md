@@ -28,7 +28,7 @@
 | **DNS规则**           | 用于 AdGuard Home 或其他支持 DNS 规则的工具 | [dnslist.txt](https://raw.githubusercontent.com/qq5460168/AD886/main/dnslist.txt)          |
 | **Hosts规则**         | 可直接用于系统 Hosts 文件                | [hosts.txt](https://raw.githubusercontent.com/qq5460168/AD886/main/hosts.txt)              |
 | **Clash规则**         | Clash Premium 配置                      | [Clash.yaml](https://raw.githubusercontent.com/qq5460168/AD886/main/Clash.yaml)            |
-| **Clash Meta规则**    | Clash Meta (Mihomo) 配置                | [ClashMeta.yaml](https://raw.githubusercontent.com/qq5460168/AD886/main/ClashMeta.yaml)    |
+| **Clash Meta规则**    | Clash Meta (Mihomo) 配置，支持高级规则匹配 | [ClashMeta.yaml](https://raw.githubusercontent.com/qq5460168/AD886/main/ClashMeta.yaml)    |
 | **Quantumult X规则**  | Quantumult X 配置                       | [qx.list](https://raw.githubusercontent.com/qq5460168/AD886/main/qx.list)                  |
 | **SingBox规则**       | SingBox 配置                            | [singbox.srs](https://raw.githubusercontent.com/qq5460168/AD886/main/singbox.srs)          |
 
@@ -49,7 +49,8 @@
 ### Clash Meta (Mihomo)
 1. 下载并导入以下文件作为配置：
    - [ClashMeta.yaml](https://raw.githubusercontent.com/qq5460168/AD886/main/ClashMeta.yaml)
-2. 打开 Clash Meta 应用并重启以生效。
+2. 打开 Clash Meta 应用并导入配置文件。
+3. 启用规则，重启 Clash Meta，以生效配置。
 
 ### Quantumult X
 1. 添加规则文件：
