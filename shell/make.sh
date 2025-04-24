@@ -10,7 +10,6 @@ ad_file="AD.txt"
 dnslist_file="dnslist.txt"
 hosts_file="hosts.txt"
 reserved_file="reservedHost.txt"
-clash_file="Clash.yaml"
 qxlist_file="qx.list"          # Quantumult X 规则文件路径
 srs_file="singbox.srs"         # SingBox SRS 格式规则文件路径
 invizible_file="invizible.txt" # Invizible Pro 规则文件路径
@@ -75,16 +74,6 @@ update_ad_file() {
   sed -i "s/! Update Time:.*/! Update Time: $time/g" "$ad_file"
   local total=$(grep -v "^!" "$ad_file" | wc -l)
   sed -i "s/! Total Count:.*/! Total Count: $total/g" "$ad_file"
-}
-
-# 生成 Clash 格式规则
-generate_clash() {
-  log "生成 Clash 格式规则文件 (${clash_file})..."
-  {
-    echo "proxies:"
-    echo "rules:"
-    grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/- DOMAIN-SUFFIX,\1/g' | sort -u
-  } > "$clash_file"
 }
 
 # 生成 Quantumult X 规则
@@ -153,7 +142,6 @@ main() {
   generate_dnslist
   generate_hosts
   update_ad_file
-  generate_clash
   generate_qxlist
   generate_srs
   generate_invizible
@@ -162,12 +150,11 @@ main() {
   log "规则已成功生成并保存为以下文件："
   log "1. $dnslist_file"
   log "2. $hosts_file"
-  log "3. $clash_file"
-  log "4. $qxlist_file"
-  log "5. $srs_file"
-  log "6. $invizible_file"
-  log "7. $shadowrocket_file"
-  log "8. $adclose_file"
+  log "3. $qxlist_file"
+  log "4. $srs_file"
+  log "5. $invizible_file"
+  log "6. $shadowrocket_file"
+  log "7. $adclose_file"
 }
 
 main
