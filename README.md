@@ -13,7 +13,6 @@
    - [Quantumult X](#quantumult-x)
    - [SingBox](#singbox)
    - [Hosts 文件](#hosts-文件)
-3. [贡献与反馈](#贡献与反馈)
 
 ---
 
