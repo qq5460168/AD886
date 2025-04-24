@@ -29,7 +29,6 @@
 | **Clash规则**         | Clash Premium 配置                      | [Clash.yaml](https://raw.githubusercontent.com/qq5460168/AD886/main/Clash.yaml)            |
 | **Quantumult X规则**  | Quantumult X 配置                       | [qx.list](https://raw.githubusercontent.com/qq5460168/AD886/main/qx.list)                  |
 | **SingBox规则**       | SingBox 配置                            | [singbox.srs](https://raw.githubusercontent.com/qq5460168/AD886/main/singbox.srs)          |
-| **汇总规则列表**       | 包含所有规则的文件                       | [all_rules.list](https://raw.githubusercontent.com/qq5460168/AD886/main/all_rules.list)    |
 
 ---
 
