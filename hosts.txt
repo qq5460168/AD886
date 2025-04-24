@@ -1,8 +1,8 @@
 # Title: 酷安反馈反馈
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Total Count: 8223
-# Update Time: 2025-04-24 21:41:30（北京时间）
+# Total Count: 8233
+# Update Time: 2025-04-24 21:44:47（北京时间）
 127.0.0.1 localhost
 ::1 localhost
 127.0.0.1 000123456789.online
@@ -1027,6 +1027,7 @@
 127.0.0.1 agathacd.com
 127.0.0.1 agdewasmnjktfrdewqjgdser.top
 127.0.0.1 agent.sj.qq.com
+127.0.0.1 agn.aty.sohu.com
 127.0.0.1 agossuoeach.com
 127.0.0.1 agstat.html5.qq.com
 127.0.0.1 ah.5l59k.com
@@ -4727,6 +4728,7 @@
 127.0.0.1 mobads-logs.baidu.com
 127.0.0.1 mobads-pre-config.cdn.bcebos.com
 127.0.0.1 mobads.baidu.com
+127.0.0.1 mobaliyun.res.mgtv.com
 127.0.0.1 mobile.da.mgtv.com
 127.0.0.1 mobile.yangkeduo.com
 127.0.0.1 mobilead.kuwo.cn
@@ -5855,6 +5857,7 @@
 127.0.0.1 rpdi192.icu
 127.0.0.1 rpkcqtf.cn
 127.0.0.1 rppihz.xyz
+127.0.0.1 rps.hpplay.cn
 127.0.0.1 rpt-gdt.play.aiseet.atianqi.com
 127.0.0.1 rpt.gdt.qq.com
 127.0.0.1 rptdata.wb.qq.com
@@ -5953,6 +5956,7 @@
 127.0.0.1 sa8zdui.com
 127.0.0.1 saad.ms.zhangyue.net
 127.0.0.1 saas-static.yiye.ai
+127.0.0.1 saas.hpplay.cn
 127.0.0.1 saccac11.com
 127.0.0.1 sacfasv.com
 127.0.0.1 sacre.cn
@@ -6444,6 +6448,7 @@
 127.0.0.1 t7cp4fldl.com
 127.0.0.1 t7x22m7c.com
 127.0.0.1 t7z.cupid.iqiyi.com
+127.0.0.1 t7z.cupid.ptqy.gitv.tv
 127.0.0.1 ta.qq.com
 127.0.0.1 ta20k.xyz
 127.0.0.1 tab.video.qq.com
@@ -7067,6 +7072,7 @@
 127.0.0.1 valf.atm.cp31.ott.cibntv.net
 127.0.0.1 valfatm.cp12.wasu.tv
 127.0.0.1 vali-g1.cp31.ott.cibntv.net
+127.0.0.1 vali-ugc.cp31.ott.cibntv.net
 127.0.0.1 valipl.cp31.ott.cibntv.net
 127.0.0.1 vancuongthinh.com
 127.0.0.1 variety.tc.qq.com
@@ -7092,6 +7098,7 @@
 127.0.0.1 vcvbnmto.xyz
 127.0.0.1 vcydyzd.icu
 127.0.0.1 vd.l.qq.com
+127.0.0.1 vd6.l.qq.com
 127.0.0.1 vdn1.vzuu.com
 127.0.0.1 vdn5-1.vzuu.com
 127.0.0.1 vdn5.vzuu.com
@@ -7125,11 +7132,13 @@
 127.0.0.1 vhsutpgui.xyz
 127.0.0.1 vhulan.com
 127.0.0.1 vhutitpu.icu
+127.0.0.1 vi.l.qq.com
 127.0.0.1 viav-cse.avlyun.com
 127.0.0.1 victoriajumpc.com
 127.0.0.1 video-ad.sm.cn
 127.0.0.1 video-dsp.pddpic.com
 127.0.0.1 video.dispatch.tc.qq.com
+127.0.0.1 video.market.xiaomi.com
 127.0.0.1 video.mnaspm.com
 127.0.0.1 video.mpush.qq.com
 127.0.0.1 video.new-eve.com
@@ -7146,6 +7155,7 @@
 127.0.0.1 vijnhyru.xyz
 127.0.0.1 vip.ffzy-online3.com
 127.0.0.1 vipauth.hpplay.cn
+127.0.0.1 vipgslb.hpplay.cn
 127.0.0.1 viplp.top
 127.0.0.1 vipwm.cc
 127.0.0.1 vipxyajs.data.kuiniuca.com

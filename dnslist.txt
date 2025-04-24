@@ -2,8 +2,8 @@
 ! Title: 酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Total Count: 8567
-! Update Time: 2025-04-24 21:41:30（北京时间）
+! Total Count: 8577
+! Update Time: 2025-04-24 21:44:47（北京时间）
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
@@ -1223,6 +1223,7 @@
 ||agathacd.com^
 ||agdewasmnjktfrdewqjgdser.top^
 ||agent.sj.qq.com^
+||agn.aty.sohu.com^
 ||agossuoeach.com^
 ||agstat.html5.qq.com^
 ||ah.5l59k.com^
@@ -4972,6 +4973,7 @@
 ||mobads-logs.baidu.com^
 ||mobads-pre-config.cdn.bcebos.com^
 ||mobads.baidu.com^
+||mobaliyun.res.mgtv.com^
 ||mobile.da.mgtv.com^
 ||mobile.yangkeduo.com^
 ||mobilead.kuwo.cn^
@@ -6128,6 +6130,7 @@
 ||rpdi192.icu^
 ||rpkcqtf.cn^
 ||rppihz.xyz^
+||rps.hpplay.cn^
 ||rpt-gdt.play.aiseet.atianqi.com^
 ||rpt.gdt.qq.com^
 ||rptdata.wb.qq.com^
@@ -6231,6 +6234,7 @@
 ||sa8zdui.com^
 ||saad.ms.zhangyue.net^
 ||saas-static.yiye.ai^
+||saas.hpplay.cn^
 ||saccac11.com^
 ||sacfasv.com^
 ||sacre.cn^
@@ -6730,6 +6734,7 @@
 ||t7cp4fldl.com^
 ||t7x22m7c.com^
 ||t7z.cupid.iqiyi.com^
+||t7z.cupid.ptqy.gitv.tv^
 ||ta.qq.com^
 ||ta20k.xyz^
 ||tab.video.qq.com^
@@ -7365,6 +7370,7 @@
 ||valf.atm.cp31.ott.cibntv.net^
 ||valfatm.cp12.wasu.tv^
 ||vali-g1.cp31.ott.cibntv.net^
+||vali-ugc.cp31.ott.cibntv.net^
 ||valipl.cp31.ott.cibntv.net^
 ||vancuongthinh.com^
 ||variety.tc.qq.com^
@@ -7390,6 +7396,7 @@
 ||vcvbnmto.xyz^
 ||vcydyzd.icu^
 ||vd.l.qq.com^
+||vd6.l.qq.com^
 ||vdn1.vzuu.com^
 ||vdn5-1.vzuu.com^
 ||vdn5.vzuu.com^
@@ -7423,6 +7430,7 @@
 ||vhsutpgui.xyz^
 ||vhulan.com^
 ||vhutitpu.icu^
+||vi.l.qq.com^
 ||viav-cse.avlyun.com^
 ||victoriajumpc.com^
 ||video-*.pddpic.com^
@@ -7430,6 +7438,7 @@
 ||video-dsp.pddpic.com^
 ||video-mobile-tech-*.shiply-cdn.qq.com^
 ||video.dispatch.tc.qq.com^
+||video.market.xiaomi.com^
 ||video.mnaspm.com^
 ||video.mpush.qq.com^
 ||video.new-eve.com^
@@ -7446,6 +7455,7 @@
 ||vijnhyru.xyz^
 ||vip.ffzy-online3.com^
 ||vipauth.hpplay.cn^
+||vipgslb.hpplay.cn^
 ||viplp.top^
 ||vipwm.cc^
 ||vipxyajs.data.kuiniuca.com^

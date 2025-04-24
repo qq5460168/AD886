@@ -1,7 +1,7 @@
 # Title: SingBox SRS Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2025-04-24 21:41:30（北京时间）
+# Update Time: 2025-04-24 21:44:47（北京时间）
 full:DOMAIN-SUFFIX,*-*.ad*kwai.com,block
 full:DOMAIN-SUFFIX,*-*.ap-east-1.elb.amazonaws.com,block
 full:DOMAIN-SUFFIX,*-*.ap-southeast-1.elb.amazonaws.com,block
@@ -1221,6 +1221,7 @@ full:DOMAIN-SUFFIX,ag.qq.com,block
 full:DOMAIN-SUFFIX,agathacd.com,block
 full:DOMAIN-SUFFIX,agdewasmnjktfrdewqjgdser.top,block
 full:DOMAIN-SUFFIX,agent.sj.qq.com,block
+full:DOMAIN-SUFFIX,agn.aty.sohu.com,block
 full:DOMAIN-SUFFIX,agossuoeach.com,block
 full:DOMAIN-SUFFIX,agstat.html5.qq.com,block
 full:DOMAIN-SUFFIX,ah.5l59k.com,block
@@ -4970,6 +4971,7 @@ full:DOMAIN-SUFFIX,moatads.com,block
 full:DOMAIN-SUFFIX,mobads-logs.baidu.com,block
 full:DOMAIN-SUFFIX,mobads-pre-config.cdn.bcebos.com,block
 full:DOMAIN-SUFFIX,mobads.baidu.com,block
+full:DOMAIN-SUFFIX,mobaliyun.res.mgtv.com,block
 full:DOMAIN-SUFFIX,mobile.da.mgtv.com,block
 full:DOMAIN-SUFFIX,mobile.yangkeduo.com,block
 full:DOMAIN-SUFFIX,mobilead.kuwo.cn,block
@@ -6126,6 +6128,7 @@ full:DOMAIN-SUFFIX,rpahyhn.cn,block
 full:DOMAIN-SUFFIX,rpdi192.icu,block
 full:DOMAIN-SUFFIX,rpkcqtf.cn,block
 full:DOMAIN-SUFFIX,rppihz.xyz,block
+full:DOMAIN-SUFFIX,rps.hpplay.cn,block
 full:DOMAIN-SUFFIX,rpt-gdt.play.aiseet.atianqi.com,block
 full:DOMAIN-SUFFIX,rpt.gdt.qq.com,block
 full:DOMAIN-SUFFIX,rptdata.wb.qq.com,block
@@ -6229,6 +6232,7 @@ full:DOMAIN-SUFFIX,s8t.teads.tv,block
 full:DOMAIN-SUFFIX,sa8zdui.com,block
 full:DOMAIN-SUFFIX,saad.ms.zhangyue.net,block
 full:DOMAIN-SUFFIX,saas-static.yiye.ai,block
+full:DOMAIN-SUFFIX,saas.hpplay.cn,block
 full:DOMAIN-SUFFIX,saccac11.com,block
 full:DOMAIN-SUFFIX,sacfasv.com,block
 full:DOMAIN-SUFFIX,sacre.cn,block
@@ -6728,6 +6732,7 @@ full:DOMAIN-SUFFIX,t4uz.td28ese.pro,block
 full:DOMAIN-SUFFIX,t7cp4fldl.com,block
 full:DOMAIN-SUFFIX,t7x22m7c.com,block
 full:DOMAIN-SUFFIX,t7z.cupid.iqiyi.com,block
+full:DOMAIN-SUFFIX,t7z.cupid.ptqy.gitv.tv,block
 full:DOMAIN-SUFFIX,ta.qq.com,block
 full:DOMAIN-SUFFIX,ta20k.xyz,block
 full:DOMAIN-SUFFIX,tab.video.qq.com,block
@@ -7363,6 +7368,7 @@ full:DOMAIN-SUFFIX,valerieavisnba.com,block
 full:DOMAIN-SUFFIX,valf.atm.cp31.ott.cibntv.net,block
 full:DOMAIN-SUFFIX,valfatm.cp12.wasu.tv,block
 full:DOMAIN-SUFFIX,vali-g1.cp31.ott.cibntv.net,block
+full:DOMAIN-SUFFIX,vali-ugc.cp31.ott.cibntv.net,block
 full:DOMAIN-SUFFIX,valipl.cp31.ott.cibntv.net,block
 full:DOMAIN-SUFFIX,vancuongthinh.com,block
 full:DOMAIN-SUFFIX,variety.tc.qq.com,block
@@ -7388,6 +7394,7 @@ full:DOMAIN-SUFFIX,vcs.zijieapi.com,block
 full:DOMAIN-SUFFIX,vcvbnmto.xyz,block
 full:DOMAIN-SUFFIX,vcydyzd.icu,block
 full:DOMAIN-SUFFIX,vd.l.qq.com,block
+full:DOMAIN-SUFFIX,vd6.l.qq.com,block
 full:DOMAIN-SUFFIX,vdn1.vzuu.com,block
 full:DOMAIN-SUFFIX,vdn5-1.vzuu.com,block
 full:DOMAIN-SUFFIX,vdn5.vzuu.com,block
@@ -7421,6 +7428,7 @@ full:DOMAIN-SUFFIX,vhotlxp.video.qq.com,block
 full:DOMAIN-SUFFIX,vhsutpgui.xyz,block
 full:DOMAIN-SUFFIX,vhulan.com,block
 full:DOMAIN-SUFFIX,vhutitpu.icu,block
+full:DOMAIN-SUFFIX,vi.l.qq.com,block
 full:DOMAIN-SUFFIX,viav-cse.avlyun.com,block
 full:DOMAIN-SUFFIX,victoriajumpc.com,block
 full:DOMAIN-SUFFIX,video-*.pddpic.com,block
@@ -7428,6 +7436,7 @@ full:DOMAIN-SUFFIX,video-ad.sm.cn,block
 full:DOMAIN-SUFFIX,video-dsp.pddpic.com,block
 full:DOMAIN-SUFFIX,video-mobile-tech-*.shiply-cdn.qq.com,block
 full:DOMAIN-SUFFIX,video.dispatch.tc.qq.com,block
+full:DOMAIN-SUFFIX,video.market.xiaomi.com,block
 full:DOMAIN-SUFFIX,video.mnaspm.com,block
 full:DOMAIN-SUFFIX,video.mpush.qq.com,block
 full:DOMAIN-SUFFIX,video.new-eve.com,block
@@ -7444,6 +7453,7 @@ full:DOMAIN-SUFFIX,vihppjk.cn,block
 full:DOMAIN-SUFFIX,vijnhyru.xyz,block
 full:DOMAIN-SUFFIX,vip.ffzy-online3.com,block
 full:DOMAIN-SUFFIX,vipauth.hpplay.cn,block
+full:DOMAIN-SUFFIX,vipgslb.hpplay.cn,block
 full:DOMAIN-SUFFIX,viplp.top,block
 full:DOMAIN-SUFFIX,vipwm.cc,block
 full:DOMAIN-SUFFIX,vipxyajs.data.kuiniuca.com,block
