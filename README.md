@@ -13,6 +13,7 @@
    - [Quantumult X](#quantumult-x)
    - [SingBox](#singbox)
    - [Hosts 文件](#hosts-文件)
+3. [贡献与反馈](#贡献与反馈)
 
 ---
 
@@ -48,7 +49,7 @@
 ### Clash Meta (Mihomo)
 1. 下载并导入以下文件作为配置：
    - [ClashMeta.yaml](https://raw.githubusercontent.com/qq5460168/AD886/main/ClashMeta.yaml)
-2. 打开 Clash Meta (Mihomo) 应用并重启以生效。
+2. 打开 Clash Meta 应用并重启以生效。
 
 ### Quantumult X
 1. 添加规则文件：
