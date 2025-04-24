@@ -2,38 +2,61 @@
 
 **维护者**: 酷安 [@那个谁520](http://www.coolapk.com/u/23966654)
 
+---
+
+## 📖 目录
+1. [规则列表](#规则列表)
+2. [快速使用指南](#快速使用指南)
+   - [AdGuard Home](#adguard-home)
+   - [Clash Premium](#clash-premium)
+   - [Quantumult X](#quantumult-x)
+   - [SingBox](#singbox)
+   - [Hosts 文件](#hosts-文件)
+3. [贡献与反馈](#贡献与反馈)
+
+---
+
 ## 📥 规则列表
 
-| 类型             | 链接                                                                                       |
-|------------------|------------------------------------------------------------------------------------------|
-| adguard黑名单规则       | [black.txt](https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt)          |
-| adguard白名单规则       | [white.txt](https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt)          |
-| DNS规则          | [dnslist.txt](https://raw.githubusercontent.com/qq5460168/AD886/main/dnslist.txt)        |
-| Hosts规则        | [hosts.txt](https://raw.githubusercontent.com/qq5460168/AD886/main/hosts.txt)            |
-| Clash规则        | [Clash.yaml](https://raw.githubusercontent.com/qq5460168/AD886/main/Clash.yaml)          |
-| Quantumult X规则 | [qx.list](https://raw.githubusercontent.com/qq5460168/AD886/main/qx.list)                |
-| SingBox规则      | [singbox.srs](https://raw.githubusercontent.com/qq5460168/AD886/main/singbox.srs)        |
-| 汇总规则列表     | [all_rules.list](https://raw.githubusercontent.com/qq5460168/AD886/main/all_rules.list)  |
+以下是提供的广告拦截规则文件及其用途：
 
-## 🚀 快速使用
+| **类型**             | **用途**                                | **链接**                                                                                     |
+|----------------------|----------------------------------------|--------------------------------------------------------------------------------------------|
+| **AdGuard 黑名单规则** | 拦截大部分广告域名                       | [black.txt](https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt)            |
+| **AdGuard 白名单规则** | 允许部分误拦截的域名                     | [white.txt](https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt)            |
+| **DNS规则**           | 用于 AdGuard Home 或其他支持 DNS 规则的工具 | [dnslist.txt](https://raw.githubusercontent.com/qq5460168/AD886/main/dnslist.txt)          |
+| **Hosts规则**         | 可直接用于系统 Hosts 文件                | [hosts.txt](https://raw.githubusercontent.com/qq5460168/AD886/main/hosts.txt)              |
+| **Clash规则**         | Clash Premium 配置                      | [Clash.yaml](https://raw.githubusercontent.com/qq5460168/AD886/main/Clash.yaml)            |
+| **Quantumult X规则**  | Quantumult X 配置                       | [qx.list](https://raw.githubusercontent.com/qq5460168/AD886/main/qx.list)                  |
+| **SingBox规则**       | SingBox 配置                            | [singbox.srs](https://raw.githubusercontent.com/qq5460168/AD886/main/singbox.srs)          |
+| **汇总规则列表**       | 包含所有规则的文件                       | [all_rules.list](https://raw.githubusercontent.com/qq5460168/AD886/main/all_rules.list)    |
+
+---
+
+## 🚀 快速使用指南
 
 ### AdGuard Home
-1. 进入AdGuard管理界面 → **过滤器** → **DNS黑名单**。
-2. 添加以下规则URL，并启用定期更新：
+1. 打开 AdGuard Home 管理界面 → **过滤器** → **DNS 黑名单**。
+2. 添加以下规则 URL，并启用定期更新：
    - [dnslist.txt](https://raw.githubusercontent.com/qq5460168/AD886/main/dnslist.txt)
 
 ### Clash Premium
-1. 下载并导入 [Clash.yaml](https://raw.githubusercontent.com/qq5460168/AD886/main/Clash.yaml) 配置文件。
-2. 重启 Clash 应用以使规则生效。
+1. 下载并导入以下文件作为配置：
+   - [Clash.yaml](https://raw.githubusercontent.com/qq5460168/AD886/main/Clash.yaml)
+2. 打开 Clash Premium 应用并重启以生效。
 
 ### Quantumult X
-1. 添加规则文件 [qx.list](https://raw.githubusercontent.com/qq5460168/AD886/main/qx.list)。
+1. 添加规则文件：
+   - [qx.list](https://raw.githubusercontent.com/qq5460168/AD886/main/qx.list)
 2. 应用规则并重启 Quantumult X。
 
 ### SingBox
-1. 使用 [singbox.srs](https://raw.githubusercontent.com/qq5460168/AD886/main/singbox.srs) 文件作为规则配置。
-2. 重启 SingBox 应用。
+1. 下载配置文件：
+   - [singbox.srs](https://raw.githubusercontent.com/qq5460168/AD886/main/singbox.srs)
+2. 使用该文件作为配置，重启 SingBox。
 
-### Hosts文件
+### Hosts 文件
+将以下命令复制并粘贴到终端中以更新 Hosts 文件：
+
 ```bash
 curl -o /etc/hosts https://raw.githubusercontent.com/qq5460168/AD886/main/hosts.txt
