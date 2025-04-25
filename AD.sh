@@ -3,4 +3,4 @@
 OUTPUT_FILE="$(dirname "$0")/AD.txt"
 
 # 下载文件并直接保存
-curl -s -o "${OUTPUT_FILE}" https://oss.xlxbk.cn/china.txt
+curl -s -o "${OUTPUT_FILE}" https://raw.githubusercontent.com/qq5460168/666/master/dns.txt
