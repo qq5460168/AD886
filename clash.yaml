@@ -1,7 +1,7 @@
 # Title: Clash Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2025-04-25 22:37:08（北京时间）
+# Update Time: 2025-04-25 22:40:27（北京时间）
 payload:
   - DOMAIN-SUFFIX,*-*.ad*kwai.com,REJECT
   - DOMAIN-SUFFIX,*-*.ap-east-1.elb.amazonaws.com,REJECT
@@ -165,6 +165,8 @@ payload:
   - DOMAIN-SUFFIX,*live-p2p*.bilibili*,REJECT
   - DOMAIN-SUFFIX,*miaozhen.com,REJECT
   - DOMAIN-SUFFIX,*mobads*,REJECT
+  - DOMAIN-SUFFIX,*pangolin*toutiao*.com,REJECT
+  - DOMAIN-SUFFIX,*pglstatp-toutiao.com,REJECT
   - DOMAIN-SUFFIX,*snscosdownload*,REJECT
   - DOMAIN-SUFFIX,*tianmu.mobi,REJECT
   - DOMAIN-SUFFIX,*umeng.com,REJECT
