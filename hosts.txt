@@ -1,8 +1,8 @@
 # Title: 酷安反馈反馈
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Total Count: 8233
-# Update Time: 2025-04-24 21:44:47（北京时间）
+# Total Count: 8264
+# Update Time: 2025-04-25 11:49:31（北京时间）
 127.0.0.1 localhost
 ::1 localhost
 127.0.0.1 000123456789.online
@@ -985,6 +985,7 @@
 127.0.0.1 adx.ads.heytapmobi.com
 127.0.0.1 adx.ads.oppomobile.com
 127.0.0.1 adx.apiok.net
+127.0.0.1 adx.appsdk.com.cn
 127.0.0.1 adx.halomobi.com
 127.0.0.1 adx.maplehaze.cn
 127.0.0.1 adx.op.cp18.ott.cibntv.net
@@ -1120,6 +1121,7 @@
 127.0.0.1 analy.tuniu.cn
 127.0.0.1 analyse.weather.com.cn
 127.0.0.1 analysis-acc-ssl.xunlei.com
+127.0.0.1 analysis.chatglm.cn
 127.0.0.1 analysis.yozocloud.cn
 127.0.0.1 analytics-api.samsunghealthcn.com
 127.0.0.1 analytics-sg.tiktok.com
@@ -1236,6 +1238,7 @@
 127.0.0.1 api.faba.pw
 127.0.0.1 api.fanqiesdk.com
 127.0.0.1 api.fqnovel.com
+127.0.0.1 api.fu.xcultur.com
 127.0.0.1 api.globalphone.hismarttv.com
 127.0.0.1 api.higame.hismarttv.com
 127.0.0.1 api.hismarttv.com
@@ -1264,6 +1267,7 @@
 127.0.0.1 api.sec.miui.com
 127.0.0.1 api.share.mob.com
 127.0.0.1 api.sm.cn
+127.0.0.1 api.ssp.xcultur.com
 127.0.0.1 api.statsig.com
 127.0.0.1 api.tencentmusic.com
 127.0.0.1 api.th.wanzjhb.com
@@ -1343,6 +1347,7 @@
 127.0.0.1 applog.uc.cn
 127.0.0.1 applog.ucdns.uc.cn
 127.0.0.1 applog.zijieapi.com
+127.0.0.1 applovin.com
 127.0.0.1 appmetrica.yandex.ru
 127.0.0.1 appmobile.cn
 127.0.0.1 apppush.xiaohongshu.com
@@ -1821,6 +1826,7 @@
 127.0.0.1 cdn-api-verify.mob.com
 127.0.0.1 cdn-asp.yiye.ai
 127.0.0.1 cdn-cbd-advert-prod.shuxinyc.com
+127.0.0.1 cdn-f.adsmoloco.com
 127.0.0.1 cdn-new-ad.wtzw.com
 127.0.0.1 cdn-new-ad.wtzw.com.g4.bdydns.com
 127.0.0.1 cdn-plugin-sync-upgrade-juui.hismarttv.com
@@ -1837,6 +1843,7 @@
 127.0.0.1 cdn.hanaya-m.com
 127.0.0.1 cdn.holmesmind.com
 127.0.0.1 cdn.hpplay.com.cn
+127.0.0.1 cdn.iads.unitychina.cn
 127.0.0.1 cdn.inads.cn
 127.0.0.1 cdn.itphanpytor.club
 127.0.0.1 cdn.jquery-cdn.cc
@@ -2015,6 +2022,7 @@
 127.0.0.1 conf.hpplay.cn
 127.0.0.1 config.ads.vungle.com
 127.0.0.1 config.chsmarttv.com
+127.0.0.1 config.inmobi.com
 127.0.0.1 config.mobisage.cn
 127.0.0.1 config.unityads.unity3d.com
 127.0.0.1 configsvr.msf.3g.qq.com
@@ -2115,6 +2123,8 @@
 127.0.0.1 czd367.com
 127.0.0.1 czghjt.com
 127.0.0.1 d-test.39.net
+127.0.0.1 d.applovin.com
+127.0.0.1 d.applvn.com
 127.0.0.1 d.gdt.qq.com
 127.0.0.1 d.kugou.com
 127.0.0.1 d.toutiao.com
@@ -2650,6 +2660,7 @@
 127.0.0.1 esmapi.dangbei.net
 127.0.0.1 estcruden.biz
 127.0.0.1 esw.tymcdn.com
+127.0.0.1 et-eus.w.inmobi.com
 127.0.0.1 et.tanx.com
 127.0.0.1 etahub.com
 127.0.0.1 etest.dangcdn.com
@@ -3055,6 +3066,7 @@
 127.0.0.1 gpxxbyf.cn
 127.0.0.1 gqdfgyz.cn
 127.0.0.1 grandcomms.cn
+127.0.0.1 graph.facebook.com
 127.0.0.1 grduswfx.com
 127.0.0.1 greatnumeric.com
 127.0.0.1 greenxcx.com
@@ -3457,6 +3469,8 @@
 127.0.0.1 i-game.book.qq.com
 127.0.0.1 i.cidianwang.com
 127.0.0.1 i.gdt.qq.com
+127.0.0.1 i.l-new.inmobicdn.net
+127.0.0.1 i.l.inmobicdn.net
 127.0.0.1 i.snssdk.com
 127.0.0.1 i.vip.iqiyi.com
 127.0.0.1 i3fei057.top
@@ -3590,6 +3604,7 @@
 127.0.0.1 imp.zol.com.cn
 127.0.0.1 impression-asia.chinaliftoff.io
 127.0.0.1 impression-asia.liftoff.io
+127.0.0.1 impression.appsflyer.com
 127.0.0.1 impression.biligame.com
 127.0.0.1 imtmp.net
 127.0.0.1 in-addr.arpa
@@ -4784,6 +4799,10 @@
 127.0.0.1 mrqbuf.xyz
 127.0.0.1 mryshl.com
 127.0.0.1 ms-ads-monitoring-events.presage.io
+127.0.0.1 ms.applovin.com
+127.0.0.1 ms.applvn.com
+127.0.0.1 ms4.applovin.com
+127.0.0.1 ms4.applvn.com
 127.0.0.1 msch.f.360.cn
 127.0.0.1 msdk.qq.com
 127.0.0.1 msdk.voiceads.cn
@@ -5033,6 +5052,7 @@
 127.0.0.1 nzrlx6wc.icu
 127.0.0.1 nzrovf.xyz
 127.0.0.1 nzymeedg.icu
+127.0.0.1 o-sdk.mediation.unity3d.com
 127.0.0.1 o.iads.unity3d.com
 127.0.0.1 o.zjjrlx4.com
 127.0.0.1 o1098464.ingest.sentry.io
@@ -5487,6 +5507,7 @@
 127.0.0.1 prlioxb.cn
 127.0.0.1 pro.bugly.qq.com
 127.0.0.1 procdn.asia
+127.0.0.1 prod-mediate-events.applovin.com
 127.0.0.1 prodigalpromotion.com
 127.0.0.1 proesh.com
 127.0.0.1 prokyrn.icu
@@ -5798,6 +5819,7 @@
 127.0.0.1 reportlog.dftoutiao.com
 127.0.0.1 res.kekedy.app
 127.0.0.1 res.mi.baidu.com
+127.0.0.1 res1.applovin.com
 127.0.0.1 res1.hubcloud.com.cn
 127.0.0.1 resolve.umeng.com
 127.0.0.1 resolver.msg.global.xiaomi.net
@@ -5875,6 +5897,7 @@
 127.0.0.1 rsvqlz.cn
 127.0.0.1 rszkhn.xyz
 127.0.0.1 rt.applovin.com
+127.0.0.1 rt.applvn.com
 127.0.0.1 rtb.voiceads.cn
 127.0.0.1 rtborp.xyz
 127.0.0.1 rte.fuoo1.top
@@ -6017,6 +6040,7 @@
 127.0.0.1 sdk-log.partner.sm.cn
 127.0.0.1 sdk-open-phone.getui.com
 127.0.0.1 sdk.1rtb.net
+127.0.0.1 sdk.ad.smaato.net
 127.0.0.1 sdk.adtiming.com
 127.0.0.1 sdk.alibaba.com.ailbaba.me
 127.0.0.1 sdk.api.oaid.wocloud.cn
@@ -6380,6 +6404,7 @@
 127.0.0.1 sun66387567606.site
 127.0.0.1 sunriseoutdoor.cn
 127.0.0.1 superbdolly.com
+127.0.0.1 supply.inmobicdn.net
 127.0.0.1 supportmetrics.apple.com
 127.0.0.1 surface361.com
 127.0.0.1 surperverse.com
@@ -6423,6 +6448,7 @@
 127.0.0.1 t-dsp.pinduoduo.com
 127.0.0.1 t-qmad.qimao.com
 127.0.0.1 t-remad.qm989.com
+127.0.0.1 t.applovin.com
 127.0.0.1 t.atomicfile.cn
 127.0.0.1 t.dentsuchina.cn
 127.0.0.1 t.gdt.qq.com
@@ -6494,6 +6520,7 @@
 127.0.0.1 telemetry-sdk-metrics.inmobi.cn
 127.0.0.1 telemetry.microsoft.com
 127.0.0.1 telemetry.remoteapp.windowsazure.com
+127.0.0.1 telemetry.sdk.inmobi.com
 127.0.0.1 telemetry.urs.microsoft.com
 127.0.0.1 temai.snssdk.com
 127.0.0.1 ten.sngapm.qq.com
@@ -6665,6 +6692,7 @@
 127.0.0.1 tqmcj.cn
 127.0.0.1 tquspo.com
 127.0.0.1 tqytqdrq.icu
+127.0.0.1 tr-asia.adsmoloco.com
 127.0.0.1 tr.byteurl.cn
 127.0.0.1 tr.iadsdk.apple.com
 127.0.0.1 trace.qq.com
@@ -7001,6 +7029,7 @@
 127.0.0.1 uyq3ruf.icu
 127.0.0.1 uyt79.top
 127.0.0.1 uyunad.com
+127.0.0.1 v.110route.cn
 127.0.0.1 v.adintl.cn
 127.0.0.1 v.adx.hubcloud.com.cn
 127.0.0.1 v.gdt.qq.com
@@ -7404,6 +7433,7 @@
 127.0.0.1 wuk.91c0218.top
 127.0.0.1 wuliao.jingyanben.com
 127.0.0.1 wuplexv.cn
+127.0.0.1 wv.inner-active.mobi
 127.0.0.1 wvyqks.xyz
 127.0.0.1 ww-7o1-0h.os.23v7m9.cc
 127.0.0.1 wwads.cn
@@ -7946,6 +7976,7 @@
 127.0.0.1 ytqeavc.icu
 127.0.0.1 ytqlyw.xyz
 127.0.0.1 ytvwhbejc.com
+127.0.0.1 ytx-file.110route.cn
 127.0.0.1 yuanlin15.cn
 127.0.0.1 yuanmengbi.com
 127.0.0.1 yuanxiang19.fun

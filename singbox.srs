@@ -1,7 +1,7 @@
 # Title: SingBox SRS Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2025-04-24 21:44:47（北京时间）
+# Update Time: 2025-04-25 11:49:31（北京时间）
 full:DOMAIN-SUFFIX,*-*.ad*kwai.com,block
 full:DOMAIN-SUFFIX,*-*.ap-east-1.elb.amazonaws.com,block
 full:DOMAIN-SUFFIX,*-*.ap-southeast-1.elb.amazonaws.com,block
@@ -1179,6 +1179,7 @@ full:DOMAIN-SUFFIX,adx-track.domob.cn,block
 full:DOMAIN-SUFFIX,adx.ads.heytapmobi.com,block
 full:DOMAIN-SUFFIX,adx.ads.oppomobile.com,block
 full:DOMAIN-SUFFIX,adx.apiok.net,block
+full:DOMAIN-SUFFIX,adx.appsdk.com.cn,block
 full:DOMAIN-SUFFIX,adx.halomobi.com,block
 full:DOMAIN-SUFFIX,adx.maplehaze.cn,block
 full:DOMAIN-SUFFIX,adx.op.cp18.ott.cibntv.net,block
@@ -1315,6 +1316,7 @@ full:DOMAIN-SUFFIX,analy.qq.com,block
 full:DOMAIN-SUFFIX,analy.tuniu.cn,block
 full:DOMAIN-SUFFIX,analyse.weather.com.cn,block
 full:DOMAIN-SUFFIX,analysis-acc-ssl.xunlei.com,block
+full:DOMAIN-SUFFIX,analysis.chatglm.cn,block
 full:DOMAIN-SUFFIX,analysis.yozocloud.cn,block
 full:DOMAIN-SUFFIX,analytics-api.samsunghealthcn.com,block
 full:DOMAIN-SUFFIX,analytics-sg.tiktok.com,block
@@ -1436,6 +1438,7 @@ full:DOMAIN-SUFFIX,api.euro.hismarttv.com,block
 full:DOMAIN-SUFFIX,api.faba.pw,block
 full:DOMAIN-SUFFIX,api.fanqiesdk.com,block
 full:DOMAIN-SUFFIX,api.fqnovel.com,block
+full:DOMAIN-SUFFIX,api.fu.xcultur.com,block
 full:DOMAIN-SUFFIX,api.globalphone.hismarttv.com,block
 full:DOMAIN-SUFFIX,api.higame.hismarttv.com,block
 full:DOMAIN-SUFFIX,api.hismarttv.com,block
@@ -1464,6 +1467,7 @@ full:DOMAIN-SUFFIX,api.scwsf.com,block
 full:DOMAIN-SUFFIX,api.sec.miui.com,block
 full:DOMAIN-SUFFIX,api.share.mob.com,block
 full:DOMAIN-SUFFIX,api.sm.cn,block
+full:DOMAIN-SUFFIX,api.ssp.xcultur.com,block
 full:DOMAIN-SUFFIX,api.statsig.com,block
 full:DOMAIN-SUFFIX,api.tencentmusic.com,block
 full:DOMAIN-SUFFIX,api.th.wanzjhb.com,block
@@ -1543,6 +1547,7 @@ full:DOMAIN-SUFFIX,applog.snssdk.com,block
 full:DOMAIN-SUFFIX,applog.uc.cn,block
 full:DOMAIN-SUFFIX,applog.ucdns.uc.cn,block
 full:DOMAIN-SUFFIX,applog.zijieapi.com,block
+full:DOMAIN-SUFFIX,applovin.com,block
 full:DOMAIN-SUFFIX,appmetrica.yandex.ru,block
 full:DOMAIN-SUFFIX,appmobile.cn,block
 full:DOMAIN-SUFFIX,apppush.xiaohongshu.com,block
@@ -2027,6 +2032,7 @@ full:DOMAIN-SUFFIX,cdn-ads.oss-cn-shanghai.aliyuncs.com,block
 full:DOMAIN-SUFFIX,cdn-api-verify.mob.com,block
 full:DOMAIN-SUFFIX,cdn-asp.yiye.ai,block
 full:DOMAIN-SUFFIX,cdn-cbd-advert-prod.shuxinyc.com,block
+full:DOMAIN-SUFFIX,cdn-f.adsmoloco.com,block
 full:DOMAIN-SUFFIX,cdn-new-ad.wtzw.com,block
 full:DOMAIN-SUFFIX,cdn-new-ad.wtzw.com.g4.bdydns.com,block
 full:DOMAIN-SUFFIX,cdn-plugin-sync-upgrade-juui.hismarttv.com,block
@@ -2043,6 +2049,7 @@ full:DOMAIN-SUFFIX,cdn.dashenya.com,block
 full:DOMAIN-SUFFIX,cdn.hanaya-m.com,block
 full:DOMAIN-SUFFIX,cdn.holmesmind.com,block
 full:DOMAIN-SUFFIX,cdn.hpplay.com.cn,block
+full:DOMAIN-SUFFIX,cdn.iads.unitychina.cn,block
 full:DOMAIN-SUFFIX,cdn.inads.cn,block
 full:DOMAIN-SUFFIX,cdn.itphanpytor.club,block
 full:DOMAIN-SUFFIX,cdn.jquery-cdn.cc,block
@@ -2222,6 +2229,7 @@ full:DOMAIN-SUFFIX,compliance.tdos.qq.com,block
 full:DOMAIN-SUFFIX,conf.hpplay.cn,block
 full:DOMAIN-SUFFIX,config.ads.vungle.com,block
 full:DOMAIN-SUFFIX,config.chsmarttv.com,block
+full:DOMAIN-SUFFIX,config.inmobi.com,block
 full:DOMAIN-SUFFIX,config.mobisage.cn,block
 full:DOMAIN-SUFFIX,config.unityads.unity3d.com,block
 full:DOMAIN-SUFFIX,configsvr.msf.3g.qq.com,block
@@ -2323,6 +2331,8 @@ full:DOMAIN-SUFFIX,czd367.com,block
 full:DOMAIN-SUFFIX,czghjt.com,block
 full:DOMAIN-SUFFIX,d*-m.dewu.net,block
 full:DOMAIN-SUFFIX,d-test.39.net,block
+full:DOMAIN-SUFFIX,d.applovin.com,block
+full:DOMAIN-SUFFIX,d.applvn.com,block
 full:DOMAIN-SUFFIX,d.gdt.qq.com,block
 full:DOMAIN-SUFFIX,d.kugou.com,block
 full:DOMAIN-SUFFIX,d.toutiao.com,block
@@ -2872,6 +2882,7 @@ full:DOMAIN-SUFFIX,esm.baidu.com,block
 full:DOMAIN-SUFFIX,esmapi.dangbei.net,block
 full:DOMAIN-SUFFIX,estcruden.biz,block
 full:DOMAIN-SUFFIX,esw.tymcdn.com,block
+full:DOMAIN-SUFFIX,et-eus.w.inmobi.com,block
 full:DOMAIN-SUFFIX,et.tanx.com,block
 full:DOMAIN-SUFFIX,etahub.com,block
 full:DOMAIN-SUFFIX,etest.dangcdn.com,block
@@ -3281,6 +3292,7 @@ full:DOMAIN-SUFFIX,gpanaiagcsnvtggh.cwt3.xyz,block
 full:DOMAIN-SUFFIX,gpxxbyf.cn,block
 full:DOMAIN-SUFFIX,gqdfgyz.cn,block
 full:DOMAIN-SUFFIX,grandcomms.cn,block
+full:DOMAIN-SUFFIX,graph.facebook.com,block
 full:DOMAIN-SUFFIX,grduswfx.com,block
 full:DOMAIN-SUFFIX,greatnumeric.com,block
 full:DOMAIN-SUFFIX,greenxcx.com,block
@@ -3685,6 +3697,8 @@ full:DOMAIN-SUFFIX,i-fk.cn,block
 full:DOMAIN-SUFFIX,i-game.book.qq.com,block
 full:DOMAIN-SUFFIX,i.cidianwang.com,block
 full:DOMAIN-SUFFIX,i.gdt.qq.com,block
+full:DOMAIN-SUFFIX,i.l-new.inmobicdn.net,block
+full:DOMAIN-SUFFIX,i.l.inmobicdn.net,block
 full:DOMAIN-SUFFIX,i.snssdk.com,block
 full:DOMAIN-SUFFIX,i.vip.iqiyi.com,block
 full:DOMAIN-SUFFIX,i3fei057.top,block
@@ -3819,6 +3833,7 @@ full:DOMAIN-SUFFIX,imp.voiceads.cn,block
 full:DOMAIN-SUFFIX,imp.zol.com.cn,block
 full:DOMAIN-SUFFIX,impression-asia.chinaliftoff.io,block
 full:DOMAIN-SUFFIX,impression-asia.liftoff.io,block
+full:DOMAIN-SUFFIX,impression.appsflyer.com,block
 full:DOMAIN-SUFFIX,impression.biligame.com,block
 full:DOMAIN-SUFFIX,imtmp.net,block
 full:DOMAIN-SUFFIX,in-addr.arpa,block
@@ -5028,6 +5043,10 @@ full:DOMAIN-SUFFIX,mrhboe.xyz,block
 full:DOMAIN-SUFFIX,mrqbuf.xyz,block
 full:DOMAIN-SUFFIX,mryshl.com,block
 full:DOMAIN-SUFFIX,ms-ads-monitoring-events.presage.io,block
+full:DOMAIN-SUFFIX,ms.applovin.com,block
+full:DOMAIN-SUFFIX,ms.applvn.com,block
+full:DOMAIN-SUFFIX,ms4.applovin.com,block
+full:DOMAIN-SUFFIX,ms4.applvn.com,block
 full:DOMAIN-SUFFIX,msch.f.360.cn,block
 full:DOMAIN-SUFFIX,msdk.qq.com,block
 full:DOMAIN-SUFFIX,msdk.voiceads.cn,block
@@ -5278,6 +5297,7 @@ full:DOMAIN-SUFFIX,nyvgbt.xyz,block
 full:DOMAIN-SUFFIX,nzrlx6wc.icu,block
 full:DOMAIN-SUFFIX,nzrovf.xyz,block
 full:DOMAIN-SUFFIX,nzymeedg.icu,block
+full:DOMAIN-SUFFIX,o-sdk.mediation.unity3d.com,block
 full:DOMAIN-SUFFIX,o.iads.unity3d.com,block
 full:DOMAIN-SUFFIX,o.zjjrlx4.com,block
 full:DOMAIN-SUFFIX,o1098464.ingest.sentry.io,block
@@ -5756,6 +5776,7 @@ full:DOMAIN-SUFFIX,privacy.qq.com,block
 full:DOMAIN-SUFFIX,prlioxb.cn,block
 full:DOMAIN-SUFFIX,pro.bugly.qq.com,block
 full:DOMAIN-SUFFIX,procdn.asia,block
+full:DOMAIN-SUFFIX,prod-mediate-events.applovin.com,block
 full:DOMAIN-SUFFIX,prodigalpromotion.com,block
 full:DOMAIN-SUFFIX,proesh.com,block
 full:DOMAIN-SUFFIX,prokyrn.icu,block
@@ -6069,6 +6090,7 @@ full:DOMAIN-SUFFIX,report.vip.qq.com,block
 full:DOMAIN-SUFFIX,reportlog.dftoutiao.com,block
 full:DOMAIN-SUFFIX,res.kekedy.app,block
 full:DOMAIN-SUFFIX,res.mi.baidu.com,block
+full:DOMAIN-SUFFIX,res1.applovin.com,block
 full:DOMAIN-SUFFIX,res1.hubcloud.com.cn,block
 full:DOMAIN-SUFFIX,resolve.umeng.com,block
 full:DOMAIN-SUFFIX,resolver.msg.global.xiaomi.net,block
@@ -6147,6 +6169,7 @@ full:DOMAIN-SUFFIX,rssxsjh.icu,block
 full:DOMAIN-SUFFIX,rsvqlz.cn,block
 full:DOMAIN-SUFFIX,rszkhn.xyz,block
 full:DOMAIN-SUFFIX,rt.applovin.com,block
+full:DOMAIN-SUFFIX,rt.applvn.com,block
 full:DOMAIN-SUFFIX,rtb.voiceads.cn,block
 full:DOMAIN-SUFFIX,rtborp.xyz,block
 full:DOMAIN-SUFFIX,rte.fuoo1.top,block
@@ -6295,6 +6318,7 @@ full:DOMAIN-SUFFIX,sdk-infra.inmobi.cn,block
 full:DOMAIN-SUFFIX,sdk-log.partner.sm.cn,block
 full:DOMAIN-SUFFIX,sdk-open-phone.getui.com,block
 full:DOMAIN-SUFFIX,sdk.1rtb.net,block
+full:DOMAIN-SUFFIX,sdk.ad.smaato.net,block
 full:DOMAIN-SUFFIX,sdk.adtiming.com,block
 full:DOMAIN-SUFFIX,sdk.alibaba.com.ailbaba.me,block
 full:DOMAIN-SUFFIX,sdk.api.oaid.wocloud.cn,block
@@ -6663,6 +6687,7 @@ full:DOMAIN-SUFFIX,sun66387567606.online,block
 full:DOMAIN-SUFFIX,sun66387567606.site,block
 full:DOMAIN-SUFFIX,sunriseoutdoor.cn,block
 full:DOMAIN-SUFFIX,superbdolly.com,block
+full:DOMAIN-SUFFIX,supply.inmobicdn.net,block
 full:DOMAIN-SUFFIX,supportmetrics.apple.com,block
 full:DOMAIN-SUFFIX,surface361.com,block
 full:DOMAIN-SUFFIX,surperverse.com,block
@@ -6707,6 +6732,7 @@ full:DOMAIN-SUFFIX,t*-m.dewu.net,block
 full:DOMAIN-SUFFIX,t-dsp.pinduoduo.com,block
 full:DOMAIN-SUFFIX,t-qmad.qimao.com,block
 full:DOMAIN-SUFFIX,t-remad.qm989.com,block
+full:DOMAIN-SUFFIX,t.applovin.com,block
 full:DOMAIN-SUFFIX,t.atomicfile.cn,block
 full:DOMAIN-SUFFIX,t.dentsuchina.cn,block
 full:DOMAIN-SUFFIX,t.gdt.qq.com,block
@@ -6778,6 +6804,7 @@ full:DOMAIN-SUFFIX,telecome.cn,block
 full:DOMAIN-SUFFIX,telemetry-sdk-metrics.inmobi.cn,block
 full:DOMAIN-SUFFIX,telemetry.microsoft.com,block
 full:DOMAIN-SUFFIX,telemetry.remoteapp.windowsazure.com,block
+full:DOMAIN-SUFFIX,telemetry.sdk.inmobi.com,block
 full:DOMAIN-SUFFIX,telemetry.urs.microsoft.com,block
 full:DOMAIN-SUFFIX,temai.snssdk.com,block
 full:DOMAIN-SUFFIX,ten.sngapm.qq.com,block
@@ -6952,6 +6979,7 @@ full:DOMAIN-SUFFIX,tqdpqq.com,block
 full:DOMAIN-SUFFIX,tqmcj.cn,block
 full:DOMAIN-SUFFIX,tquspo.com,block
 full:DOMAIN-SUFFIX,tqytqdrq.icu,block
+full:DOMAIN-SUFFIX,tr-asia.adsmoloco.com,block
 full:DOMAIN-SUFFIX,tr.byteurl.cn,block
 full:DOMAIN-SUFFIX,tr.iadsdk.apple.com,block
 full:DOMAIN-SUFFIX,trace.qq.com,block
@@ -7297,6 +7325,7 @@ full:DOMAIN-SUFFIX,v*-ad.video.yximgs.com,block
 full:DOMAIN-SUFFIX,v*-be-pack.pglstatp-toutiao.com,block
 full:DOMAIN-SUFFIX,v*-novelapp.fqnovelvod.com,block
 full:DOMAIN-SUFFIX,v*.gdt.qq.com,block
+full:DOMAIN-SUFFIX,v.110route.cn,block
 full:DOMAIN-SUFFIX,v.adintl.cn,block
 full:DOMAIN-SUFFIX,v.adx.hubcloud.com.cn,block
 full:DOMAIN-SUFFIX,v.gdt.qq.com,block
@@ -7705,6 +7734,7 @@ full:DOMAIN-SUFFIX,wuji.video.qq.com,block
 full:DOMAIN-SUFFIX,wuk.91c0218.top,block
 full:DOMAIN-SUFFIX,wuliao.jingyanben.com,block
 full:DOMAIN-SUFFIX,wuplexv.cn,block
+full:DOMAIN-SUFFIX,wv.inner-active.mobi,block
 full:DOMAIN-SUFFIX,wvyqks.xyz,block
 full:DOMAIN-SUFFIX,ww-7o1-0h.os.23v7m9.cc,block
 full:DOMAIN-SUFFIX,wwads.cn,block
@@ -8254,6 +8284,7 @@ full:DOMAIN-SUFFIX,ytelc.com,block
 full:DOMAIN-SUFFIX,ytqeavc.icu,block
 full:DOMAIN-SUFFIX,ytqlyw.xyz,block
 full:DOMAIN-SUFFIX,ytvwhbejc.com,block
+full:DOMAIN-SUFFIX,ytx-file.110route.cn,block
 full:DOMAIN-SUFFIX,yuanlin15.cn,block
 full:DOMAIN-SUFFIX,yuanmengbi.com,block
 full:DOMAIN-SUFFIX,yuanxiang19.fun,block
