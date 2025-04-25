@@ -11,12 +11,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Check out the repository code
+      # Step 1: Check out the repository
       - name: Check out repository
         uses: actions/checkout@v3
 
-      # Step 2: Set up necessary dependencies (if any)
-      - name: Install dependencies        run: |
+      # Step 2: Install dependencies
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wget curl
+
+      # Step 3: Make the script executable and run it
+      - name: Run AD.sh script
+        run: |
+          chmod +x shell/AD.sh
+          ./shell/AD.sh
+
+      # Step 4: Verify output file
+      - name: Verify output
+        run: |
           if [ -f "$HOME/AD.txt" ]; then
             echo "AD.txt file generated successfully."
           else
