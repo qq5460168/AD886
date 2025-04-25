@@ -16,9 +16,9 @@ jobs:
 
       # 设置脚本执行权限
       - name: Make AD.sh Executable
-        run: chmod +x shell/AD.sh
+        run: chmod +x /AD.sh
 
       # 运行脚本
       - name: Execute AD.sh
         run: |
-          ./shell/AD.sh
+          ./AD.sh
