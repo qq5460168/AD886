@@ -2,8 +2,8 @@
 ! Title: 酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Total Count: 8567
-! Update Time: 2025-04-25 22:23:49（北京时间）
+! Total Count: 8608
+! Update Time: 2025-04-25 22:25:49（北京时间）
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
@@ -1181,6 +1181,7 @@
 ||adx.ads.heytapmobi.com^
 ||adx.ads.oppomobile.com^
 ||adx.apiok.net^
+||adx.appsdk.com.cn^
 ||adx.halomobi.com^
 ||adx.maplehaze.cn^
 ||adx.op.cp18.ott.cibntv.net^
@@ -1223,6 +1224,7 @@
 ||agathacd.com^
 ||agdewasmnjktfrdewqjgdser.top^
 ||agent.sj.qq.com^
+||agn.aty.sohu.com^
 ||agossuoeach.com^
 ||agstat.html5.qq.com^
 ||ah.5l59k.com^
@@ -1316,6 +1318,7 @@
 ||analy.tuniu.cn^
 ||analyse.weather.com.cn^
 ||analysis-acc-ssl.xunlei.com^
+||analysis.chatglm.cn^
 ||analysis.yozocloud.cn^
 ||analytics-api.samsunghealthcn.com^
 ||analytics-sg.tiktok.com^
@@ -1437,6 +1440,7 @@
 ||api.faba.pw^
 ||api.fanqiesdk.com^
 ||api.fqnovel.com^
+||api.fu.xcultur.com^
 ||api.globalphone.hismarttv.com^
 ||api.higame.hismarttv.com^
 ||api.hismarttv.com^
@@ -1465,6 +1469,7 @@
 ||api.sec.miui.com^
 ||api.share.mob.com^
 ||api.sm.cn^
+||api.ssp.xcultur.com^
 ||api.statsig.com^
 ||api.tencentmusic.com^
 ||api.th.wanzjhb.com^
@@ -1544,6 +1549,7 @@
 ||applog.uc.cn^
 ||applog.ucdns.uc.cn^
 ||applog.zijieapi.com^
+||applovin.com^
 ||appmetrica.yandex.ru^
 ||appmobile.cn^
 ||apppush.xiaohongshu.com^
@@ -2028,6 +2034,7 @@
 ||cdn-api-verify.mob.com^
 ||cdn-asp.yiye.ai^
 ||cdn-cbd-advert-prod.shuxinyc.com^
+||cdn-f.adsmoloco.com^
 ||cdn-new-ad.wtzw.com.g4.bdydns.com^
 ||cdn-new-ad.wtzw.com^
 ||cdn-plugin-sync-upgrade-juui.hismarttv.com^
@@ -2044,6 +2051,7 @@
 ||cdn.hanaya-m.com^
 ||cdn.holmesmind.com^
 ||cdn.hpplay.com.cn^
+||cdn.iads.unitychina.cn^
 ||cdn.inads.cn^
 ||cdn.itphanpytor.club^
 ||cdn.jquery-cdn.cc^
@@ -2223,6 +2231,7 @@
 ||conf.hpplay.cn^
 ||config.ads.vungle.com^
 ||config.chsmarttv.com^
+||config.inmobi.com^
 ||config.mobisage.cn^
 ||config.unityads.unity3d.com^
 ||configsvr.msf.3g.qq.com^
@@ -2324,6 +2333,8 @@
 ||czghjt.com^
 ||d*-m.dewu.net^
 ||d-test.39.net^
+||d.applovin.com^
+||d.applvn.com^
 ||d.gdt.qq.com^
 ||d.kugou.com^
 ||d.toutiao.com^
@@ -2873,6 +2884,7 @@
 ||esmapi.dangbei.net^
 ||estcruden.biz^
 ||esw.tymcdn.com^
+||et-eus.w.inmobi.com^
 ||et.tanx.com^
 ||etahub.com^
 ||etest.dangcdn.com^
@@ -3282,6 +3294,7 @@
 ||gpxxbyf.cn^
 ||gqdfgyz.cn^
 ||grandcomms.cn^
+||graph.facebook.com^
 ||grduswfx.com^
 ||greatnumeric.com^
 ||greenxcx.com^
@@ -3686,6 +3699,8 @@
 ||i-game.book.qq.com^
 ||i.cidianwang.com^
 ||i.gdt.qq.com^
+||i.l-new.inmobicdn.net^
+||i.l.inmobicdn.net^
 ||i.snssdk.com^
 ||i.vip.iqiyi.com^
 ||i3fei057.top^
@@ -3820,6 +3835,7 @@
 ||imp.zol.com.cn^
 ||impression-asia.chinaliftoff.io^
 ||impression-asia.liftoff.io^
+||impression.appsflyer.com^
 ||impression.biligame.com^
 ||imtmp.net^
 ||in-addr.arpa^
@@ -4972,6 +4988,7 @@
 ||mobads-logs.baidu.com^
 ||mobads-pre-config.cdn.bcebos.com^
 ||mobads.baidu.com^
+||mobaliyun.res.mgtv.com^
 ||mobile.da.mgtv.com^
 ||mobile.yangkeduo.com^
 ||mobilead.kuwo.cn^
@@ -5028,6 +5045,10 @@
 ||mrqbuf.xyz^
 ||mryshl.com^
 ||ms-ads-monitoring-events.presage.io^
+||ms.applovin.com^
+||ms.applvn.com^
+||ms4.applovin.com^
+||ms4.applvn.com^
 ||msch.f.360.cn^
 ||msdk.qq.com^
 ||msdk.voiceads.cn^
@@ -5278,6 +5299,7 @@
 ||nzrlx6wc.icu^
 ||nzrovf.xyz^
 ||nzymeedg.icu^
+||o-sdk.mediation.unity3d.com^
 ||o.iads.unity3d.com^
 ||o.zjjrlx4.com^
 ||o1098464.ingest.sentry.io^
@@ -5756,6 +5778,7 @@
 ||prlioxb.cn^
 ||pro.bugly.qq.com^
 ||procdn.asia^
+||prod-mediate-events.applovin.com^
 ||prodigalpromotion.com^
 ||proesh.com^
 ||prokyrn.icu^
@@ -6069,6 +6092,7 @@
 ||reportlog.dftoutiao.com^
 ||res.kekedy.app^
 ||res.mi.baidu.com^
+||res1.applovin.com^
 ||res1.hubcloud.com.cn^
 ||resolve.umeng.com^
 ||resolver.msg.global.xiaomi.net^
@@ -6128,6 +6152,7 @@
 ||rpdi192.icu^
 ||rpkcqtf.cn^
 ||rppihz.xyz^
+||rps.hpplay.cn^
 ||rpt-gdt.play.aiseet.atianqi.com^
 ||rpt.gdt.qq.com^
 ||rptdata.wb.qq.com^
@@ -6146,6 +6171,7 @@
 ||rsvqlz.cn^
 ||rszkhn.xyz^
 ||rt.applovin.com^
+||rt.applvn.com^
 ||rtb.voiceads.cn^
 ||rtborp.xyz^
 ||rte.fuoo1.top^
@@ -6231,6 +6257,7 @@
 ||sa8zdui.com^
 ||saad.ms.zhangyue.net^
 ||saas-static.yiye.ai^
+||saas.hpplay.cn^
 ||saccac11.com^
 ||sacfasv.com^
 ||sacre.cn^
@@ -6293,6 +6320,7 @@
 ||sdk-log.partner.sm.cn^
 ||sdk-open-phone.getui.com^
 ||sdk.1rtb.net^
+||sdk.ad.smaato.net^
 ||sdk.adtiming.com^
 ||sdk.alibaba.com.ailbaba.me^
 ||sdk.api.oaid.wocloud.cn^
@@ -6661,6 +6689,7 @@
 ||sun66387567606.site^
 ||sunriseoutdoor.cn^
 ||superbdolly.com^
+||supply.inmobicdn.net^
 ||supportmetrics.apple.com^
 ||surface361.com^
 ||surperverse.com^
@@ -6705,6 +6734,7 @@
 ||t-dsp.pinduoduo.com^
 ||t-qmad.qimao.com^
 ||t-remad.qm989.com^
+||t.applovin.com^
 ||t.atomicfile.cn^
 ||t.dentsuchina.cn^
 ||t.gdt.qq.com^
@@ -6730,6 +6760,7 @@
 ||t7cp4fldl.com^
 ||t7x22m7c.com^
 ||t7z.cupid.iqiyi.com^
+||t7z.cupid.ptqy.gitv.tv^
 ||ta.qq.com^
 ||ta20k.xyz^
 ||tab.video.qq.com^
@@ -6775,6 +6806,7 @@
 ||telemetry-sdk-metrics.inmobi.cn^
 ||telemetry.microsoft.com^
 ||telemetry.remoteapp.windowsazure.com^
+||telemetry.sdk.inmobi.com^
 ||telemetry.urs.microsoft.com^
 ||temai.snssdk.com^
 ||ten.sngapm.qq.com^
@@ -6949,6 +6981,7 @@
 ||tqmcj.cn^
 ||tquspo.com^
 ||tqytqdrq.icu^
+||tr-asia.adsmoloco.com^
 ||tr.byteurl.cn^
 ||tr.iadsdk.apple.com^
 ||trace.qq.com^
@@ -7294,6 +7327,7 @@
 ||v*-be-pack.pglstatp-toutiao.com^
 ||v*-novelapp.fqnovelvod.com^
 ||v*.gdt.qq.com^
+||v.110route.cn^
 ||v.adintl.cn^
 ||v.adx.hubcloud.com.cn^
 ||v.gdt.qq.com^
@@ -7365,6 +7399,7 @@
 ||valf.atm.cp31.ott.cibntv.net^
 ||valfatm.cp12.wasu.tv^
 ||vali-g1.cp31.ott.cibntv.net^
+||vali-ugc.cp31.ott.cibntv.net^
 ||valipl.cp31.ott.cibntv.net^
 ||vancuongthinh.com^
 ||variety.tc.qq.com^
@@ -7390,6 +7425,7 @@
 ||vcvbnmto.xyz^
 ||vcydyzd.icu^
 ||vd.l.qq.com^
+||vd6.l.qq.com^
 ||vdn1.vzuu.com^
 ||vdn5-1.vzuu.com^
 ||vdn5.vzuu.com^
@@ -7423,6 +7459,7 @@
 ||vhsutpgui.xyz^
 ||vhulan.com^
 ||vhutitpu.icu^
+||vi.l.qq.com^
 ||viav-cse.avlyun.com^
 ||victoriajumpc.com^
 ||video-*.pddpic.com^
@@ -7430,6 +7467,7 @@
 ||video-dsp.pddpic.com^
 ||video-mobile-tech-*.shiply-cdn.qq.com^
 ||video.dispatch.tc.qq.com^
+||video.market.xiaomi.com^
 ||video.mnaspm.com^
 ||video.mpush.qq.com^
 ||video.new-eve.com^
@@ -7446,6 +7484,7 @@
 ||vijnhyru.xyz^
 ||vip.ffzy-online3.com^
 ||vipauth.hpplay.cn^
+||vipgslb.hpplay.cn^
 ||viplp.top^
 ||vipwm.cc^
 ||vipxyajs.data.kuiniuca.com^
@@ -7697,6 +7736,7 @@
 ||wuk.91c0218.top^
 ||wuliao.jingyanben.com^
 ||wuplexv.cn^
+||wv.inner-active.mobi^
 ||wvyqks.xyz^
 ||ww-7o1-0h.os.23v7m9.cc^
 ||wwads.cn^
@@ -8246,6 +8286,7 @@
 ||ytqeavc.icu^
 ||ytqlyw.xyz^
 ||ytvwhbejc.com^
+||ytx-file.110route.cn^
 ||yuanlin15.cn^
 ||yuanmengbi.com^
 ||yuanxiang19.fun^
