@@ -1,6 +1,7 @@
 #!/bin/bash
 
-set -e  # 如果有任何命令出错，则立即退出脚本
+# 设置脚本出错时立即退出
+set -e
 
 # 获取北京时间
 time=$(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')'（北京时间）'
@@ -27,50 +28,63 @@ AUTHOR="酷安@那个谁520"
 
 # 打印日志函数
 log() {
-  echo "$(date +'%Y-%m-%d %H:%M:%S') [INFO] $1"
+  local level="$1"
+  local message="$2"
+  echo "$(date +'%Y-%m-%d %H:%M:%S') [$level] $message"
 }
 
-# 检查文件是否存在
+# 文件检查函数
 check_file() {
-  if [[ ! -f "$1" ]]; then
-    log "文件 $1 不存在，退出脚本！"
+  local file="$1"
+  if [[ ! -f "$file" ]]; then
+    log "ERROR" "文件 $file 不存在！"
     exit 1
   fi
 }
 
-# 初始化检查
-log "检查必要文件..."
-check_file "${files[ad_file]}"
-
-# 通用规则生成函数
+# 规则文件生成函数
 generate_rule_file() {
   local output_file="$1"
   local header="$2"
   local transform_command="$3"
 
-  log "生成规则文件 (${output_file})..."
+  log "INFO" "开始生成规则文件: ${output_file}..."
   {
     echo "$header"
     grep -E "^(\|\|)[^\/\^]+\^$" "${files[ad_file]}" | eval "$transform_command" | sort -u
   } > "$output_file"
+  log "INFO" "规则文件 ${output_file} 生成完成。"
 }
 
 # 生成 Clash Meta (Mihomo) 规则
 generate_clash_meta() {
   local header="payload:"
-  generate_rule_file "${files[clash_meta_file]}" "$header" "sed -E 's/^\|\|([^\/\^]+)\^$/  - \"\1\"/'"
+  local transform_command="sed -E 's/^\|\|([^\/\^]+)\^$/  - \"\1\"/'"
+  generate_rule_file "${files[clash_meta_file]}" "$header" "$transform_command"
 }
 
-# 生成其他规则文件函数省略...
+# 其他规则文件的生成函数可以类似添加...
 
-# 主流程
+# 主流程函数
 main() {
-  log "开始生成规则文件..."
-  generate_clash_meta  # 新增 Clash Meta (Mihomo) 规则生成
-  log "规则已成功生成并保存为以下文件："
+  log "INFO" "脚本开始运行..."
+
+  # 检查必要文件
+  log "INFO" "检查必要文件是否存在..."
+  check_file "${files[ad_file]}"
+
+  # 生成规则文件
+  log "INFO" "开始生成规则文件..."
+  generate_clash_meta
+
+  # 打印生成的文件列表
+  log "INFO" "规则已生成并保存为以下文件："
   for key in "${!files[@]}"; do
-    log "${files[$key]}"
+    log "INFO" "${files[$key]}"
   done
+
+  log "INFO" "脚本运行结束。"
 }
 
+# 执行主流程
 main
