@@ -1,0 +1,29 @@
+name: Run AD Script
+
+# 触发条件：当代码推送到 main 分支时运行
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # 手动触发工作流
+
+jobs:
+  run-ad-script:
+    name: Run AD.sh Script
+    runs-on: ubuntu-latest
+
+    steps:
+    # 检出代码仓库
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # 移动脚本到主目录
+    - name: Move AD.sh to home directory
+      run: |
+        cp ./AD.sh ~/AD.sh
+
+    # 设置执行权限并运行 AD.sh 脚本
+    - name: Run AD.sh script
+      run: |
+        chmod +x ~/AD.sh
+        ~/AD.sh
