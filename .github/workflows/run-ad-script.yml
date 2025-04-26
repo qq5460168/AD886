@@ -1,127 +1,124 @@
-name: AD Rules Maintenance
+name: AD Rules Auto Update
 
 on:
   push:
     branches: [ "main" ]
     paths:
       - 'shell/AD.sh'
-      - '.github/workflows/ad-rules.yml'
+      - 'apt-packages.txt'
+  schedule:
+    - cron: '0 12 * * *'  # 每天 UTC 时间 12:00 (北京时间 20:00)
   workflow_dispatch:
     inputs:
-      reason:
-        description: '触发原因 (可选)'
+      force-update:
+        description: '强制更新缓存'
         required: false
-        default: '日常更新'
+        type: boolean
 
 env:
+  CACHE_VERSION: v1
   OUTPUT_FILE: ${{ github.workspace }}/AD.txt
-  CACHE_KEY: ${{ runner.os }}-apt-${{ hashFiles('**/apt-packages.txt') }}
 
 jobs:
-  maintain-ad-rules:
-    name: Update AD Rules
+  update-rules:
+    name: Update Rules
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     permissions:
       contents: write
-      checks: write
 
     steps:
-      - name: Checkout repository
+      # 步骤 1: 检出代码
+      - name: Checkout code
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
-          persist-credentials: false
 
+      # 步骤 2: APT 缓存配置
       - name: Cache APT packages
         uses: actions/cache@v3
         id: apt-cache
         with:
-          path: /var/cache/apt/archives
-          key: ${{ env.CACHE_KEY }}
+          path: |
+            /var/cache/apt/archives
+            /var/lib/apt/lists
+          key: ${{ runner.os }}-apt-${{ env.CACHE_VERSION }}-${{ hashFiles('apt-packages.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-apt-${{ env.CACHE_VERSION }}-
 
+      # 步骤 3: 安装系统依赖
       - name: Install dependencies
         run: |
-          sudo apt-get -q update
-          sudo apt-get -q install -y \
-            wget \
-            curl \
-            file \
-            coreutils
+          sudo apt-get -qq update
+          sudo apt-get -qq install -y $(grep -vE '^\s*#' apt-packages.txt | xargs)
         env:
           DEBIAN_FRONTEND: noninteractive
 
-      - name: Validate script permissions
+      # 步骤 4: 准备脚本环境
+      - name: Prepare script
         run: |
-          if [ ! -x "shell/AD.sh" ]; then
-            echo "::error::AD.sh is not executable"
-            exit 1
-          fi
-          echo "Script permissions verified"
+          mkdir -p $HOME/.local/bin
+          find shell/ -type f -name "*.sh" -exec chmod +x {} \;
+          dos2unix shell/AD.sh
 
-      - name: Execute maintenance script
+      # 步骤 5: 执行维护脚本
+      - name: Run maintenance script
         id: run-script
         run: |
-          export LC_ALL=C.UTF-8
-          set -eo pipefail
+          export TMPDIR=$HOME/tmp
+          mkdir -p $TMPDIR
+          
           ./shell/AD.sh 2>&1 | tee -a run.log
           
-          # Capture script execution time
-          echo "duration=$(($(date +%s) - $(date +%s -r run.log)))" >> $GITHUB_OUTPUT
-        working-directory: ./shell
+          # 记录执行时间
+          echo "duration=$(grep 'Script execution time' run.log | awk '{print $5}')" >> $GITHUB_OUTPUT
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LC_ALL: C.UTF-8
 
-      - name: Archive logs
-        if: always()
-        uses: actions/upload-artifact@v3
-        with:
-          name: execution-logs
-          path: |
-            shell/run.log
-            ${{ env.OUTPUT_FILE }}
-
+      # 步骤 6: 验证输出文件
       - name: Validate output
         id: validate
         run: |
-          # Basic file checks
-          if [ ! -f "${{ env.OUTPUT_FILE }}" ]; then
-            echo "::error::Output file missing"
+          # 基础验证
+          if [ ! -s "$OUTPUT_FILE" ]; then
+            echo "::error::Output file is empty or missing"
             exit 1
           fi
 
-          # Content validation
-          EMPTY_LINES=$(grep -c '^[[:space:]]*$' "${{ env.OUTPUT_FILE }}" || true)
-          INVALID_ENTRIES=$(grep -cvE '^(\|\|)?[a-zA-Z0-9-]+\.[a-zA-Z]{2,}\^?$' "${{ env.OUTPUT_FILE }}" || true)
-          
-          echo "file_size=$(du -h "${{ env.OUTPUT_FILE }}" | cut -f1)" >> $GITHUB_OUTPUT
-          echo "entry_count=$(wc -l < "${{ env.OUTPUT_FILE }}")" >> $GITHUB_OUTPUT
-          echo "empty_lines=$EMPTY_LINES" >> $GITHUB_OUTPUT
-          echo "invalid_entries=$INVALID_ENTRIES" >> $GITHUB_OUTPUT
+          # 内容分析
+          echo "=== 文件分析报告 ===" > report.md
+          echo "- 文件大小: $(du -h $OUTPUT_FILE | cut -f1)" >> report.md
+          echo "- 总行数: $(wc -l < $OUTPUT_FILE)" >> report.md
+          echo "- 空行数: $(grep -c '^$' $OUTPUT_FILE)" >> report.md
+          echo "- 有效域名: $(grep -cE '^([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}$' $OUTPUT_FILE)" >> report.md
 
-          if [ $INVALID_ENTRIES -gt 0 ]; then
-            echo "::warning::Found $INVALID_ENTRIES invalid entries"
-          fi
+          # 生成质量评分
+          valid_lines=$(grep -cE '^([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}$' $OUTPUT_FILE)
+          total_lines=$(wc -l < $OUTPUT_FILE)
+          quality_score=$(( valid_lines * 100 / total_lines ))
+          echo "quality_score=$quality_score" >> $GITHUB_OUTPUT
 
+          # 上传分析报告
+          echo "::notice title=质量报告::评分 ${quality_score}/100 (有效条目比例)"
+
+      # 步骤 7: 提交变更
       - name: Commit changes
-        if: steps.validate.outputs.entry_count > 0
+        if: |
+          steps.validate.outputs.quality_score > 80 &&
+          github.event_name != 'workflow_dispatch' 
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           
-          git add ${{ env.OUTPUT_FILE }}
-          git commit -m "chore: Update AD rules (${{ steps.validate.outputs.entry_count }} entries)"
+          git add $OUTPUT_FILE
+          git commit -m "Auto-update: ${{ steps.validate.outputs.quality_score }}% 质量"
           git push origin HEAD:main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Post-execution report
+      # 步骤 8: 清理环境
+      - name: Cleanup
         if: always()
         run: |
-          echo "=== Execution Summary ==="
-          echo "Duration: ${{ steps.run-script.outputs.duration }} seconds"
-          echo "File Size: ${{ steps.validate.outputs.file_size }}"
-          echo "Total Entries: ${{ steps.validate.outputs.entry_count }}"
-          echo "Empty Lines: ${{ steps.validate.outputs.empty_lines }}"
-          echo "Invalid Entries: ${{ steps.validate.outputs.invalid_entries }}"
-          echo "========================="
+          sudo apt-get autoremove -y
+          sudo rm -rf /var/lib/apt/lists/*
