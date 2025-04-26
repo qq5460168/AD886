@@ -80,30 +80,74 @@ generate_clash_meta() {
   log "规则文件 ${clash_meta_file} 生成完成。"
 }
 
-# 函数：生成 Adblock Plus 格式规则文件
-generate_dnslist() {
-  log "生成 Adblock Plus 格式规则文件 (${dnslist_file})..."
-  backup_file "$dnslist_file"
-  local dnstotal=$(grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | wc -l)
+# 函数：生成 Quantumult X 规则文件
+generate_qxlist() {
+  log "生成 Quantumult X 格式规则文件 (${qxlist_file})..."
+  backup_file "$qxlist_file"
   {
-    echo "[Adblock Plus 2.0]"
-    echo "! Title: Adblock DNS List"
-    echo "! Homepage: https://github.com/qq5460168/AD886"
-    echo "! by: 酷安@那个谁520"
-    echo "! Total Count: $dnstotal"
-    echo "! Update Time: $time"
-    grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sort -u
-  } > "$dnslist_file"
-  log "规则文件 ${dnslist_file} 生成完成，总计规则数：$dnstotal。"
+    echo "# Title: Quantumult X Rules"
+    echo "# Homepage: https://github.com/qq5460168/AD886"
+    echo "# by: 酷安@那个谁520"
+    echo "# Update Time: $time"
+    grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/HOST-SUFFIX,\1,REJECT/' | sort -u
+  } > "$qxlist_file"
+  log "规则文件 ${qxlist_file} 生成完成。"
 }
 
-# 函数：验证规则文件是否生成成功
-validate_file() {
-  if [[ ! -f "$1" ]]; then
-    log_error "文件 $1 生成失败！"
-    exit 1
-  fi
-  log "文件 $1 生成成功，大小: $(du -h "$1" | cut -f1)"
+# 函数：生成 SingBox SRS 规则文件
+generate_srs() {
+  log "生成 SingBox SRS 格式规则文件 (${srs_file})..."
+  backup_file "$srs_file"
+  {
+    echo "# Title: SingBox SRS Rules"
+    echo "# Homepage: https://github.com/qq5460168/AD886"
+    echo "# by: 酷安@那个谁520"
+    echo "# Update Time: $time"
+    grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/DOMAIN-SUFFIX,\1/' | sort -u
+  } > "$srs_file"
+  log "规则文件 ${srs_file} 生成完成。"
+}
+
+# 函数：生成 Invizible Pro 规则文件
+generate_invizible() {
+  log "生成 Invizible Pro 格式规则文件 (${invizible_file})..."
+  backup_file "$invizible_file"
+  {
+    echo "# Title: Invizible Pro Rules"
+    echo "# Homepage: https://github.com/qq5460168/AD886"
+    echo "# by: 酷安@那个谁520"
+    echo "# Update Time: $time"
+    grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/\1/' | sort -u
+  } > "$invizible_file"
+  log "规则文件 ${invizible_file} 生成完成。"
+}
+
+# 函数：生成 Shadowrocket 规则文件
+generate_shadowrocket() {
+  log "生成 Shadowrocket 格式规则文件 (${shadowrocket_file})..."
+  backup_file "$shadowrocket_file"
+  {
+    echo "# Title: Shadowrocket Rules"
+    echo "# Homepage: https://github.com/qq5460168/AD886"
+    echo "# by: 酷安@那个谁520"
+    echo "# Update Time: $time"
+    grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/DOMAIN-SUFFIX,\1,REJECT/' | sort -u
+  } > "$shadowrocket_file"
+  log "规则文件 ${shadowrocket_file} 生成完成。"
+}
+
+# 函数：生成 AdClose 规则文件
+generate_adclose() {
+  log "生成 AdClose 格式规则文件 (${adclose_file})..."
+  backup_file "$adclose_file"
+  {
+    echo "# Title: AdClose Rules"
+    echo "# Homepage: https://github.com/qq5460168/AD886"
+    echo "# by: 酷安@那个谁520"
+    echo "# Update Time: $time"
+    grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | sed -E 's/^\|\|([^\/\^]+)\^$/\1/' | sort -u
+  } > "$adclose_file"
+  log "规则文件 ${adclose_file} 生成完成。"
 }
 
 # 主流程
@@ -118,19 +162,24 @@ main() {
 
   # 生成规则文件
   generate_dnslist
-  validate_file "$dnslist_file"
-
   generate_clash
-  validate_file "$clash_file"
-
   generate_clash_meta
-  validate_file "$clash_meta_file"
+  generate_qxlist
+  generate_srs
+  generate_invizible
+  generate_shadowrocket
+  generate_adclose
 
   log "规则生成流程完成。"
   log "生成的文件列表："
   log "1. $dnslist_file"
   log "2. $clash_file"
   log "3. $clash_meta_file"
+  log "4. $qxlist_file"
+  log "5. $srs_file"
+  log "6. $invizible_file"
+  log "7. $shadowrocket_file"
+  log "8. $adclose_file"
 }
 
 main
