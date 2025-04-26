@@ -1,0 +1,7 @@
+# APT 依赖列表 - 自动维护
+wget
+curl
+file
+coreutils
+jq          # JSON 处理器
+dos2unix    # 换行符转换工具
