@@ -24,6 +24,7 @@ declare -a rules_config=(
   "invizible.txt       Invizible Pro   '\1'"
   "Shadowrocket.list   Shadowrocket    'DOMAIN-SUFFIX,\1,REJECT'"
   "AdClose.txt         AdClose         '\1'"
+  "hosts.txt           Hosts           '\1'"  # 新增 Hosts 规则配置
 )
 
 # 日志函数
@@ -73,8 +74,15 @@ generate_rules() {
     } >> "$output_file"
 
     # 处理规则内容
-    sed -E "s/^\|\|([^\/\^]+)\^$/${sed_expr}/" <<< "$filtered_rules" \
-      | sort -u >> "$output_file"
+    if [[ $output_file == "hosts.txt" ]]; then
+      # 处理 Hosts 文件的特殊逻辑
+      sed -E "s/^\|\|([^\/\^]+)\^$/127.0.0.1 \1/" <<< "$filtered_rules" \
+        | sort -u >> "$output_file"
+    else
+      # 处理其他规则
+      sed -E "s/^\|\|([^\/\^]+)\^$/${sed_expr}/" <<< "$filtered_rules" \
+        | sort -u >> "$output_file"
+    fi
 
     # 验证输出
     if [[ -s "$output_file" ]]; then
