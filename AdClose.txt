@@ -1,6 +1,6 @@
 # Title: AdClose Rules
 # Homepage: https://github.com/qq5460168/AD886
-# Update Time: 2025-04-27 16:51:56 +00:00（北京时间）
+# Update Time: 2025-04-27 16:53:42 +00:00（北京时间）
 '*-*.ad*kwai.com'
 '*-*.ap-east-1.elb.amazonaws.com'
 '*-*.ap-southeast-1.elb.amazonaws.com'
