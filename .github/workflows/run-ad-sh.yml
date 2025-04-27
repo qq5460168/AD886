@@ -1,24 +1,23 @@
 name: Run AD.sh Script
 
 on:
-  workflow_dispatch: # 手动触发工作流
-  schedule: # 定时触发工作流（可选）
-    - cron: '0 0 * * *' # 每天 00:00 UTC 运行
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'  # UTC时间每天00:00（对应北京时间08:00）
 
 jobs:
   run-script:
     runs-on: ubuntu-latest
-
     steps:
-      # 检出代码仓库
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      # 设置脚本执行权限
+      - name: Validate AD.sh Exists
+        run: test -f shell/AD.sh || (echo "Error: AD.sh not found!" && exit 1)
+
       - name: Make AD.sh Executable
         run: chmod +x shell/AD.sh
 
-      # 运行脚本
       - name: Execute AD.sh
         run: |
-          ./shell/AD.sh
+          ./shell/AD.sh || exit 1  # 失败时退出
