@@ -20,6 +20,7 @@
 
 以下是提供的广告拦截规则文件及其用途：
 
+
 | **类型**             | **用途**                                | **链接**                                                                                     |
 |----------------------|----------------------------------------|--------------------------------------------------------------------------------------------|
 | **AdGuard 黑名单规则** | 拦截大部分广告域名                       | [black.txt](https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt)            |
@@ -27,8 +28,12 @@
 | **DNS规则**           | 用于 AdGuard Home 或其他支持 DNS 规则的工具 | [dnslist.txt](https://raw.githubusercontent.com/qq5460168/AD886/main/dnslist.txt)          |
 | **Hosts规则**         | 可直接用于系统 Hosts 文件                | [hosts.txt](https://raw.githubusercontent.com/qq5460168/AD886/main/hosts.txt)              |
 | **Clash规则**         | Clash Premium 配置                      | [Clash.yaml](https://raw.githubusercontent.com/qq5460168/AD886/main/Clash.yaml)            |
+| **Clash Meta规则**    | Clash Meta/Mihomo 专用配置               | [clash_meta.yaml](https://raw.githubusercontent.com/qq5460168/AD886/main/clash_meta.yaml)  |
 | **Quantumult X规则**  | Quantumult X 配置                       | [qx.list](https://raw.githubusercontent.com/qq5460168/AD886/main/qx.list)                  |
 | **SingBox规则**       | SingBox 配置                            | [singbox.srs](https://raw.githubusercontent.com/qq5460168/AD886/main/singbox.srs)          |
+| **Shadowrocket规则**  | Shadowrocket 专用配置                   | [Shadowrocket.list](https://raw.githubusercontent.com/qq5460168/AD886/main/Shadowrocket.list) |
+| **Invizible规则**     | Invizible Pro 专用配置                  | [invizible.txt](https://raw.githubusercontent.com/qq5460168/AD886/main/invizible.txt)      |
+| **AdClose规则**       | AdClose 专用配置                        | [AdClose.txt](https://raw.githubusercontent.com/qq5460168/AD886/main/AdClose.txt)          |
 
 ---
 
