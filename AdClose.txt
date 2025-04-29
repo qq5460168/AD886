@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-04-29 22:42:27（北京时间）
+# 生成时间: 2025-04-29 22:46:48（北京时间）
 domain, *-*.ad*kwai.com
 domain, *-*.ap-east-1.elb.amazonaws.com
 domain, *-*.ap-southeast-1.elb.amazonaws.com
