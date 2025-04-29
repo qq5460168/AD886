@@ -9,13 +9,13 @@ time=$(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')'（北京时间）'
 ad_file="AD.txt"
 dnslist_file="dnslist.txt"
 hosts_file="hosts.txt"
-qxlist_file="qx.list"          # Quantumult X 规则文件路径
-srs_file="singbox.srs"         # SingBox SRS 格式规则文件路径
-invizible_file="invizible.txt" # Invizible Pro 规则文件路径
-shadowrocket_file="Shadowrocket.list" # Shadowrocket 规则文件路径
-adclose_file="AdClose.txt"     # AdClose 规则文件路径
-clash_file="clash.yaml"        # Clash 规则文件路径
-clash_meta_file="clash_meta.yaml" # Clash Meta 规则文件路径
+qxlist_file="qx.list"
+srs_file="singbox.srs"
+invizible_file="invizible.txt"
+shadowrocket_file="Shadowrocket.list"
+adclose_file="AdClose.txt"
+clash_file="clash.yaml"
+clash_meta_file="clash_meta.yaml"
 
 # 打印日志函数
 log() {
@@ -103,7 +103,15 @@ generate_clash() {
 }
 
 generate_clash_meta() {
-  generate_rules "Clash Meta" "  - DOMAIN-SUFFIX,\1,REJECT" "$clash_meta_file"
+  log "生成 Clash Meta 专用规则文件 (${clash_meta_file})..."
+  {
+    echo "# Clash Meta 专用规则 (简化域名列表格式)"
+    echo "# 生成时间: ${time}"
+    echo "payload:"
+    grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | \
+      sed -E "s/^\|\|([^\/\^]+)\^$/  - '\1'/" | \
+      sort -u
+  } > "$clash_meta_file"
 }
 
 # 主流程
