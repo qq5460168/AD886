@@ -79,7 +79,15 @@ generate_shadowrocket() {
 }
 
 generate_adclose() {
-  generate_rules "AdClose" "0.0.0.0 \1" "$adclose_file"
+  log "生成 AdClose 专用规则文件 (${adclose_file})..."
+  {
+    echo "# AdClose 专用广告规则"
+    echo "# 格式：domain, <域名>"
+    echo "# 生成时间: ${time}"
+    grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | \
+      sed -E 's/^\|\|([^\/\^]+)\^$/domain, \1/' | \
+      sort -u
+  } > "$adclose_file"
 }
 
 generate_singbox() {
