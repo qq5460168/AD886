@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-04-30 15:11:03（北京时间）
+# 生成时间: 2025-04-30 22:38:25（北京时间）
 domain, *-*.ad*kwai.com
 domain, *-*.ap-east-1.elb.amazonaws.com
 domain, *-*.ap-southeast-1.elb.amazonaws.com
@@ -4964,6 +4964,7 @@ domain, mlzgazz.cn
 domain, mm.91204.icu
 domain, mm03.cc
 domain, mm28j.com
+domain, mmcegkfrue.xyz
 domain, mmead.xyz
 domain, mmevt.icu
 domain, mmfcezwqaz.com

@@ -1,7 +1,7 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2025-04-30 15:11:03（北京时间）
+# Update Time: 2025-04-30 22:38:25（北京时间）
 HOST-SUFFIX,*-*.ad*kwai.com,REJECT
 HOST-SUFFIX,*-*.ap-east-1.elb.amazonaws.com,REJECT
 HOST-SUFFIX,*-*.ap-southeast-1.elb.amazonaws.com,REJECT
@@ -4965,6 +4965,7 @@ HOST-SUFFIX,mlzgazz.cn,REJECT
 HOST-SUFFIX,mm.91204.icu,REJECT
 HOST-SUFFIX,mm03.cc,REJECT
 HOST-SUFFIX,mm28j.com,REJECT
+HOST-SUFFIX,mmcegkfrue.xyz,REJECT
 HOST-SUFFIX,mmead.xyz,REJECT
 HOST-SUFFIX,mmevt.icu,REJECT
 HOST-SUFFIX,mmfcezwqaz.com,REJECT
