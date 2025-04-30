@@ -95,7 +95,7 @@ generate_singbox() {
 }
 
 generate_invizible() {
-  generate_rules "Invizible Pro" "||\1^" "$invizible_file"
+  generate_rules "Invizible Pro" "\1" "$invizible_file"  # 关键修复点
 }
 
 generate_clash() {
@@ -128,15 +128,15 @@ main() {
   generate_clash_meta
   
   log "规则已成功生成并保存为以下文件："
-  log "1. ${dnslist_file}"
-  log "2. ${hosts_file}"
-  log "3. ${qxlist_file}"
-  log "4. ${shadowrocket_file}"
-  log "5. ${adclose_file}"
-  log "6. ${srs_file}"
-  log "7. ${invizible_file}"
-  log "8. ${clash_file}"
-  log "9. ${clash_meta_file}"
+  log "1. ${dnslist_file} (Adblock Plus)"
+  log "2. ${hosts_file} (Hosts 格式)"
+  log "3. ${qxlist_file} (Quantumult X)"
+  log "4. ${shadowrocket_file} (Shadowrocket)"
+  log "5. ${adclose_file} (AdClose)"
+  log "6. ${srs_file} (SingBox SRS)"
+  log "7. ${invizible_file} (Invizible Pro)"
+  log "8. ${clash_file} (Clash)"
+  log "9. ${clash_meta_file} (Clash Meta)"
 }
 
 main
