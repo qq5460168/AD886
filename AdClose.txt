@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-05-04 18:12:20（北京时间）
+# 生成时间: 2025-05-05 10:03:11（北京时间）
 domain, *-*.ad*kwai.com
 domain, *-*.ap-east-1.elb.amazonaws.com
 domain, *-*.ap-southeast-1.elb.amazonaws.com
@@ -8243,7 +8243,6 @@ domain, ywkkmze.cn
 domain, ywsywh.cn
 domain, ywtd.xyz
 domain, yxhjt.com
-domain, yximgs.com
 domain, yxmrqc.com
 domain, yxqmryq.top
 domain, yxvoud.com

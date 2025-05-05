@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2025-05-04 18:12:20（北京时间）
+# 生成时间: 2025-05-05 10:03:11（北京时间）
 payload:
   - '*-*.ad*kwai.com'
   - '*-*.ap-east-1.elb.amazonaws.com'
@@ -8243,7 +8243,6 @@ payload:
   - 'ywsywh.cn'
   - 'ywtd.xyz'
   - 'yxhjt.com'
-  - 'yximgs.com'
   - 'yxmrqc.com'
   - 'yxqmryq.top'
   - 'yxvoud.com'

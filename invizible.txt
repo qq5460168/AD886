@@ -1,7 +1,7 @@
 # Title: Invizible Pro Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2025-05-04 18:12:20（北京时间）
+# Update Time: 2025-05-05 10:03:11（北京时间）
 *-*.ad*kwai.com
 *-*.ap-east-1.elb.amazonaws.com
 *-*.ap-southeast-1.elb.amazonaws.com
@@ -8244,7 +8244,6 @@ ywkkmze.cn
 ywsywh.cn
 ywtd.xyz
 yxhjt.com
-yximgs.com
 yxmrqc.com
 yxqmryq.top
 yxvoud.com
