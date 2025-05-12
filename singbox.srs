@@ -1,7 +1,7 @@
 # Title: SingBox SRS Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2025-05-10 22:11:47（北京时间）
+# Update Time: 2025-05-12 21:33:47（北京时间）
 DOMAIN-SUFFIX,*-*.ad*kwai.com,REJECT
 DOMAIN-SUFFIX,*-*.ap-east-1.elb.amazonaws.com,REJECT
 DOMAIN-SUFFIX,*-*.ap-southeast-1.elb.amazonaws.com,REJECT
@@ -714,7 +714,6 @@ DOMAIN-SUFFIX,ad-display.diwodiwo.xyz,REJECT
 DOMAIN-SUFFIX,ad-display.wikawika.xyz,REJECT
 DOMAIN-SUFFIX,ad-download.hismarttv.com,REJECT
 DOMAIN-SUFFIX,ad-drs.52qumao.com,REJECT
-DOMAIN-SUFFIX,ad-experience.bytedance.com,REJECT
 DOMAIN-SUFFIX,ad-ga.nocode.com,REJECT
 DOMAIN-SUFFIX,ad-ggtg-api.37.com.cn,REJECT
 DOMAIN-SUFFIX,ad-h5-cdn.soulapp.cn,REJECT
@@ -3934,6 +3933,8 @@ DOMAIN-SUFFIX,jhzfwl.cn,REJECT
 DOMAIN-SUFFIX,jiaads.com,REJECT
 DOMAIN-SUFFIX,jiaadsx.com,REJECT
 DOMAIN-SUFFIX,jianchajingmk.net,REJECT
+DOMAIN-SUFFIX,jiangpan.net,REJECT
+DOMAIN-SUFFIX,jiangpankyy.com,REJECT
 DOMAIN-SUFFIX,jianxinshanghai.com,REJECT
 DOMAIN-SUFFIX,jianyihang.com,REJECT
 DOMAIN-SUFFIX,jiatoutrade.com,REJECT
@@ -4177,6 +4178,7 @@ DOMAIN-SUFFIX,kk2417456.pgszp.cn,REJECT
 DOMAIN-SUFFIX,kkisoo.com,REJECT
 DOMAIN-SUFFIX,kkjshsj.com,REJECT
 DOMAIN-SUFFIX,kklpe.xyz,REJECT
+DOMAIN-SUFFIX,kklq05121p0i.com,REJECT
 DOMAIN-SUFFIX,kkmbbvz.xyz,REJECT
 DOMAIN-SUFFIX,kkpgv2.xunlei.com,REJECT
 DOMAIN-SUFFIX,kksdk.tapque.com,REJECT
@@ -5412,7 +5414,6 @@ DOMAIN-SUFFIX,p1-play.edge4k.com,REJECT
 DOMAIN-SUFFIX,p1-play.kgslb.com,REJECT
 DOMAIN-SUFFIX,p1.adkwai.com,REJECT
 DOMAIN-SUFFIX,p10528-ad-server.ejoy.com,REJECT
-DOMAIN-SUFFIX,p11-webcast-sign.douyinpic.com,REJECT
 DOMAIN-SUFFIX,p11q.cn,REJECT
 DOMAIN-SUFFIX,p13n-mr.adobe.io,REJECT
 DOMAIN-SUFFIX,p13n.adobe.io,REJECT
@@ -6297,9 +6298,7 @@ DOMAIN-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com,REJECT
 DOMAIN-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com.queniuuf.com,REJECT
 DOMAIN-SUFFIX,sf3-ttcdn-tos.pstatp.com,REJECT
 DOMAIN-SUFFIX,sf6-be-pack.pglstatp-toutiao.com,REJECT
-DOMAIN-SUFFIX,sf6-cdn-tos.bdxiguastatic.com,REJECT
 DOMAIN-SUFFIX,sf6-fe-pack.pglstatp-toutiao.com,REJECT
-DOMAIN-SUFFIX,sf6-fe-tos.pglstatp-toutiao.com,REJECT
 DOMAIN-SUFFIX,sf6-ttcdn-tos.pstatp.com,REJECT
 DOMAIN-SUFFIX,sfbixfd.cn,REJECT
 DOMAIN-SUFFIX,sfg11rr.com,REJECT
@@ -7313,7 +7312,6 @@ DOMAIN-SUFFIX,vertical-play.iqiyi.com,REJECT
 DOMAIN-SUFFIX,vexilorath.com,REJECT
 DOMAIN-SUFFIX,vf.kkys5.com,REJECT
 DOMAIN-SUFFIX,vf.kkys6.com,REJECT
-DOMAIN-SUFFIX,vfiles.gtimg.cn,REJECT
 DOMAIN-SUFFIX,vfjsa6do.icu,REJECT
 DOMAIN-SUFFIX,vfrdewsdg.xyz,REJECT
 DOMAIN-SUFFIX,vfsdgjrr.xyz,REJECT

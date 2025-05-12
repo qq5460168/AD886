@@ -1,7 +1,7 @@
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2025-05-10 22:11:47（北京时间）
+# Update Time: 2025-05-12 21:33:47（北京时间）
 0.0.0.0 *-*.ad*kwai.com
 0.0.0.0 *-*.ap-east-1.elb.amazonaws.com
 0.0.0.0 *-*.ap-southeast-1.elb.amazonaws.com
@@ -714,7 +714,6 @@
 0.0.0.0 ad-display.wikawika.xyz
 0.0.0.0 ad-download.hismarttv.com
 0.0.0.0 ad-drs.52qumao.com
-0.0.0.0 ad-experience.bytedance.com
 0.0.0.0 ad-ga.nocode.com
 0.0.0.0 ad-ggtg-api.37.com.cn
 0.0.0.0 ad-h5-cdn.soulapp.cn
@@ -3934,6 +3933,8 @@
 0.0.0.0 jiaads.com
 0.0.0.0 jiaadsx.com
 0.0.0.0 jianchajingmk.net
+0.0.0.0 jiangpan.net
+0.0.0.0 jiangpankyy.com
 0.0.0.0 jianxinshanghai.com
 0.0.0.0 jianyihang.com
 0.0.0.0 jiatoutrade.com
@@ -4177,6 +4178,7 @@
 0.0.0.0 kkisoo.com
 0.0.0.0 kkjshsj.com
 0.0.0.0 kklpe.xyz
+0.0.0.0 kklq05121p0i.com
 0.0.0.0 kkmbbvz.xyz
 0.0.0.0 kkpgv2.xunlei.com
 0.0.0.0 kksdk.tapque.com
@@ -5412,7 +5414,6 @@
 0.0.0.0 p1-play.kgslb.com
 0.0.0.0 p1.adkwai.com
 0.0.0.0 p10528-ad-server.ejoy.com
-0.0.0.0 p11-webcast-sign.douyinpic.com
 0.0.0.0 p11q.cn
 0.0.0.0 p13n-mr.adobe.io
 0.0.0.0 p13n.adobe.io
@@ -6297,9 +6298,7 @@
 0.0.0.0 sf3-fe-tos.pglstatp-toutiao.com.queniuuf.com
 0.0.0.0 sf3-ttcdn-tos.pstatp.com
 0.0.0.0 sf6-be-pack.pglstatp-toutiao.com
-0.0.0.0 sf6-cdn-tos.bdxiguastatic.com
 0.0.0.0 sf6-fe-pack.pglstatp-toutiao.com
-0.0.0.0 sf6-fe-tos.pglstatp-toutiao.com
 0.0.0.0 sf6-ttcdn-tos.pstatp.com
 0.0.0.0 sfbixfd.cn
 0.0.0.0 sfg11rr.com
@@ -7313,7 +7312,6 @@
 0.0.0.0 vexilorath.com
 0.0.0.0 vf.kkys5.com
 0.0.0.0 vf.kkys6.com
-0.0.0.0 vfiles.gtimg.cn
 0.0.0.0 vfjsa6do.icu
 0.0.0.0 vfrdewsdg.xyz
 0.0.0.0 vfsdgjrr.xyz

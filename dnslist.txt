@@ -2,8 +2,8 @@
 ! Title: 酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Total Count: 8473
-! Update Time: 2025-05-10 22:11:47（北京时间）
+! Total Count: 8471
+! Update Time: 2025-05-12 21:33:47（北京时间）
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
@@ -716,7 +716,6 @@
 ||ad-display.wikawika.xyz^
 ||ad-download.hismarttv.com^
 ||ad-drs.52qumao.com^
-||ad-experience.bytedance.com^
 ||ad-ga.nocode.com^
 ||ad-ggtg-api.37.com.cn^
 ||ad-h5-cdn.soulapp.cn^
@@ -3936,6 +3935,8 @@
 ||jiaads.com^
 ||jiaadsx.com^
 ||jianchajingmk.net^
+||jiangpan.net^
+||jiangpankyy.com^
 ||jianxinshanghai.com^
 ||jianyihang.com^
 ||jiatoutrade.com^
@@ -4179,6 +4180,7 @@
 ||kkisoo.com^
 ||kkjshsj.com^
 ||kklpe.xyz^
+||kklq05121p0i.com^
 ||kkmbbvz.xyz^
 ||kkpgv2.xunlei.com^
 ||kksdk.tapque.com^
@@ -5414,7 +5416,6 @@
 ||p1-play.kgslb.com^
 ||p1.adkwai.com^
 ||p10528-ad-server.ejoy.com^
-||p11-webcast-sign.douyinpic.com^
 ||p11q.cn^
 ||p13n-mr.adobe.io^
 ||p13n.adobe.io^
@@ -6299,9 +6300,7 @@
 ||sf3-fe-tos.pglstatp-toutiao.com^
 ||sf3-ttcdn-tos.pstatp.com^
 ||sf6-be-pack.pglstatp-toutiao.com^
-||sf6-cdn-tos.bdxiguastatic.com^
 ||sf6-fe-pack.pglstatp-toutiao.com^
-||sf6-fe-tos.pglstatp-toutiao.com^
 ||sf6-ttcdn-tos.pstatp.com^
 ||sfbixfd.cn^
 ||sfg11rr.com^
@@ -7315,7 +7314,6 @@
 ||vexilorath.com^
 ||vf.kkys5.com^
 ||vf.kkys6.com^
-||vfiles.gtimg.cn^
 ||vfjsa6do.icu^
 ||vfrdewsdg.xyz^
 ||vfsdgjrr.xyz^

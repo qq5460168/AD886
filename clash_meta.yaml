@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2025-05-10 22:11:47（北京时间）
+# 生成时间: 2025-05-12 21:33:47（北京时间）
 payload:
   - '*-*.ad*kwai.com'
   - '*-*.ap-east-1.elb.amazonaws.com'
@@ -713,7 +713,6 @@ payload:
   - 'ad-display.wikawika.xyz'
   - 'ad-download.hismarttv.com'
   - 'ad-drs.52qumao.com'
-  - 'ad-experience.bytedance.com'
   - 'ad-ga.nocode.com'
   - 'ad-ggtg-api.37.com.cn'
   - 'ad-h5-cdn.soulapp.cn'
@@ -3933,6 +3932,8 @@ payload:
   - 'jiaads.com'
   - 'jiaadsx.com'
   - 'jianchajingmk.net'
+  - 'jiangpan.net'
+  - 'jiangpankyy.com'
   - 'jianxinshanghai.com'
   - 'jianyihang.com'
   - 'jiatoutrade.com'
@@ -4176,6 +4177,7 @@ payload:
   - 'kkisoo.com'
   - 'kkjshsj.com'
   - 'kklpe.xyz'
+  - 'kklq05121p0i.com'
   - 'kkmbbvz.xyz'
   - 'kkpgv2.xunlei.com'
   - 'kksdk.tapque.com'
@@ -5411,7 +5413,6 @@ payload:
   - 'p1-play.kgslb.com'
   - 'p1.adkwai.com'
   - 'p10528-ad-server.ejoy.com'
-  - 'p11-webcast-sign.douyinpic.com'
   - 'p11q.cn'
   - 'p13n-mr.adobe.io'
   - 'p13n.adobe.io'
@@ -6296,9 +6297,7 @@ payload:
   - 'sf3-fe-tos.pglstatp-toutiao.com.queniuuf.com'
   - 'sf3-ttcdn-tos.pstatp.com'
   - 'sf6-be-pack.pglstatp-toutiao.com'
-  - 'sf6-cdn-tos.bdxiguastatic.com'
   - 'sf6-fe-pack.pglstatp-toutiao.com'
-  - 'sf6-fe-tos.pglstatp-toutiao.com'
   - 'sf6-ttcdn-tos.pstatp.com'
   - 'sfbixfd.cn'
   - 'sfg11rr.com'
@@ -7312,7 +7311,6 @@ payload:
   - 'vexilorath.com'
   - 'vf.kkys5.com'
   - 'vf.kkys6.com'
-  - 'vfiles.gtimg.cn'
   - 'vfjsa6do.icu'
   - 'vfrdewsdg.xyz'
   - 'vfsdgjrr.xyz'

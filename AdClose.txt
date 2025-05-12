@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-05-10 22:11:47（北京时间）
+# 生成时间: 2025-05-12 21:33:47（北京时间）
 domain, *-*.ad*kwai.com
 domain, *-*.ap-east-1.elb.amazonaws.com
 domain, *-*.ap-southeast-1.elb.amazonaws.com
@@ -713,7 +713,6 @@ domain, ad-display.diwodiwo.xyz
 domain, ad-display.wikawika.xyz
 domain, ad-download.hismarttv.com
 domain, ad-drs.52qumao.com
-domain, ad-experience.bytedance.com
 domain, ad-ga.nocode.com
 domain, ad-ggtg-api.37.com.cn
 domain, ad-h5-cdn.soulapp.cn
@@ -3933,6 +3932,8 @@ domain, jhzfwl.cn
 domain, jiaads.com
 domain, jiaadsx.com
 domain, jianchajingmk.net
+domain, jiangpan.net
+domain, jiangpankyy.com
 domain, jianxinshanghai.com
 domain, jianyihang.com
 domain, jiatoutrade.com
@@ -4176,6 +4177,7 @@ domain, kk2417456.pgszp.cn
 domain, kkisoo.com
 domain, kkjshsj.com
 domain, kklpe.xyz
+domain, kklq05121p0i.com
 domain, kkmbbvz.xyz
 domain, kkpgv2.xunlei.com
 domain, kksdk.tapque.com
@@ -5411,7 +5413,6 @@ domain, p1-play.edge4k.com
 domain, p1-play.kgslb.com
 domain, p1.adkwai.com
 domain, p10528-ad-server.ejoy.com
-domain, p11-webcast-sign.douyinpic.com
 domain, p11q.cn
 domain, p13n-mr.adobe.io
 domain, p13n.adobe.io
@@ -6296,9 +6297,7 @@ domain, sf3-fe-tos.pglstatp-toutiao.com
 domain, sf3-fe-tos.pglstatp-toutiao.com.queniuuf.com
 domain, sf3-ttcdn-tos.pstatp.com
 domain, sf6-be-pack.pglstatp-toutiao.com
-domain, sf6-cdn-tos.bdxiguastatic.com
 domain, sf6-fe-pack.pglstatp-toutiao.com
-domain, sf6-fe-tos.pglstatp-toutiao.com
 domain, sf6-ttcdn-tos.pstatp.com
 domain, sfbixfd.cn
 domain, sfg11rr.com
@@ -7312,7 +7311,6 @@ domain, vertical-play.iqiyi.com
 domain, vexilorath.com
 domain, vf.kkys5.com
 domain, vf.kkys6.com
-domain, vfiles.gtimg.cn
 domain, vfjsa6do.icu
 domain, vfrdewsdg.xyz
 domain, vfsdgjrr.xyz

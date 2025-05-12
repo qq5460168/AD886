@@ -1,7 +1,7 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2025-05-10 22:11:47（北京时间）
+# Update Time: 2025-05-12 21:33:47（北京时间）
 HOST-SUFFIX,*-*.ad*kwai.com,REJECT
 HOST-SUFFIX,*-*.ap-east-1.elb.amazonaws.com,REJECT
 HOST-SUFFIX,*-*.ap-southeast-1.elb.amazonaws.com,REJECT
@@ -714,7 +714,6 @@ HOST-SUFFIX,ad-display.diwodiwo.xyz,REJECT
 HOST-SUFFIX,ad-display.wikawika.xyz,REJECT
 HOST-SUFFIX,ad-download.hismarttv.com,REJECT
 HOST-SUFFIX,ad-drs.52qumao.com,REJECT
-HOST-SUFFIX,ad-experience.bytedance.com,REJECT
 HOST-SUFFIX,ad-ga.nocode.com,REJECT
 HOST-SUFFIX,ad-ggtg-api.37.com.cn,REJECT
 HOST-SUFFIX,ad-h5-cdn.soulapp.cn,REJECT
@@ -3934,6 +3933,8 @@ HOST-SUFFIX,jhzfwl.cn,REJECT
 HOST-SUFFIX,jiaads.com,REJECT
 HOST-SUFFIX,jiaadsx.com,REJECT
 HOST-SUFFIX,jianchajingmk.net,REJECT
+HOST-SUFFIX,jiangpan.net,REJECT
+HOST-SUFFIX,jiangpankyy.com,REJECT
 HOST-SUFFIX,jianxinshanghai.com,REJECT
 HOST-SUFFIX,jianyihang.com,REJECT
 HOST-SUFFIX,jiatoutrade.com,REJECT
@@ -4177,6 +4178,7 @@ HOST-SUFFIX,kk2417456.pgszp.cn,REJECT
 HOST-SUFFIX,kkisoo.com,REJECT
 HOST-SUFFIX,kkjshsj.com,REJECT
 HOST-SUFFIX,kklpe.xyz,REJECT
+HOST-SUFFIX,kklq05121p0i.com,REJECT
 HOST-SUFFIX,kkmbbvz.xyz,REJECT
 HOST-SUFFIX,kkpgv2.xunlei.com,REJECT
 HOST-SUFFIX,kksdk.tapque.com,REJECT
@@ -5412,7 +5414,6 @@ HOST-SUFFIX,p1-play.edge4k.com,REJECT
 HOST-SUFFIX,p1-play.kgslb.com,REJECT
 HOST-SUFFIX,p1.adkwai.com,REJECT
 HOST-SUFFIX,p10528-ad-server.ejoy.com,REJECT
-HOST-SUFFIX,p11-webcast-sign.douyinpic.com,REJECT
 HOST-SUFFIX,p11q.cn,REJECT
 HOST-SUFFIX,p13n-mr.adobe.io,REJECT
 HOST-SUFFIX,p13n.adobe.io,REJECT
@@ -6297,9 +6298,7 @@ HOST-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com,REJECT
 HOST-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com.queniuuf.com,REJECT
 HOST-SUFFIX,sf3-ttcdn-tos.pstatp.com,REJECT
 HOST-SUFFIX,sf6-be-pack.pglstatp-toutiao.com,REJECT
-HOST-SUFFIX,sf6-cdn-tos.bdxiguastatic.com,REJECT
 HOST-SUFFIX,sf6-fe-pack.pglstatp-toutiao.com,REJECT
-HOST-SUFFIX,sf6-fe-tos.pglstatp-toutiao.com,REJECT
 HOST-SUFFIX,sf6-ttcdn-tos.pstatp.com,REJECT
 HOST-SUFFIX,sfbixfd.cn,REJECT
 HOST-SUFFIX,sfg11rr.com,REJECT
@@ -7313,7 +7312,6 @@ HOST-SUFFIX,vertical-play.iqiyi.com,REJECT
 HOST-SUFFIX,vexilorath.com,REJECT
 HOST-SUFFIX,vf.kkys5.com,REJECT
 HOST-SUFFIX,vf.kkys6.com,REJECT
-HOST-SUFFIX,vfiles.gtimg.cn,REJECT
 HOST-SUFFIX,vfjsa6do.icu,REJECT
 HOST-SUFFIX,vfrdewsdg.xyz,REJECT
 HOST-SUFFIX,vfsdgjrr.xyz,REJECT
