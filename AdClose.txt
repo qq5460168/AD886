@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-05-12 21:33:47（北京时间）
+# 生成时间: 2025-05-14 17:31:49（北京时间）
 domain, *-*.ad*kwai.com
 domain, *-*.ap-east-1.elb.amazonaws.com
 domain, *-*.ap-southeast-1.elb.amazonaws.com
@@ -72,7 +72,6 @@ domain, *.ifllqc.cn
 domain, *.javadvi.com
 domain, *.jennylisnerphotography.com
 domain, *.jjzemoc3ca.top
-domain, *.jomoxc.com
 domain, *.juicyads.me
 domain, *.jvere.xyz
 domain, *.jwcnmta.top
@@ -160,6 +159,8 @@ domain, *isAds*
 domain, *live-p2p*.bilibili*
 domain, *miaozhen.com
 domain, *mobads*
+domain, *pangolin*toutiao*.com
+domain, *pglstatp-toutiao.com
 domain, *snscosdownload*
 domain, *tianmu.mobi
 domain, *umeng.com
@@ -654,11 +655,13 @@ domain, abb.lxiaoxin.com
 domain, abcd.cnhuoche.com
 domain, abdluv.xyz
 domain, abe.ymmiyun.com
+domain, abeacdataort-stsdk.vivo.com.cn
 domain, abenshishabi.com
 domain, abernc.xyz
 domain, abgr2x.aprewf.cn
 domain, abolid.com
 domain, abot.pos.baidu.com
+domain, about.ads.microsoft.com
 domain, abovede6.com
 domain, abp.telemetry.adblockplus.org
 domain, abram.xin
@@ -981,6 +984,7 @@ domain, ads.lejuliang.cn
 domain, ads.lejuliang.com
 domain, ads.lingyuexiu.cn
 domain, ads.linkedin.com
+domain, ads.log.kafka.top
 domain, ads.morefreegame.com
 domain, ads.music.126.net
 domain, ads.oneway.mobi
@@ -993,6 +997,7 @@ domain, ads.reader.yueyouxs.com
 domain, ads.servebom.com
 domain, ads.service.kugou.com
 domain, ads.serving-sys.cn
+domain, ads.sinaimg.cn
 domain, ads.sohu.com
 domain, ads.soulapp.cn
 domain, ads.static.madserving.com
@@ -1007,6 +1012,7 @@ domain, ads.union.jd.com
 domain, ads.uutest.cn
 domain, ads.v3mh.com
 domain, ads.vserv.mobi
+domain, ads.x.com
 domain, ads.yahoo.com
 domain, ads.yap.yahoo.com
 domain, ads.yieldmo.com
@@ -1070,6 +1076,7 @@ domain, adsfile.qq.com
 domain, adsfile20.bssdlbig.kugou.com
 domain, adsfilebssdlbig.*.kugou.com
 domain, adsfilebssdlbig.ali.kugou.com
+domain, adsfilebssdlbig.ali.kugou.com.wswebcdn.com
 domain, adsfilebssdlbig.tx.kugou.com
 domain, adsfileretry.service.kugou.com
 domain, adsfs-sdkconfig.heytapimage.com
@@ -1296,6 +1303,7 @@ domain, alwayzcars.com
 domain, alyssabelen.com
 domain, am.bwaa301.icu
 domain, amadeus--box-10909--www-zhihu-com.zpres.zhihu.com
+domain, amap-aos-info-nogw.amap.com
 domain, amazonaax.com
 domain, amcn.bytedance.com
 domain, amdc.alipay.com
@@ -1839,6 +1847,7 @@ domain, bootpreload.uve.weibo.com
 domain, bootrealtime.uve.weibo.com
 domain, bootstron.com
 domain, boss.qzone.qq.com
+domain, bossaudioandcomic-1252317822.image.myqcloud.com
 domain, botnrr.xyz
 domain, botonmetaverse.com
 domain, boxwcr.icu
@@ -2941,6 +2950,8 @@ domain, fds-1230.cc
 domain, feed-image.baidu.com
 domain, feed.baidu.com
 domain, feedback-c.zijieapi.com
+domain, feeds.vivo.com.cn
+domain, feedsplat.vivo.com.cn
 domain, feiln.xyz
 domain, fengyukun03.cn
 domain, feq853.com
@@ -3094,6 +3105,7 @@ domain, gahvy6ww.icu
 domain, gaia-mix-prd.vivo.com.cn
 domain, gaipuzui.com
 domain, gaiqgs.xyz
+domain, galileotelemetry.tencent.com
 domain, galopelikeantelope.com
 domain, game-attribute.biligame.com
 domain, game.e.kuaishou.com
@@ -4921,6 +4933,7 @@ domain, monitor.l.qq.com
 domain, monitor.music.qq.com
 domain, monitor.qq.com
 domain, monitor.uu.qq.com
+domain, monitor.v2.tcyad.com
 domain, monott.ad.xelements.cn
 domain, monroe4825edcs.xyz
 domain, monsetting.toutiao.com
@@ -5954,6 +5967,7 @@ domain, reksaidnslog.security.mihoyo.com
 domain, relafp.xyz
 domain, remfebd.cn
 domain, reminews.com
+domain, remoteads.oss-cn-beijing.aliyuncs.com
 domain, render-resource.11222.cn
 domain, render-server.cdn.bcebos.com
 domain, rengbali.fun
@@ -6156,6 +6170,7 @@ domain, saveu5-normal-lf.zijieapi.com
 domain, saveu5-normal-lq.zijieapi.com
 domain, saviourketonic.com
 domain, saxysec.com
+domain, sb.adtidy.com
 domain, sb.scorecardresearch.com
 domain, sb4you1.com
 domain, sb6k.top
@@ -7530,6 +7545,7 @@ domain, wfndponfd.com
 domain, wfsh.026o.cn
 domain, wgoeisdnlk.com
 domain, whe0nqk.icu
+domain, whjzjx.cn
 domain, whoami.akamai.net
 domain, whwxxny.com
 domain, whyfate.cn
@@ -7544,6 +7560,7 @@ domain, winniephc.com
 domain, wipbbok.com
 domain, wipew.com
 domain, wit.qq.com
+domain, wkanx.com
 domain, wkrcbszi.xyz
 domain, wl.jd.com
 domain, wlgxaij.cn

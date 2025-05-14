@@ -2,8 +2,8 @@
 ! Title: 酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Total Count: 8471
-! Update Time: 2025-05-12 21:33:47（北京时间）
+! Total Count: 8488
+! Update Time: 2025-05-14 17:31:49（北京时间）
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
 ||*-*.ap-southeast-1.elb.amazonaws.com^
@@ -75,7 +75,6 @@
 ||*.javadvi.com^
 ||*.jennylisnerphotography.com^
 ||*.jjzemoc3ca.top^
-||*.jomoxc.com^
 ||*.juicyads.me^
 ||*.jvere.xyz^
 ||*.jwcnmta.top^
@@ -163,6 +162,8 @@
 ||*live-p2p*.bilibili*^
 ||*miaozhen.com^
 ||*mobads*^
+||*pangolin*toutiao*.com^
+||*pglstatp-toutiao.com^
 ||*snscosdownload*^
 ||*tianmu.mobi^
 ||*umeng.com^
@@ -657,11 +658,13 @@
 ||abcd.cnhuoche.com^
 ||abdluv.xyz^
 ||abe.ymmiyun.com^
+||abeacdataort-stsdk.vivo.com.cn^
 ||abenshishabi.com^
 ||abernc.xyz^
 ||abgr2x.aprewf.cn^
 ||abolid.com^
 ||abot.pos.baidu.com^
+||about.ads.microsoft.com^
 ||abovede6.com^
 ||abp.telemetry.adblockplus.org^
 ||abram.xin^
@@ -984,6 +987,7 @@
 ||ads.lejuliang.com^
 ||ads.lingyuexiu.cn^
 ||ads.linkedin.com^
+||ads.log.kafka.top^
 ||ads.morefreegame.com^
 ||ads.music.126.net^
 ||ads.oneway.mobi^
@@ -996,6 +1000,7 @@
 ||ads.servebom.com^
 ||ads.service.kugou.com^
 ||ads.serving-sys.cn^
+||ads.sinaimg.cn^
 ||ads.sohu.com^
 ||ads.soulapp.cn^
 ||ads.static.madserving.com^
@@ -1010,6 +1015,7 @@
 ||ads.uutest.cn^
 ||ads.v3mh.com^
 ||ads.vserv.mobi^
+||ads.x.com^
 ||ads.yahoo.com^
 ||ads.yap.yahoo.com^
 ||ads.yieldmo.com^
@@ -1072,6 +1078,7 @@
 ||adsfile.qq.com^
 ||adsfile20.bssdlbig.kugou.com^
 ||adsfilebssdlbig.*.kugou.com^
+||adsfilebssdlbig.ali.kugou.com.wswebcdn.com^
 ||adsfilebssdlbig.ali.kugou.com^
 ||adsfilebssdlbig.tx.kugou.com^
 ||adsfileretry.service.kugou.com^
@@ -1299,6 +1306,7 @@
 ||alyssabelen.com^
 ||am.bwaa301.icu^
 ||amadeus--box-10909--www-zhihu-com.zpres.zhihu.com^
+||amap-aos-info-nogw.amap.com^
 ||amazonaax.com^
 ||amcn.bytedance.com^
 ||amdc.alipay.com^
@@ -1842,6 +1850,7 @@
 ||bootrealtime.uve.weibo.com^
 ||bootstron.com^
 ||boss.qzone.qq.com^
+||bossaudioandcomic-1252317822.image.myqcloud.com^
 ||botnrr.xyz^
 ||botonmetaverse.com^
 ||boxwcr.icu^
@@ -2944,6 +2953,8 @@
 ||feed-image.baidu.com^
 ||feed.baidu.com^
 ||feedback-c.zijieapi.com^
+||feeds.vivo.com.cn^
+||feedsplat.vivo.com.cn^
 ||feiln.xyz^
 ||fengyukun03.cn^
 ||feq853.com^
@@ -3097,6 +3108,7 @@
 ||gaia-mix-prd.vivo.com.cn^
 ||gaipuzui.com^
 ||gaiqgs.xyz^
+||galileotelemetry.tencent.com^
 ||galopelikeantelope.com^
 ||game-attribute.biligame.com^
 ||game.e.kuaishou.com^
@@ -4924,6 +4936,7 @@
 ||monitor.music.qq.com^
 ||monitor.qq.com^
 ||monitor.uu.qq.com^
+||monitor.v2.tcyad.com^
 ||monott.ad.xelements.cn^
 ||monroe4825edcs.xyz^
 ||monsetting.toutiao.com^
@@ -5957,6 +5970,7 @@
 ||relafp.xyz^
 ||remfebd.cn^
 ||reminews.com^
+||remoteads.oss-cn-beijing.aliyuncs.com^
 ||render-resource.11222.cn^
 ||render-server.cdn.bcebos.com^
 ||rengbali.fun^
@@ -6159,6 +6173,7 @@
 ||saveu5-normal-lq.zijieapi.com^
 ||saviourketonic.com^
 ||saxysec.com^
+||sb.adtidy.com^
 ||sb.scorecardresearch.com^
 ||sb4you1.com^
 ||sb6k.top^
@@ -7533,6 +7548,7 @@
 ||wfsh.026o.cn^
 ||wgoeisdnlk.com^
 ||whe0nqk.icu^
+||whjzjx.cn^
 ||whoami.akamai.net^
 ||whwxxny.com^
 ||whyfate.cn^
@@ -7547,6 +7563,7 @@
 ||wipbbok.com^
 ||wipew.com^
 ||wit.qq.com^
+||wkanx.com^
 ||wkrcbszi.xyz^
 ||wl.jd.com^
 ||wlgxaij.cn^
