@@ -1,8 +1,9 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-05-14 17:31:49（北京时间）
+# 生成时间: 2025-05-15 22:31:37（北京时间）
 domain, *-*.ad*kwai.com
 domain, *-*.ap-east-1.elb.amazonaws.com
+domain, *-*.ap-northeast-2.elb.amazonaws.com
 domain, *-*.ap-southeast-1.elb.amazonaws.com
 domain, *-ad-sign.byteimg.com
 domain, *-ad.a.yximgs.com
@@ -21,6 +22,7 @@ domain, *.233lyly.cn
 domain, *.233lyly.com
 domain, *.2b4dlx.com
 domain, *.2wa9vg.com
+domain, *.31xx958d.cc
 domain, *.365dmp.com
 domain, *.3adtjg.com
 domain, *.3dqvcli.xyz
@@ -49,6 +51,7 @@ domain, *.bgbjjtd.com
 domain, *.bidjora.com
 domain, *.bjmantis.net
 domain, *.bjnxo.cn
+domain, *.bllst.cn
 domain, *.cmgadx.com
 domain, *.cyfupnq.com
 domain, *.diwodiwo.xyz
@@ -67,6 +70,7 @@ domain, *.gdt.qq.com
 domain, *.giqnyl.cn
 domain, *.hrdhej.xyz
 domain, *.hubcloud.com.cn
+domain, *.hychwg.cyou
 domain, *.iburtq.xyz
 domain, *.ifllqc.cn
 domain, *.javadvi.com
@@ -81,6 +85,7 @@ domain, *.kxayxw.cn
 domain, *.laebu.cn
 domain, *.lxclli.cn
 domain, *.lzwrhiw.xyz
+domain, *.md410.cc
 domain, *.mise*.buzz
 domain, *.n8pnux.com
 domain, *.njp878.com
@@ -117,10 +122,13 @@ domain, *.va.huya.com
 domain, *.vegslb.com
 domain, *.vkomjd.com
 domain, *.voiceads.cn
+domain, *.wacaoldy1.com
 domain, *.weilayun.com
 domain, *.wfojsm.com
+domain, *.wy2qq.top
 domain, *.x586di.com
 domain, *.xqojux.xyz
+domain, *.y80iwf.cyou
 domain, *.ydxdg.xyz
 domain, *.yinghua-*.cc
 domain, *.z9ehxz.com
@@ -203,6 +211,7 @@ domain, 08de583.p0nkhy03m.top
 domain, 093yuht.com
 domain, 096iokj.com
 domain, 09jsufg.com
+domain, 0c4d3f6.*.com
 domain, 0er7pc8.xyz
 domain, 0krdn3.com
 domain, 0m483y7.cn
@@ -468,6 +477,7 @@ domain, 670t5x.cn
 domain, 67it.com
 domain, 68710266.com
 domain, 688mob.com
+domain, 698444.lol
 domain, 69852b1734.com
 domain, 69e7.fun
 domain, 69mok.com
@@ -537,6 +547,7 @@ domain, 830sp.com
 domain, 831kaiyun.net
 domain, 84893573.com
 domain, 84zm8.xyz
+domain, 8516.fun
 domain, 85795.today
 domain, 86649334.com
 domain, 87012670.com
@@ -3480,6 +3491,7 @@ domain, hkkeafj.cn
 domain, hkrpg-log-upload-os.hoyoverse.com
 domain, hkrpg-log-upload.mihoyo.com
 domain, hkscldggm.xyz
+domain, hkw27.icu
 domain, hladalliance.com
 domain, hlalliances.com
 domain, hlbbn6ii.icu
@@ -4190,6 +4202,7 @@ domain, kkisoo.com
 domain, kkjshsj.com
 domain, kklpe.xyz
 domain, kklq05121p0i.com
+domain, kklq05151p0i.com
 domain, kkmbbvz.xyz
 domain, kkpgv2.xunlei.com
 domain, kksdk.tapque.com
@@ -4702,6 +4715,7 @@ domain, m3.mmsp062.top
 domain, m3hual.89doc.com
 domain, m4pgay.com
 domain, m5asa4.xianxin.cc
+domain, m69e.cyou
 domain, m7.bnpkxgfp.xyz
 domain, m7g2v1b9.com
 domain, ma-adx.ctrip.com
@@ -5288,6 +5302,7 @@ domain, omgmta.play.ott.video.qq.com
 domain, omgmta.qq.com
 domain, omgmta1.qq.com
 domain, omhoa.com
+domain, ommbqw.icu
 domain, omsdkapi.tapque.com
 domain, oncinu.com
 domain, one.fsylr.com
@@ -5510,6 +5525,7 @@ domain, passport.kuaishou.com
 domain, pay.sboot.cn
 domain, payoneok.com
 domain, pbaiyho.cn
+domain, pbdhsolmxw1.com
 domain, pbtsjh.xyz
 domain, pcbrowser.dd.qq.com
 domain, pcdn-monitor.cdn.bcebos.com
@@ -6316,6 +6332,7 @@ domain, sf6-fe-pack.pglstatp-toutiao.com
 domain, sf6-ttcdn-tos.pstatp.com
 domain, sfbixfd.cn
 domain, sfg11rr.com
+domain, sfh35.icu
 domain, sfl-fe-tos.pglstatp-toutiao.com
 domain, sfn.opposhop.cn
 domain, sfp.safe.baidu.com
@@ -6749,6 +6766,7 @@ domain, thezbpe5*.xyz
 domain, thind.unityads.unity3d.com
 domain, thinkmd.cn
 domain, thoohizoogli.xyz
+domain, thu15.*.com
 domain, thvx9i.icu
 domain, tiandesign.top
 domain, tiandiren0031.xyz
@@ -7619,6 +7637,7 @@ domain, wuplexv.cn
 domain, wv.inner-active.mobi
 domain, wvyqks.xyz
 domain, ww-7o1-0h.os.23v7m9.cc
+domain, ww.wcav495.vip
 domain, wwads.cn
 domain, wwggnaw.xyz
 domain, wwgqqq.com
@@ -7704,7 +7723,9 @@ domain, www.jipinyouwu.com
 domain, www.jmine.cn
 domain, www.jtlopk.xyz
 domain, www.kanglingjiu.com
+domain, www.kca8531.cc
 domain, www.kcc4445.top
+domain, www.kdu4127.cc
 domain, www.kowqd3.top
 domain, www.kowqd9.top
 domain, www.kp12a.top

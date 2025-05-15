@@ -1,9 +1,10 @@
 # Title: Clash Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2025-05-14 17:31:49（北京时间）
+# Update Time: 2025-05-15 22:31:37（北京时间）
   - DOMAIN-SUFFIX,*-*.ad*kwai.com,REJECT
   - DOMAIN-SUFFIX,*-*.ap-east-1.elb.amazonaws.com,REJECT
+  - DOMAIN-SUFFIX,*-*.ap-northeast-2.elb.amazonaws.com,REJECT
   - DOMAIN-SUFFIX,*-*.ap-southeast-1.elb.amazonaws.com,REJECT
   - DOMAIN-SUFFIX,*-ad-sign.byteimg.com,REJECT
   - DOMAIN-SUFFIX,*-ad.a.yximgs.com,REJECT
@@ -22,6 +23,7 @@
   - DOMAIN-SUFFIX,*.233lyly.com,REJECT
   - DOMAIN-SUFFIX,*.2b4dlx.com,REJECT
   - DOMAIN-SUFFIX,*.2wa9vg.com,REJECT
+  - DOMAIN-SUFFIX,*.31xx958d.cc,REJECT
   - DOMAIN-SUFFIX,*.365dmp.com,REJECT
   - DOMAIN-SUFFIX,*.3adtjg.com,REJECT
   - DOMAIN-SUFFIX,*.3dqvcli.xyz,REJECT
@@ -50,6 +52,7 @@
   - DOMAIN-SUFFIX,*.bidjora.com,REJECT
   - DOMAIN-SUFFIX,*.bjmantis.net,REJECT
   - DOMAIN-SUFFIX,*.bjnxo.cn,REJECT
+  - DOMAIN-SUFFIX,*.bllst.cn,REJECT
   - DOMAIN-SUFFIX,*.cmgadx.com,REJECT
   - DOMAIN-SUFFIX,*.cyfupnq.com,REJECT
   - DOMAIN-SUFFIX,*.diwodiwo.xyz,REJECT
@@ -68,6 +71,7 @@
   - DOMAIN-SUFFIX,*.giqnyl.cn,REJECT
   - DOMAIN-SUFFIX,*.hrdhej.xyz,REJECT
   - DOMAIN-SUFFIX,*.hubcloud.com.cn,REJECT
+  - DOMAIN-SUFFIX,*.hychwg.cyou,REJECT
   - DOMAIN-SUFFIX,*.iburtq.xyz,REJECT
   - DOMAIN-SUFFIX,*.ifllqc.cn,REJECT
   - DOMAIN-SUFFIX,*.javadvi.com,REJECT
@@ -82,6 +86,7 @@
   - DOMAIN-SUFFIX,*.laebu.cn,REJECT
   - DOMAIN-SUFFIX,*.lxclli.cn,REJECT
   - DOMAIN-SUFFIX,*.lzwrhiw.xyz,REJECT
+  - DOMAIN-SUFFIX,*.md410.cc,REJECT
   - DOMAIN-SUFFIX,*.mise*.buzz,REJECT
   - DOMAIN-SUFFIX,*.n8pnux.com,REJECT
   - DOMAIN-SUFFIX,*.njp878.com,REJECT
@@ -118,10 +123,13 @@
   - DOMAIN-SUFFIX,*.vegslb.com,REJECT
   - DOMAIN-SUFFIX,*.vkomjd.com,REJECT
   - DOMAIN-SUFFIX,*.voiceads.cn,REJECT
+  - DOMAIN-SUFFIX,*.wacaoldy1.com,REJECT
   - DOMAIN-SUFFIX,*.weilayun.com,REJECT
   - DOMAIN-SUFFIX,*.wfojsm.com,REJECT
+  - DOMAIN-SUFFIX,*.wy2qq.top,REJECT
   - DOMAIN-SUFFIX,*.x586di.com,REJECT
   - DOMAIN-SUFFIX,*.xqojux.xyz,REJECT
+  - DOMAIN-SUFFIX,*.y80iwf.cyou,REJECT
   - DOMAIN-SUFFIX,*.ydxdg.xyz,REJECT
   - DOMAIN-SUFFIX,*.yinghua-*.cc,REJECT
   - DOMAIN-SUFFIX,*.z9ehxz.com,REJECT
@@ -204,6 +212,7 @@
   - DOMAIN-SUFFIX,093yuht.com,REJECT
   - DOMAIN-SUFFIX,096iokj.com,REJECT
   - DOMAIN-SUFFIX,09jsufg.com,REJECT
+  - DOMAIN-SUFFIX,0c4d3f6.*.com,REJECT
   - DOMAIN-SUFFIX,0er7pc8.xyz,REJECT
   - DOMAIN-SUFFIX,0krdn3.com,REJECT
   - DOMAIN-SUFFIX,0m483y7.cn,REJECT
@@ -469,6 +478,7 @@
   - DOMAIN-SUFFIX,67it.com,REJECT
   - DOMAIN-SUFFIX,68710266.com,REJECT
   - DOMAIN-SUFFIX,688mob.com,REJECT
+  - DOMAIN-SUFFIX,698444.lol,REJECT
   - DOMAIN-SUFFIX,69852b1734.com,REJECT
   - DOMAIN-SUFFIX,69e7.fun,REJECT
   - DOMAIN-SUFFIX,69mok.com,REJECT
@@ -538,6 +548,7 @@
   - DOMAIN-SUFFIX,831kaiyun.net,REJECT
   - DOMAIN-SUFFIX,84893573.com,REJECT
   - DOMAIN-SUFFIX,84zm8.xyz,REJECT
+  - DOMAIN-SUFFIX,8516.fun,REJECT
   - DOMAIN-SUFFIX,85795.today,REJECT
   - DOMAIN-SUFFIX,86649334.com,REJECT
   - DOMAIN-SUFFIX,87012670.com,REJECT
@@ -3481,6 +3492,7 @@
   - DOMAIN-SUFFIX,hkrpg-log-upload-os.hoyoverse.com,REJECT
   - DOMAIN-SUFFIX,hkrpg-log-upload.mihoyo.com,REJECT
   - DOMAIN-SUFFIX,hkscldggm.xyz,REJECT
+  - DOMAIN-SUFFIX,hkw27.icu,REJECT
   - DOMAIN-SUFFIX,hladalliance.com,REJECT
   - DOMAIN-SUFFIX,hlalliances.com,REJECT
   - DOMAIN-SUFFIX,hlbbn6ii.icu,REJECT
@@ -4191,6 +4203,7 @@
   - DOMAIN-SUFFIX,kkjshsj.com,REJECT
   - DOMAIN-SUFFIX,kklpe.xyz,REJECT
   - DOMAIN-SUFFIX,kklq05121p0i.com,REJECT
+  - DOMAIN-SUFFIX,kklq05151p0i.com,REJECT
   - DOMAIN-SUFFIX,kkmbbvz.xyz,REJECT
   - DOMAIN-SUFFIX,kkpgv2.xunlei.com,REJECT
   - DOMAIN-SUFFIX,kksdk.tapque.com,REJECT
@@ -4703,6 +4716,7 @@
   - DOMAIN-SUFFIX,m3hual.89doc.com,REJECT
   - DOMAIN-SUFFIX,m4pgay.com,REJECT
   - DOMAIN-SUFFIX,m5asa4.xianxin.cc,REJECT
+  - DOMAIN-SUFFIX,m69e.cyou,REJECT
   - DOMAIN-SUFFIX,m7.bnpkxgfp.xyz,REJECT
   - DOMAIN-SUFFIX,m7g2v1b9.com,REJECT
   - DOMAIN-SUFFIX,ma-adx.ctrip.com,REJECT
@@ -5289,6 +5303,7 @@
   - DOMAIN-SUFFIX,omgmta.qq.com,REJECT
   - DOMAIN-SUFFIX,omgmta1.qq.com,REJECT
   - DOMAIN-SUFFIX,omhoa.com,REJECT
+  - DOMAIN-SUFFIX,ommbqw.icu,REJECT
   - DOMAIN-SUFFIX,omsdkapi.tapque.com,REJECT
   - DOMAIN-SUFFIX,oncinu.com,REJECT
   - DOMAIN-SUFFIX,one.fsylr.com,REJECT
@@ -5511,6 +5526,7 @@
   - DOMAIN-SUFFIX,pay.sboot.cn,REJECT
   - DOMAIN-SUFFIX,payoneok.com,REJECT
   - DOMAIN-SUFFIX,pbaiyho.cn,REJECT
+  - DOMAIN-SUFFIX,pbdhsolmxw1.com,REJECT
   - DOMAIN-SUFFIX,pbtsjh.xyz,REJECT
   - DOMAIN-SUFFIX,pcbrowser.dd.qq.com,REJECT
   - DOMAIN-SUFFIX,pcdn-monitor.cdn.bcebos.com,REJECT
@@ -6317,6 +6333,7 @@
   - DOMAIN-SUFFIX,sf6-ttcdn-tos.pstatp.com,REJECT
   - DOMAIN-SUFFIX,sfbixfd.cn,REJECT
   - DOMAIN-SUFFIX,sfg11rr.com,REJECT
+  - DOMAIN-SUFFIX,sfh35.icu,REJECT
   - DOMAIN-SUFFIX,sfl-fe-tos.pglstatp-toutiao.com,REJECT
   - DOMAIN-SUFFIX,sfn.opposhop.cn,REJECT
   - DOMAIN-SUFFIX,sfp.safe.baidu.com,REJECT
@@ -6750,6 +6767,7 @@
   - DOMAIN-SUFFIX,thind.unityads.unity3d.com,REJECT
   - DOMAIN-SUFFIX,thinkmd.cn,REJECT
   - DOMAIN-SUFFIX,thoohizoogli.xyz,REJECT
+  - DOMAIN-SUFFIX,thu15.*.com,REJECT
   - DOMAIN-SUFFIX,thvx9i.icu,REJECT
   - DOMAIN-SUFFIX,tiandesign.top,REJECT
   - DOMAIN-SUFFIX,tiandiren0031.xyz,REJECT
@@ -7620,6 +7638,7 @@
   - DOMAIN-SUFFIX,wv.inner-active.mobi,REJECT
   - DOMAIN-SUFFIX,wvyqks.xyz,REJECT
   - DOMAIN-SUFFIX,ww-7o1-0h.os.23v7m9.cc,REJECT
+  - DOMAIN-SUFFIX,ww.wcav495.vip,REJECT
   - DOMAIN-SUFFIX,wwads.cn,REJECT
   - DOMAIN-SUFFIX,wwggnaw.xyz,REJECT
   - DOMAIN-SUFFIX,wwgqqq.com,REJECT
@@ -7705,7 +7724,9 @@
   - DOMAIN-SUFFIX,www.jmine.cn,REJECT
   - DOMAIN-SUFFIX,www.jtlopk.xyz,REJECT
   - DOMAIN-SUFFIX,www.kanglingjiu.com,REJECT
+  - DOMAIN-SUFFIX,www.kca8531.cc,REJECT
   - DOMAIN-SUFFIX,www.kcc4445.top,REJECT
+  - DOMAIN-SUFFIX,www.kdu4127.cc,REJECT
   - DOMAIN-SUFFIX,www.kowqd3.top,REJECT
   - DOMAIN-SUFFIX,www.kowqd9.top,REJECT
   - DOMAIN-SUFFIX,www.kp12a.top,REJECT
