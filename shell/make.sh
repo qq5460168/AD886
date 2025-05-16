@@ -3,42 +3,7 @@
 set -e  # 如果有任何命令出错，立即退出脚本
 
 # 获取北京时间
-time=$(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')'（北京时间）'
-
-# 文件路径定义
-ad_file="AD.txt"
-dnslist_file="dnslist.txt"
-hosts_file="hosts.txt"
-qxlist_file="qx.list"
-srs_file="singbox.srs"
-invizible_file="invizible.txt"
-shadowrocket_file="Shadowrocket.list"
-adclose_file="AdClose.txt"
-clash_file="clash.yaml"
-clash_meta_file="clash_meta.yaml"
-
-# 打印日志函数
-log() {
-  echo "$(date +'%Y-%m-%d %H:%M:%S') [INFO] $1"
-}
-
-# 检查文件是否存在
-check_file() {
-  if [[ ! -f "$1" ]]; then
-    log "文件 $1 不存在，退出脚本！"
-    exit 1
-  fi
-}
-
-# 初始化检查
-log "检查必要文件..."
-check_file "$ad_file"
-
-# 函数：生成通用规则模板
-generate_rules() {
-  local comment="$1"
-  local suffix="$2"
-  local file="$3"
+time=$(TZ="$3"
   log "生成 ${comment} 规则文件 (${file})..."
   {
     echo "# Title: ${comment} Rules"
@@ -46,8 +11,8 @@ generate_rules() {
     echo "# by: 酷安@那个谁520"
     echo "# Update Time: ${time}"
     grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | \
-      sed -E "s/^\|\|([^\/\^]+)\^$/${suffix}/" | \
-      sort -u
+    sed -E "s/^\|\|([^\/\^]+)\^$/${suffix}/" | \
+    sort -u
   } > "$file"
 }
 
@@ -85,8 +50,8 @@ generate_adclose() {
     echo "# 格式：domain, <域名>"
     echo "# 生成时间: ${time}"
     grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | \
-      sed -E 's/^\|\|([^\/\^]+)\^$/domain, \1/' | \
-      sort -u
+    sed -E 's/^\|\|([^\/\^]+)\^$/domain, \1/' | \
+    sort -u
   } > "$adclose_file"
 }
 
@@ -94,8 +59,31 @@ generate_singbox() {
   generate_rules "SingBox SRS" "DOMAIN-SUFFIX,\1,REJECT" "$srs_file"
 }
 
+# 新增：生成 Singbox JSON 规则
+generate_singbox_json() {
+  log "生成 Singbox JSON 规则文件 (${singbox_json_file})..."
+  {
+    echo "{"
+    echo "  \"name\": \"Singbox Ads Rule\","
+    echo "  \"type\": \"domain\","
+    echo "  \"payload\": ["
+    grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | \
+      sed -E "s/^\|\|([^\/\^]+)\^$/    \"\1\",/" | \
+      sort -u | sed '$ s/,$//'
+    echo "  ]"
+    echo "}"
+  } > "$singbox_json_file"
+
+  if [ $? -eq 0 ]; then
+    log "成功生成 Singbox JSON 规则文件 (${singbox_json_file})！"
+  else
+    log "生成 Singbox JSON 文件失败！"
+    exit 1
+  fi
+}
+
 generate_invizible() {
-  generate_rules "Invizible Pro" "\1" "$invizible_file"  # 关键修复点
+  generate_rules "Invizible Pro" "\1" "$invizible_file"
 }
 
 generate_clash() {
@@ -109,8 +97,8 @@ generate_clash_meta() {
     echo "# 生成时间: ${time}"
     echo "payload:"
     grep -E "^(\|\|)[^\/\^]+\^$" "$ad_file" | \
-      sed -E "s/^\|\|([^\/\^]+)\^$/  - '\1'/" | \
-      sort -u
+    sed -E "s/^\|\|([^\/\^]+)\^$/  - '\1'/" | \
+    sort -u
   } > "$clash_meta_file"
 }
 
@@ -123,6 +111,7 @@ main() {
   generate_shadowrocket
   generate_adclose
   generate_singbox
+  generate_singbox_json  # 调用新增的 JSON 规则生成函数
   generate_invizible
   generate_clash
   generate_clash_meta
@@ -132,11 +121,9 @@ main() {
   log "2. ${hosts_file} (Hosts 格式)"
   log "3. ${qxlist_file} (Quantumult X)"
   log "4. ${shadowrocket_file} (Shadowrocket)"
-  log "5. ${adclose_file} (AdClose)"
-  log "6. ${srs_file} (SingBox SRS)"
-  log "7. ${invizible_file} (Invizible Pro)"
-  log "8. ${clash_file} (Clash)"
-  log "9. ${clash_meta_file} (Clash Meta)"
+  log "5izible Pro)"
+  log "9. ${clash_file} (Clash)"
+  log "10. ${clash_meta_file} (Clash Meta)"
 }
 
 main
