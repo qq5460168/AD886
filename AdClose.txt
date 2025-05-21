@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-05-21 10:06:17（北京时间）
+# 生成时间: 2025-05-21 18:14:40（北京时间）
 domain, *-*-*-lrycfv.vip
 domain, *-*.ad*kwai.com
 domain, *-*.ap-east-1.elb.amazonaws.com
@@ -932,6 +932,7 @@ domain, adiu.amap.com
 domain, adjust.cn
 domain, adjust.com
 domain, adkisdh3897.xyz
+domain, adks.hpplay.cn
 domain, adkwai.com
 domain, adlaunch.qingting.fm
 domain, adlaunch.qtfm.cn
@@ -1375,6 +1376,7 @@ domain, analytics-sg.tiktok.com
 domain, analytics.126.com
 domain, analytics.163.com
 domain, analytics.95516.com
+domain, analytics.adjust.cn
 domain, analytics.google.com
 domain, analytics.libertymutual.com.edgekey.net
 domain, analytics.map.qq.com
@@ -1608,6 +1610,7 @@ domain, appstoreort-stsdk.vivo.com.cn
 domain, appsupport.qq.com
 domain, apptime.xyz
 domain, appupgrade.vivo.com.cn
+domain, appversion.115.com
 domain, aq-ad-h5-fe.c.t.soulapp-inc.cn
 domain, aq.qq.servirce.com
 domain, aqaas.dsimpkr.cn
@@ -1651,7 +1654,6 @@ domain, astrategy.beacon.qq.com
 domain, asvysvxr.com
 domain, asycxtz.cn
 domain, at*.doubanio.com
-domain, ata-sdk-uuid-report.dreport.meituan.net
 domain, atbdkmt.xyz
 domain, atnnf.xyz
 domain, aty.sohu.com
@@ -3222,7 +3224,6 @@ domain, gepvgv.icu
 domain, getads.tianad.cn
 domain, getui.cn
 domain, getui.com
-domain, getui.net
 domain, geuvus.icu
 domain, geziyd.com
 domain, gfbdb1.com
@@ -3300,7 +3301,6 @@ domain, googlesyndication.com
 domain, googletagmanager-cn.com
 domain, googletagmanager.com
 domain, googletagservices-cn.com
-domain, googletagservices.com
 domain, googletraveladservices.com
 domain, googlevads-cn.com
 domain, gorgon.youdao.com
@@ -3328,7 +3328,6 @@ domain, gromore.pangolin-sdk-toutiao.com
 domain, growthpic.weishi.qq.com
 domain, grs.dbankcloud.com
 domain, grs.hicloud.com
-domain, grs.platform.dbankcloud.ru
 domain, gscatk.cn
 domain, gshsne.xyz
 domain, gsjzlssws.com
@@ -3680,7 +3679,6 @@ domain, hxinitv.icu
 domain, hxwxfc.cn
 domain, hxwxffc.cn
 domain, hy.luassane.cn
-domain, hya.comp.360os.com
 domain, hybrid.miniapp.taobao.com
 domain, hye.comp.360os.com
 domain, hyeqp.xyz
@@ -4347,7 +4345,7 @@ domain, kuaishou-mipdx.cn.miaozhen.com
 domain, kuaishou.httpdns.pro
 domain, kuaishouad.cn
 domain, kuanxin.top
-domain, kuiniuca.com
+domain, kuiv.cn
 domain, kunzhang.name
 domain, kuresdd.top
 domain, kuxkddg.cn
@@ -5990,7 +5988,6 @@ domain, quzmtpxw.xyz
 domain, qvxvvjom.com
 domain, qw.wandx5.cn
 domain, qw2v.taoxiehui.cn
-domain, qwapi.apple.com
 domain, qwcwnjk.com
 domain, qwdbsjnql.com
 domain, qwe0231141.bj.bcebos.com
@@ -6225,17 +6222,14 @@ domain, s.ufile.cc
 domain, s.union.360.cn
 domain, s0n9app.com
 domain, s1.hapying.com
-domain, s1.qq.com
 domain, s1.ssl.qhres.com
 domain, s1m.mediav.com
-domain, s2.qq.com
 domain, s2dcm.com
 domain, s2m.mediav.com
 domain, s2rkge.vmgikpw.com
 domain, s2s.adjust.cn
 domain, s2s.adjust.com
 domain, s3-fe-scm.pglstatp-toutiao.com
-domain, s3.qq.com
 domain, s364-ad-canl5.nbjz.db9w.com
 domain, s3m.mediav.com
 domain, s3m1.fenxi.com
@@ -7208,7 +7202,6 @@ domain, umengjmacs.m.taobao.com
 domain, umini.shujupie.com
 domain, umkezbh.cn
 domain, umoney.dxmstatic.com
-domain, umsns.com
 domain, umwatsonc.events.data.microsoft.com
 domain, umyrn.xyz
 domain, un-acs.cp31.ott.cibntv.net
@@ -8051,7 +8044,6 @@ domain, xlardaxq.com
 domain, xlhdicw.top
 domain, xlivrdr.com
 domain, xlmwp.zxhychina.com
-domain, xlmzc.cnjp-exp.com
 domain, xlog.jd.com
 domain, xlog.snssdk.com
 domain, xlviiirdr.com
@@ -8277,7 +8269,6 @@ domain, yousuoweiedu.com
 domain, youtubee.top
 domain, youxi.baidu.com
 domain, youxi.gamecenter.qq.com
-domain, youxi.kugou.com
 domain, ypzps.com
 domain, yqgzaewe.cn
 domain, yqs66.82098999.com

@@ -1,7 +1,7 @@
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2025-05-21 10:06:17（北京时间）
+# Update Time: 2025-05-21 18:14:40（北京时间）
 0.0.0.0 *-*-*-lrycfv.vip
 0.0.0.0 *-*.ad*kwai.com
 0.0.0.0 *-*.ap-east-1.elb.amazonaws.com
@@ -933,6 +933,7 @@
 0.0.0.0 adjust.cn
 0.0.0.0 adjust.com
 0.0.0.0 adkisdh3897.xyz
+0.0.0.0 adks.hpplay.cn
 0.0.0.0 adkwai.com
 0.0.0.0 adlaunch.qingting.fm
 0.0.0.0 adlaunch.qtfm.cn
@@ -1376,6 +1377,7 @@
 0.0.0.0 analytics.126.com
 0.0.0.0 analytics.163.com
 0.0.0.0 analytics.95516.com
+0.0.0.0 analytics.adjust.cn
 0.0.0.0 analytics.google.com
 0.0.0.0 analytics.libertymutual.com.edgekey.net
 0.0.0.0 analytics.map.qq.com
@@ -1609,6 +1611,7 @@
 0.0.0.0 appsupport.qq.com
 0.0.0.0 apptime.xyz
 0.0.0.0 appupgrade.vivo.com.cn
+0.0.0.0 appversion.115.com
 0.0.0.0 aq-ad-h5-fe.c.t.soulapp-inc.cn
 0.0.0.0 aq.qq.servirce.com
 0.0.0.0 aqaas.dsimpkr.cn
@@ -1652,7 +1655,6 @@
 0.0.0.0 asvysvxr.com
 0.0.0.0 asycxtz.cn
 0.0.0.0 at*.doubanio.com
-0.0.0.0 ata-sdk-uuid-report.dreport.meituan.net
 0.0.0.0 atbdkmt.xyz
 0.0.0.0 atnnf.xyz
 0.0.0.0 aty.sohu.com
@@ -3223,7 +3225,6 @@
 0.0.0.0 getads.tianad.cn
 0.0.0.0 getui.cn
 0.0.0.0 getui.com
-0.0.0.0 getui.net
 0.0.0.0 geuvus.icu
 0.0.0.0 geziyd.com
 0.0.0.0 gfbdb1.com
@@ -3301,7 +3302,6 @@
 0.0.0.0 googletagmanager-cn.com
 0.0.0.0 googletagmanager.com
 0.0.0.0 googletagservices-cn.com
-0.0.0.0 googletagservices.com
 0.0.0.0 googletraveladservices.com
 0.0.0.0 googlevads-cn.com
 0.0.0.0 gorgon.youdao.com
@@ -3329,7 +3329,6 @@
 0.0.0.0 growthpic.weishi.qq.com
 0.0.0.0 grs.dbankcloud.com
 0.0.0.0 grs.hicloud.com
-0.0.0.0 grs.platform.dbankcloud.ru
 0.0.0.0 gscatk.cn
 0.0.0.0 gshsne.xyz
 0.0.0.0 gsjzlssws.com
@@ -3681,7 +3680,6 @@
 0.0.0.0 hxwxfc.cn
 0.0.0.0 hxwxffc.cn
 0.0.0.0 hy.luassane.cn
-0.0.0.0 hya.comp.360os.com
 0.0.0.0 hybrid.miniapp.taobao.com
 0.0.0.0 hye.comp.360os.com
 0.0.0.0 hyeqp.xyz
@@ -4348,7 +4346,7 @@
 0.0.0.0 kuaishou.httpdns.pro
 0.0.0.0 kuaishouad.cn
 0.0.0.0 kuanxin.top
-0.0.0.0 kuiniuca.com
+0.0.0.0 kuiv.cn
 0.0.0.0 kunzhang.name
 0.0.0.0 kuresdd.top
 0.0.0.0 kuxkddg.cn
@@ -5991,7 +5989,6 @@
 0.0.0.0 qvxvvjom.com
 0.0.0.0 qw.wandx5.cn
 0.0.0.0 qw2v.taoxiehui.cn
-0.0.0.0 qwapi.apple.com
 0.0.0.0 qwcwnjk.com
 0.0.0.0 qwdbsjnql.com
 0.0.0.0 qwe0231141.bj.bcebos.com
@@ -6226,17 +6223,14 @@
 0.0.0.0 s.union.360.cn
 0.0.0.0 s0n9app.com
 0.0.0.0 s1.hapying.com
-0.0.0.0 s1.qq.com
 0.0.0.0 s1.ssl.qhres.com
 0.0.0.0 s1m.mediav.com
-0.0.0.0 s2.qq.com
 0.0.0.0 s2dcm.com
 0.0.0.0 s2m.mediav.com
 0.0.0.0 s2rkge.vmgikpw.com
 0.0.0.0 s2s.adjust.cn
 0.0.0.0 s2s.adjust.com
 0.0.0.0 s3-fe-scm.pglstatp-toutiao.com
-0.0.0.0 s3.qq.com
 0.0.0.0 s364-ad-canl5.nbjz.db9w.com
 0.0.0.0 s3m.mediav.com
 0.0.0.0 s3m1.fenxi.com
@@ -7209,7 +7203,6 @@
 0.0.0.0 umini.shujupie.com
 0.0.0.0 umkezbh.cn
 0.0.0.0 umoney.dxmstatic.com
-0.0.0.0 umsns.com
 0.0.0.0 umwatsonc.events.data.microsoft.com
 0.0.0.0 umyrn.xyz
 0.0.0.0 un-acs.cp31.ott.cibntv.net
@@ -8052,7 +8045,6 @@
 0.0.0.0 xlhdicw.top
 0.0.0.0 xlivrdr.com
 0.0.0.0 xlmwp.zxhychina.com
-0.0.0.0 xlmzc.cnjp-exp.com
 0.0.0.0 xlog.jd.com
 0.0.0.0 xlog.snssdk.com
 0.0.0.0 xlviiirdr.com
@@ -8278,7 +8270,6 @@
 0.0.0.0 youtubee.top
 0.0.0.0 youxi.baidu.com
 0.0.0.0 youxi.gamecenter.qq.com
-0.0.0.0 youxi.kugou.com
 0.0.0.0 ypzps.com
 0.0.0.0 yqgzaewe.cn
 0.0.0.0 yqs66.82098999.com
