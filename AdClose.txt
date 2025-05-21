@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-05-20 00:37:13（北京时间）
+# 生成时间: 2025-05-21 10:06:17（北京时间）
 domain, *-*-*-lrycfv.vip
 domain, *-*.ad*kwai.com
 domain, *-*.ap-east-1.elb.amazonaws.com
@@ -3088,6 +3088,7 @@ domain, fp-it*.fengkongcloud.com
 domain, fp-it.fengkongcloud.com
 domain, fp-upload.dun.163.com
 domain, fptdxkm.com
+domain, fpvideo.shenshiads.com
 domain, fqpxzr.xyz
 domain, fqquzqd.top
 domain, fqxkj.cn
