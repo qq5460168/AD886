@@ -2,9 +2,9 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-05-21 08:44:39（北京时间）
+! Version: 2025-05-21 18:10:00（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 8657
+! Total count: 8648
 ||*-*-*-lrycfv.vip^
 ||*-*.ad*kwai.com^
 ||*-*.ap-east-1.elb.amazonaws.com^
@@ -957,6 +957,7 @@
 ||adjust.cn^
 ||adjust.com^
 ||adkisdh3897.xyz^
+||adks.hpplay.cn^
 ||adkwai.com^
 ||adlaunch.qingting.fm^
 ||adlaunch.qtfm.cn^
@@ -1400,6 +1401,7 @@
 ||analytics.126.com^
 ||analytics.163.com^
 ||analytics.95516.com^
+||analytics.adjust.cn^
 ||analytics.google.com^
 ||analytics.libertymutual.com.edgekey.net^
 ||analytics.map.qq.com^
@@ -1635,6 +1637,7 @@
 ||appsupport.qq.com^
 ||apptime.xyz^
 ||appupgrade.vivo.com.cn^
+||appversion.115.com^
 ||aq-ad-h5-fe.c.t.soulapp-inc.cn^
 ||aq.qq.servirce.com^
 ||aqaas.dsimpkr.cn^
@@ -1678,7 +1681,6 @@
 ||asvysvxr.com^
 ||asycxtz.cn^
 ||at*.doubanio.com^
-||ata-sdk-uuid-report.dreport.meituan.net^
 ||atbdkmt.xyz^
 ||atnnf.xyz^
 ||aty.sohu.com^
@@ -3251,7 +3253,6 @@
 ||getads.tianad.cn^
 ||getui.cn^
 ||getui.com^
-||getui.net^
 ||geuvus.icu^
 ||geziyd.com^
 ||gfbdb1.com^
@@ -3330,7 +3331,6 @@
 ||googletagmanager-cn.com^
 ||googletagmanager.com^
 ||googletagservices-cn.com^
-||googletagservices.com^
 ||googletraveladservices.com^
 ||googlevads-cn.com^
 ||gorgon.youdao.com^
@@ -3358,7 +3358,6 @@
 ||growthpic.weishi.qq.com^
 ||grs.dbankcloud.com^
 ||grs.hicloud.com^
-||grs.platform.dbankcloud.ru^
 ||gscatk.cn^
 ||gshsne.xyz^
 ||gsjzlssws.com^
@@ -3711,7 +3710,6 @@
 ||hxwxfc.cn^
 ||hxwxffc.cn^
 ||hy.luassane.cn^
-||hya.comp.360os.com^
 ||hybrid.miniapp.taobao.com^
 ||hye.comp.360os.com^
 ||hyeqp.xyz^
@@ -4383,7 +4381,7 @@
 ||kuaishou.httpdns.pro^
 ||kuaishouad.cn^
 ||kuanxin.top^
-||kuiniuca.com^
+||kuiv.cn^
 ||kunzhang.name^
 ||kuresdd.top^
 ||kuxkddg.cn^
@@ -6043,7 +6041,6 @@
 ||qvxvvjom.com^
 ||qw.wandx5.cn^
 ||qw2v.taoxiehui.cn^
-||qwapi.apple.com^
 ||qwcwnjk.com^
 ||qwdbsjnql.com^
 ||qwe0231141.bj.bcebos.com^
@@ -6279,17 +6276,14 @@
 ||s.union.360.cn^
 ||s0n9app.com^
 ||s1.hapying.com^
-||s1.qq.com^
 ||s1.ssl.qhres.com^
 ||s1m.mediav.com^
-||s2.qq.com^
 ||s2dcm.com^
 ||s2m.mediav.com^
 ||s2rkge.vmgikpw.com^
 ||s2s.adjust.cn^
 ||s2s.adjust.com^
 ||s3-fe-scm.pglstatp-toutiao.com^
-||s3.qq.com^
 ||s364-ad-canl5.nbjz.db9w.com^
 ||s3m.mediav.com^
 ||s3m1.fenxi.com^
@@ -7266,7 +7260,6 @@
 ||umini.shujupie.com^
 ||umkezbh.cn^
 ||umoney.dxmstatic.com^
-||umsns.com^
 ||umwatsonc.events.data.microsoft.com^
 ||umyrn.xyz^
 ||un-acs.cp31.ott.cibntv.net^
@@ -8110,7 +8103,6 @@
 ||xlhdicw.top^
 ||xlivrdr.com^
 ||xlmwp.zxhychina.com^
-||xlmzc.cnjp-exp.com^
 ||xlog.jd.com^
 ||xlog.snssdk.com^
 ||xlviiirdr.com^
@@ -8336,7 +8328,6 @@
 ||youtubee.top^
 ||youxi.baidu.com^
 ||youxi.gamecenter.qq.com^
-||youxi.kugou.com^
 ||ypzps.com^
 ||yqgzaewe.cn^
 ||yqs66.82098999.com^
