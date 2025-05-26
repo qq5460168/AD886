@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2025-05-21 18:14:40（北京时间）
+# 生成时间: 2025-05-26 20:38:26（北京时间）
 payload:
   - '*-*-*-lrycfv.vip'
   - '*-*.ad*kwai.com'
@@ -882,6 +882,7 @@ payload:
   - 'adashx.ut.amap.com'
   - 'adashx.ut.cainiao.com'
   - 'adashx.ut.dingtalk.com'
+  - 'adashx.ut.hzshudian.com'
   - 'adashx.ut.shuqi.com'
   - 'adashx.ut.uc.cn'
   - 'adashx.ut.youku.com'
@@ -3026,6 +3027,7 @@ payload:
   - 'fg.daochengwowo.top'
   - 'fg.yilianqing.com'
   - 'fgetmzx.icu'
+  - 'fgfhgvtj.com'
   - 'fgnzdb.xyz'
   - 'fgre9.top'
   - 'fhddnh.xyz'
@@ -3399,6 +3401,7 @@ payload:
   - 'h-adashx.ut.amap.com'
   - 'h-adashx.ut.cainiao.com'
   - 'h-adashx.ut.dingtalk.com'
+  - 'h-adashx.ut.hzshudian.com'
   - 'h-adashx.ut.taobao.com'
   - 'h-adashx.ut.uc.cn'
   - 'h-adashx.ut.youku.com'

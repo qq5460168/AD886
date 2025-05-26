@@ -1,7 +1,7 @@
 # Title: Clash Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2025-05-21 18:14:40（北京时间）
+# Update Time: 2025-05-26 20:38:26（北京时间）
   - DOMAIN-SUFFIX,*-*-*-lrycfv.vip,REJECT
   - DOMAIN-SUFFIX,*-*.ad*kwai.com,REJECT
   - DOMAIN-SUFFIX,*-*.ap-east-1.elb.amazonaws.com,REJECT
@@ -883,6 +883,7 @@
   - DOMAIN-SUFFIX,adashx.ut.amap.com,REJECT
   - DOMAIN-SUFFIX,adashx.ut.cainiao.com,REJECT
   - DOMAIN-SUFFIX,adashx.ut.dingtalk.com,REJECT
+  - DOMAIN-SUFFIX,adashx.ut.hzshudian.com,REJECT
   - DOMAIN-SUFFIX,adashx.ut.shuqi.com,REJECT
   - DOMAIN-SUFFIX,adashx.ut.uc.cn,REJECT
   - DOMAIN-SUFFIX,adashx.ut.youku.com,REJECT
@@ -3027,6 +3028,7 @@
   - DOMAIN-SUFFIX,fg.daochengwowo.top,REJECT
   - DOMAIN-SUFFIX,fg.yilianqing.com,REJECT
   - DOMAIN-SUFFIX,fgetmzx.icu,REJECT
+  - DOMAIN-SUFFIX,fgfhgvtj.com,REJECT
   - DOMAIN-SUFFIX,fgnzdb.xyz,REJECT
   - DOMAIN-SUFFIX,fgre9.top,REJECT
   - DOMAIN-SUFFIX,fhddnh.xyz,REJECT
@@ -3400,6 +3402,7 @@
   - DOMAIN-SUFFIX,h-adashx.ut.amap.com,REJECT
   - DOMAIN-SUFFIX,h-adashx.ut.cainiao.com,REJECT
   - DOMAIN-SUFFIX,h-adashx.ut.dingtalk.com,REJECT
+  - DOMAIN-SUFFIX,h-adashx.ut.hzshudian.com,REJECT
   - DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT
   - DOMAIN-SUFFIX,h-adashx.ut.uc.cn,REJECT
   - DOMAIN-SUFFIX,h-adashx.ut.youku.com,REJECT

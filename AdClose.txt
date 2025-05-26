@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-05-21 18:14:40（北京时间）
+# 生成时间: 2025-05-26 20:38:26（北京时间）
 domain, *-*-*-lrycfv.vip
 domain, *-*.ad*kwai.com
 domain, *-*.ap-east-1.elb.amazonaws.com
@@ -882,6 +882,7 @@ domain, adashx.m.taobao.com.w.kunlunhuf.com
 domain, adashx.ut.amap.com
 domain, adashx.ut.cainiao.com
 domain, adashx.ut.dingtalk.com
+domain, adashx.ut.hzshudian.com
 domain, adashx.ut.shuqi.com
 domain, adashx.ut.uc.cn
 domain, adashx.ut.youku.com
@@ -3026,6 +3027,7 @@ domain, ffzz71.com
 domain, fg.daochengwowo.top
 domain, fg.yilianqing.com
 domain, fgetmzx.icu
+domain, fgfhgvtj.com
 domain, fgnzdb.xyz
 domain, fgre9.top
 domain, fhddnh.xyz
@@ -3399,6 +3401,7 @@ domain, gzsjym.xyz
 domain, h-adashx.ut.amap.com
 domain, h-adashx.ut.cainiao.com
 domain, h-adashx.ut.dingtalk.com
+domain, h-adashx.ut.hzshudian.com
 domain, h-adashx.ut.taobao.com
 domain, h-adashx.ut.uc.cn
 domain, h-adashx.ut.youku.com
