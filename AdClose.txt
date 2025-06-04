@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-05-29 20:20:41（北京时间）
+# 生成时间: 2025-06-04 20:35:15（北京时间）
 domain, *-*-*-lrycfv.vip
 domain, *-*.ad*kwai.com
 domain, *-*.ap-east-1.elb.amazonaws.com
@@ -604,6 +604,7 @@ domain, 8gp4wjq3.com
 domain, 8le8le.com
 domain, 8mhcc.top
 domain, 8pjqjxmr.com
+domain, 8rn1y79f02-1.algolianet.com
 domain, 8suis.top
 domain, 90fcw.cn
 domain, 90nw.com
@@ -782,6 +783,8 @@ domain, ad-sdk.huxiu.com
 domain, ad-sdk.lenovomm.com
 domain, ad-sh-sz-zb.wagbridge.tanx.alimama.com
 domain, ad-sh-sz-zb.wagbridge.tanx.alimama.com.gds.alibabadns.com
+domain, ad-splash-tracking.hktvmall.com
+domain, ad-splash.hktvmall.com
 domain, ad-ssp-engine-qa-ct.soulapp-inc.cn
 domain, ad-static.ssread.cn
 domain, ad-survey.com
@@ -4522,6 +4525,7 @@ domain, lite.a.market.xiaomi.com
 domain, littlecdn.com
 domain, liugaohao.com
 domain, liuyimin5.cn
+domain, live-api.hktvmall.com
 domain, liveats-vod.video.iqiyi.com
 domain, liveats-vod.video.ptqy.gitv.tv
 domain, livec.l.qq.com

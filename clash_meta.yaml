@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2025-05-29 20:20:41（北京时间）
+# 生成时间: 2025-06-04 20:35:15（北京时间）
 payload:
   - '*-*-*-lrycfv.vip'
   - '*-*.ad*kwai.com'
@@ -604,6 +604,7 @@ payload:
   - '8le8le.com'
   - '8mhcc.top'
   - '8pjqjxmr.com'
+  - '8rn1y79f02-1.algolianet.com'
   - '8suis.top'
   - '90fcw.cn'
   - '90nw.com'
@@ -782,6 +783,8 @@ payload:
   - 'ad-sdk.lenovomm.com'
   - 'ad-sh-sz-zb.wagbridge.tanx.alimama.com'
   - 'ad-sh-sz-zb.wagbridge.tanx.alimama.com.gds.alibabadns.com'
+  - 'ad-splash-tracking.hktvmall.com'
+  - 'ad-splash.hktvmall.com'
   - 'ad-ssp-engine-qa-ct.soulapp-inc.cn'
   - 'ad-static.ssread.cn'
   - 'ad-survey.com'
@@ -4522,6 +4525,7 @@ payload:
   - 'littlecdn.com'
   - 'liugaohao.com'
   - 'liuyimin5.cn'
+  - 'live-api.hktvmall.com'
   - 'liveats-vod.video.iqiyi.com'
   - 'liveats-vod.video.ptqy.gitv.tv'
   - 'livec.l.qq.com'
