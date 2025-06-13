@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2025-06-11 00:16:59（北京时间）
+# 生成时间: 2025-06-13 22:52:20（北京时间）
 payload:
   - '*-*-*-lrycfv.vip'
   - '*-*.ap-east-1.elb.amazonaws.com'
@@ -6586,6 +6586,7 @@ payload:
   - 'sdk.1rtb.net'
   - 'sdk.ad.smaato.net'
   - 'sdk.adtiming.com'
+  - 'sdk.adx.adwangmai.com'
   - 'sdk.alibaba.com.ailbaba.me'
   - 'sdk.api.oaid.wocloud.cn'
   - 'sdk.beizi.biz'

@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-06-11 00:16:59（北京时间）
+# 生成时间: 2025-06-13 22:52:20（北京时间）
 domain, *-*-*-lrycfv.vip
 domain, *-*.ap-east-1.elb.amazonaws.com
 domain, *-*.ap-northeast-2.elb.amazonaws.com
@@ -6586,6 +6586,7 @@ domain, sdk-open-phone.getui.com
 domain, sdk.1rtb.net
 domain, sdk.ad.smaato.net
 domain, sdk.adtiming.com
+domain, sdk.adx.adwangmai.com
 domain, sdk.alibaba.com.ailbaba.me
 domain, sdk.api.oaid.wocloud.cn
 domain, sdk.beizi.biz
