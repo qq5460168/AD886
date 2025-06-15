@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-06-15 14:15:02（北京时间）
+# 生成时间: 2025-06-15 22:22:33（北京时间）
 domain, *-*-*-lrycfv.vip
 domain, *-*.ap-east-1.elb.amazonaws.com
 domain, *-*.ap-northeast-2.elb.amazonaws.com
@@ -1659,6 +1659,7 @@ domain, app.log.nf.migu.cn
 domain, app.okstate.com
 domain, app.pulsatehq.com
 domain, app.pyypl.io
+domain, app.rm
 domain, app.thestaxapp.com
 domain, appc.baidu.com
 domain, appcfg.v.qq.com
@@ -8025,6 +8026,7 @@ domain, wiot768.com
 domain, wipbbok.com
 domain, wipew.com
 domain, wit.qq.com
+domain, wjz-cdn.baidu.com
 domain, wkanx.com
 domain, wkrcbszi.xyz
 domain, wl.jd.com
