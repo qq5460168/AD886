@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2025-06-15 22:22:33（北京时间）
+# 生成时间: 2025-06-18 21:20:04（北京时间）
 payload:
   - '*-*-*-lrycfv.vip'
   - '*-*.ap-east-1.elb.amazonaws.com'
@@ -2969,6 +2969,7 @@ payload:
   - 'eff.005www11w.top'
   - 'eff14.914-991.icu'
   - 'effectivehealthy.cn'
+  - 'efusc.com'
   - 'efvsyhbf.xyz'
   - 'eghyahl.cn'
   - 'egipsbvlgn.xyz'
@@ -3586,6 +3587,7 @@ payload:
   - 'h35.ynodd.cn'
   - 'h45pmx1.cn'
   - 'h4b0srs.cn'
+  - 'h5.analytics.126.net'
   - 'h5.dzgsdswh5.xyz'
   - 'h5.gdt.qq.com'
   - 'h5.hpplay.com.cn'
@@ -4846,6 +4848,7 @@ payload:
   - 'log.byteoversea.com'
   - 'log.daqi.com'
   - 'log.fc.yahoo.com'
+  - 'log.iflytek.com'
   - 'log.jd.com'
   - 'log.kuwo.cn'
   - 'log.m.sm.cn'
@@ -6670,6 +6673,7 @@ payload:
   - 'sentry.fintopia.tech'
   - 'sentry.io'
   - 'sentry.kuaishou.com'
+  - 'sentry.music.163.com'
   - 'senxiaopang.top'
   - 'seordl.cn'
   - 'sephreoqy.com'

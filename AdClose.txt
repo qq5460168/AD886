@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-06-15 22:22:33（北京时间）
+# 生成时间: 2025-06-18 21:20:04（北京时间）
 domain, *-*-*-lrycfv.vip
 domain, *-*.ap-east-1.elb.amazonaws.com
 domain, *-*.ap-northeast-2.elb.amazonaws.com
@@ -2969,6 +2969,7 @@ domain, efangcdn.com
 domain, eff.005www11w.top
 domain, eff14.914-991.icu
 domain, effectivehealthy.cn
+domain, efusc.com
 domain, efvsyhbf.xyz
 domain, eghyahl.cn
 domain, egipsbvlgn.xyz
@@ -3586,6 +3587,7 @@ domain, h2tcbox.baidu.com
 domain, h35.ynodd.cn
 domain, h45pmx1.cn
 domain, h4b0srs.cn
+domain, h5.analytics.126.net
 domain, h5.dzgsdswh5.xyz
 domain, h5.gdt.qq.com
 domain, h5.hpplay.com.cn
@@ -4846,6 +4848,7 @@ domain, log.avlyun.sec.intl.miui.com
 domain, log.byteoversea.com
 domain, log.daqi.com
 domain, log.fc.yahoo.com
+domain, log.iflytek.com
 domain, log.jd.com
 domain, log.kuwo.cn
 domain, log.m.sm.cn
@@ -6670,6 +6673,7 @@ domain, sentry.d.xiaomi.net
 domain, sentry.fintopia.tech
 domain, sentry.io
 domain, sentry.kuaishou.com
+domain, sentry.music.163.com
 domain, senxiaopang.top
 domain, seordl.cn
 domain, sephreoqy.com
