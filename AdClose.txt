@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-06-29 13:21:27（北京时间）
+# 生成时间: 2025-07-06 12:31:35（北京时间）
 domain, *-*-*-lrycfv.vip
 domain, *-*.ap-east-1.elb.amazonaws.com
 domain, *-*.ap-northeast-2.elb.amazonaws.com
@@ -1514,6 +1514,7 @@ domain, api-adservices.apple.com
 domain, api-adx.52qumao.com
 domain, api-c.dutils.com
 domain, api-cfg.52qumao.com
+domain, api-cfg.wtzw.com
 domain, api-cloudfalcon.hismarttv.com
 domain, api-cn.open.heytapmobi.com
 domain, api-dynhost.hismarttv.com
@@ -1526,6 +1527,8 @@ domain, api-gd.hiaiabc.com
 domain, api-gps.hismarttv.com
 domain, api-gw.wtzw.com
 domain, api-htp.beizi.biz
+domain, api-ks.wtzw.com
+domain, api-nps.wtzw.com
 domain, api-p*.mobsurl.com
 domain, api-p*.yksdks.com
 domain, api-p1.yksdks.com
@@ -1802,6 +1805,7 @@ domain, b.1th.app
 domain, b.bdstatic.com
 domain, b.qchannel03.cn
 domain, b05.asia-sdbq.com
+domain, b08.fit
 domain, b0rbgroup.xyz
 domain, b0ufmrzl.icu
 domain, b1-data.ads.heytapmobi.com
@@ -2607,6 +2611,7 @@ domain, dataflow.biliapi.com
 domain, datagw-edge.alipay.com
 domain, datahub.haohuan.com
 domain, datahub.zhihu.com
+domain, datakkko.top
 domain, datasink-sensorsdata.gomefinance.com.cn
 domain, datasync-dev-prod-drcn.cloud.dbankcloud.cn
 domain, datasync-drcn.cloud.dbankcloud.cn
@@ -2686,6 +2691,7 @@ domain, df101.vxfedm.cn
 domain, df101.yblar.cn
 domain, dfadas13.com
 domain, dfaikhkm.xyz
+domain, dfe-mic.mob.com
 domain, dfec2.com
 domain, dffrahax.com
 domain, dfghaqea.xyz
@@ -3318,6 +3324,7 @@ domain, fy.1sapp.com
 domain, fy14.cn
 domain, fz7erebwy.vip
 domain, g-adnet.hiaiabc.com
+domain, g-api.kwai.com
 domain, g-staic.ganjingworld.com
 domain, g-zt.kwai-pro.com
 domain, g.cn.miaozhen.com
@@ -4101,6 +4108,7 @@ domain, iqid.iqiyi.com
 domain, iqiyi-mipdx.cn.miaozhen.com
 domain, iqiyim.adtrack.enlightent.cn
 domain, ir-sdk.dun.163.com
+domain, ir-sdk.dun.163yun.com
 domain, irc.qubiankeji.com
 domain, iris.iad.apple.com
 domain, irs03.com
@@ -5207,6 +5215,7 @@ domain, mkjnbg.com
 domain, mkjnha.com
 domain, mkqdj.cn
 domain, mkt-advertisement.tuhu.cn
+domain, mkt.wtzw.com
 domain, mktadsodr.ppdai.com
 domain, ml102.whpnd.cn
 domain, ml2007.com
@@ -6757,6 +6766,7 @@ domain, shouji.sogou.com
 domain, shouzhi.biz
 domain, show-msgch.qq.com
 domain, show.aklm.cc
+domain, show.bilibili.com
 domain, show.meituangov.cn
 domain, show.pinyoux.com
 domain, show.worldcrm.cn
@@ -7049,6 +7059,7 @@ domain, szhszxfw.cn
 domain, szipkp.com
 domain, szlong.weixin.qq.com
 domain, t*-m.dewu.net
+domain, t-cfg.wtzw.com
 domain, t-dsp.pinduoduo.com
 domain, t-qmad.qimao.com
 domain, t-remad.qm989.com
@@ -7651,6 +7662,7 @@ domain, uu5512uu.com
 domain, uuiaoq.top
 domain, uujhveglpo.xyz
 domain, uuumml.cn
+domain, uuyeghhbdhyetghuj.top
 domain, uuysiaq.com
 domain, uuzwvqc.cn
 domain, uve.weibo.com
