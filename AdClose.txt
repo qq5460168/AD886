@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-07-06 12:31:35（北京时间）
+# 生成时间: 2025-07-11 22:18:26（北京时间）
 domain, *-*-*-lrycfv.vip
 domain, *-*.ap-east-1.elb.amazonaws.com
 domain, *-*.ap-northeast-2.elb.amazonaws.com
