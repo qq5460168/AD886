@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2025-07-11 22:18:26（北京时间）
+# 生成时间: 2025-07-13 21:01:44（北京时间）
 payload:
   - '*-*-*-lrycfv.vip'
   - '*-*.ap-east-1.elb.amazonaws.com'
@@ -383,6 +383,8 @@ payload:
   - '23dhj4q.com'
   - '23jgiy.com'
   - '2404mc.2tsfdcp.com'
+  - '2407:c080:1200:3ce:e607:8583:110e:6bf9'
+  - '2407:c080:1200:53d:b686:5a14:b3a7:22e4'
   - '2409-8754-8310-35--3.volcsirius.com'
   - '2431.vainews.cn'
   - '24441mcsjcc.wcald72.xyz'
@@ -774,6 +776,7 @@ payload:
   - 'abtest*-misc-lf.zijieapi.com'
   - 'abtest-ch.snssdk.com'
   - 'abtest.alibaba.com'
+  - 'abtest.wtzw.com'
   - 'abtest3-misc-hl.zijieapi.com'
   - 'abtest3-misc-lf.zijieapi.com'
   - 'abtest3-misc-lq.zijieapi.com'
@@ -820,6 +823,7 @@ payload:
   - 'ad-display.diwodiwo.xyz'
   - 'ad-display.wikawika.xyz'
   - 'ad-download.hismarttv.com'
+  - 'ad-drs-ipv6.52qumao.com'
   - 'ad-drs.52qumao.com'
   - 'ad-ga.nocode.com'
   - 'ad-ggtg-api.37.com.cn'
@@ -1498,6 +1502,7 @@ payload:
   - 'apd-vodp2pnat.teg.tencent-cloud.net'
   - 'apdfmhp.cn'
   - 'apfobmfr.cn'
+  - 'api*.toutiaoapi.com'
   - 'api-access.pangolin-sdk-toutiao*.com'
   - 'api-access.pangolin-sdk-toutiao-*.com'
   - 'api-access.pangolin-sdk-toutiao-b.com'
@@ -2602,6 +2607,7 @@ payload:
   - 'data.zhongquanjy.com'
   - 'data6.video.iqiyi.com'
   - 'databyterangers.com.cn'
+  - 'datacollection.uve.weibo.com'
   - 'datacollector-drcn.dt.dbankcloud.cn'
   - 'datacollector-drcn.dt.hicloud.com'
   - 'datacollector-dre.dt.hicloud.com'
@@ -5771,6 +5777,7 @@ payload:
   - 'p*-local-ads.byteimg.com'
   - 'p*-local-ads.byteimg.com.queniuso.com'
   - 'p*-pro.a.yximgs.com'
+  - 'p*-sign.douyinpic.com'
   - 'p*-webcast-sign.douyinpic.com'
   - 'p*-yx.adkwai.com'
   - 'p*.bdxiguaimg.com'
@@ -6662,6 +6669,7 @@ payload:
   - 'sdvsv.com'
   - 'sdzhongke.cn'
   - 'sealine.youku.com'
+  - 'search*.toutiaoapi.com'
   - 'search.ixigua.com'
   - 'search.video.iqiyi.com'
   - 'search1.kuaihuoapi.com'

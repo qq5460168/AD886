@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-07-11 22:18:26（北京时间）
+# 生成时间: 2025-07-13 21:01:44（北京时间）
 domain, *-*-*-lrycfv.vip
 domain, *-*.ap-east-1.elb.amazonaws.com
 domain, *-*.ap-northeast-2.elb.amazonaws.com
@@ -383,6 +383,8 @@ domain, 23.231.151.252
 domain, 23dhj4q.com
 domain, 23jgiy.com
 domain, 2404mc.2tsfdcp.com
+domain, 2407:c080:1200:3ce:e607:8583:110e:6bf9
+domain, 2407:c080:1200:53d:b686:5a14:b3a7:22e4
 domain, 2409-8754-8310-35--3.volcsirius.com
 domain, 2431.vainews.cn
 domain, 24441mcsjcc.wcald72.xyz
@@ -774,6 +776,7 @@ domain, absorbingconstitution.com
 domain, abtest*-misc-lf.zijieapi.com
 domain, abtest-ch.snssdk.com
 domain, abtest.alibaba.com
+domain, abtest.wtzw.com
 domain, abtest3-misc-hl.zijieapi.com
 domain, abtest3-misc-lf.zijieapi.com
 domain, abtest3-misc-lq.zijieapi.com
@@ -820,6 +823,7 @@ domain, ad-cmp.hismarttv.com
 domain, ad-display.diwodiwo.xyz
 domain, ad-display.wikawika.xyz
 domain, ad-download.hismarttv.com
+domain, ad-drs-ipv6.52qumao.com
 domain, ad-drs.52qumao.com
 domain, ad-ga.nocode.com
 domain, ad-ggtg-api.37.com.cn
@@ -1498,6 +1502,7 @@ domain, apd-vodp2plogin.teg.tencent-cloud.net
 domain, apd-vodp2pnat.teg.tencent-cloud.net
 domain, apdfmhp.cn
 domain, apfobmfr.cn
+domain, api*.toutiaoapi.com
 domain, api-access.pangolin-sdk-toutiao*.com
 domain, api-access.pangolin-sdk-toutiao-*.com
 domain, api-access.pangolin-sdk-toutiao-b.com
@@ -2602,6 +2607,7 @@ domain, data.xmseeyouyima.com.lan
 domain, data.zhongquanjy.com
 domain, data6.video.iqiyi.com
 domain, databyterangers.com.cn
+domain, datacollection.uve.weibo.com
 domain, datacollector-drcn.dt.dbankcloud.cn
 domain, datacollector-drcn.dt.hicloud.com
 domain, datacollector-dre.dt.hicloud.com
@@ -5771,6 +5777,7 @@ domain, p*-lm.adukwai.com
 domain, p*-local-ads.byteimg.com
 domain, p*-local-ads.byteimg.com.queniuso.com
 domain, p*-pro.a.yximgs.com
+domain, p*-sign.douyinpic.com
 domain, p*-webcast-sign.douyinpic.com
 domain, p*-yx.adkwai.com
 domain, p*.bdxiguaimg.com
@@ -6662,6 +6669,7 @@ domain, sdvfvgj.cn
 domain, sdvsv.com
 domain, sdzhongke.cn
 domain, sealine.youku.com
+domain, search*.toutiaoapi.com
 domain, search.ixigua.com
 domain, search.video.iqiyi.com
 domain, search1.kuaihuoapi.com
