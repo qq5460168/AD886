@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-08-05 18:25:02（北京时间）
+# 生成时间: 2025-08-08 17:57:51（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -1220,6 +1220,7 @@ domain, ad-survey.com
 domain, ad-test6.sm.cn
 domain, ad-trace.lenovomm.com
 domain, ad-union-e.ssread.cn
+domain, ad.10010.com
 domain, ad.1111cpc.com
 domain, ad.12306.cn
 domain, ad.163.com
@@ -1488,6 +1489,7 @@ domain, adashbc.m.taobao.com
 domain, adashx.m.taobao.com.w.kunlunhuf.com
 domain, adashx.ut.amap.com
 domain, adashx.ut.cainiao.com
+domain, adashx.ut.dingtalk.com
 domain, adashx.ut.hzshudian.com
 domain, adashx.ut.shuqi.com
 domain, adashx.ut.uc.cn
@@ -1749,6 +1751,7 @@ domain, ads-union.jd.com
 domain, ads-video-1251524319.cos.ap-shanghai.myqcloud.com
 domain, ads-video-al.xhscdn.com
 domain, ads-video-qc.xhscdn.com
+domain, ads.95516.com
 domain, ads.adadapted.com
 domain, ads.adfox.ru
 domain, ads.api.fakeloc.cc
@@ -1769,6 +1772,7 @@ domain, ads.flurry.com
 domain, ads.game.iqiyi.com
 domain, ads.games.laohu.com
 domain, ads.google.cn
+domain, ads.google.com
 domain, ads.heytapmobi.com
 domain, ads.heytapmobile.com
 domain, ads.huan.tv
@@ -1789,6 +1793,7 @@ domain, ads.msn.com
 domain, ads.music.126.net
 domain, ads.oneway.mobi
 domain, ads.oppomobile.com
+domain, ads.pinterest.com
 domain, ads.pubmatic.com
 domain, ads.raidrive.com
 domain, ads.reader.yueyouxs.com
@@ -1813,6 +1818,7 @@ domain, ads.v3mh.com
 domain, ads.viber.com
 domain, ads.vserv.mobi
 domain, ads.weilitoutiao.net
+domain, ads.x.com
 domain, ads.yahoo.com
 domain, ads.yap.yahoo.com
 domain, ads.yieldmo.com
@@ -2437,7 +2443,6 @@ domain, api-gd.hiaiabc.com
 domain, api-gps.hismarttv.com
 domain, api-gw.wtzw.com
 domain, api-htp.beizi.biz
-domain, api-ks.wtzw.com
 domain, api-nps.wtzw.com
 domain, api-p1.yksdks.com
 domain, api-p4.mobsurl.com
@@ -2630,6 +2635,7 @@ domain, apollo.caixin.com
 domain, apollo.map.qq.com
 domain, app-ad.variflight.com
 domain, app-adforce.jp
+domain, app-advertise.zhihuishu.com
 domain, app-g.39.net
 domain, app-iq6elgdk.joxx.cn
 domain, app-log.dewu.com
@@ -6782,6 +6788,7 @@ domain, gzsjym.xyz
 domain, gzxnlk.com
 domain, h-adashx.ut.amap.com
 domain, h-adashx.ut.cainiao.com
+domain, h-adashx.ut.dingtalk.com
 domain, h-adashx.ut.hzshudian.com
 domain, h-adashx.ut.uc.cn
 domain, h-adashx.ut.youku.com
@@ -9088,6 +9095,7 @@ domain, log.jd.com
 domain, log.kuwo.cn
 domain, log.m.sm.cn
 domain, log.mgtv.com
+domain, log.mmstat.com
 domain, log.music.baidu.com
 domain, log.pinterest.com
 domain, log.popin.cc
@@ -9921,6 +9929,7 @@ domain, metrics.cnn.com
 domain, metrics.data.hicloud.com
 domain, metrics.dt.dbankcloud.cn
 domain, metrics.dt.hihonorcloud.com
+domain, metrics.icloud.com
 domain, metrics.mzstatic.com
 domain, metrics1-drcn.dt.dbankcloud.cn
 domain, metrics1.data.hicloud.com
@@ -12710,6 +12719,7 @@ domain, sestat.baidu.com
 domain, setting.crashlytics.com
 domain, setting.rayjump.com
 domain, setting.snswin.qq.com
+domain, settings-win.data.microsoft.com
 domain, settings.crashlytics.com
 domain, settings.luckyorange.net
 domain, settings.ttwebview.com
@@ -13536,7 +13546,6 @@ domain, tangoutianxia.com
 domain, tangram-config.gdt.qq.com
 domain, tanju.vip
 domain, tansuotv.com
-domain, tanv.com
 domain, tanwanyx.com
 domain, tanx.com
 domain, tanxlog.istreamsche.com

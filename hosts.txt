@@ -1,7 +1,7 @@
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2025-08-05 18:25:02（北京时间）
+# Update Time: 2025-08-08 17:57:51（北京时间）
 0.0.0.0 -normal-lq.zijieapi.com
 0.0.0.0 0.r.msn.com
 0.0.0.0 000123456789.online
@@ -1221,6 +1221,7 @@
 0.0.0.0 ad-test6.sm.cn
 0.0.0.0 ad-trace.lenovomm.com
 0.0.0.0 ad-union-e.ssread.cn
+0.0.0.0 ad.10010.com
 0.0.0.0 ad.1111cpc.com
 0.0.0.0 ad.12306.cn
 0.0.0.0 ad.163.com
@@ -1489,6 +1490,7 @@
 0.0.0.0 adashx.m.taobao.com.w.kunlunhuf.com
 0.0.0.0 adashx.ut.amap.com
 0.0.0.0 adashx.ut.cainiao.com
+0.0.0.0 adashx.ut.dingtalk.com
 0.0.0.0 adashx.ut.hzshudian.com
 0.0.0.0 adashx.ut.shuqi.com
 0.0.0.0 adashx.ut.uc.cn
@@ -1750,6 +1752,7 @@
 0.0.0.0 ads-video-1251524319.cos.ap-shanghai.myqcloud.com
 0.0.0.0 ads-video-al.xhscdn.com
 0.0.0.0 ads-video-qc.xhscdn.com
+0.0.0.0 ads.95516.com
 0.0.0.0 ads.adadapted.com
 0.0.0.0 ads.adfox.ru
 0.0.0.0 ads.api.fakeloc.cc
@@ -1770,6 +1773,7 @@
 0.0.0.0 ads.game.iqiyi.com
 0.0.0.0 ads.games.laohu.com
 0.0.0.0 ads.google.cn
+0.0.0.0 ads.google.com
 0.0.0.0 ads.heytapmobi.com
 0.0.0.0 ads.heytapmobile.com
 0.0.0.0 ads.huan.tv
@@ -1790,6 +1794,7 @@
 0.0.0.0 ads.music.126.net
 0.0.0.0 ads.oneway.mobi
 0.0.0.0 ads.oppomobile.com
+0.0.0.0 ads.pinterest.com
 0.0.0.0 ads.pubmatic.com
 0.0.0.0 ads.raidrive.com
 0.0.0.0 ads.reader.yueyouxs.com
@@ -1814,6 +1819,7 @@
 0.0.0.0 ads.viber.com
 0.0.0.0 ads.vserv.mobi
 0.0.0.0 ads.weilitoutiao.net
+0.0.0.0 ads.x.com
 0.0.0.0 ads.yahoo.com
 0.0.0.0 ads.yap.yahoo.com
 0.0.0.0 ads.yieldmo.com
@@ -2438,7 +2444,6 @@
 0.0.0.0 api-gps.hismarttv.com
 0.0.0.0 api-gw.wtzw.com
 0.0.0.0 api-htp.beizi.biz
-0.0.0.0 api-ks.wtzw.com
 0.0.0.0 api-nps.wtzw.com
 0.0.0.0 api-p1.yksdks.com
 0.0.0.0 api-p4.mobsurl.com
@@ -2631,6 +2636,7 @@
 0.0.0.0 apollo.map.qq.com
 0.0.0.0 app-ad.variflight.com
 0.0.0.0 app-adforce.jp
+0.0.0.0 app-advertise.zhihuishu.com
 0.0.0.0 app-g.39.net
 0.0.0.0 app-iq6elgdk.joxx.cn
 0.0.0.0 app-log.dewu.com
@@ -6783,6 +6789,7 @@
 0.0.0.0 gzxnlk.com
 0.0.0.0 h-adashx.ut.amap.com
 0.0.0.0 h-adashx.ut.cainiao.com
+0.0.0.0 h-adashx.ut.dingtalk.com
 0.0.0.0 h-adashx.ut.hzshudian.com
 0.0.0.0 h-adashx.ut.uc.cn
 0.0.0.0 h-adashx.ut.youku.com
@@ -9089,6 +9096,7 @@
 0.0.0.0 log.kuwo.cn
 0.0.0.0 log.m.sm.cn
 0.0.0.0 log.mgtv.com
+0.0.0.0 log.mmstat.com
 0.0.0.0 log.music.baidu.com
 0.0.0.0 log.pinterest.com
 0.0.0.0 log.popin.cc
@@ -9922,6 +9930,7 @@
 0.0.0.0 metrics.data.hicloud.com
 0.0.0.0 metrics.dt.dbankcloud.cn
 0.0.0.0 metrics.dt.hihonorcloud.com
+0.0.0.0 metrics.icloud.com
 0.0.0.0 metrics.mzstatic.com
 0.0.0.0 metrics1-drcn.dt.dbankcloud.cn
 0.0.0.0 metrics1.data.hicloud.com
@@ -12711,6 +12720,7 @@
 0.0.0.0 setting.crashlytics.com
 0.0.0.0 setting.rayjump.com
 0.0.0.0 setting.snswin.qq.com
+0.0.0.0 settings-win.data.microsoft.com
 0.0.0.0 settings.crashlytics.com
 0.0.0.0 settings.luckyorange.net
 0.0.0.0 settings.ttwebview.com
@@ -13537,7 +13547,6 @@
 0.0.0.0 tangram-config.gdt.qq.com
 0.0.0.0 tanju.vip
 0.0.0.0 tansuotv.com
-0.0.0.0 tanv.com
 0.0.0.0 tanwanyx.com
 0.0.0.0 tanx.com
 0.0.0.0 tanxlog.istreamsche.com
