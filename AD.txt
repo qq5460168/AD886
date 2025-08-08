@@ -1,16 +1,17 @@
+
 [个人合并 2.0]
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2025-08-05 18:11:45（北京时间）
+! Version: 2025-08-08 16:14:24（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16669
+! Total count: 16678
 [Adblock Plus 2.0]
 ! Title: 酷安广告规则
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Last Updated: 2025-08-05 10:11:45（北京时间）
-! Total Count: 16662
+! Last Updated: 2025-08-08 08:14:23（北京时间）
+! Total Count: 16671
 ||-normal-lq.zijieapi.com^
 ||0.r.msn.com^
 ||000123456789.online^
@@ -1230,6 +1231,7 @@
 ||ad-test6.sm.cn^
 ||ad-trace.lenovomm.com^
 ||ad-union-e.ssread.cn^
+||ad.10010.com^
 ||ad.1111cpc.com^
 ||ad.12306.cn^
 ||ad.163.com^
@@ -1498,6 +1500,7 @@
 ||adashx.m.taobao.com.w.kunlunhuf.com^
 ||adashx.ut.amap.com^
 ||adashx.ut.cainiao.com^
+||adashx.ut.dingtalk.com^
 ||adashx.ut.hzshudian.com^
 ||adashx.ut.shuqi.com^
 ||adashx.ut.uc.cn^
@@ -1759,6 +1762,7 @@
 ||ads-video-1251524319.cos.ap-shanghai.myqcloud.com^
 ||ads-video-al.xhscdn.com^
 ||ads-video-qc.xhscdn.com^
+||ads.95516.com^
 ||ads.adadapted.com^
 ||ads.adfox.ru^
 ||ads.api.fakeloc.cc^
@@ -1779,6 +1783,7 @@
 ||ads.game.iqiyi.com^
 ||ads.games.laohu.com^
 ||ads.google.cn^
+||ads.google.com^
 ||ads.heytapmobi.com^
 ||ads.heytapmobile.com^
 ||ads.huan.tv^
@@ -1799,6 +1804,7 @@
 ||ads.music.126.net^
 ||ads.oneway.mobi^
 ||ads.oppomobile.com^
+||ads.pinterest.com^
 ||ads.pubmatic.com^
 ||ads.raidrive.com^
 ||ads.reader.yueyouxs.com^
@@ -1823,6 +1829,7 @@
 ||ads.viber.com^
 ||ads.vserv.mobi^
 ||ads.weilitoutiao.net^
+||ads.x.com^
 ||ads.yahoo.com^
 ||ads.yap.yahoo.com^
 ||ads.yieldmo.com^
@@ -2447,7 +2454,6 @@
 ||api-gps.hismarttv.com^
 ||api-gw.wtzw.com^
 ||api-htp.beizi.biz^
-||api-ks.wtzw.com^
 ||api-nps.wtzw.com^
 ||api-p1.yksdks.com^
 ||api-p4.mobsurl.com^
@@ -2640,6 +2646,7 @@
 ||apollo.map.qq.com^
 ||app-ad.variflight.com^
 ||app-adforce.jp^
+||app-advertise.zhihuishu.com^
 ||app-g.39.net^
 ||app-iq6elgdk.joxx.cn^
 ||app-log.dewu.com^
@@ -6792,6 +6799,7 @@
 ||gzxnlk.com^
 ||h-adashx.ut.amap.com^
 ||h-adashx.ut.cainiao.com^
+||h-adashx.ut.dingtalk.com^
 ||h-adashx.ut.hzshudian.com^
 ||h-adashx.ut.uc.cn^
 ||h-adashx.ut.youku.com^
@@ -9098,6 +9106,7 @@
 ||log.kuwo.cn^
 ||log.m.sm.cn^
 ||log.mgtv.com^
+||log.mmstat.com^
 ||log.music.baidu.com^
 ||log.pinterest.com^
 ||log.popin.cc^
@@ -9931,6 +9940,7 @@
 ||metrics.data.hicloud.com^
 ||metrics.dt.dbankcloud.cn^
 ||metrics.dt.hihonorcloud.com^
+||metrics.icloud.com^
 ||metrics.mzstatic.com^
 ||metrics1-drcn.dt.dbankcloud.cn^
 ||metrics1.data.hicloud.com^
@@ -12720,6 +12730,7 @@
 ||setting.crashlytics.com^
 ||setting.rayjump.com^
 ||setting.snswin.qq.com^
+||settings-win.data.microsoft.com^
 ||settings.crashlytics.com^
 ||settings.luckyorange.net^
 ||settings.ttwebview.com^
@@ -13546,7 +13557,6 @@
 ||tangram-config.gdt.qq.com^
 ||tanju.vip^
 ||tansuotv.com^
-||tanv.com^
 ||tanwanyx.com^
 ||tanx.com^
 ||tanxlog.istreamsche.com^
