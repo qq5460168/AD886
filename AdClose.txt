@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-08-08 17:57:51（北京时间）
+# 生成时间: 2025-08-29 18:43:04（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -2406,6 +2406,7 @@ domain, aoyou3.top
 domain, aoyou4.top
 domain, aoyou5.top
 domain, ap.91adv.com.cn
+domain, ap.dongdianqiu.com
 domain, ap.dongqiudi.com
 domain, aparvibices.com
 domain, apas.aipai.com
@@ -6810,7 +6811,6 @@ domain, h2.18sd.cn
 domain, h21n.top
 domain, h2ji5.xyz
 domain, h2tcbox.baidu.com
-domain, h35.ynodd.cn
 domain, h45pmx1.cn
 domain, h4b0srs.cn
 domain, h5.analytics.126.net
@@ -7057,6 +7057,7 @@ domain, hlbbn6ii.icu
 domain, hldwmly.com
 domain, hlegsdh.icu
 domain, hlnr9q.icu
+domain, hlog.bigda.com
 domain, hlrcv.stage.adobe.com
 domain, hlryzsqo.icu
 domain, hlw.longlingsc.art
@@ -10057,6 +10058,7 @@ domain, mlb.did.ijinshan.com
 domain, mlgrrqymdsyk.com
 domain, mlnbike.com
 domain, mlog.aipai.com
+domain, mlog.bigda.com
 domain, mlog.hiido.com
 domain, mlog.m1905.cn
 domain, mlog.search.xiaomi.net
@@ -13538,6 +13540,7 @@ domain, taiqingjiu.com
 domain, tajs.qq.com
 domain, tajxgs.com
 domain, takjttz.cn
+domain, takuad.com
 domain, talk.nz.igexin.com
 domain, talkingdata.com
 domain, talkingdata.net
@@ -14300,6 +14303,7 @@ domain, unified-ter.hismarttv.com
 domain, uniformer.biz
 domain, unilog.wostore.cn
 domain, unimhk.com
+domain, union-mlog.bigda.com
 domain, union-wifi.com
 domain, union.360.cn
 domain, union.6.cn
@@ -14601,6 +14605,7 @@ domain, vatrack.hinet.net
 domain, vaxgyly.cn
 domain, vayh.msxf.com
 domain, vayol.com
+domain, vbc08111op.com
 domain, vbdbmqzu.com
 domain, vbiakpu.icu
 domain, vbnmjjda.xyz
