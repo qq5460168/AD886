@@ -6,7 +6,7 @@ on:
       - 'AD.txt'
   workflow_dispatch:
   schedule:
-    - cron: "0 2 * * *" # 中国时间10点，对应UTC时间2点
+    - cron: '0 23 * * *' # 中国时间7点，对应UTC时间23点
 
 env:
   GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
