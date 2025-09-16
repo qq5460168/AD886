@@ -2,8 +2,8 @@ name: 同步 q5460168/666
 
 on:
   schedule:
-    # 每天 UTC 时间 0 点执行（北京时间 8 点）
-    - cron: '0 0 * * *'
+    # 每天 UTC 时间 21 点执行（北京时间 5 点）
+    - cron: '0 21 * * *'
   workflow_dispatch:  # 允许手动触发
 
 jobs:
