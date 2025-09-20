@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2025-09-20 07:16:53（北京时间）
+# 生成时间: 2025-09-21 07:16:45（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -2559,7 +2559,6 @@ payload:
   - 'api.sm.cn'
   - 'api.ssp.xcultur.com'
   - 'api.statsig.com'
-  - 'api.tencentmusic.com'
   - 'api.th.wanzjhb.com'
   - 'api.touch-mobile.baidu.com'
   - 'api.touch-moblie.com'
@@ -14708,6 +14707,7 @@ payload:
   - 'vihppjk.cn'
   - 'vijnhyru.xyz'
   - 'vimg.dwstatic.com'
+  - 'vip.7j0.cn'
   - 'vip.cainiaofx.com'
   - 'vip.ffzy-online3.com'
   - 'vip.hyz86.com'

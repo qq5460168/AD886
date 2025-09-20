@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-09-20 07:16:53（北京时间）
+# 生成时间: 2025-09-21 07:16:45（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -2559,7 +2559,6 @@ domain, api.similarweb.com
 domain, api.sm.cn
 domain, api.ssp.xcultur.com
 domain, api.statsig.com
-domain, api.tencentmusic.com
 domain, api.th.wanzjhb.com
 domain, api.touch-mobile.baidu.com
 domain, api.touch-moblie.com
@@ -14708,6 +14707,7 @@ domain, viglink.com
 domain, vihppjk.cn
 domain, vijnhyru.xyz
 domain, vimg.dwstatic.com
+domain, vip.7j0.cn
 domain, vip.cainiaofx.com
 domain, vip.ffzy-online3.com
 domain, vip.hyz86.com
