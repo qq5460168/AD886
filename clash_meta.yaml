@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2025-09-25 07:17:23（北京时间）
+# 生成时间: 2025-09-26 07:17:13（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -3931,6 +3931,7 @@ payload:
   - 'cee2.iteye.com'
   - 'ceh.cehbh.com'
   - 'ceiqox.com'
+  - 'cekrfk.com'
   - 'cerebral.typn.com'
   - 'ceshi1.ink'
   - 'ceshi127722.obs.cn-north-4.myhuaweicloud.com'
@@ -5350,6 +5351,7 @@ payload:
   - 'dwa.okwan.cn'
   - 'dwfjtz.xyz'
   - 'dwibjkdsn.com'
+  - 'dwuupq.com'
   - 'dwyngjb.icu'
   - 'dwz.cn'
   - 'dx1200.com'
@@ -10672,6 +10674,7 @@ payload:
   - 'nysita.com'
   - 'nyvgbt.xyz'
   - 'nzezn.com'
+  - 'nzl09251oa.com'
   - 'nzrlx6wc.icu'
   - 'nzrovf.xyz'
   - 'nztl.z74d.com'
@@ -11941,6 +11944,7 @@ payload:
   - 'r.yhyunjin.com'
   - 'r.youmi.net'
   - 'r.zlongad.com'
+  - 'r0l7cp.com'
   - 'r1.ykimg.com'
   - 'r36ku.site'
   - 'r3nvrr4uzh.com'
@@ -14056,6 +14060,7 @@ payload:
   - 'tumblrprobes.cedexis.com'
   - 'tumblrreports.cedexis.com'
   - 'tumeite.cn'
+  - 'tuobeng.net'
   - 'tupan.cqdd.ltd'
   - 'tuplzt.xyz'
   - 'turn.com'

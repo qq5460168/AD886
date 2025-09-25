@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-09-25 07:17:23（北京时间）
+# 生成时间: 2025-09-26 07:17:13（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -3931,6 +3931,7 @@ domain, cee1.iteye.com
 domain, cee2.iteye.com
 domain, ceh.cehbh.com
 domain, ceiqox.com
+domain, cekrfk.com
 domain, cerebral.typn.com
 domain, ceshi1.ink
 domain, ceshi127722.obs.cn-north-4.myhuaweicloud.com
@@ -5350,6 +5351,7 @@ domain, dw998.com
 domain, dwa.okwan.cn
 domain, dwfjtz.xyz
 domain, dwibjkdsn.com
+domain, dwuupq.com
 domain, dwyngjb.icu
 domain, dwz.cn
 domain, dx1200.com
@@ -10672,6 +10674,7 @@ domain, nylalobghyhirgh.com
 domain, nysita.com
 domain, nyvgbt.xyz
 domain, nzezn.com
+domain, nzl09251oa.com
 domain, nzrlx6wc.icu
 domain, nzrovf.xyz
 domain, nztl.z74d.com
@@ -11941,6 +11944,7 @@ domain, r.xcycm.com
 domain, r.yhyunjin.com
 domain, r.youmi.net
 domain, r.zlongad.com
+domain, r0l7cp.com
 domain, r1.ykimg.com
 domain, r36ku.site
 domain, r3nvrr4uzh.com
@@ -14056,6 +14060,7 @@ domain, tukj.net
 domain, tumblrprobes.cedexis.com
 domain, tumblrreports.cedexis.com
 domain, tumeite.cn
+domain, tuobeng.net
 domain, tupan.cqdd.ltd
 domain, tuplzt.xyz
 domain, turn.com
