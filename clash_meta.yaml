@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2025-09-26 07:17:13（北京时间）
+# 生成时间: 2025-09-27 07:17:04（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -9936,7 +9936,6 @@ payload:
   - 'metrics.dt.hihonorcloud.com'
   - 'metrics.icloud.com'
   - 'metrics.mzstatic.com'
-  - 'metrics1-drcn.dt.dbankcloud.cn'
   - 'metrics1.data.hicloud.com'
   - 'metrics1.data.hicloud.com.lan'
   - 'metrics2.data.hicloud.com'

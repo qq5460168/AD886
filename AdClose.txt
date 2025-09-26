@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-09-26 07:17:13（北京时间）
+# 生成时间: 2025-09-27 07:17:04（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -9936,7 +9936,6 @@ domain, metrics.dt.dbankcloud.cn
 domain, metrics.dt.hihonorcloud.com
 domain, metrics.icloud.com
 domain, metrics.mzstatic.com
-domain, metrics1-drcn.dt.dbankcloud.cn
 domain, metrics1.data.hicloud.com
 domain, metrics1.data.hicloud.com.lan
 domain, metrics2.data.hicloud.com
