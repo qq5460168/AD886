@@ -2,10 +2,6 @@
 
 **维护者**: 酷安 [@那个谁520](http://www.coolapk.com/u/23966654)
 
-<div align="center">
-  <!-- 访客计数，点击跳转到仓库主页 -->
-你是第 <img src="https://profile-counter.glitch.me/qq5460168-AD886/count.svg" alt="访客计数" /> 位访客
-</div>
 ---
 
 ## 📖 目录
@@ -42,6 +38,9 @@
 ---
 
 ## 🚀 快速使用指南
+
+##  反馈: 
+🐧群: [AdGuard home小窝](https://qm.qq.com/q/bRFsKddXq0) 
 
 ### AdGuard Home
 1. 打开 AdGuard Home 管理界面 → **过滤器** → **DNS 黑名单**。
