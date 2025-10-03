@@ -1,7 +1,7 @@
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2025-10-03 07:16:42（北京时间）
+# Update Time: 2025-10-04 07:16:20（北京时间）
 0.0.0.0 -normal-lq.zijieapi.com
 0.0.0.0 0.r.msn.com
 0.0.0.0 000123456789.online
@@ -12367,7 +12367,6 @@
 0.0.0.0 s.union.360.cn
 0.0.0.0 s.uuidksinc.net
 0.0.0.0 s.wapadv.com
-0.0.0.0 s.webank.com
 0.0.0.0 s.wrating.com
 0.0.0.0 s.wxktv.cn
 0.0.0.0 s.x.cn.xtgreat.com

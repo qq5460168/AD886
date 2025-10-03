@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-10-03 07:16:42（北京时间）
+# 生成时间: 2025-10-04 07:16:20（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -12366,7 +12366,6 @@ domain, s.ufile.cc
 domain, s.union.360.cn
 domain, s.uuidksinc.net
 domain, s.wapadv.com
-domain, s.webank.com
 domain, s.wrating.com
 domain, s.wxktv.cn
 domain, s.x.cn.xtgreat.com
