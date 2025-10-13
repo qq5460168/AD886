@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-10-13 07:16:33（北京时间）
+# 生成时间: 2025-10-14 07:16:50（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -6529,6 +6529,7 @@ domain, ggic01.miguvideo.com
 domain, ggle.lywf.me
 domain, ggmm777.com
 domain, ggmmqq.com
+domain, ggo10131lq.com
 domain, ggr.yxdown.com
 domain, ggs.myzaker.com
 domain, ggsfq.com
@@ -8652,6 +8653,7 @@ domain, kowqd1.top
 domain, kowqd5.top
 domain, kowqd7.top
 domain, kowuie.sydneypass.info
+domain, kpsabnm.xyz
 domain, kqubxdb.cn
 domain, kqy1.com
 domain, kr.axyqd.cn
