@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-10-15 07:17:48（北京时间）
+# 生成时间: 2025-10-16 07:17:10（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -11048,7 +11048,6 @@ domain, p3p.yahoo.com
 domain, p3tt.com
 domain, p4-ad.adbkwai.com
 domain, p4-ad.adkwai.com
-domain, p4-ad.adukwai.com
 domain, p4-be-pack-sign.pglstatp-toutiao.com
 domain, p4p.sina.com.cn
 domain, p4psearch.china.alibaba.com

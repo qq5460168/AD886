@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2025-10-15 07:17:48（北京时间）
+# 生成时间: 2025-10-16 07:17:10（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -11048,7 +11048,6 @@ payload:
   - 'p3tt.com'
   - 'p4-ad.adbkwai.com'
   - 'p4-ad.adkwai.com'
-  - 'p4-ad.adukwai.com'
   - 'p4-be-pack-sign.pglstatp-toutiao.com'
   - 'p4p.sina.com.cn'
   - 'p4psearch.china.alibaba.com'
