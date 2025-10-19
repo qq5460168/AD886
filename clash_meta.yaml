@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2025-10-19 07:16:55（北京时间）
+# 生成时间: 2025-10-20 07:17:22（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -7705,7 +7705,6 @@ payload:
   - 'info.sec.miui.com'
   - 'info.stockstar.com'
   - 'info.yitsoftware.com'
-  - 'info.zb.qq.com'
   - 'info4.video.qq.com'
   - 'infocenter.meizu.com'
   - 'infotrack.gdt.qq.com'
@@ -14886,7 +14885,6 @@ payload:
   - 'w1.gskwai.com'
   - 'w2.eckwai.com'
   - 'w2.gskwai.com'
-  - 'w2.kskwai.com'
   - 'w2528.com'
   - 'w3.yinyuehu.cn'
   - 'w3989.com'

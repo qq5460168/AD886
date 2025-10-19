@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-10-19 07:16:55（北京时间）
+# 生成时间: 2025-10-20 07:17:22（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -7705,7 +7705,6 @@ domain, info.pinyin.sogou.com
 domain, info.sec.miui.com
 domain, info.stockstar.com
 domain, info.yitsoftware.com
-domain, info.zb.qq.com
 domain, info4.video.qq.com
 domain, infocenter.meizu.com
 domain, infotrack.gdt.qq.com
@@ -14886,7 +14885,6 @@ domain, w1.dxmstatic.com
 domain, w1.gskwai.com
 domain, w2.eckwai.com
 domain, w2.gskwai.com
-domain, w2.kskwai.com
 domain, w2528.com
 domain, w3.yinyuehu.cn
 domain, w3989.com
