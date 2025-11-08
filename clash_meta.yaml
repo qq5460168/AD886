@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2025-11-08 07:17:58（北京时间）
+# 生成时间: 2025-11-09 07:17:33（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -12275,7 +12275,6 @@ payload:
   - 'rubiconproject.com'
   - 'rudy.adsnative.com'
   - 'rui61.cn'
-  - 'rule.tencent.com'
   - 'ruliaoqi.com'
   - 'rulwph.xyz'
   - 'rum-collector.pingdom.net'

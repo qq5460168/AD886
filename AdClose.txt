@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-11-08 07:17:58（北京时间）
+# 生成时间: 2025-11-09 07:17:33（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -12275,7 +12275,6 @@ domain, rubicon-match.dotomi.com
 domain, rubiconproject.com
 domain, rudy.adsnative.com
 domain, rui61.cn
-domain, rule.tencent.com
 domain, ruliaoqi.com
 domain, rulwph.xyz
 domain, rum-collector.pingdom.net
