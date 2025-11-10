@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-11-10 07:18:00（北京时间）
+# 生成时间: 2025-11-11 07:19:24（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -6901,7 +6901,6 @@ domain, hcbmg.cn
 domain, hcbmq.cn
 domain, hccms.com.cn
 domain, hcdjy.xyz
-domain, hcdnw120.vip.global.cdnhwctnm107.com
 domain, hchh.capmvb.net
 domain, hciea.xyz
 domain, hcl.baidu.com

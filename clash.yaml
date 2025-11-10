@@ -1,7 +1,7 @@
 # Title: Clash Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2025-11-10 07:18:00（北京时间）
+# Update Time: 2025-11-11 07:19:24（北京时间）
   - DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
   - DOMAIN-SUFFIX,0.r.msn.com,REJECT
   - DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -6902,7 +6902,6 @@
   - DOMAIN-SUFFIX,hcbmq.cn,REJECT
   - DOMAIN-SUFFIX,hccms.com.cn,REJECT
   - DOMAIN-SUFFIX,hcdjy.xyz,REJECT
-  - DOMAIN-SUFFIX,hcdnw120.vip.global.cdnhwctnm107.com,REJECT
   - DOMAIN-SUFFIX,hchh.capmvb.net,REJECT
   - DOMAIN-SUFFIX,hciea.xyz,REJECT
   - DOMAIN-SUFFIX,hcl.baidu.com,REJECT

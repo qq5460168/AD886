@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2025-11-10 07:18:00（北京时间）
+# 生成时间: 2025-11-11 07:19:24（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -6901,7 +6901,6 @@ payload:
   - 'hcbmq.cn'
   - 'hccms.com.cn'
   - 'hcdjy.xyz'
-  - 'hcdnw120.vip.global.cdnhwctnm107.com'
   - 'hchh.capmvb.net'
   - 'hciea.xyz'
   - 'hcl.baidu.com'
