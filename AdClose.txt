@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-11-11 07:19:24（北京时间）
+# 生成时间: 2025-11-12 07:18:36（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -3352,6 +3352,7 @@ domain, bluekai.com
 domain, blueprints.iad.apple.com
 domain, bluhostedbanners.blucigs.com
 domain, blvhq.com
+domain, blzgeuuz.icu
 domain, bmg.wnbfw.com
 domain, bmiea.xyz
 domain, bmp.ali213.net
@@ -7257,6 +7258,7 @@ domain, hwivedn.icu
 domain, hwnod.xyz
 domain, hwpub-s01-drcn.cloud.dbankcloud.cn
 domain, hwt.player888.cn
+domain, hwwzqi.cn
 domain, hxadt.com
 domain, hxdwsfg.cn
 domain, hxg6.t906377.vip

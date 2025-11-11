@@ -1,7 +1,7 @@
 # Title: Invizible Pro Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2025-11-11 07:19:24（北京时间）
+# Update Time: 2025-11-12 07:18:36（北京时间）
 -normal-lq.zijieapi.com
 0.r.msn.com
 000123456789.online
@@ -3353,6 +3353,7 @@ bluekai.com
 blueprints.iad.apple.com
 bluhostedbanners.blucigs.com
 blvhq.com
+blzgeuuz.icu
 bmg.wnbfw.com
 bmiea.xyz
 bmp.ali213.net
@@ -7258,6 +7259,7 @@ hwivedn.icu
 hwnod.xyz
 hwpub-s01-drcn.cloud.dbankcloud.cn
 hwt.player888.cn
+hwwzqi.cn
 hxadt.com
 hxdwsfg.cn
 hxg6.t906377.vip
