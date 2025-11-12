@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-11-12 07:18:36（北京时间）
+# 生成时间: 2025-11-13 07:19:35（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -13982,7 +13982,6 @@ domain, trjfoagf.icu
 domain, trk.pinterest.com
 domain, trognoi.com
 domain, trp69.top
-domain, trpc.qianbao.qq.com
 domain, trpcpb.imtt.qq.com
 domain, trqhf.xyz
 domain, trrs-adp.2345.com
