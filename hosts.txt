@@ -1,7 +1,7 @@
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2025-11-15 07:18:23（北京时间）
+# Update Time: 2025-11-16 07:18:12（北京时间）
 0.0.0.0 -normal-lq.zijieapi.com
 0.0.0.0 0.r.msn.com
 0.0.0.0 000123456789.online
@@ -1952,6 +1952,8 @@
 0.0.0.0 adsmind.gdtimg.com.svideolego-dk.sched.dcloudstc.com
 0.0.0.0 adsmind.tc.qq.com
 0.0.0.0 adsmind.ugdtimg.com
+0.0.0.0 adsmind.ugdtimg.com.svideolego-dk.sched.dcloudstc.com
+0.0.0.0 adsmind.ugdtimg.com.tcdn.qq.com
 0.0.0.0 adsmogo.com
 0.0.0.0 adsmoloco.com
 0.0.0.0 adsolution.imtt.qq.com
@@ -6105,7 +6107,6 @@
 0.0.0.0 filter.appstore.vivo.com.cn
 0.0.0.0 fimserve.ign.com
 0.0.0.0 finance-gateway.diandian.com.cn
-0.0.0.0 findermp.video.qq.com
 0.0.0.0 finderydy.video.qq.com
 0.0.0.0 findicons.com
 0.0.0.0 finding.hardwareheaven.com
@@ -7345,6 +7346,7 @@
 0.0.0.0 i.vip.iqiyi.com
 0.0.0.0 i.w55c.net
 0.0.0.0 i.xicairencs.cn
+0.0.0.0 i.ys7.com
 0.0.0.0 i.zhuoyaju.com
 0.0.0.0 i1236.net
 0.0.0.0 i2.akjunshi.com
@@ -11653,6 +11655,7 @@
 0.0.0.0 pwj.biqugezw.com
 0.0.0.0 px-intl.ucweb.com
 0.0.0.0 px.adhigh.net
+0.0.0.0 px.ads.linkedin.cn
 0.0.0.0 px.media-serving.com
 0.0.0.0 px.moatads.com
 0.0.0.0 px.owneriq.net
@@ -12513,6 +12516,7 @@
 0.0.0.0 saxxaz.taohuayuan8888.com
 0.0.0.0 saxysec.com
 0.0.0.0 sb.adtidy.com
+0.0.0.0 sb.adtidy.org
 0.0.0.0 sb.scorecardresearch.com
 0.0.0.0 sb4you1.com
 0.0.0.0 sb6k.top
@@ -12716,6 +12720,7 @@
 0.0.0.0 sentry.fintopia.tech
 0.0.0.0 sentry.io
 0.0.0.0 sentry.kuaishou.com
+0.0.0.0 sentry.kugou.com
 0.0.0.0 sentry.music.163.com
 0.0.0.0 senxiaopang.top
 0.0.0.0 seordl.cn
@@ -12875,7 +12880,6 @@
 0.0.0.0 shuyu2001.cn
 0.0.0.0 shuzilm.cn
 0.0.0.0 shxinjie.cn
-0.0.0.0 shytkjgs.com
 0.0.0.0 shzyjbr.wtdtjs.rocks
 0.0.0.0 si9377.com
 0.0.0.0 sicentlife.com

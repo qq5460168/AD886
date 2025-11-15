@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-11-15 07:18:23（北京时间）
+# 生成时间: 2025-11-16 07:18:12（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -1951,6 +1951,8 @@ domain, adsmind.gdtimg.com
 domain, adsmind.gdtimg.com.svideolego-dk.sched.dcloudstc.com
 domain, adsmind.tc.qq.com
 domain, adsmind.ugdtimg.com
+domain, adsmind.ugdtimg.com.svideolego-dk.sched.dcloudstc.com
+domain, adsmind.ugdtimg.com.tcdn.qq.com
 domain, adsmogo.com
 domain, adsmoloco.com
 domain, adsolution.imtt.qq.com
@@ -6104,7 +6106,6 @@ domain, fillhr.xyz
 domain, filter.appstore.vivo.com.cn
 domain, fimserve.ign.com
 domain, finance-gateway.diandian.com.cn
-domain, findermp.video.qq.com
 domain, finderydy.video.qq.com
 domain, findicons.com
 domain, finding.hardwareheaven.com
@@ -7344,6 +7345,7 @@ domain, i.tansuotv.com
 domain, i.vip.iqiyi.com
 domain, i.w55c.net
 domain, i.xicairencs.cn
+domain, i.ys7.com
 domain, i.zhuoyaju.com
 domain, i1236.net
 domain, i2.akjunshi.com
@@ -11652,6 +11654,7 @@ domain, pvymlsvo.xyz
 domain, pwj.biqugezw.com
 domain, px-intl.ucweb.com
 domain, px.adhigh.net
+domain, px.ads.linkedin.cn
 domain, px.media-serving.com
 domain, px.moatads.com
 domain, px.owneriq.net
@@ -12512,6 +12515,7 @@ domain, saxs.sina.com.cn
 domain, saxxaz.taohuayuan8888.com
 domain, saxysec.com
 domain, sb.adtidy.com
+domain, sb.adtidy.org
 domain, sb.scorecardresearch.com
 domain, sb4you1.com
 domain, sb6k.top
@@ -12715,6 +12719,7 @@ domain, sentry.d.xiaomi.net
 domain, sentry.fintopia.tech
 domain, sentry.io
 domain, sentry.kuaishou.com
+domain, sentry.kugou.com
 domain, sentry.music.163.com
 domain, senxiaopang.top
 domain, seordl.cn
@@ -12874,7 +12879,6 @@ domain, shuttle.bayescom.com
 domain, shuyu2001.cn
 domain, shuzilm.cn
 domain, shxinjie.cn
-domain, shytkjgs.com
 domain, shzyjbr.wtdtjs.rocks
 domain, si9377.com
 domain, sicentlife.com

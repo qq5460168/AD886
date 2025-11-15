@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2025-11-15 07:18:23（北京时间）
+# 生成时间: 2025-11-16 07:18:12（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -1951,6 +1951,8 @@ payload:
   - 'adsmind.gdtimg.com.svideolego-dk.sched.dcloudstc.com'
   - 'adsmind.tc.qq.com'
   - 'adsmind.ugdtimg.com'
+  - 'adsmind.ugdtimg.com.svideolego-dk.sched.dcloudstc.com'
+  - 'adsmind.ugdtimg.com.tcdn.qq.com'
   - 'adsmogo.com'
   - 'adsmoloco.com'
   - 'adsolution.imtt.qq.com'
@@ -6104,7 +6106,6 @@ payload:
   - 'filter.appstore.vivo.com.cn'
   - 'fimserve.ign.com'
   - 'finance-gateway.diandian.com.cn'
-  - 'findermp.video.qq.com'
   - 'finderydy.video.qq.com'
   - 'findicons.com'
   - 'finding.hardwareheaven.com'
@@ -7344,6 +7345,7 @@ payload:
   - 'i.vip.iqiyi.com'
   - 'i.w55c.net'
   - 'i.xicairencs.cn'
+  - 'i.ys7.com'
   - 'i.zhuoyaju.com'
   - 'i1236.net'
   - 'i2.akjunshi.com'
@@ -11652,6 +11654,7 @@ payload:
   - 'pwj.biqugezw.com'
   - 'px-intl.ucweb.com'
   - 'px.adhigh.net'
+  - 'px.ads.linkedin.cn'
   - 'px.media-serving.com'
   - 'px.moatads.com'
   - 'px.owneriq.net'
@@ -12512,6 +12515,7 @@ payload:
   - 'saxxaz.taohuayuan8888.com'
   - 'saxysec.com'
   - 'sb.adtidy.com'
+  - 'sb.adtidy.org'
   - 'sb.scorecardresearch.com'
   - 'sb4you1.com'
   - 'sb6k.top'
@@ -12715,6 +12719,7 @@ payload:
   - 'sentry.fintopia.tech'
   - 'sentry.io'
   - 'sentry.kuaishou.com'
+  - 'sentry.kugou.com'
   - 'sentry.music.163.com'
   - 'senxiaopang.top'
   - 'seordl.cn'
@@ -12874,7 +12879,6 @@ payload:
   - 'shuyu2001.cn'
   - 'shuzilm.cn'
   - 'shxinjie.cn'
-  - 'shytkjgs.com'
   - 'shzyjbr.wtdtjs.rocks'
   - 'si9377.com'
   - 'sicentlife.com'
