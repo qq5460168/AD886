@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2025-11-20 07:19:19（北京时间）
+# 生成时间: 2025-11-21 07:19:19（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -15188,7 +15188,6 @@ payload:
   - 'womenwan.com'
   - 'wonderhsjnsd.com'
   - 'wooboo.com.cn'
-  - 'woocall.sina.com.cn'
   - 'woodpecker.uc.cn'
   - 'woopra.com'
   - 'wootric.com'
