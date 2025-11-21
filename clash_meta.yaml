@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2025-11-21 07:19:19（北京时间）
+# 生成时间: 2025-11-22 07:18:47（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -2407,6 +2407,7 @@ payload:
   - 'aoodoo.feng.com'
   - 'aoodoo.weiphone.com'
   - 'aoqinglv.cn'
+  - 'aorlpi.cn'
   - 'aornkmae.com'
   - 'aos-creative.prf.hn'
   - 'aos.wall.youmi.net'
@@ -13574,6 +13575,7 @@ payload:
   - 'tags.growingio.com'
   - 'tags2.adshell.net'
   - 'tags4.revdepo.com'
+  - 'tagtd.cn'
   - 'tahltanboutell.com'
   - 'tailscale.io'
   - 'tailtarget.com'
