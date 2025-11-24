@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-11-24 07:18:39（北京时间）
+# 生成时间: 2025-11-25 07:19:25（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -14270,6 +14270,7 @@ domain, ugdtimg.com
 domain, ugfe111.top
 domain, ugg.keefung-zs.com
 domain, ugg66.com
+domain, ugox.cn
 domain, ugsdk.cn
 domain, ugugct.xyz
 domain, ugvip.com
