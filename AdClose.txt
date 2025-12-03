@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-12-03 07:19:33（北京时间）
+# 生成时间: 2025-12-04 07:18:22（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -5903,6 +5903,9 @@ domain, exosrv.com
 domain, exp.17wo.cn
 domain, exp.3g.ifeng.com
 domain, exp.qumi.com
+domain, expendablekmr.kugou.com
+domain, expendablekmrcdn.kugou.com
+domain, expendablekmrcdnretry.kugou.com
 domain, expo123.net
 domain, ext-adv.kaixinyf.cn
 domain, ext.baidu.com
@@ -8638,6 +8641,8 @@ domain, kmpl.rnqxp.cn
 domain, kmpxq.cn
 domain, kmr.enrosr.cn
 domain, kmr.mjnbrt.xyz
+domain, kmr.service.kugou.com
+domain, kmrcdn.service.kugou.com
 domain, kmwatsonc.events.data.microsoft.com
 domain, kmwatsonc.telemetry.microsoft.com
 domain, kmwqxqh.com

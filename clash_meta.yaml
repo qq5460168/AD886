@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2025-12-03 07:19:33（北京时间）
+# 生成时间: 2025-12-04 07:18:22（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -5903,6 +5903,9 @@ payload:
   - 'exp.17wo.cn'
   - 'exp.3g.ifeng.com'
   - 'exp.qumi.com'
+  - 'expendablekmr.kugou.com'
+  - 'expendablekmrcdn.kugou.com'
+  - 'expendablekmrcdnretry.kugou.com'
   - 'expo123.net'
   - 'ext-adv.kaixinyf.cn'
   - 'ext.baidu.com'
@@ -8638,6 +8641,8 @@ payload:
   - 'kmpxq.cn'
   - 'kmr.enrosr.cn'
   - 'kmr.mjnbrt.xyz'
+  - 'kmr.service.kugou.com'
+  - 'kmrcdn.service.kugou.com'
   - 'kmwatsonc.events.data.microsoft.com'
   - 'kmwatsonc.telemetry.microsoft.com'
   - 'kmwqxqh.com'
