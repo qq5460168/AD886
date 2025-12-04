@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-12-04 07:18:22（北京时间）
+# 生成时间: 2025-12-05 07:20:00（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -11572,6 +11572,7 @@ domain, psb.lenovomm.com
 domain, psfq.gou.sogou.com
 domain, psma02.com
 domain, pss.alicdn.com
+domain, pstun.kugou.com
 domain, pstvvb.xyz
 domain, ptauxofi.net
 domain, ptdrw.com
@@ -13363,6 +13364,7 @@ domain, strip.alicdn.com
 domain, strip.taobaocdn.com
 domain, studylabs.cn
 domain, stun.hitv.com
+domain, stun.kugou.com
 domain, stun.syncthing.net
 domain, stunthedge.com
 domain, style-browse-openapi.test.gifshow.com
