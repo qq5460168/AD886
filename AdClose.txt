@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-12-15 07:19:01（北京时间）
+# 生成时间: 2025-12-16 07:21:25（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -13441,6 +13441,7 @@ domain, sycrgc.xyz
 domain, sydz.tw
 domain, sygmtz.com
 domain, syh-imp.cdnjtzy.com
+domain, syh.zybang.com
 domain, syilm.net
 domain, sykty.com
 domain, symaj.cn
