@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-12-16 07:21:25（北京时间）
+# 生成时间: 2025-12-17 07:20:18（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -631,6 +631,7 @@ domain, 66992949.com
 domain, 66san.com
 domain, 670t5x.cn
 domain, 6711.com
+domain, 6726lmym.top
 domain, 6728812.com
 domain, 678tl.com
 domain, 67it.com
@@ -6110,6 +6111,7 @@ domain, fhsmtrnsfnt.com
 domain, fhvbhx.xyz
 domain, fi11av37.com
 domain, fi11av39.com
+domain, fifzsym.top
 domain, fiktvlnc.icu
 domain, file-yuedu.iqiyi.com
 domain, file.7youxi.com

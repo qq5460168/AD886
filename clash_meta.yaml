@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2025-12-16 07:21:25（北京时间）
+# 生成时间: 2025-12-17 07:20:18（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -631,6 +631,7 @@ payload:
   - '66san.com'
   - '670t5x.cn'
   - '6711.com'
+  - '6726lmym.top'
   - '6728812.com'
   - '678tl.com'
   - '67it.com'
@@ -6110,6 +6111,7 @@ payload:
   - 'fhvbhx.xyz'
   - 'fi11av37.com'
   - 'fi11av39.com'
+  - 'fifzsym.top'
   - 'fiktvlnc.icu'
   - 'file-yuedu.iqiyi.com'
   - 'file.7youxi.com'
