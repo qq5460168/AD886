@@ -1,7 +1,7 @@
 # Title: Clash Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2025-12-19 07:20:40（北京时间）
+# Update Time: 2025-12-20 07:19:59（北京时间）
   - DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
   - DOMAIN-SUFFIX,0.r.msn.com,REJECT
   - DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -62,6 +62,7 @@
   - DOMAIN-SUFFIX,087tqb.cn,REJECT
   - DOMAIN-SUFFIX,08de583.p0nkhy03m.top,REJECT
   - DOMAIN-SUFFIX,093yuht.com,REJECT
+  - DOMAIN-SUFFIX,094kk.com,REJECT
   - DOMAIN-SUFFIX,096iokj.com,REJECT
   - DOMAIN-SUFFIX,09_19.supfree.net,REJECT
   - DOMAIN-SUFFIX,09jsufg.com,REJECT
@@ -6056,6 +6057,7 @@
   - DOMAIN-SUFFIX,fe2-au.imrworldwide.com,REJECT
   - DOMAIN-SUFFIX,fe3-au.imrworldwide.com,REJECT
   - DOMAIN-SUFFIX,feanalysisprod.xinfei.cn,REJECT
+  - DOMAIN-SUFFIX,fedoq.com,REJECT
   - DOMAIN-SUFFIX,feed.baidu.com,REJECT
   - DOMAIN-SUFFIX,feed.theta.sogou.com,REJECT
   - DOMAIN-SUFFIX,feedback-c.zijieapi.com,REJECT
@@ -8157,6 +8159,7 @@
   - DOMAIN-SUFFIX,jmbluyxkl.xyz,REJECT
   - DOMAIN-SUFFIX,jmesxbe.icu,REJECT
   - DOMAIN-SUFFIX,jmonitor.jiuzhilan.com,REJECT
+  - DOMAIN-SUFFIX,jmosl.com,REJECT
   - DOMAIN-SUFFIX,jmr.nnxiant.cn,REJECT
   - DOMAIN-SUFFIX,jmsyzj.com,REJECT
   - DOMAIN-SUFFIX,jmxlaser.com,REJECT
@@ -10677,6 +10680,7 @@
   - DOMAIN-SUFFIX,nryiou.cn,REJECT
   - DOMAIN-SUFFIX,nryqr.cn,REJECT
   - DOMAIN-SUFFIX,ns01.fyi,REJECT
+  - DOMAIN-SUFFIX,nsb42.com,REJECT
   - DOMAIN-SUFFIX,nsclickvideo.baidu.com,REJECT
   - DOMAIN-SUFFIX,nshvhfw.cn,REJECT
   - DOMAIN-SUFFIX,nsnmiaomu.cn,REJECT
@@ -16223,6 +16227,7 @@
   - DOMAIN-SUFFIX,ynslvyou.com,REJECT
   - DOMAIN-SUFFIX,yoda.kwd.inkuai.com,REJECT
   - DOMAIN-SUFFIX,yofprpv.cn,REJECT
+  - DOMAIN-SUFFIX,yohle.com,REJECT
   - DOMAIN-SUFFIX,yongkang6.com,REJECT
   - DOMAIN-SUFFIX,yongv.com,REJECT
   - DOMAIN-SUFFIX,yonsandileer.com,REJECT

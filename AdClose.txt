@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2025-12-19 07:20:40（北京时间）
+# 生成时间: 2025-12-20 07:19:59（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -61,6 +61,7 @@ domain, 085cczz.com
 domain, 087tqb.cn
 domain, 08de583.p0nkhy03m.top
 domain, 093yuht.com
+domain, 094kk.com
 domain, 096iokj.com
 domain, 09_19.supfree.net
 domain, 09jsufg.com
@@ -6055,6 +6056,7 @@ domain, fe1-au.imrworldwide.com
 domain, fe2-au.imrworldwide.com
 domain, fe3-au.imrworldwide.com
 domain, feanalysisprod.xinfei.cn
+domain, fedoq.com
 domain, feed.baidu.com
 domain, feed.theta.sogou.com
 domain, feedback-c.zijieapi.com
@@ -8156,6 +8158,7 @@ domain, jlssbz.com
 domain, jmbluyxkl.xyz
 domain, jmesxbe.icu
 domain, jmonitor.jiuzhilan.com
+domain, jmosl.com
 domain, jmr.nnxiant.cn
 domain, jmsyzj.com
 domain, jmxlaser.com
@@ -10676,6 +10679,7 @@ domain, nrjzkj.cn
 domain, nryiou.cn
 domain, nryqr.cn
 domain, ns01.fyi
+domain, nsb42.com
 domain, nsclickvideo.baidu.com
 domain, nshvhfw.cn
 domain, nsnmiaomu.cn
@@ -16222,6 +16226,7 @@ domain, ynmbz.com
 domain, ynslvyou.com
 domain, yoda.kwd.inkuai.com
 domain, yofprpv.cn
+domain, yohle.com
 domain, yongkang6.com
 domain, yongv.com
 domain, yonsandileer.com

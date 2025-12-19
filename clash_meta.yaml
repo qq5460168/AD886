@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2025-12-19 07:20:40（北京时间）
+# 生成时间: 2025-12-20 07:19:59（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -61,6 +61,7 @@ payload:
   - '087tqb.cn'
   - '08de583.p0nkhy03m.top'
   - '093yuht.com'
+  - '094kk.com'
   - '096iokj.com'
   - '09_19.supfree.net'
   - '09jsufg.com'
@@ -6055,6 +6056,7 @@ payload:
   - 'fe2-au.imrworldwide.com'
   - 'fe3-au.imrworldwide.com'
   - 'feanalysisprod.xinfei.cn'
+  - 'fedoq.com'
   - 'feed.baidu.com'
   - 'feed.theta.sogou.com'
   - 'feedback-c.zijieapi.com'
@@ -8156,6 +8158,7 @@ payload:
   - 'jmbluyxkl.xyz'
   - 'jmesxbe.icu'
   - 'jmonitor.jiuzhilan.com'
+  - 'jmosl.com'
   - 'jmr.nnxiant.cn'
   - 'jmsyzj.com'
   - 'jmxlaser.com'
@@ -10676,6 +10679,7 @@ payload:
   - 'nryiou.cn'
   - 'nryqr.cn'
   - 'ns01.fyi'
+  - 'nsb42.com'
   - 'nsclickvideo.baidu.com'
   - 'nshvhfw.cn'
   - 'nsnmiaomu.cn'
@@ -16222,6 +16226,7 @@ payload:
   - 'ynslvyou.com'
   - 'yoda.kwd.inkuai.com'
   - 'yofprpv.cn'
+  - 'yohle.com'
   - 'yongkang6.com'
   - 'yongv.com'
   - 'yonsandileer.com'
