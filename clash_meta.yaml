@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2025-12-20 07:19:59（北京时间）
+# 生成时间: 2025-12-21 07:19:24（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -13095,7 +13095,6 @@ payload:
   - 'spcdnpc.i-mobile.co.jp'
   - 'spcnv.i-mobile.co.jp'
   - 'spcode.baidu.com'
-  - 'spcsz.cdn.bcebos.com'
   - 'spdeliver.i-mobile.co.jp'
   - 'spdmg-backend.i-mobile.co.jp'
   - 'spdmg.i-mobile.co.jp'
@@ -15709,6 +15708,7 @@ payload:
   - 'xfzb2.cc'
   - 'xfztgxt.com'
   - 'xgcsr.com'
+  - 'xggdrks.icu'
   - 'xgmc6lu8fs.me'
   - 'xgnsvx.stwqhfi.cn'
   - 'xgzdys.com'

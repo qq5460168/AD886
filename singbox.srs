@@ -1,7 +1,7 @@
 # Title: SingBox SRS Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2025-12-20 07:19:59（北京时间）
+# Update Time: 2025-12-21 07:19:24（北京时间）
 DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
 DOMAIN-SUFFIX,0.r.msn.com,REJECT
 DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -13096,7 +13096,6 @@ DOMAIN-SUFFIX,spb.bid.run,REJECT
 DOMAIN-SUFFIX,spcdnpc.i-mobile.co.jp,REJECT
 DOMAIN-SUFFIX,spcnv.i-mobile.co.jp,REJECT
 DOMAIN-SUFFIX,spcode.baidu.com,REJECT
-DOMAIN-SUFFIX,spcsz.cdn.bcebos.com,REJECT
 DOMAIN-SUFFIX,spdeliver.i-mobile.co.jp,REJECT
 DOMAIN-SUFFIX,spdmg-backend.i-mobile.co.jp,REJECT
 DOMAIN-SUFFIX,spdmg.i-mobile.co.jp,REJECT
@@ -15710,6 +15709,7 @@ DOMAIN-SUFFIX,xfywn.com,REJECT
 DOMAIN-SUFFIX,xfzb2.cc,REJECT
 DOMAIN-SUFFIX,xfztgxt.com,REJECT
 DOMAIN-SUFFIX,xgcsr.com,REJECT
+DOMAIN-SUFFIX,xggdrks.icu,REJECT
 DOMAIN-SUFFIX,xgmc6lu8fs.me,REJECT
 DOMAIN-SUFFIX,xgnsvx.stwqhfi.cn,REJECT
 DOMAIN-SUFFIX,xgzdys.com,REJECT
