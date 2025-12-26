@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2025-12-26 07:20:13（北京时间）
+# 生成时间: 2025-12-27 07:20:09（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -1391,6 +1391,7 @@ payload:
   - 'ad.rednet.cn'
   - 'ad.reklamport.com'
   - 'ad.richmob.cn'
+  - 'ad.scdn.io'
   - 'ad.search.ch'
   - 'ad.seeyouyima.com'
   - 'ad.sensismediasmart.com.au'
@@ -3216,7 +3217,6 @@ payload:
   - 'bdxiguaimg.com'
   - 'bdyingxiaocms.cdn.bcebos.com'
   - 'bea-s.dinghuoche.com'
-  - 'beacon-api.aliyuncs.com'
   - 'beacon-us-sjc1.rubiconproject.com'
   - 'beacon.gtimg.com'
   - 'beacon.krxd.net'
@@ -4935,6 +4935,7 @@ payload:
   - 'dfgymtx.icu'
   - 'dfjd.xyz'
   - 'dfkd.xyz'
+  - 'dfsj8050.ahyyxpk.com'
   - 'dfstt5031.ayhnb.cn'
   - 'dfsvhv88.com'
   - 'dfx.shhuixiangwuliu.com'
@@ -15392,6 +15393,7 @@ payload:
   - 'www.claiks.com'
   - 'www.dahe6f.com'
   - 'www.dayangfa.com'
+  - 'www.dbhsgxh.com'
   - 'www.deifei.com'
   - 'www.dgtauto.com'
   - 'www.diyuxa.com'
