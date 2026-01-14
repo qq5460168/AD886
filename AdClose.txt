@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-01-14 07:20:34（北京时间）
+# 生成时间: 2026-01-15 07:18:59（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -3497,6 +3497,7 @@ domain, bu2.duba.com
 domain, bugly.qq.com
 domain, bugreportv2.qq.com
 domain, bugs01131ko.com
+domain, bugs01141ko.com
 domain, bugtags.com
 domain, buildingdoodlesquare.com
 domain, bujiangjiu123.com
@@ -10889,7 +10890,6 @@ domain, opehs.tanx.com
 domain, open-client.douyin.com
 domain, open-set-api.shenshiads.com
 domain, open-uc.cn
-domain, open.douyin.com
 domain, open.e.kuaishou.cn
 domain, open.e.kuaishou.com
 domain, open.kuaishouzt.com
