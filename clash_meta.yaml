@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-01-28 07:23:41（北京时间）
+# 生成时间: 2026-01-29 07:27:18（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -1772,6 +1772,7 @@ payload:
   - 'ads.aplus.pptv.com'
   - 'ads.aplusapi.pptv.com'
   - 'ads.aralego.com'
+  - 'ads.auctions.yahoo.com'
   - 'ads.aws.viber.com'
   - 'ads.bjlxin.cn'
   - 'ads.bullionyield.com'
@@ -2081,6 +2082,7 @@ payload:
   - 'adx-os.anythinktech.com'
   - 'adx-saas.advlion.com'
   - 'adx-static.ksosoft.com'
+  - 'adx-strategy-api-cn.statisticslinks.com'
   - 'adx-track.domob.cn'
   - 'adx.ads.heytapmobi.com'
   - 'adx.ads.oppomobile.com'
@@ -2763,7 +2765,6 @@ payload:
   - 'apptime.xyz'
   - 'appupgrade.vivo.com.cn'
   - 'appuu.cn'
-  - 'appversion.115.com'
   - 'appweb.yangqianguan.com'
   - 'apsalar.com'
   - 'apt.qumi.com'
@@ -10229,6 +10230,7 @@ payload:
   - 'mopub.com'
   - 'moquanad.com'
   - 'moren-1252794300.file.myqcloud.com'
+  - 'mores.toponad.com'
   - 'mosa86.com'
   - 'mosangkeji.com'
   - 'mosflower.cn'

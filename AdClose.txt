@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-01-28 07:23:41（北京时间）
+# 生成时间: 2026-01-29 07:27:18（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -1772,6 +1772,7 @@ domain, ads.api.lerist.cc
 domain, ads.aplus.pptv.com
 domain, ads.aplusapi.pptv.com
 domain, ads.aralego.com
+domain, ads.auctions.yahoo.com
 domain, ads.aws.viber.com
 domain, ads.bjlxin.cn
 domain, ads.bullionyield.com
@@ -2081,6 +2082,7 @@ domain, adx-os-req.anythinktech.com
 domain, adx-os.anythinktech.com
 domain, adx-saas.advlion.com
 domain, adx-static.ksosoft.com
+domain, adx-strategy-api-cn.statisticslinks.com
 domain, adx-track.domob.cn
 domain, adx.ads.heytapmobi.com
 domain, adx.ads.oppomobile.com
@@ -2763,7 +2765,6 @@ domain, apptentive.com
 domain, apptime.xyz
 domain, appupgrade.vivo.com.cn
 domain, appuu.cn
-domain, appversion.115.com
 domain, appweb.yangqianguan.com
 domain, apsalar.com
 domain, apt.qumi.com
@@ -10229,6 +10230,7 @@ domain, mopnativeadv.037201.com
 domain, mopub.com
 domain, moquanad.com
 domain, moren-1252794300.file.myqcloud.com
+domain, mores.toponad.com
 domain, mosa86.com
 domain, mosangkeji.com
 domain, mosflower.cn
