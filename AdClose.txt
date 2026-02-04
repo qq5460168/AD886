@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-02-04 07:28:54（北京时间）
+# 生成时间: 2026-02-05 07:29:18（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -14586,7 +14586,6 @@ domain, v.irs01.com
 domain, v.l.youku.com
 domain, v.oq68.com
 domain, v.rmbn.net
-domain, v.smtcdns.com
 domain, v.szpaopao.com
 domain, v00087.com
 domain, v00yvd.xyz
