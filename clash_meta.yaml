@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-02-11 07:39:10（北京时间）
+# 生成时间: 2026-02-12 07:33:48（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -5101,6 +5101,7 @@ payload:
   - 'dm50.yxlady.com'
   - 'dmacore.kejet.com'
   - 'dmacore.kejet.net'
+  - 'dmaoaikufn2.com'
   - 'dmapp.youku.com'
   - 'dmd.metaservices.microsoft.com'
   - 'dme.lchzwz.com'
@@ -6577,6 +6578,7 @@ payload:
   - 'gjipd.xyz'
   - 'gjkame6.com'
   - 'gjreg.code.weddingeeos.com'
+  - 'gjt6z9wga.com'
   - 'gjtrack.uc.cn'
   - 'gkjmev3.com'
   - 'gknybkl.cn'
@@ -6618,6 +6620,7 @@ payload:
   - 'godni.xyz'
   - 'goeyxwhp.site'
   - 'gog9.qzdfc.com'
+  - 'gohgn02111la.com'
   - 'goikbnjksdf.com'
   - 'goingsranchange.com'
   - 'golden1.sogou.com'
@@ -7950,6 +7953,7 @@ payload:
   - 'j17.xiumu.cn'
   - 'j1u9nlr3k.cc'
   - 'j3.jtezxmpb.xyz'
+  - 'j3818xx.cc'
   - 'j520s.gzcl999.cn'
   - 'j5z.cn'
   - 'j5z.cn.w.kunlunaq.com'
@@ -11504,6 +11508,7 @@ payload:
   - 'pp.sxjkc.cn'
   - 'pp2.dhzw.org'
   - 'pp2.pptv.com'
+  - 'pp3381a.cc'
   - 'pp9899.com'
   - 'ppedp.cn'
   - 'ppezijkacga.com'

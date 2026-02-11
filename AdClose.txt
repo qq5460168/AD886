@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-02-11 07:39:10（北京时间）
+# 生成时间: 2026-02-12 07:33:48（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -5101,6 +5101,7 @@ domain, dm50.jkyd.net
 domain, dm50.yxlady.com
 domain, dmacore.kejet.com
 domain, dmacore.kejet.net
+domain, dmaoaikufn2.com
 domain, dmapp.youku.com
 domain, dmd.metaservices.microsoft.com
 domain, dme.lchzwz.com
@@ -6577,6 +6578,7 @@ domain, gjh9v.tianshilv.cn
 domain, gjipd.xyz
 domain, gjkame6.com
 domain, gjreg.code.weddingeeos.com
+domain, gjt6z9wga.com
 domain, gjtrack.uc.cn
 domain, gkjmev3.com
 domain, gknybkl.cn
@@ -6618,6 +6620,7 @@ domain, godloveme.cn
 domain, godni.xyz
 domain, goeyxwhp.site
 domain, gog9.qzdfc.com
+domain, gohgn02111la.com
 domain, goikbnjksdf.com
 domain, goingsranchange.com
 domain, golden1.sogou.com
@@ -7950,6 +7953,7 @@ domain, j17.shangc.net
 domain, j17.xiumu.cn
 domain, j1u9nlr3k.cc
 domain, j3.jtezxmpb.xyz
+domain, j3818xx.cc
 domain, j520s.gzcl999.cn
 domain, j5z.cn
 domain, j5z.cn.w.kunlunaq.com
@@ -11504,6 +11508,7 @@ domain, poyang.com
 domain, pp.sxjkc.cn
 domain, pp2.dhzw.org
 domain, pp2.pptv.com
+domain, pp3381a.cc
 domain, pp9899.com
 domain, ppedp.cn
 domain, ppezijkacga.com
