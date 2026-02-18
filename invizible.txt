@@ -1,7 +1,7 @@
 # Title: Invizible Pro Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2026-02-18 07:30:10（北京时间）
+# Update Time: 2026-02-19 07:31:28（北京时间）
 -normal-lq.zijieapi.com
 0.r.msn.com
 000123456789.online
@@ -5131,10 +5131,12 @@ dnrf0215.com
 dns.jd.com
 dns.qiyipic.iqiyi.com
 dns.qq.com
+dns.wechat.com
 dns.weibo.cn
 dns.weixin.qq.com
 dns.weixin.qq.com.cn
 dns2.q2cdn.com
+dns2.titannetwork.cn
 dnvus.com
 dnyzbp.cn
 dnzmhr.xyz
@@ -6418,7 +6420,6 @@ gaszfc.moo39829.net
 gatecollect.kugou.com
 gateway.fortunelounge.com
 gateways.s3.amazonaws.com
-gator.volces.com
 gb.corp.163.com
 gbcnvip15.com
 gbrtyhnsc.xyz
@@ -7204,6 +7205,7 @@ httpdns.c.cdnhwc2.com
 httpdns.calorietech.com
 httpdns.cctv.com
 httpdns.danuoyi.tbcache.com
+httpdns.gslb.yy.com
 httpdns.huaweicloud.com
 httpdns.kg.qq.com
 httpdns.kwd.inkuai.com
@@ -9206,6 +9208,7 @@ logger.baofeng.com
 logger.qingting.fm
 logger.treexml.baofeng.com
 loggw.alipay.com.cn
+loggw.alipaydns.com
 lognew.cloooud.com
 logonext.tv.kuyun.com
 logos.kiwibrowser.com
@@ -11473,7 +11476,6 @@ polaris3-normal-lq.zijieapi.com
 polaris5-normal-hl.zijieapi.com
 polaris5-normal-lq.zijieapi.com
 polfaqgvsd.net
-policy.video.iqiyi.com
 policy.video.ptqy.gitv.tv
 polkkqm.com
 polkmerth.com

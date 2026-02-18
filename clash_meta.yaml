@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-02-18 07:30:10（北京时间）
+# 生成时间: 2026-02-19 07:31:28（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -5130,10 +5130,12 @@ payload:
   - 'dns.jd.com'
   - 'dns.qiyipic.iqiyi.com'
   - 'dns.qq.com'
+  - 'dns.wechat.com'
   - 'dns.weibo.cn'
   - 'dns.weixin.qq.com'
   - 'dns.weixin.qq.com.cn'
   - 'dns2.q2cdn.com'
+  - 'dns2.titannetwork.cn'
   - 'dnvus.com'
   - 'dnyzbp.cn'
   - 'dnzmhr.xyz'
@@ -6417,7 +6419,6 @@ payload:
   - 'gatecollect.kugou.com'
   - 'gateway.fortunelounge.com'
   - 'gateways.s3.amazonaws.com'
-  - 'gator.volces.com'
   - 'gb.corp.163.com'
   - 'gbcnvip15.com'
   - 'gbrtyhnsc.xyz'
@@ -7203,6 +7204,7 @@ payload:
   - 'httpdns.calorietech.com'
   - 'httpdns.cctv.com'
   - 'httpdns.danuoyi.tbcache.com'
+  - 'httpdns.gslb.yy.com'
   - 'httpdns.huaweicloud.com'
   - 'httpdns.kg.qq.com'
   - 'httpdns.kwd.inkuai.com'
@@ -9205,6 +9207,7 @@ payload:
   - 'logger.qingting.fm'
   - 'logger.treexml.baofeng.com'
   - 'loggw.alipay.com.cn'
+  - 'loggw.alipaydns.com'
   - 'lognew.cloooud.com'
   - 'logonext.tv.kuyun.com'
   - 'logos.kiwibrowser.com'
@@ -11472,7 +11475,6 @@ payload:
   - 'polaris5-normal-hl.zijieapi.com'
   - 'polaris5-normal-lq.zijieapi.com'
   - 'polfaqgvsd.net'
-  - 'policy.video.iqiyi.com'
   - 'policy.video.ptqy.gitv.tv'
   - 'polkkqm.com'
   - 'polkmerth.com'

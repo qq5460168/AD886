@@ -1,7 +1,7 @@
 # Title: Clash Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2026-02-18 07:30:10（北京时间）
+# Update Time: 2026-02-19 07:31:28（北京时间）
   - DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
   - DOMAIN-SUFFIX,0.r.msn.com,REJECT
   - DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -5131,10 +5131,12 @@
   - DOMAIN-SUFFIX,dns.jd.com,REJECT
   - DOMAIN-SUFFIX,dns.qiyipic.iqiyi.com,REJECT
   - DOMAIN-SUFFIX,dns.qq.com,REJECT
+  - DOMAIN-SUFFIX,dns.wechat.com,REJECT
   - DOMAIN-SUFFIX,dns.weibo.cn,REJECT
   - DOMAIN-SUFFIX,dns.weixin.qq.com,REJECT
   - DOMAIN-SUFFIX,dns.weixin.qq.com.cn,REJECT
   - DOMAIN-SUFFIX,dns2.q2cdn.com,REJECT
+  - DOMAIN-SUFFIX,dns2.titannetwork.cn,REJECT
   - DOMAIN-SUFFIX,dnvus.com,REJECT
   - DOMAIN-SUFFIX,dnyzbp.cn,REJECT
   - DOMAIN-SUFFIX,dnzmhr.xyz,REJECT
@@ -6418,7 +6420,6 @@
   - DOMAIN-SUFFIX,gatecollect.kugou.com,REJECT
   - DOMAIN-SUFFIX,gateway.fortunelounge.com,REJECT
   - DOMAIN-SUFFIX,gateways.s3.amazonaws.com,REJECT
-  - DOMAIN-SUFFIX,gator.volces.com,REJECT
   - DOMAIN-SUFFIX,gb.corp.163.com,REJECT
   - DOMAIN-SUFFIX,gbcnvip15.com,REJECT
   - DOMAIN-SUFFIX,gbrtyhnsc.xyz,REJECT
@@ -7204,6 +7205,7 @@
   - DOMAIN-SUFFIX,httpdns.calorietech.com,REJECT
   - DOMAIN-SUFFIX,httpdns.cctv.com,REJECT
   - DOMAIN-SUFFIX,httpdns.danuoyi.tbcache.com,REJECT
+  - DOMAIN-SUFFIX,httpdns.gslb.yy.com,REJECT
   - DOMAIN-SUFFIX,httpdns.huaweicloud.com,REJECT
   - DOMAIN-SUFFIX,httpdns.kg.qq.com,REJECT
   - DOMAIN-SUFFIX,httpdns.kwd.inkuai.com,REJECT
@@ -9206,6 +9208,7 @@
   - DOMAIN-SUFFIX,logger.qingting.fm,REJECT
   - DOMAIN-SUFFIX,logger.treexml.baofeng.com,REJECT
   - DOMAIN-SUFFIX,loggw.alipay.com.cn,REJECT
+  - DOMAIN-SUFFIX,loggw.alipaydns.com,REJECT
   - DOMAIN-SUFFIX,lognew.cloooud.com,REJECT
   - DOMAIN-SUFFIX,logonext.tv.kuyun.com,REJECT
   - DOMAIN-SUFFIX,logos.kiwibrowser.com,REJECT
@@ -11473,7 +11476,6 @@
   - DOMAIN-SUFFIX,polaris5-normal-hl.zijieapi.com,REJECT
   - DOMAIN-SUFFIX,polaris5-normal-lq.zijieapi.com,REJECT
   - DOMAIN-SUFFIX,polfaqgvsd.net,REJECT
-  - DOMAIN-SUFFIX,policy.video.iqiyi.com,REJECT
   - DOMAIN-SUFFIX,policy.video.ptqy.gitv.tv,REJECT
   - DOMAIN-SUFFIX,polkkqm.com,REJECT
   - DOMAIN-SUFFIX,polkmerth.com,REJECT
