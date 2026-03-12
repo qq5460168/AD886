@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-03-12 07:27:29（北京时间）
+# 生成时间: 2026-03-13 07:29:37（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -620,6 +620,7 @@ domain, 644446.com
 domain, 649558.com
 domain, 64si.com
 domain, 65432.pw
+domain, 65487496.xyz
 domain, 654mmm.com
 domain, 65564535.com
 domain, 660pxbm.top
@@ -5776,6 +5777,7 @@ domain, ems.youku.com
 domain, emss.zjhim.com
 domain, en.shenyun.com
 domain, en.shenyun.org
+domain, endlesshandbaglinked.com
 domain, endowmentoverhangutmost.com
 domain, endpoint.zhuishushenqi.com
 domain, enennsa.gushiwen.cn
@@ -10948,6 +10950,7 @@ domain, oqyiapj.cn
 domain, orange-dc.youku.com
 domain, orchidscape.net
 domain, oredero.com
+domain, orqmimfug.in
 domain, ort-stsdk.vivo.com.cn
 domain, ort.stsdk.vivo.com.cn
 domain, ortc.cc
