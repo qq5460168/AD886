@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-03-14 07:29:41（北京时间）
+# 生成时间: 2026-03-15 07:29:20（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -15307,6 +15307,7 @@ payload:
   - 'wup.imtt.qq.com'
   - 'wuplexv.cn'
   - 'wuqdebjfhjas.bid'
+  - 'wuqwruavhah.in'
   - 'wuwho.cn'
   - 'wv.inner-active.mobi'
   - 'wvcwop.zbbznk.xyz'
