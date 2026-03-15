@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-03-15 07:29:20（北京时间）
+# 生成时间: 2026-03-16 07:30:09（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -2419,6 +2419,7 @@ payload:
   - 'aornkmae.com'
   - 'aos-creative.prf.hn'
   - 'aos.wall.youmi.net'
+  - 'aotheve.beacon.qq.com'
   - 'aoyou1.top'
   - 'aoyou2.top'
   - 'aoyou3.top'

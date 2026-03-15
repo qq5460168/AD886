@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-03-15 07:29:20（北京时间）
+# 生成时间: 2026-03-16 07:30:09（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -2419,6 +2419,7 @@ domain, aorlpi.cn
 domain, aornkmae.com
 domain, aos-creative.prf.hn
 domain, aos.wall.youmi.net
+domain, aotheve.beacon.qq.com
 domain, aoyou1.top
 domain, aoyou2.top
 domain, aoyou3.top
