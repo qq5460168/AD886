@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-03-16 07:30:09（北京时间）
+# 生成时间: 2026-03-17 07:33:22（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -4862,7 +4862,6 @@ domain, de.as.cp61.ott.cibntv.net
 domain, de.as.pptv.com
 domain, de.dzribao.com
 domain, de.ioam.de
-domain, de.pandora.xiaomi.com
 domain, de.tynt.com
 domain, deals.ledgertranscript.com
 domain, debugreport.mobiledissector.com
@@ -11589,7 +11588,6 @@ domain, ps.browser.qq.com
 domain, psb.lenovomm.com
 domain, psfq.gou.sogou.com
 domain, psma02.com
-domain, pss.alicdn.com
 domain, pstun.kugou.com
 domain, pstvvb.xyz
 domain, ptauxofi.net
@@ -13288,7 +13286,6 @@ domain, stat.timedg.com
 domain, stat.v.17173.com
 domain, stat.xgo.com.cn
 domain, stat.xiaomi.com
-domain, stat.youku.com
 domain, stat.youpin.mi.com
 domain, statcounter.com
 domain, stathat.com
