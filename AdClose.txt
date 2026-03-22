@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-03-22 07:26:47（北京时间）
+# 生成时间: 2026-03-23 07:29:18（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -9987,12 +9987,10 @@ domain, metrics-dra.dt.hicloud.com
 domain, metrics-drcn.dt.dbankcloud.cn
 domain, metrics-drcn.dt.hihonorcloud.com
 domain, metrics-picture.d.meituan.net
-domain, metrics.apple.com
 domain, metrics.cnn.com
 domain, metrics.data.hicloud.com
 domain, metrics.dt.dbankcloud.cn
 domain, metrics.dt.hihonorcloud.com
-domain, metrics.icloud.com
 domain, metrics.mzstatic.com
 domain, metrics1.data.hicloud.com
 domain, metrics1.data.hicloud.com.lan
@@ -10297,7 +10295,6 @@ domain, mscimg.com
 domain, msclick2.kuwo.cn
 domain, msdk.voiceads.cn
 domain, msdsd2.cn
-domain, msec.opposhop.cn
 domain, msg.71.am
 domain, msg.c002.ottcn.com
 domain, msg.ettoday.net
@@ -12737,7 +12734,6 @@ domain, secure.fastclick.net
 domain, secure.img-cdn.mediaplex.com
 domain, secure.quantserve.com
 domain, secure.statcounter.com
-domain, securemetrics.apple.com
 domain, securepubads.g.doubleclick.net
 domain, security.browser.miui.com
 domain, security.snssdk.com
