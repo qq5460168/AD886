@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-03-23 07:29:18（北京时间）
+# 生成时间: 2026-03-24 07:33:50（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -10305,7 +10305,6 @@ domain, msg.ptqy.gitv.tv
 domain, msg.push.51y5.net
 domain, msg.qy.net
 domain, msg.umengcloud.com
-domain, msg.youku.com
 domain, msg2.video.qiyi.com
 domain, msga.71.am
 domain, msga.cupid.iqiyi.com

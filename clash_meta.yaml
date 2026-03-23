@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-03-23 07:29:18（北京时间）
+# 生成时间: 2026-03-24 07:33:50（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -10305,7 +10305,6 @@ payload:
   - 'msg.push.51y5.net'
   - 'msg.qy.net'
   - 'msg.umengcloud.com'
-  - 'msg.youku.com'
   - 'msg2.video.qiyi.com'
   - 'msga.71.am'
   - 'msga.cupid.iqiyi.com'
