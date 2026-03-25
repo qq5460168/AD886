@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-03-25 07:33:37（北京时间）
+# 生成时间: 2026-03-26 07:36:36（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -5179,6 +5179,7 @@ payload:
   - 'doubleclick-cn.net'
   - 'doubleclick.com'
   - 'doubleclick.ctfile.com'
+  - 'doubleclick.net'
   - 'doubleclick.tv002.com'
   - 'doubleplay-conf-yql.media.yahoo.com'
   - 'doubleverify.com'
@@ -14420,7 +14421,6 @@ payload:
   - 'unjs.jfcdns.com'
   - 'unjs.jingyanben.com'
   - 'unlitui.com'
-  - 'unpkg.com'
   - 'unpleasantconcrete.com'
   - 'unreshiramor.com'
   - 'uns.soarfi.cn'

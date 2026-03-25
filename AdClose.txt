@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-03-25 07:33:37（北京时间）
+# 生成时间: 2026-03-26 07:36:36（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -5179,6 +5179,7 @@ domain, doubanio.top
 domain, doubleclick-cn.net
 domain, doubleclick.com
 domain, doubleclick.ctfile.com
+domain, doubleclick.net
 domain, doubleclick.tv002.com
 domain, doubleplay-conf-yql.media.yahoo.com
 domain, doubleverify.com
@@ -14420,7 +14421,6 @@ domain, unjld.com
 domain, unjs.jfcdns.com
 domain, unjs.jingyanben.com
 domain, unlitui.com
-domain, unpkg.com
 domain, unpleasantconcrete.com
 domain, unreshiramor.com
 domain, uns.soarfi.cn
