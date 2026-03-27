@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-03-27 07:34:10（北京时间）
+# 生成时间: 2026-03-28 07:33:44（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -1216,6 +1216,7 @@ payload:
   - 'ad-sdk.lenovomm.com'
   - 'ad-sh-sz-zb.wagbridge.tanx.alimama.com'
   - 'ad-sh-sz-zb.wagbridge.tanx.alimama.com.gds.alibabadns.com'
+  - 'ad-sign.byteimg.com'
   - 'ad-specs.guoshipartners.com'
   - 'ad-splash-tracking.hktvmall.com'
   - 'ad-splash.hktvmall.com'
@@ -3908,7 +3909,6 @@ payload:
   - 'cdn.xianliao.me'
   - 'cdn.xinstall.com'
   - 'cdn.yunliunet.com'
-  - 'cdn.yyb.gtimg.com'
   - 'cdn.zampda.net'
   - 'cdn.zampdsp.com'
   - 'cdn0.mobmore.com'
@@ -4181,7 +4181,6 @@ payload:
   - 'cmpxaup.cn'
   - 'cms.an.m.liebao.cn'
   - 'cms.laifeng.com'
-  - 'cms.myapp.com'
   - 'cms.quantserve.com'
   - 'cmsapi.wifi8.com'
   - 'cmshow.gtimg.cn'

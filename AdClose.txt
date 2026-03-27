@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-03-27 07:34:10（北京时间）
+# 生成时间: 2026-03-28 07:33:44（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -1216,6 +1216,7 @@ domain, ad-sdk.huxiu.com
 domain, ad-sdk.lenovomm.com
 domain, ad-sh-sz-zb.wagbridge.tanx.alimama.com
 domain, ad-sh-sz-zb.wagbridge.tanx.alimama.com.gds.alibabadns.com
+domain, ad-sign.byteimg.com
 domain, ad-specs.guoshipartners.com
 domain, ad-splash-tracking.hktvmall.com
 domain, ad-splash.hktvmall.com
@@ -3908,7 +3909,6 @@ domain, cdn.xiangkanwang.com
 domain, cdn.xianliao.me
 domain, cdn.xinstall.com
 domain, cdn.yunliunet.com
-domain, cdn.yyb.gtimg.com
 domain, cdn.zampda.net
 domain, cdn.zampdsp.com
 domain, cdn0.mobmore.com
@@ -4181,7 +4181,6 @@ domain, cmpp.gentags.net
 domain, cmpxaup.cn
 domain, cms.an.m.liebao.cn
 domain, cms.laifeng.com
-domain, cms.myapp.com
 domain, cms.quantserve.com
 domain, cmsapi.wifi8.com
 domain, cmshow.gtimg.cn
