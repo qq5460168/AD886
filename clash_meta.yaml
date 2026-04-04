@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-04-04 07:35:43（北京时间）
+# 生成时间: 2026-04-05 07:32:46（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -2348,7 +2348,6 @@ payload:
   - 'am15.net'
   - 'am3-745151.xyz'
   - 'amadeus--box-10909--www-zhihu-com.zpres.zhihu.com'
-  - 'amap-aos-info-nogw.amap.com'
   - 'amazingmagics.com'
   - 'amazon-adsystem.com'
   - 'amazonaax.com'
@@ -13312,6 +13311,7 @@ payload:
   - 'snnnyy.com'
   - 'snow001.com'
   - 'sns-paopao.iqiyi.com'
+  - 'sntcbhv.com'
   - 'so.clzgd.com'
   - 'so9l.com'
   - 'soa-vip-ssl.xunlei.com'
@@ -15441,7 +15441,6 @@ payload:
   - 'whcrdz.com'
   - 'whe0nqk.icu'
   - 'whistleout.s3.amazonaws.com'
-  - 'whjzjx.cn'
   - 'whn.star-media.cn'
   - 'whoami.akamai.net'
   - 'whpxy.com'

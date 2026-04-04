@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-04-04 07:35:43（北京时间）
+# 生成时间: 2026-04-05 07:32:46（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -2348,7 +2348,6 @@ domain, am.zdnet.com.cn
 domain, am15.net
 domain, am3-745151.xyz
 domain, amadeus--box-10909--www-zhihu-com.zpres.zhihu.com
-domain, amap-aos-info-nogw.amap.com
 domain, amazingmagics.com
 domain, amazon-adsystem.com
 domain, amazonaax.com
@@ -13312,6 +13311,7 @@ domain, sngmta.qq.com
 domain, snnnyy.com
 domain, snow001.com
 domain, sns-paopao.iqiyi.com
+domain, sntcbhv.com
 domain, so.clzgd.com
 domain, so9l.com
 domain, soa-vip-ssl.xunlei.com
@@ -15441,7 +15441,6 @@ domain, whalecloud.com
 domain, whcrdz.com
 domain, whe0nqk.icu
 domain, whistleout.s3.amazonaws.com
-domain, whjzjx.cn
 domain, whn.star-media.cn
 domain, whoami.akamai.net
 domain, whpxy.com
