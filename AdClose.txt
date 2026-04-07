@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-04-07 07:37:32（北京时间）
+# 生成时间: 2026-04-08 07:38:01（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -10384,6 +10384,7 @@ domain, mobgi.com
 domain, mobile-pubt.ele.me
 domain, mobile-service.segment.com
 domain, mobile.da.mgtv.com
+domain, mobile.events.data.microsoft.com
 domain, mobile.launchdarkly.com
 domain, mobile2.da.mgtv.com
 domain, mobilead.kuwo.cn
