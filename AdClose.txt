@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-04-08 07:38:01（北京时间）
+# 生成时间: 2026-04-09 07:39:08（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -12339,7 +12339,6 @@ domain, recv-vd.gridsumdissector.com
 domain, recv-wd.gridsumdissector.com
 domain, red.bayimg.net
 domain, redbaby.hk
-domain, redditmedia.com
 domain, redirect.simba.taobao.com
 domain, redpaper-10006092.cos.myqcloud.com
 domain, redvase.bravenet.com
@@ -16028,6 +16027,7 @@ domain, xeynozl.icu
 domain, xf.yellowto.com
 domain, xfacai103.wuuorz.cn
 domain, xfgctg.com
+domain, xfidfuxidr.in
 domain, xfiwpoj.icu
 domain, xflsj.com
 domain, xfo.monesyy.com
