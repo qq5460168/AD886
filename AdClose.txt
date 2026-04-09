@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-04-09 07:39:08（北京时间）
+# 生成时间: 2026-04-10 07:37:55（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -3992,7 +3992,6 @@ domain, cdn.rollbar.com
 domain, cdn.scdng.com
 domain, cdn.segment.com
 domain, cdn.segment.io
-domain, cdn.soulapp.cn
 domain, cdn.sp.rizhao9.com
 domain, cdn.split.io
 domain, cdn.spotxcdn.com

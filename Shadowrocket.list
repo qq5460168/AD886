@@ -1,7 +1,7 @@
 # Title: Shadowrocket Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2026-04-09 07:39:08（北京时间）
+# Update Time: 2026-04-10 07:37:55（北京时间）
 DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
 DOMAIN-SUFFIX,0.r.msn.com,REJECT
 DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -3993,7 +3993,6 @@ DOMAIN-SUFFIX,cdn.rollbar.com,REJECT
 DOMAIN-SUFFIX,cdn.scdng.com,REJECT
 DOMAIN-SUFFIX,cdn.segment.com,REJECT
 DOMAIN-SUFFIX,cdn.segment.io,REJECT
-DOMAIN-SUFFIX,cdn.soulapp.cn,REJECT
 DOMAIN-SUFFIX,cdn.sp.rizhao9.com,REJECT
 DOMAIN-SUFFIX,cdn.split.io,REJECT
 DOMAIN-SUFFIX,cdn.spotxcdn.com,REJECT
