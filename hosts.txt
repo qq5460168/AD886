@@ -1,7 +1,7 @@
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2026-04-10 07:37:55（北京时间）
+# Update Time: 2026-04-11 07:36:01（北京时间）
 0.0.0.0 -normal-lq.zijieapi.com
 0.0.0.0 0.r.msn.com
 0.0.0.0 000123456789.online
@@ -3128,6 +3128,7 @@
 0.0.0.0 baiwanchuangyi.com
 0.0.0.0 baiwb.com
 0.0.0.0 baiyishaonian.cn
+0.0.0.0 bajielm.com
 0.0.0.0 bal113.rhdej.cn
 0.0.0.0 bali351.leeuvl.cn
 0.0.0.0 bam-cell.nr-data.net
@@ -4103,6 +4104,7 @@
 0.0.0.0 cheh9k4t.com
 0.0.0.0 chemdraw.com
 0.0.0.0 chemdraw.com.cn
+0.0.0.0 chemist68.top
 0.0.0.0 chengadx.com
 0.0.0.0 chenggao.cn
 0.0.0.0 chengzhao95511.com
@@ -7862,6 +7864,7 @@
 0.0.0.0 imgg.mgid.com
 0.0.0.0 imgp.cymzc.com
 0.0.0.0 imgpublic.ycomesc.live
+0.0.0.0 imgsdy8iyf8723y97g.top
 0.0.0.0 imgsreview.dftoutiao.com
 0.0.0.0 imgwdyey.com
 0.0.0.0 imgxxx.shunxincar.cn
@@ -9286,6 +9289,7 @@
 0.0.0.0 lmlt.socket.tw
 0.0.0.0 lmltapi.socket.tw
 0.0.0.0 lmnpd.xyz
+0.0.0.0 lmtjapi.com
 0.0.0.0 lmwap.awtks.com
 0.0.0.0 lmx7.com
 0.0.0.0 lmxxxz.com
@@ -10887,6 +10891,7 @@
 0.0.0.0 npdaqy6x1j.me
 0.0.0.0 npftmqv.cn
 0.0.0.0 nphqw.cn
+0.0.0.0 npzc1yzag7.com
 0.0.0.0 nqdufv.xyz
 0.0.0.0 nqoxurf.icu
 0.0.0.0 nr-data.net
@@ -12378,6 +12383,7 @@
 0.0.0.0 report.tencentmusic.com
 0.0.0.0 report.tv.kohesport.qq.com
 0.0.0.0 report.vip.qq.com
+0.0.0.0 report123.help
 0.0.0.0 reportlog.dftoutiao.com
 0.0.0.0 reports.crashlytics.com
 0.0.0.0 req.startappservice.com
@@ -14476,6 +14482,7 @@
 0.0.0.0 txscn.cn
 0.0.0.0 txt.go.sohu.com
 0.0.0.0 txtad.jijiplayer.com
+0.0.0.0 txutayo.com
 0.0.0.0 txx99.top
 0.0.0.0 ty8bz.com
 0.0.0.0 tyaqy.m.cn.miaozhen.com
@@ -14843,6 +14850,7 @@
 0.0.0.0 utility.baidu.com
 0.0.0.0 utility.rogersmedia.com
 0.0.0.0 utk.baidu.com
+0.0.0.0 utmtmkfjbitxzlhijfce.top
 0.0.0.0 utoken.umeng.com
 0.0.0.0 utp-dmp.ucweb.com
 0.0.0.0 utp.ucweb.com
@@ -15606,6 +15614,7 @@
 0.0.0.0 wubizigeng.com
 0.0.0.0 wudang05.com
 0.0.0.0 wuk.91c0218.top
+0.0.0.0 wukongtongji.com
 0.0.0.0 wuliao.epro.sogou.com
 0.0.0.0 wuliao.ganji.cn
 0.0.0.0 wuliao.jingyanben.com
@@ -16189,6 +16198,7 @@
 0.0.0.0 xn--49s928hlshoya.cn
 0.0.0.0 xn--521-x72fh66s.cn
 0.0.0.0 xn--6dcm9jb.xn--gecrj9c
+0.0.0.0 xn--9krv3x413bbyb.com
 0.0.0.0 xn--blqw4qdtj1zl4x4c.net
 0.0.0.0 xn--bqro42frpg5up.cn
 0.0.0.0 xn--gov-x68dy61b.shop
@@ -16542,6 +16552,7 @@
 0.0.0.0 ymima360.com
 0.0.0.0 ymm17.cc
 0.0.0.0 ymm19.cc
+0.0.0.0 ymmiyun.com
 0.0.0.0 ymrz581.com
 0.0.0.0 ymrzr.com
 0.0.0.0 ymyile.xyz
