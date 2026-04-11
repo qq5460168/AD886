@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-04-11 07:36:01（北京时间）
+# 生成时间: 2026-04-12 07:35:45（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -1046,7 +1046,6 @@ payload:
   - 'a8.obihiro-butaichi.jp'
   - 'a8age.com'
   - 'a8clk.shop.shareme.jp'
-  - 'a8clk.www.jaf.or.jp'
   - 'a8cv.bonaventura.shop'
   - 'a8cv.udition.jp'
   - 'a8lp-tebiki.e-sogi.com'
@@ -3656,7 +3655,6 @@ payload:
   - 'c.effectivemeasure.net'
   - 'c.etoolads.cn'
   - 'c.f1zd.com'
-  - 'c.fa.jd.com'
   - 'c.gdt.qq.com'
   - 'c.guangtui1999.com'
   - 'c.gzsanxiaomingshi.cn'
@@ -5513,7 +5511,6 @@ payload:
   - 'dwin1.com'
   - 'dwuupq.com'
   - 'dwyngjb.icu'
-  - 'dwz.cn'
   - 'dx1200.com'
   - 'dxlxjvmo.icu'
   - 'dxp.baidu.com'
