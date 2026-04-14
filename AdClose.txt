@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-04-14 07:43:17（北京时间）
+# 生成时间: 2026-04-15 07:42:20（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -4581,6 +4581,7 @@ domain, creative.1111cpc.com
 domain, creative.jdkic.com
 domain, creative.ltheanine.cn
 domain, creative.medproad.com
+domain, creative.myavlive.com
 domain, creatives.cliphunter.com
 domain, creatives.ftchinese.com
 domain, creatives.inmotionhosting.com
@@ -5847,6 +5848,7 @@ domain, edge.quantserve.com
 domain, edge.sharethis.com
 domain, edge.wshttpdns.com
 domain, edge.yunjiasu.com
+domain, edgelib.net
 domain, edigitalsurvey.com
 domain, ediuschina.com
 domain, edncui.net
@@ -6782,6 +6784,7 @@ domain, go.onclasrv.com
 domain, go.skimresources.com
 domain, go.sohu.com
 domain, go.util.zlibs.com
+domain, go.xlivrdr.com
 domain, go2click.online
 domain, go2cloud.org
 domain, goblin.hupu.com
@@ -17089,6 +17092,7 @@ domain, zzrcz.com
 domain, zzrjdp.xyz
 domain, zzsx8.com
 domain, zztxr.cn
+domain, zzuccikqt.com
 domain, zzxedr.xyz
 domain, zzxlhwyp.com
 domain, zzy.mipujia.com

@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-04-14 07:43:17（北京时间）
+# 生成时间: 2026-04-15 07:42:20（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -4581,6 +4581,7 @@ payload:
   - 'creative.jdkic.com'
   - 'creative.ltheanine.cn'
   - 'creative.medproad.com'
+  - 'creative.myavlive.com'
   - 'creatives.cliphunter.com'
   - 'creatives.ftchinese.com'
   - 'creatives.inmotionhosting.com'
@@ -5847,6 +5848,7 @@ payload:
   - 'edge.sharethis.com'
   - 'edge.wshttpdns.com'
   - 'edge.yunjiasu.com'
+  - 'edgelib.net'
   - 'edigitalsurvey.com'
   - 'ediuschina.com'
   - 'edncui.net'
@@ -6782,6 +6784,7 @@ payload:
   - 'go.skimresources.com'
   - 'go.sohu.com'
   - 'go.util.zlibs.com'
+  - 'go.xlivrdr.com'
   - 'go2click.online'
   - 'go2cloud.org'
   - 'goblin.hupu.com'
@@ -17089,6 +17092,7 @@ payload:
   - 'zzrjdp.xyz'
   - 'zzsx8.com'
   - 'zztxr.cn'
+  - 'zzuccikqt.com'
   - 'zzxedr.xyz'
   - 'zzxlhwyp.com'
   - 'zzy.mipujia.com'
