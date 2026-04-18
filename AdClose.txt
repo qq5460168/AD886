@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-04-18 07:39:57（北京时间）
+# 生成时间: 2026-04-19 07:36:27（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -2389,6 +2389,7 @@ domain, analytics.95516.com
 domain, analytics.adjust.cn
 domain, analytics.amplitude.com
 domain, analytics.google.com
+domain, analytics.immersivetranslate.com
 domain, analytics.libertymutual.com.edgekey.net
 domain, analytics.map.qq.com
 domain, analytics.meituan.net
@@ -11791,6 +11792,7 @@ domain, prod-mediate-events.applovin.com
 domain, prodigalpromotion.com
 domain, proesh.com
 domain, profile.ssp.rambler.ru
+domain, profitablecpmratenetwork.com
 domain, projectwonderful.com
 domain, prokyrn.icu
 domain, prom.b.qq.com

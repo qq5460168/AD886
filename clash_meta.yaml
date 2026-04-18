@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-04-18 07:39:57（北京时间）
+# 生成时间: 2026-04-19 07:36:27（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -2389,6 +2389,7 @@ payload:
   - 'analytics.adjust.cn'
   - 'analytics.amplitude.com'
   - 'analytics.google.com'
+  - 'analytics.immersivetranslate.com'
   - 'analytics.libertymutual.com.edgekey.net'
   - 'analytics.map.qq.com'
   - 'analytics.meituan.net'
@@ -11791,6 +11792,7 @@ payload:
   - 'prodigalpromotion.com'
   - 'proesh.com'
   - 'profile.ssp.rambler.ru'
+  - 'profitablecpmratenetwork.com'
   - 'projectwonderful.com'
   - 'prokyrn.icu'
   - 'prom.b.qq.com'
