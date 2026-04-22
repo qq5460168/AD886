@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-04-22 07:35:56（北京时间）
+# 生成时间: 2026-04-23 07:47:34（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -569,7 +569,6 @@ domain, 59gt.cn
 domain, 5dg.me
 domain, 5dian.org
 domain, 5egk.com
-domain, 5eucpusr8lbadd6e66vmuv1sok57bf04dcdpidko5hpg5od8erhfuuoo.saxysec.com
 domain, 5gg17gm.com
 domain, 5ggj5cp.com
 domain, 5h3s.live
@@ -9940,7 +9939,6 @@ domain, mc.hujiang.com
 domain, mc.muhtbnd.cn
 domain, mc.yandex.com
 domain, mc.yandex.ru
-domain, mc2jm0545vj420i4qbr2bds8q1pocd8jlfr887i10c0hdlsccqqfun19.saxysec.com
 domain, mcc.inf.miui.com
 domain, mcdwfed.cn
 domain, mcgi.v.qq.com

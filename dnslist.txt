@@ -2,8 +2,8 @@
 ! Title: 酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Total Count: 16845
-! Update Time: 2026-04-22 07:35:56（北京时间）
+! Total Count: 16843
+! Update Time: 2026-04-23 07:47:34（北京时间）
 ||-normal-lq.zijieapi.com^
 ||0.r.msn.com^
 ||000123456789.online^
@@ -572,7 +572,6 @@
 ||5dg.me^
 ||5dian.org^
 ||5egk.com^
-||5eucpusr8lbadd6e66vmuv1sok57bf04dcdpidko5hpg5od8erhfuuoo.saxysec.com^
 ||5gg17gm.com^
 ||5ggj5cp.com^
 ||5h3s.live^
@@ -9943,7 +9942,6 @@
 ||mc.muhtbnd.cn^
 ||mc.yandex.com^
 ||mc.yandex.ru^
-||mc2jm0545vj420i4qbr2bds8q1pocd8jlfr887i10c0hdlsccqqfun19.saxysec.com^
 ||mcc.inf.miui.com^
 ||mcdwfed.cn^
 ||mcgi.v.qq.com^

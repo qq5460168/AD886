@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-04-22 07:35:56（北京时间）
+# 生成时间: 2026-04-23 07:47:34（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -569,7 +569,6 @@ payload:
   - '5dg.me'
   - '5dian.org'
   - '5egk.com'
-  - '5eucpusr8lbadd6e66vmuv1sok57bf04dcdpidko5hpg5od8erhfuuoo.saxysec.com'
   - '5gg17gm.com'
   - '5ggj5cp.com'
   - '5h3s.live'
@@ -9940,7 +9939,6 @@ payload:
   - 'mc.muhtbnd.cn'
   - 'mc.yandex.com'
   - 'mc.yandex.ru'
-  - 'mc2jm0545vj420i4qbr2bds8q1pocd8jlfr887i10c0hdlsccqqfun19.saxysec.com'
   - 'mcc.inf.miui.com'
   - 'mcdwfed.cn'
   - 'mcgi.v.qq.com'
