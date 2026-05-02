@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-05-02 07:52:51（北京时间）
+# 生成时间: 2026-05-03 07:45:15（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -2371,6 +2371,7 @@ domain, anysdk.com
 domain, anyunwl04.com
 domain, aoao11241iis.top
 domain, aobuygo.com
+domain, aoc-p2.shop
 domain, aodongjiaosu.com
 domain, aombjl099.com
 domain, aoodoo.feng.com
@@ -5736,6 +5737,7 @@ domain, ed.gumoda.top
 domain, ed.sczhilong.cn
 domain, eddong.com
 domain, edesf.xyzxmark.cn
+domain, edg-n2.top
 domain, edge.ads.twitch.tv
 domain, edge.api.flagsmith.com
 domain, edge.fullstory.com
