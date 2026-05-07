@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-05-07 07:52:27（北京时间）
+# 生成时间: 2026-05-08 07:53:17（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -11915,6 +11915,7 @@ domain, qnguqmt.top
 domain, qnieo.fun
 domain, qnipkk.xyz
 domain, qnqcdn.net
+domain, qnywjs.buzz
 domain, qoilbsfwqd.net
 domain, qoiusky.com
 domain, qonkdwwf.net
