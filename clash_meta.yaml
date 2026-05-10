@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-05-10 07:51:23（北京时间）
+# 生成时间: 2026-05-11 07:53:17（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -8547,7 +8547,6 @@ payload:
   - 'k31bpzf.xyz'
   - 'k3bos.com'
   - 'k3l.cn'
-  - 'k3l.cn.w.kunlunpi.com'
   - 'k42kw.top'
   - 'k5567.vip'
   - 'k5ggua.xyz'
@@ -14908,7 +14907,6 @@ payload:
   - 'vip.id528.com'
   - 'vip.jindu179.com'
   - 'vip.k3l.cn'
-  - 'vip.k3l.cn.w.kunlunpi.com'
   - 'vip.mall044.com'
   - 'vip.media8.cn'
   - 'vip.pinghuhome.com'
@@ -15047,6 +15045,7 @@ payload:
   - 'w.homes.yahoo.net'
   - 'w.inews.qq.com'
   - 'w.jscsd.cn'
+  - 'w.kunlunpi.com'
   - 'w.l.qq.com'
   - 'w.m.taobao.com'
   - 'w.punchbox.org'

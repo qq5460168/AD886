@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-05-10 07:51:23（北京时间）
+# 生成时间: 2026-05-11 07:53:17（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -8547,7 +8547,6 @@ domain, k2team.kyiv.ua
 domain, k31bpzf.xyz
 domain, k3bos.com
 domain, k3l.cn
-domain, k3l.cn.w.kunlunpi.com
 domain, k42kw.top
 domain, k5567.vip
 domain, k5ggua.xyz
@@ -14908,7 +14907,6 @@ domain, vip.hyz86.com
 domain, vip.id528.com
 domain, vip.jindu179.com
 domain, vip.k3l.cn
-domain, vip.k3l.cn.w.kunlunpi.com
 domain, vip.mall044.com
 domain, vip.media8.cn
 domain, vip.pinghuhome.com
@@ -15047,6 +15045,7 @@ domain, w.gdown.baidu.com
 domain, w.homes.yahoo.net
 domain, w.inews.qq.com
 domain, w.jscsd.cn
+domain, w.kunlunpi.com
 domain, w.l.qq.com
 domain, w.m.taobao.com
 domain, w.punchbox.org
