@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-05-21 08:07:52（北京时间）
+# 生成时间: 2026-05-22 08:03:08（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -9854,6 +9854,7 @@ payload:
   - 'makeding.com'
   - 'malacca.inveno.com'
   - 'maljxp.cn'
+  - 'malluktig.in'
   - 'manage.wdfans.cn'
   - 'manage88.com'
   - 'manbag.net'
@@ -9915,6 +9916,7 @@ payload:
   - 'mathtype.cn'
   - 'matomo.cloud'
   - 'maumkt.ppdaicdn.com'
+  - 'mavrtracktor.com'
   - 'maw.wnbfw.com'
   - 'maximpetus.com'
   - 'maxwebsearch.com'
@@ -10884,6 +10886,7 @@ payload:
   - 'ok.8358211.cc'
   - 'ok365.com'
   - 'okbd2ou.icu'
+  - 'okeeblr.com'
   - 'okforwardt.fun'
   - 'okjhb.xyz'
   - 'okkkk.com'
@@ -12197,6 +12200,7 @@ payload:
   - 'remote88.com'
   - 'remoteads.oss-cn-beijing.aliyuncs.com'
   - 'remotedu.cn'
+  - 'renamereptiliantrance.com'
   - 'rencai56.com'
   - 'render-resource.11222.cn'
   - 'render-server.cdn.bcebos.com'
@@ -13783,6 +13787,7 @@ payload:
   - 'tchkcc.cn'
   - 'tci.oss-ap-southeast-1.aliyuncs.com'
   - 'tcjy66.cc'
+  - 'tcmxmlu.com'
   - 'tcsgcdn.top'
   - 'tcss.qq.com'
   - 'tcuqqhj.icu'

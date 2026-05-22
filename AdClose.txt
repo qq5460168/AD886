@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-05-21 08:07:52（北京时间）
+# 生成时间: 2026-05-22 08:03:08（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -9854,6 +9854,7 @@ domain, maisoncherry.com
 domain, makeding.com
 domain, malacca.inveno.com
 domain, maljxp.cn
+domain, malluktig.in
 domain, manage.wdfans.cn
 domain, manage88.com
 domain, manbag.net
@@ -9915,6 +9916,7 @@ domain, mathtag.com
 domain, mathtype.cn
 domain, matomo.cloud
 domain, maumkt.ppdaicdn.com
+domain, mavrtracktor.com
 domain, maw.wnbfw.com
 domain, maximpetus.com
 domain, maxwebsearch.com
@@ -10884,6 +10886,7 @@ domain, ok.8358137.cc
 domain, ok.8358211.cc
 domain, ok365.com
 domain, okbd2ou.icu
+domain, okeeblr.com
 domain, okforwardt.fun
 domain, okjhb.xyz
 domain, okkkk.com
@@ -12197,6 +12200,7 @@ domain, reminews.com
 domain, remote88.com
 domain, remoteads.oss-cn-beijing.aliyuncs.com
 domain, remotedu.cn
+domain, renamereptiliantrance.com
 domain, rencai56.com
 domain, render-resource.11222.cn
 domain, render-server.cdn.bcebos.com
@@ -13783,6 +13787,7 @@ domain, tcad.wedolook.com
 domain, tchkcc.cn
 domain, tci.oss-ap-southeast-1.aliyuncs.com
 domain, tcjy66.cc
+domain, tcmxmlu.com
 domain, tcsgcdn.top
 domain, tcss.qq.com
 domain, tcuqqhj.icu

@@ -1,7 +1,7 @@
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2026-05-21 08:07:52（北京时间）
+# Update Time: 2026-05-22 08:03:08（北京时间）
 0.0.0.0 -normal-lq.zijieapi.com
 0.0.0.0 0.r.msn.com
 0.0.0.0 000123456789.online
@@ -9855,6 +9855,7 @@
 0.0.0.0 makeding.com
 0.0.0.0 malacca.inveno.com
 0.0.0.0 maljxp.cn
+0.0.0.0 malluktig.in
 0.0.0.0 manage.wdfans.cn
 0.0.0.0 manage88.com
 0.0.0.0 manbag.net
@@ -9916,6 +9917,7 @@
 0.0.0.0 mathtype.cn
 0.0.0.0 matomo.cloud
 0.0.0.0 maumkt.ppdaicdn.com
+0.0.0.0 mavrtracktor.com
 0.0.0.0 maw.wnbfw.com
 0.0.0.0 maximpetus.com
 0.0.0.0 maxwebsearch.com
@@ -10885,6 +10887,7 @@
 0.0.0.0 ok.8358211.cc
 0.0.0.0 ok365.com
 0.0.0.0 okbd2ou.icu
+0.0.0.0 okeeblr.com
 0.0.0.0 okforwardt.fun
 0.0.0.0 okjhb.xyz
 0.0.0.0 okkkk.com
@@ -12198,6 +12201,7 @@
 0.0.0.0 remote88.com
 0.0.0.0 remoteads.oss-cn-beijing.aliyuncs.com
 0.0.0.0 remotedu.cn
+0.0.0.0 renamereptiliantrance.com
 0.0.0.0 rencai56.com
 0.0.0.0 render-resource.11222.cn
 0.0.0.0 render-server.cdn.bcebos.com
@@ -13784,6 +13788,7 @@
 0.0.0.0 tchkcc.cn
 0.0.0.0 tci.oss-ap-southeast-1.aliyuncs.com
 0.0.0.0 tcjy66.cc
+0.0.0.0 tcmxmlu.com
 0.0.0.0 tcsgcdn.top
 0.0.0.0 tcss.qq.com
 0.0.0.0 tcuqqhj.icu
