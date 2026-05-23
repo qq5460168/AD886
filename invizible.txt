@@ -1,7 +1,7 @@
 # Title: Invizible Pro Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2026-05-23 08:07:32（北京时间）
+# Update Time: 2026-05-24 07:58:52（北京时间）
 -normal-lq.zijieapi.com
 0.r.msn.com
 000123456789.online
@@ -2088,6 +2088,7 @@ aecpm.alicdn.com
 aedns.weixin.qq.com
 aefdcxoi.com
 aefmbeq.cn
+aekjg-cdn.77t-tusu.com
 aeletheacd.com
 aem.dentsuchina.cn
 aercxy.com
@@ -4984,6 +4985,7 @@ dfkd.xyz
 dfsj8050.ahyyxpk.com
 dfstt5031.ayhnb.cn
 dfsvhv88.com
+dftveb.xn--6krw8b915a62m.com
 dfx.shhuixiangwuliu.com
 dfx.vnnv777.cn
 dfxwdc.com
@@ -5371,6 +5373,7 @@ duapp.com
 duclick.baidu.com
 dugbvb.com
 dugesheying.com
+dui.suiji.red
 duier.top
 duiwai.baidu.com
 dumedia.ru
@@ -7151,6 +7154,7 @@ hmma.baidu.com
 hmp33.com
 hmttoly.com
 hmyangshengji.com
+hn.bfvvs.com
 hnasd.com
 hnbhrt.xyz
 hncadh.com
@@ -8882,6 +8886,7 @@ lalabaos1022.top
 lalabaos1026.top
 lalaping.com
 laljjn.xyz
+lambda.raidrive.com
 lamkghx.icu
 lan.btwan5.com
 landing.gdtimg.com
@@ -9613,6 +9618,7 @@ m.laoqu123.com
 m.lfdydk.com
 m.lovezhishou.com
 m.lusrg.cn
+m.lwlm-nideta.cc
 m.lyjz001.com
 m.lzida.com
 m.lzytt.com
@@ -10619,6 +10625,7 @@ nfgnxkd.top
 nfh.cnshef.com
 nfl9j.com
 nflks.cn
+nfnykg.xn--6krw8b915a62m.com
 nftjjw.com
 ng8f.top
 ngads.go.com
@@ -12246,6 +12253,7 @@ resource.baomihua.com
 responsys.net
 restorationbowelsunflower.com
 results.optimizely.com
+reszavxz.malunwudi.com
 ret.xinlongrubber.com
 rev.fapdu.com
 revdepo.com
@@ -12425,6 +12433,7 @@ rvyjbwr.cn
 rvzlobj.cn
 rwjfs.com
 rwq.youle55.com
+rxing.rxyoo.net
 rxlidz.ink
 rxwan.com
 rxyggrq.cn
@@ -13535,6 +13544,7 @@ swappdl.duoyi.com
 switchadhub.com
 switching.atm.punchbox.org
 swpgjai.pop.weddingeeos.com
+swquery.apple.com
 swwwxww.oss-cn-hangzhou.aliyuncs.com
 swx.0.0.0.0.cn
 sxbhzs.net
