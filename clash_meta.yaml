@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-05-25 07:59:37（北京时间）
+# 生成时间: 2026-05-26 08:06:26（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -5295,7 +5295,6 @@ payload:
   - 'dragoncent.com'
   - 'dragonparking.com'
   - 'drawfxk.com'
-  - 'drcn-weather.cloud.huawei.com'
   - 'drd.hauchi.com.tw'
   - 'drdj.m.gxwztv.com'
   - 'drdwy.com'
@@ -15060,7 +15059,6 @@ payload:
   - 'w.homes.yahoo.net'
   - 'w.inews.qq.com'
   - 'w.jscsd.cn'
-  - 'w.kunlunpi.com'
   - 'w.l.qq.com'
   - 'w.m.taobao.com'
   - 'w.punchbox.org'

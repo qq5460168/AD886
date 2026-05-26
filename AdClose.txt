@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-05-25 07:59:37（北京时间）
+# 生成时间: 2026-05-26 08:06:26（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -5295,7 +5295,6 @@ domain, dr.holaworld.cn
 domain, dragoncent.com
 domain, dragonparking.com
 domain, drawfxk.com
-domain, drcn-weather.cloud.huawei.com
 domain, drd.hauchi.com.tw
 domain, drdj.m.gxwztv.com
 domain, drdwy.com
@@ -15060,7 +15059,6 @@ domain, w.gdown.baidu.com
 domain, w.homes.yahoo.net
 domain, w.inews.qq.com
 domain, w.jscsd.cn
-domain, w.kunlunpi.com
 domain, w.l.qq.com
 domain, w.m.taobao.com
 domain, w.punchbox.org
