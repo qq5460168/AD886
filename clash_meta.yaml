@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-06-04 09:42:15（北京时间）
+# 生成时间: 2026-06-05 08:08:44（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -11873,6 +11873,7 @@ payload:
   - 'qifake.com'
   - 'qifjksdqwd.xyz'
   - 'qifyeldy.top'
+  - 'qihang168.top'
   - 'qihaoqu.com'
   - 'qijpaih.cn'
   - 'qinchugudao.com'
