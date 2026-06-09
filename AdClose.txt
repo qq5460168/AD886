@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-06-08 08:09:19（北京时间）
+# 生成时间: 2026-06-09 08:06:40（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -9925,6 +9925,7 @@ domain, m9.xcy8.com
 domain, ma-adx.ctrip.com
 domain, ma.baidu.com
 domain, ma.pupumall.com
+domain, ma.zijieapi.com
 domain, ma1.meishij.net
 domain, ma2.meishij.net
 domain, ma5-normal-lq.zijieapi.com
@@ -15012,6 +15013,7 @@ domain, vda.17173.com
 domain, vdapprecv.app.cntvwb.cn
 domain, vdazz.net
 domain, vdn1.vzuu.com
+domain, vdo3c.org
 domain, vdrfes.site
 domain, vds82e.sejqb.com
 domain, ve.tsdlp.com
