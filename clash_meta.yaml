@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-06-09 08:06:40（北京时间）
+# 生成时间: 2026-06-10 08:14:45（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -14384,6 +14384,7 @@ payload:
   - 'ttc.gdt.qq.com'
   - 'ttcdn.cn'
   - 'ttienli.top'
+  - 'ttkxny.com'
   - 'ttlm.cc'
   - 'ttlowe.com'
   - 'ttly888.com'

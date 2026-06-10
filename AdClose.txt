@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-06-09 08:06:40（北京时间）
+# 生成时间: 2026-06-10 08:14:45（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -14384,6 +14384,7 @@ domain, ttayy.cn
 domain, ttc.gdt.qq.com
 domain, ttcdn.cn
 domain, ttienli.top
+domain, ttkxny.com
 domain, ttlm.cc
 domain, ttlowe.com
 domain, ttly888.com
