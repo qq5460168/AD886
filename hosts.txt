@@ -1,7 +1,7 @@
 # Title: Hosts Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2026-06-10 08:14:45（北京时间）
+# Update Time: 2026-06-11 08:16:06（北京时间）
 0.0.0.0 -normal-lq.zijieapi.com
 0.0.0.0 0.r.msn.com
 0.0.0.0 000123456789.online
@@ -4243,6 +4243,7 @@
 0.0.0.0 cmh2pw.com
 0.0.0.0 cmm.xmfish.com
 0.0.0.0 cmop.mgtv.com
+0.0.0.0 cmos3.org
 0.0.0.0 cmp.quantcast.com
 0.0.0.0 cmp288.com
 0.0.0.0 cmpp.gentags.net

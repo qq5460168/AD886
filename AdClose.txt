@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-06-10 08:14:45（北京时间）
+# 生成时间: 2026-06-11 08:16:06（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -4242,6 +4242,7 @@ domain, cmgjqqu.cn
 domain, cmh2pw.com
 domain, cmm.xmfish.com
 domain, cmop.mgtv.com
+domain, cmos3.org
 domain, cmp.quantcast.com
 domain, cmp288.com
 domain, cmpp.gentags.net

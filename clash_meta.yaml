@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-06-10 08:14:45（北京时间）
+# 生成时间: 2026-06-11 08:16:06（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -4242,6 +4242,7 @@ payload:
   - 'cmh2pw.com'
   - 'cmm.xmfish.com'
   - 'cmop.mgtv.com'
+  - 'cmos3.org'
   - 'cmp.quantcast.com'
   - 'cmp288.com'
   - 'cmpp.gentags.net'
