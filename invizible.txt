@@ -1,7 +1,7 @@
 # Title: Invizible Pro Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2026-06-13 08:20:10（北京时间）
+# Update Time: 2026-06-14 08:07:35（北京时间）
 -normal-lq.zijieapi.com
 0.r.msn.com
 000123456789.online
@@ -440,6 +440,7 @@
 3gsoftfile.tcdn.qq.com
 3htai.com
 3i2i.com
+3ie0h3b.com
 3p4.cn
 3pkf5m0gd.com
 3prndxd.cn
