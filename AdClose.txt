@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-06-18 08:16:07（北京时间）
+# 生成时间: 2026-06-19 08:27:02（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -5260,7 +5260,6 @@ domain, dongmansoft.com
 domain, dongya.org
 domain, dontblockme.modaco.com
 domain, dopa.com
-domain, dorangesource.alicdn.com
 domain, dosre12.xyz
 domain, dot.eporner.com
 domain, dot2.eporner.com
