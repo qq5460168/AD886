@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-07-12 07:55:42（北京时间）
+# 生成时间: 2026-07-13 07:55:14（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -163,6 +163,7 @@ domain, 12551-1311572332.cos.ap-shanghai.myqcloud.com
 domain, 1267a.xyz
 domain, 126ccb.xyz
 domain, 13023.url.7wkw.com
+domain, 131r3lknzg.com
 domain, 1372.w13726954.com
 domain, 1377a.xyz
 domain, 1378a.xyz
@@ -9514,6 +9515,7 @@ domain, lxcdn.dl.files.xiaomi.net
 domain, lxg8s.xyz
 domain, lxksalary.com
 domain, lxqcgj.com
+domain, lxrjekw.com
 domain, lxting.com
 domain, lyaeccn.com
 domain, lyapi.1391.com
