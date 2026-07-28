@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-07-27 07:59:41（北京时间）
+# 生成时间: 2026-07-28 08:02:39（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -1743,6 +1743,7 @@ domain, ads-video-qc.xhscdn.com
 domain, ads.95516.com
 domain, ads.adadapted.com
 domain, ads.adfox.ru
+domain, ads.adfunlink.com
 domain, ads.api.fakeloc.cc
 domain, ads.api.lerist.cc
 domain, ads.aplus.pptv.com
