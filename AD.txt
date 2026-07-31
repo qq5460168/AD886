@@ -2,15 +2,15 @@
 ! Title: 去广告规则，酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/666
 ! Expires: 12 Hours
-! Version: 2026-07-30 21:55:04（北京时间）
+! Version: 2026-07-31 22:00:51（北京时间）
 ! Description: 适用于AdGuard的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 17297
+! Total count: 17292
 [Adblock Plus 2.0]
 ! Title: 酷安广告规则
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Last Updated: 2026-07-30 13:55:02（北京时间）
-! Total Count: 17290
+! Last Updated: 2026-07-31 14:00:50（北京时间）
+! Total Count: 17285
 ||-normal-lq.zijieapi.com^
 ||0.r.msn.com^
 ||000123456789.online^
@@ -412,7 +412,6 @@
 ||365bibi.com^
 ||365dmp.com^
 ||365safego.com^
-||365yg.com^
 ||366safego.com^
 ||36htg.fun^
 ||36mghtd.xyz^
@@ -2345,7 +2344,6 @@
 ||amazon-adsystem.com^
 ||amcn.bytedance.com^
 ||amdc.alipay.com^
-||amemv.com^
 ||amerzbj.cn^
 ||amfi.gou.sogou.com^
 ||amiok.org^
@@ -7516,7 +7514,6 @@
 ||huodong.pl.youku.com^
 ||huodong.vip.youku.com^
 ||huoju.asia^
-||huoshanzhibo.com^
 ||hushenqiquan.com^
 ||hv.code.tanwanyx.com^
 ||hvdath.xyz^
@@ -10826,7 +10823,6 @@
 ||nefrpt.top^
 ||neg2zos.icu^
 ||neghes.fun^
-||neihanshequ.com^
 ||neihhou.com^
 ||neiod.xyz^
 ||neirong.baidu.com^
@@ -16753,7 +16749,6 @@
 ||yopengtong.co^
 ||yotnqh.cn^
 ||you1ad.com^
-||youdianyisi.com^
 ||youfumei.com^
 ||youjia2016.com^
 ||youjiudilai.com^
