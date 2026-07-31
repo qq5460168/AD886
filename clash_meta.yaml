@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-07-30 07:59:44（北京时间）
+# 生成时间: 2026-07-31 08:02:16（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -2307,6 +2307,7 @@ payload:
   - 'all.orfr.adgtw.orangeads.fr'
   - 'all.rising.com.cn'
   - 'allcp.xyz'
+  - 'alliance.jinritemai.com'
   - 'allnews.uodoo.com'
   - 'allxin.com'
   - 'allykitchen.com'
@@ -3517,6 +3518,7 @@ payload:
   - 'br.fling.com'
   - 'br.realitykings.com'
   - 'brakefluid.website'
+  - 'brand.oceanengine.com'
   - 'brand.sogou.com'
   - 'brandadsstatic.vivo.com.cn'
   - 'brandlog.vivo.com.cn'
@@ -10396,6 +10398,7 @@ payload:
   - 'miui-fxcse.avlyun.com'
   - 'miui.hdfdm.com'
   - 'miui.hftaili.com'
+  - 'mix.jinritemai.com'
   - 'mixer.cupid.ptqy.gitv.tv'
   - 'mixpanel.com'
   - 'miyushu.com'
@@ -12674,6 +12677,7 @@ payload:
   - 'rt.applvn.com'
   - 'rt.funshion.net'
   - 'rt.gsspat.jp'
+  - 'rtapplog.snssdk.com'
   - 'rtas.videocc.net'
   - 'rtawin.daikuan.360.cn'
   - 'rtax.criteo.com'
@@ -12691,6 +12695,7 @@ payload:
   - 'rtbstat.zcdsp.com'
   - 'rte.fuoo1.top'
   - 'rtjmln.xyz'
+  - 'rtlog.snssdk.com'
   - 'rtlog.vidown.cn'
   - 'rtlog.zijieapi.com'
   - 'rtlog3-applog-lq.fqnovel.com'

@@ -1,7 +1,7 @@
 # Title: Clash Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2026-07-30 07:59:44（北京时间）
+# Update Time: 2026-07-31 08:02:16（北京时间）
   - DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
   - DOMAIN-SUFFIX,0.r.msn.com,REJECT
   - DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -2308,6 +2308,7 @@
   - DOMAIN-SUFFIX,all.orfr.adgtw.orangeads.fr,REJECT
   - DOMAIN-SUFFIX,all.rising.com.cn,REJECT
   - DOMAIN-SUFFIX,allcp.xyz,REJECT
+  - DOMAIN-SUFFIX,alliance.jinritemai.com,REJECT
   - DOMAIN-SUFFIX,allnews.uodoo.com,REJECT
   - DOMAIN-SUFFIX,allxin.com,REJECT
   - DOMAIN-SUFFIX,allykitchen.com,REJECT
@@ -3518,6 +3519,7 @@
   - DOMAIN-SUFFIX,br.fling.com,REJECT
   - DOMAIN-SUFFIX,br.realitykings.com,REJECT
   - DOMAIN-SUFFIX,brakefluid.website,REJECT
+  - DOMAIN-SUFFIX,brand.oceanengine.com,REJECT
   - DOMAIN-SUFFIX,brand.sogou.com,REJECT
   - DOMAIN-SUFFIX,brandadsstatic.vivo.com.cn,REJECT
   - DOMAIN-SUFFIX,brandlog.vivo.com.cn,REJECT
@@ -10397,6 +10399,7 @@
   - DOMAIN-SUFFIX,miui-fxcse.avlyun.com,REJECT
   - DOMAIN-SUFFIX,miui.hdfdm.com,REJECT
   - DOMAIN-SUFFIX,miui.hftaili.com,REJECT
+  - DOMAIN-SUFFIX,mix.jinritemai.com,REJECT
   - DOMAIN-SUFFIX,mixer.cupid.ptqy.gitv.tv,REJECT
   - DOMAIN-SUFFIX,mixpanel.com,REJECT
   - DOMAIN-SUFFIX,miyushu.com,REJECT
@@ -12675,6 +12678,7 @@
   - DOMAIN-SUFFIX,rt.applvn.com,REJECT
   - DOMAIN-SUFFIX,rt.funshion.net,REJECT
   - DOMAIN-SUFFIX,rt.gsspat.jp,REJECT
+  - DOMAIN-SUFFIX,rtapplog.snssdk.com,REJECT
   - DOMAIN-SUFFIX,rtas.videocc.net,REJECT
   - DOMAIN-SUFFIX,rtawin.daikuan.360.cn,REJECT
   - DOMAIN-SUFFIX,rtax.criteo.com,REJECT
@@ -12692,6 +12696,7 @@
   - DOMAIN-SUFFIX,rtbstat.zcdsp.com,REJECT
   - DOMAIN-SUFFIX,rte.fuoo1.top,REJECT
   - DOMAIN-SUFFIX,rtjmln.xyz,REJECT
+  - DOMAIN-SUFFIX,rtlog.snssdk.com,REJECT
   - DOMAIN-SUFFIX,rtlog.vidown.cn,REJECT
   - DOMAIN-SUFFIX,rtlog.zijieapi.com,REJECT
   - DOMAIN-SUFFIX,rtlog3-applog-lq.fqnovel.com,REJECT

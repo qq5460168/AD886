@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-07-30 07:59:44（北京时间）
+# 生成时间: 2026-07-31 08:02:16（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -2307,6 +2307,7 @@ domain, aliyunxin.com
 domain, all.orfr.adgtw.orangeads.fr
 domain, all.rising.com.cn
 domain, allcp.xyz
+domain, alliance.jinritemai.com
 domain, allnews.uodoo.com
 domain, allxin.com
 domain, allykitchen.com
@@ -3517,6 +3518,7 @@ domain, br.blackfling.com
 domain, br.fling.com
 domain, br.realitykings.com
 domain, brakefluid.website
+domain, brand.oceanengine.com
 domain, brand.sogou.com
 domain, brandadsstatic.vivo.com.cn
 domain, brandlog.vivo.com.cn
@@ -10396,6 +10398,7 @@ domain, mitao99.cc
 domain, miui-fxcse.avlyun.com
 domain, miui.hdfdm.com
 domain, miui.hftaili.com
+domain, mix.jinritemai.com
 domain, mixer.cupid.ptqy.gitv.tv
 domain, mixpanel.com
 domain, miyushu.com
@@ -12674,6 +12677,7 @@ domain, rt.applovin.com
 domain, rt.applvn.com
 domain, rt.funshion.net
 domain, rt.gsspat.jp
+domain, rtapplog.snssdk.com
 domain, rtas.videocc.net
 domain, rtawin.daikuan.360.cn
 domain, rtax.criteo.com
@@ -12691,6 +12695,7 @@ domain, rtborp.xyz
 domain, rtbstat.zcdsp.com
 domain, rte.fuoo1.top
 domain, rtjmln.xyz
+domain, rtlog.snssdk.com
 domain, rtlog.vidown.cn
 domain, rtlog.zijieapi.com
 domain, rtlog3-applog-lq.fqnovel.com
