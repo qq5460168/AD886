@@ -2,8 +2,8 @@
 ! Title: 酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Total Count: 17290
-! Update Time: 2026-07-31 08:02:16（北京时间）
+! Total Count: 17285
+! Update Time: 2026-08-01 08:01:47（北京时间）
 ||-normal-lq.zijieapi.com^
 ||0.r.msn.com^
 ||000123456789.online^
@@ -405,7 +405,6 @@
 ||365bibi.com^
 ||365dmp.com^
 ||365safego.com^
-||365yg.com^
 ||366safego.com^
 ||36htg.fun^
 ||36mghtd.xyz^
@@ -2338,7 +2337,6 @@
 ||amazon-adsystem.com^
 ||amcn.bytedance.com^
 ||amdc.alipay.com^
-||amemv.com^
 ||amerzbj.cn^
 ||amfi.gou.sogou.com^
 ||amiok.org^
@@ -7509,7 +7507,6 @@
 ||huodong.pl.youku.com^
 ||huodong.vip.youku.com^
 ||huoju.asia^
-||huoshanzhibo.com^
 ||hushenqiquan.com^
 ||hv.code.tanwanyx.com^
 ||hvdath.xyz^
@@ -10819,7 +10816,6 @@
 ||nefrpt.top^
 ||neg2zos.icu^
 ||neghes.fun^
-||neihanshequ.com^
 ||neihhou.com^
 ||neiod.xyz^
 ||neirong.baidu.com^
@@ -16746,7 +16742,6 @@
 ||yopengtong.co^
 ||yotnqh.cn^
 ||you1ad.com^
-||youdianyisi.com^
 ||youfumei.com^
 ||youjia2016.com^
 ||youjiudilai.com^

@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-07-31 08:02:16（北京时间）
+# 生成时间: 2026-08-01 08:01:47（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -402,7 +402,6 @@ payload:
   - '365bibi.com'
   - '365dmp.com'
   - '365safego.com'
-  - '365yg.com'
   - '366safego.com'
   - '36htg.fun'
   - '36mghtd.xyz'
@@ -2335,7 +2334,6 @@ payload:
   - 'amazon-adsystem.com'
   - 'amcn.bytedance.com'
   - 'amdc.alipay.com'
-  - 'amemv.com'
   - 'amerzbj.cn'
   - 'amfi.gou.sogou.com'
   - 'amiok.org'
@@ -7506,7 +7504,6 @@ payload:
   - 'huodong.pl.youku.com'
   - 'huodong.vip.youku.com'
   - 'huoju.asia'
-  - 'huoshanzhibo.com'
   - 'hushenqiquan.com'
   - 'hv.code.tanwanyx.com'
   - 'hvdath.xyz'
@@ -10816,7 +10813,6 @@ payload:
   - 'nefrpt.top'
   - 'neg2zos.icu'
   - 'neghes.fun'
-  - 'neihanshequ.com'
   - 'neihhou.com'
   - 'neiod.xyz'
   - 'neirong.baidu.com'
@@ -16743,7 +16739,6 @@ payload:
   - 'yopengtong.co'
   - 'yotnqh.cn'
   - 'you1ad.com'
-  - 'youdianyisi.com'
   - 'youfumei.com'
   - 'youjia2016.com'
   - 'youjiudilai.com'

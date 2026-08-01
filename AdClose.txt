@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-07-31 08:02:16（北京时间）
+# 生成时间: 2026-08-01 08:01:47（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -402,7 +402,6 @@ domain, 361315.cc
 domain, 365bibi.com
 domain, 365dmp.com
 domain, 365safego.com
-domain, 365yg.com
 domain, 366safego.com
 domain, 36htg.fun
 domain, 36mghtd.xyz
@@ -2335,7 +2334,6 @@ domain, amazingmagics.com
 domain, amazon-adsystem.com
 domain, amcn.bytedance.com
 domain, amdc.alipay.com
-domain, amemv.com
 domain, amerzbj.cn
 domain, amfi.gou.sogou.com
 domain, amiok.org
@@ -7506,7 +7504,6 @@ domain, hunpingou.com
 domain, huodong.pl.youku.com
 domain, huodong.vip.youku.com
 domain, huoju.asia
-domain, huoshanzhibo.com
 domain, hushenqiquan.com
 domain, hv.code.tanwanyx.com
 domain, hvdath.xyz
@@ -10816,7 +10813,6 @@ domain, nefbjp.xyz
 domain, nefrpt.top
 domain, neg2zos.icu
 domain, neghes.fun
-domain, neihanshequ.com
 domain, neihhou.com
 domain, neiod.xyz
 domain, neirong.baidu.com
@@ -16743,7 +16739,6 @@ domain, yooli.com
 domain, yopengtong.co
 domain, yotnqh.cn
 domain, you1ad.com
-domain, youdianyisi.com
 domain, youfumei.com
 domain, youjia2016.com
 domain, youjiudilai.com
