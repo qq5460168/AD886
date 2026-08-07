@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-08-06 07:59:29（北京时间）
+# 生成时间: 2026-08-07 09:41:02（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -4624,6 +4624,7 @@ payload:
   - 'cslbahf.top'
   - 'cslpf.cn'
   - 'csqiulong.com'
+  - 'cssstyle.motorcycles'
   - 'cstoa.com'
   - 'csxjys.com'
   - 'csygxdym.com'
