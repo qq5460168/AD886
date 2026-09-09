@@ -1,7 +1,7 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2026-09-08 08:57:03（北京时间）
+# Update Time: 2026-09-09 09:04:01（北京时间）
 HOST-SUFFIX,-normal-lq.zijieapi.com,REJECT
 HOST-SUFFIX,0.r.msn.com,REJECT
 HOST-SUFFIX,000123456789.online,REJECT
@@ -1163,6 +1163,7 @@ HOST-SUFFIX,acxiom-online.com,REJECT
 HOST-SUFFIX,acz.youku.com,REJECT
 HOST-SUFFIX,ad-analysis.pconline.com.cn,REJECT
 HOST-SUFFIX,ad-android.51wnl.com,REJECT
+HOST-SUFFIX,ad-api.4pyun.com,REJECT
 HOST-SUFFIX,ad-api.adn-plus.com.cn,REJECT
 HOST-SUFFIX,ad-api.morefreegame.com,REJECT
 HOST-SUFFIX,ad-audit-provider.soulapp.cn,REJECT
@@ -1180,6 +1181,7 @@ HOST-SUFFIX,ad-display.wikawika.xyz,REJECT
 HOST-SUFFIX,ad-download.hismarttv.com,REJECT
 HOST-SUFFIX,ad-drs-ipv6.52qumao.com,REJECT
 HOST-SUFFIX,ad-drs.52qumao.com,REJECT
+HOST-SUFFIX,ad-files.4pyun.com,REJECT
 HOST-SUFFIX,ad-ga.nocode.com,REJECT
 HOST-SUFFIX,ad-gb.mgid.com,REJECT
 HOST-SUFFIX,ad-ggtg-api.37.com.cn,REJECT
@@ -1343,6 +1345,7 @@ HOST-SUFFIX,ad.m.iqiyi.com,REJECT
 HOST-SUFFIX,ad.mail.ru,REJECT
 HOST-SUFFIX,ad.mail.sohu.com,REJECT
 HOST-SUFFIX,ad.mangareader.net,REJECT
+HOST-SUFFIX,ad.maoyan.com,REJECT
 HOST-SUFFIX,ad.mazc.org,REJECT
 HOST-SUFFIX,ad.mediabong.net,REJECT
 HOST-SUFFIX,ad.mesomorphosis.com,REJECT
@@ -1656,6 +1659,7 @@ HOST-SUFFIX,adm3.autoimg.cn,REJECT
 HOST-SUFFIX,admaji.com,REJECT
 HOST-SUFFIX,admarket.21cn.com,REJECT
 HOST-SUFFIX,admarket.mobi,REJECT
+HOST-SUFFIX,admarketing.yahoo.net,REJECT
 HOST-SUFFIX,admaster.com.cn,REJECT
 HOST-SUFFIX,admd.yam.com,REJECT
 HOST-SUFFIX,admedia.com,REJECT
@@ -1770,6 +1774,7 @@ HOST-SUFFIX,ads.dailymotion.com,REJECT
 HOST-SUFFIX,ads.daydaycook.com.cn,REJECT
 HOST-SUFFIX,ads.exoclick.com,REJECT
 HOST-SUFFIX,ads.exosrv.com,REJECT
+HOST-SUFFIX,ads.finance.yahoo.com,REJECT
 HOST-SUFFIX,ads.flurry.com,REJECT
 HOST-SUFFIX,ads.game.iqiyi.com,REJECT
 HOST-SUFFIX,ads.games.laohu.com,REJECT
@@ -1968,6 +1973,7 @@ HOST-SUFFIX,adstat.izuiyou.com,REJECT
 HOST-SUFFIX,adstatic.zhihu.com,REJECT
 HOST-SUFFIX,adstatis.99jiasu.com,REJECT
 HOST-SUFFIX,adstats.tencentmusic.com,REJECT
+HOST-SUFFIX,adstextview.qq.com,REJECT
 HOST-SUFFIX,adstil.indiatimes.com,REJECT
 HOST-SUFFIX,adstore-1252524079.file.myqcloud.com,REJECT
 HOST-SUFFIX,adstore-index-1252524079.file.myqcloud.com,REJECT
@@ -2070,6 +2076,7 @@ HOST-SUFFIX,adx-drcn.op.dbankcloud.cn,REJECT
 HOST-SUFFIX,adx-open-service.youku.com,REJECT
 HOST-SUFFIX,adx-os-req.anythinktech.com,REJECT
 HOST-SUFFIX,adx-os.anythinktech.com,REJECT
+HOST-SUFFIX,adx-os.bridgeoos.com,REJECT
 HOST-SUFFIX,adx-saas.advlion.com,REJECT
 HOST-SUFFIX,adx-static.ksosoft.com,REJECT
 HOST-SUFFIX,adx-strategy-api-cn.statisticslinks.com,REJECT
@@ -2297,6 +2304,7 @@ HOST-SUFFIX,all.rising.com.cn,REJECT
 HOST-SUFFIX,allcp.xyz,REJECT
 HOST-SUFFIX,alliance.jinritemai.com,REJECT
 HOST-SUFFIX,allnews.uodoo.com,REJECT
+HOST-SUFFIX,alltbcsp2p.baidu.com,REJECT
 HOST-SUFFIX,allxin.com,REJECT
 HOST-SUFFIX,allykitchen.com,REJECT
 HOST-SUFFIX,almabelen.com,REJECT
@@ -4396,6 +4404,7 @@ HOST-SUFFIX,comet.yahoo.com,REJECT
 HOST-SUFFIX,comfylink.com,REJECT
 HOST-SUFFIX,commdata.v.qq.com,REJECT
 HOST-SUFFIX,commdata6.v.qq.com,REJECT
+HOST-SUFFIX,commercial.shouji.360.cn,REJECT
 HOST-SUFFIX,commission-junction.com,REJECT
 HOST-SUFFIX,commondata.oss-cn-hangzhou.aliyuncs.com,REJECT
 HOST-SUFFIX,commonwealthproficient.com,REJECT
@@ -6054,6 +6063,7 @@ HOST-SUFFIX,events.reddit.com,REJECT
 HOST-SUFFIX,events.redditmedia.com,REJECT
 HOST-SUFFIX,events.split.io,REJECT
 HOST-SUFFIX,events3alt.adcolony.com,REJECT
+HOST-SUFFIX,eventv1.leidong.rayenergytech.com,REJECT
 HOST-SUFFIX,evidhjksdtgyxrh.xyz,REJECT
 HOST-SUFFIX,eviltracker.net,REJECT
 HOST-SUFFIX,ew16d.package12.com,REJECT
@@ -7470,8 +7480,10 @@ HOST-SUFFIX,hujunhao.name,REJECT
 HOST-SUFFIX,humanding.com,REJECT
 HOST-SUFFIX,hummingexam.com,REJECT
 HOST-SUFFIX,hunpingou.com,REJECT
+HOST-SUFFIX,huodong.ios.shouji.360.cn,REJECT
 HOST-SUFFIX,huodong.pl.youku.com,REJECT
 HOST-SUFFIX,huodong.vip.youku.com,REJECT
+HOST-SUFFIX,huodong.weibo.cn,REJECT
 HOST-SUFFIX,huoju.asia,REJECT
 HOST-SUFFIX,hushenqiquan.com,REJECT
 HOST-SUFFIX,hv.code.tanwanyx.com,REJECT
@@ -7600,10 +7612,12 @@ HOST-SUFFIX,iad.g.163.com,REJECT
 HOST-SUFFIX,iad0ssl.pcauto.com.cn,REJECT
 HOST-SUFFIX,iad0ssl.pconline.com.cn,REJECT
 HOST-SUFFIX,iadc.qwapi.com,REJECT
+HOST-SUFFIX,iadcontent.apple.com,REJECT
 HOST-SUFFIX,iadctest.qwapi.com,REJECT
 HOST-SUFFIX,iadfeed.iad.apple.com,REJECT
 HOST-SUFFIX,iadmatapk.nosdn.127.net,REJECT
 HOST-SUFFIX,iadmatvideo.nosdn.127.net,REJECT
+HOST-SUFFIX,iadmoo.apple.com,REJECT
 HOST-SUFFIX,iadmusicmat.music.126.net,REJECT
 HOST-SUFFIX,iadmusicmatvideo.music.126.net,REJECT
 HOST-SUFFIX,iads.xinmin.cn,REJECT
@@ -7970,6 +7984,7 @@ HOST-SUFFIX,ini.update.360safe.com,REJECT
 HOST-SUFFIX,init.phpwind.com,REJECT
 HOST-SUFFIX,init.phpwind.net,REJECT
 HOST-SUFFIX,init.startappexchange.com,REJECT
+HOST-SUFFIX,init.supersonicads.com,REJECT
 HOST-SUFFIX,inkuae.com,REJECT
 HOST-SUFFIX,inlbsid.cn,REJECT
 HOST-SUFFIX,inmobi.cn,REJECT
@@ -7978,6 +7993,7 @@ HOST-SUFFIX,inmobi.net,REJECT
 HOST-SUFFIX,inmobicdn.cn,REJECT
 HOST-SUFFIX,inmobicdn.net,REJECT
 HOST-SUFFIX,inner-active.mobi,REJECT
+HOST-SUFFIX,inner-hw.huazirc.com,REJECT
 HOST-SUFFIX,innity.com,REJECT
 HOST-SUFFIX,innity.net,REJECT
 HOST-SUFFIX,inoprosport.su,REJECT
@@ -8996,6 +9012,7 @@ HOST-SUFFIX,kwcmrfb.cn,REJECT
 HOST-SUFFIX,kwdgudw.cn,REJECT
 HOST-SUFFIX,kwmsg.kuwo.cn,REJECT
 HOST-SUFFIX,kwo-0115.cc,REJECT
+HOST-SUFFIX,kwpush.kuwo.cn,REJECT
 HOST-SUFFIX,kwurl.ucweb.com,REJECT
 HOST-SUFFIX,kxcp365.com,REJECT
 HOST-SUFFIX,kxlogo.knet.cn,REJECT
@@ -9453,6 +9470,7 @@ HOST-SUFFIX,logos.kiwibrowser.com,REJECT
 HOST-SUFFIX,logoshejishi.com,REJECT
 HOST-SUFFIX,logrcv.aiclk.com,REJECT
 HOST-SUFFIX,logrcv.yunxish.com,REJECT
+HOST-SUFFIX,logs-bigdata.yeehaw.com.cn,REJECT
 HOST-SUFFIX,logs.amap.com,REJECT
 HOST-SUFFIX,logs.chelaile.net.cn,REJECT
 HOST-SUFFIX,logsdk.qq.com,REJECT
@@ -9467,6 +9485,7 @@ HOST-SUFFIX,logstat.kugou.com,REJECT
 HOST-SUFFIX,logstat.t.sfht.com,REJECT
 HOST-SUFFIX,logtj.kugou.com,REJECT
 HOST-SUFFIX,logupdate.avlyun.sec.miui.com,REJECT
+HOST-SUFFIX,logv2.ireader.com,REJECT
 HOST-SUFFIX,logwebs.kugou.com,REJECT
 HOST-SUFFIX,logx.optimizely.com,REJECT
 HOST-SUFFIX,lohdnyz.cn,REJECT
@@ -11880,6 +11899,7 @@ HOST-SUFFIX,profile.ssp.rambler.ru,REJECT
 HOST-SUFFIX,profitablecpmratenetwork.com,REJECT
 HOST-SUFFIX,projectwonderful.com,REJECT
 HOST-SUFFIX,prokyrn.icu,REJECT
+HOST-SUFFIX,prom-sdkv2.jysper.net,REJECT
 HOST-SUFFIX,prom.b.qq.com,REJECT
 HOST-SUFFIX,prom.gome.com.cn,REJECT
 HOST-SUFFIX,promo.fileforum.com,REJECT
@@ -12467,6 +12487,7 @@ HOST-SUFFIX,renzhen8.cn,REJECT
 HOST-SUFFIX,report-sy.adview.cn,REJECT
 HOST-SUFFIX,report.cms.qq.com,REJECT
 HOST-SUFFIX,report.csslcloud.net,REJECT
+HOST-SUFFIX,report.dxunion.cn,REJECT
 HOST-SUFFIX,report.imtt.qq.com,REJECT
 HOST-SUFFIX,report.meituan.com,REJECT
 HOST-SUFFIX,report.migufun.com,REJECT
@@ -14425,6 +14446,7 @@ HOST-SUFFIX,track.xiachufang.com,REJECT
 HOST-SUFFIX,trackapp.guahao.cn,REJECT
 HOST-SUFFIX,trackbeat.xiachufang.com,REJECT
 HOST-SUFFIX,trackcmp.net,REJECT
+HOST-SUFFIX,tracker-prd.aldi.com.cn,REJECT
 HOST-SUFFIX,tracker-sns.iqiyi.com,REJECT
 HOST-SUFFIX,tracker.gitee.com,REJECT
 HOST-SUFFIX,tracker.kugou.com,REJECT
@@ -14833,6 +14855,7 @@ HOST-SUFFIX,unilog.wostore.cn,REJECT
 HOST-SUFFIX,unimhk.com,REJECT
 HOST-SUFFIX,union-httpdns.gslb.yy.com,REJECT
 HOST-SUFFIX,union-mlog.bigda.com,REJECT
+HOST-SUFFIX,union-record.oss-cn-zhangjiakou.aliyuncs.com,REJECT
 HOST-SUFFIX,union-wifi.com,REJECT
 HOST-SUFFIX,union.360.cn,REJECT
 HOST-SUFFIX,union.6.cn,REJECT

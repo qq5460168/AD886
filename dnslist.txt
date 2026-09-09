@@ -2,8 +2,8 @@
 ! Title: 酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Total Count: 17228
-! Update Time: 2026-09-08 08:57:03（北京时间）
+! Total Count: 17251
+! Update Time: 2026-09-09 09:04:01（北京时间）
 ||-normal-lq.zijieapi.com^
 ||0.r.msn.com^
 ||000123456789.online^
@@ -1165,6 +1165,7 @@
 ||acz.youku.com^
 ||ad-analysis.pconline.com.cn^
 ||ad-android.51wnl.com^
+||ad-api.4pyun.com^
 ||ad-api.adn-plus.com.cn^
 ||ad-api.morefreegame.com^
 ||ad-audit-provider.soulapp.cn^
@@ -1182,6 +1183,7 @@
 ||ad-download.hismarttv.com^
 ||ad-drs-ipv6.52qumao.com^
 ||ad-drs.52qumao.com^
+||ad-files.4pyun.com^
 ||ad-ga.nocode.com^
 ||ad-gb.mgid.com^
 ||ad-ggtg-api.37.com.cn^
@@ -1345,6 +1347,7 @@
 ||ad.mail.ru^
 ||ad.mail.sohu.com^
 ||ad.mangareader.net^
+||ad.maoyan.com^
 ||ad.mazc.org^
 ||ad.mediabong.net^
 ||ad.mesomorphosis.com^
@@ -1658,6 +1661,7 @@
 ||admaji.com^
 ||admarket.21cn.com^
 ||admarket.mobi^
+||admarketing.yahoo.net^
 ||admaster.com.cn^
 ||admd.yam.com^
 ||admedia.com^
@@ -1772,6 +1776,7 @@
 ||ads.daydaycook.com.cn^
 ||ads.exoclick.com^
 ||ads.exosrv.com^
+||ads.finance.yahoo.com^
 ||ads.flurry.com^
 ||ads.game.iqiyi.com^
 ||ads.games.laohu.com^
@@ -1970,6 +1975,7 @@
 ||adstatic.zhihu.com^
 ||adstatis.99jiasu.com^
 ||adstats.tencentmusic.com^
+||adstextview.qq.com^
 ||adstil.indiatimes.com^
 ||adstore-1252524079.file.myqcloud.com^
 ||adstore-index-1252524079.file.myqcloud.com^
@@ -2072,6 +2078,7 @@
 ||adx-open-service.youku.com^
 ||adx-os-req.anythinktech.com^
 ||adx-os.anythinktech.com^
+||adx-os.bridgeoos.com^
 ||adx-saas.advlion.com^
 ||adx-static.ksosoft.com^
 ||adx-strategy-api-cn.statisticslinks.com^
@@ -2299,6 +2306,7 @@
 ||allcp.xyz^
 ||alliance.jinritemai.com^
 ||allnews.uodoo.com^
+||alltbcsp2p.baidu.com^
 ||allxin.com^
 ||allykitchen.com^
 ||almabelen.com^
@@ -4398,6 +4406,7 @@
 ||comfylink.com^
 ||commdata.v.qq.com^
 ||commdata6.v.qq.com^
+||commercial.shouji.360.cn^
 ||commission-junction.com^
 ||commondata.oss-cn-hangzhou.aliyuncs.com^
 ||commonwealthproficient.com^
@@ -6056,6 +6065,7 @@
 ||events.redditmedia.com^
 ||events.split.io^
 ||events3alt.adcolony.com^
+||eventv1.leidong.rayenergytech.com^
 ||evidhjksdtgyxrh.xyz^
 ||eviltracker.net^
 ||ew16d.package12.com^
@@ -7472,8 +7482,10 @@
 ||humanding.com^
 ||hummingexam.com^
 ||hunpingou.com^
+||huodong.ios.shouji.360.cn^
 ||huodong.pl.youku.com^
 ||huodong.vip.youku.com^
+||huodong.weibo.cn^
 ||huoju.asia^
 ||hushenqiquan.com^
 ||hv.code.tanwanyx.com^
@@ -7602,10 +7614,12 @@
 ||iad0ssl.pcauto.com.cn^
 ||iad0ssl.pconline.com.cn^
 ||iadc.qwapi.com^
+||iadcontent.apple.com^
 ||iadctest.qwapi.com^
 ||iadfeed.iad.apple.com^
 ||iadmatapk.nosdn.127.net^
 ||iadmatvideo.nosdn.127.net^
+||iadmoo.apple.com^
 ||iadmusicmat.music.126.net^
 ||iadmusicmatvideo.music.126.net^
 ||iads.xinmin.cn^
@@ -7972,6 +7986,7 @@
 ||init.phpwind.com^
 ||init.phpwind.net^
 ||init.startappexchange.com^
+||init.supersonicads.com^
 ||inkuae.com^
 ||inlbsid.cn^
 ||inmobi.cn^
@@ -7980,6 +7995,7 @@
 ||inmobicdn.cn^
 ||inmobicdn.net^
 ||inner-active.mobi^
+||inner-hw.huazirc.com^
 ||innity.com^
 ||innity.net^
 ||inoprosport.su^
@@ -8998,6 +9014,7 @@
 ||kwdgudw.cn^
 ||kwmsg.kuwo.cn^
 ||kwo-0115.cc^
+||kwpush.kuwo.cn^
 ||kwurl.ucweb.com^
 ||kxcp365.com^
 ||kxlogo.knet.cn^
@@ -9455,6 +9472,7 @@
 ||logoshejishi.com^
 ||logrcv.aiclk.com^
 ||logrcv.yunxish.com^
+||logs-bigdata.yeehaw.com.cn^
 ||logs.amap.com^
 ||logs.chelaile.net.cn^
 ||logsdk.qq.com^
@@ -9469,6 +9487,7 @@
 ||logstat.t.sfht.com^
 ||logtj.kugou.com^
 ||logupdate.avlyun.sec.miui.com^
+||logv2.ireader.com^
 ||logwebs.kugou.com^
 ||logx.optimizely.com^
 ||lohdnyz.cn^
@@ -11882,6 +11901,7 @@
 ||profitablecpmratenetwork.com^
 ||projectwonderful.com^
 ||prokyrn.icu^
+||prom-sdkv2.jysper.net^
 ||prom.b.qq.com^
 ||prom.gome.com.cn^
 ||promo.fileforum.com^
@@ -12469,6 +12489,7 @@
 ||report-sy.adview.cn^
 ||report.cms.qq.com^
 ||report.csslcloud.net^
+||report.dxunion.cn^
 ||report.imtt.qq.com^
 ||report.meituan.com^
 ||report.migufun.com^
@@ -14427,6 +14448,7 @@
 ||trackapp.guahao.cn^
 ||trackbeat.xiachufang.com^
 ||trackcmp.net^
+||tracker-prd.aldi.com.cn^
 ||tracker-sns.iqiyi.com^
 ||tracker.gitee.com^
 ||tracker.kugou.com^
@@ -14835,6 +14857,7 @@
 ||unimhk.com^
 ||union-httpdns.gslb.yy.com^
 ||union-mlog.bigda.com^
+||union-record.oss-cn-zhangjiakou.aliyuncs.com^
 ||union-wifi.com^
 ||union.360.cn^
 ||union.6.cn^
