@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-09-09 09:04:01（北京时间）
+# 生成时间: 2026-09-10 08:52:32（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -12901,7 +12901,7 @@ domain, sadsaxd.nlkmp.com
 domain, safe-aisle.jointreport-switch.com
 domain, safe.tsgpay.cn
 domain, safebrowsing.apple
-domain, safebrowsing.urlsec.gg.com
+domain, safebrowsing.urlsec.qq.com
 domain, saferwet.com
 domain, sahqoo.com
 domain, saitef.cn
@@ -15596,6 +15596,7 @@ domain, wgie.0z5jn.cn
 domain, wgnlz.com
 domain, wgnmp.com
 domain, wgoeisdnlk.com
+domain, wgwt5p8.com
 domain, whafwl.com
 domain, whalecloud.com
 domain, whcrdz.com
