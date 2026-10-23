@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-10-22 09:17:11（北京时间）
+# 生成时间: 2026-10-23 09:16:19（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -3498,6 +3498,7 @@ payload:
   - 'bolt.jebe.renren.com'
   - 'book.d.ireader.com'
   - 'books-analytics-events.apple.com'
+  - 'boost-cmp.hismarttv.com'
   - 'boost-next.co.jp'
   - 'bootpreload.uve.weibo.com'
   - 'bootrealtime.uve.weibo.com'
@@ -7942,6 +7943,7 @@ payload:
   - 'imindmap.cc'
   - 'immob.cn'
   - 'imneinei.com'
+  - 'imp-cmp.hismarttv.com'
   - 'imp-toutiao-data.37.com.cn'
   - 'imp.ad.xelements.cn'
   - 'imp.ads.rgyun.com'
@@ -9390,6 +9392,7 @@ payload:
   - 'lnr2.com'
   - 'lnzjlr.xyz'
   - 'load77.exelator.com'
+  - 'loading-cmp.hismarttv.com'
   - 'loading.baofeng5.baofeng.net'
   - 'loadm.exelator.com'
   - 'loan-ad.cn'
@@ -10628,6 +10631,7 @@ payload:
   - 'msclick2.kuwo.cn'
   - 'msdk.voiceads.cn'
   - 'msdsd2.cn'
+  - 'msg-cmp.hismarttv.com'
   - 'msg.360.cn'
   - 'msg.71.am'
   - 'msg.c002.ottcn.com'
@@ -11560,6 +11564,7 @@ payload:
   - 'passport.kuaishou.com'
   - 'passwordrecovery.cn'
   - 'passwz.com'
+  - 'paster-cmp.hismarttv.com'
   - 'pat.farvd.com'
   - 'patriot.cs.pp.cn'
   - 'pay.holaq.com'
@@ -12500,6 +12505,7 @@ payload:
   - 'rec.g.163.com'
   - 'rec.moviebox.baofeng.net'
   - 'recds7.icu'
+  - 'recmd-cmp.hismarttv.com'
   - 'recommend-drcn.hms.dbankcloud.cn'
   - 'recommend.bizhi.360.cn'
   - 'recommender-launcher.hismarttv.com'
@@ -12574,6 +12580,7 @@ payload:
   - 'resetgey.com'
   - 'resolve.umeng.com'
   - 'resolver.msg.global.xiaomi.net'
+  - 'resource-cmp.hismarttv.com'
   - 'resource.ad-scope.com.cn'
   - 'resource.baomihua.com'
   - 'resource.fjhongbo.com'
