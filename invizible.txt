@@ -1,7 +1,7 @@
 # Title: Invizible Pro Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2026-10-31 10:03:07（北京时间）
+# Update Time: 2026-11-01 09:55:01（北京时间）
 -normal-lq.zijieapi.com
 0.r.msn.com
 000123456789.online
@@ -1957,7 +1957,6 @@ adsmartget.guangtuikeji.com
 adsmartgetbes.datads.cn
 adsmartgetqtt.guangtuikeji.com
 adsmind.apdcdn.tc.qq.com
-adsmind.gdtimg.com
 adsmind.gdtimg.com.svideolego-dk.sched.dcloudstc.com
 adsmind.ugdtimg.com
 adsmind.ugdtimg.com.svideolego-dk.sched.dcloudstc.com
@@ -1982,7 +1981,6 @@ adstat.cp11.ott.cibntv.net
 adstat.izuiyou.com
 adstatic.zhihu.com
 adstatis.99jiasu.com
-adstats.tencentmusic.com
 adstextview.qq.com
 adstil.indiatimes.com
 adstore-1252524079.file.myqcloud.com
@@ -2453,7 +2451,6 @@ ap.dongqiudi.com
 aparvibices.com
 apas.aipai.com
 apd-pcdnvodstat.teg.tencent-cloud.net
-apd-pcdnwxlogin.teg.tencent-cloud.net
 apd-pcdnwxnat.teg.tencent-cloud.net
 apd-vodp2plogin.teg.tencent-cloud.net
 apd-vodp2pnat.teg.tencent-cloud.net
@@ -2573,7 +2570,6 @@ api.iegadp.qq.com
 api.iimedia.cn
 api.ijunhai.com
 api.impact.com
-api.installer.xiaomi.com
 api.itaoxiaoshuo.com
 api.jietuhb.com
 api.joybj.com
@@ -2819,7 +2815,6 @@ appsrv1.madserving.com
 appsrv4.madserving.com
 appstore.360.cn
 appstore.qzone.qq.com
-appstoreort-stsdk.vivo.com.cn
 appstorepnrt-stsdk.vivo.com.cn
 appsupdate.sinaapp.com
 appsupport.stargame.com
@@ -3043,7 +3038,6 @@ b.kuangtuiguoo18888.com
 b.livesport.eu
 b.localpages.com
 b.nvrentao8.com
-b.qchannel03.cn
 b.rifub.com
 b.scorecardresearch.com
 b.smartvideo.youku.com
@@ -3097,7 +3091,6 @@ bad1.51gxqm.com
 badad.googleplex.com
 badao37.net
 badges.instagram.com
-badjs.weixinbridge.com
 baggvon.icu
 bai.luyouwang.com
 bai128.xyz
@@ -3304,7 +3297,6 @@ beacon.krxd.net
 beacon.qq.com
 beacon.sina.com.cn
 beacon.tingyun.com
-beaconcdn.qq.com
 beacons.gvt2.com
 beap-bc.yahoo.com
 beap.adss.yahoo.com
@@ -3543,7 +3535,6 @@ bridgeoos.com
 bridgetnbe.com
 brizads.com
 bro.flyme.cn
-broadcast.chat.bilibili.com
 brort.stsdk.vivo.com.cn
 brownfox.top
 browser.events.data.msn.cn
@@ -4412,7 +4403,6 @@ col.pagechoice.net
 collect.kugou.com
 collector.dcdn.baidu.com
 collector.github.com
-collector.githubapp.com
 collector.viki.io
 collector.wasu.cn
 collegepre.net
@@ -4915,7 +4905,6 @@ data-dre.push.dbankcloud.com
 data-drru.push.dbankcloud.com
 data-news.cdn.cootekservice.com
 data-pic.cdn.cootekservice.com
-data-sdk-uuid-log.d.meituan.net
 data-sdk-uuid-report.dreport.meituan.net
 data-track.yingxiong.com
 data-video.71edge.com
@@ -5315,8 +5304,6 @@ dns.qiyipic.iqiyi.com
 dns.qq.com
 dns.wechat.com
 dns.weibo.cn
-dns.weixin.qq.com
-dns.weixin.qq.com.cn
 dns2.q2cdn.com
 dns2.titannetwork.cn
 dnvus.com
@@ -5521,7 +5508,6 @@ dumedia.ru
 duodunj.com
 duodutek.com
 duoyidd.com
-dup.baidustatic.com
 duration.logger.baofeng.com
 dushimj.com
 dutils.com
@@ -6513,7 +6499,6 @@ fwzvlp.xyz
 fxbcpr.xyz
 fxc.aiquxs.com
 fxeaobv.icu
-fxgate.baidu.com
 fxmacd.com
 fxnmjb.xyz
 fxservice1.kugou.com
@@ -7329,12 +7314,10 @@ hlog.bigda.com
 hlrcv.stage.adobe.com
 hlryzsqo.icu
 hlzyb.cn
-hm.baidu.com
 hm.l.qq.com
 hmcubp.top
 hmjhnkas.com
 hmjs.cnmo-img.com.cn
-hmma.baidu.com
 hmp33.com
 hmttoly.com
 hmyangshengji.com
@@ -7451,7 +7434,6 @@ httpdns.gslb.yy.com
 httpdns.huaweicloud.com
 httpdns.kg.qq.com
 httpdns.kwd.inkuai.com
-httpdns.meituan.com
 httpdns.music.163.com
 httpdns.n.netease.com
 httpdns.n.shifen.com
@@ -8297,7 +8279,6 @@ jdlhg.com
 jdnlynb.cn
 jdoqocy.com
 jdpm.net.cn
-jdqd.jd.com
 jdw.zjuwjdc.com
 jebe.renren.com
 jebe.xnimg.cn
@@ -8362,7 +8343,6 @@ jietuhb.com
 jiezibook.cn
 jiezoiq.cn
 jifeidandar.com
-jifen.2345.com
 jifyelda.top
 jiguang.cn
 jihehuaban.com
@@ -9458,7 +9438,6 @@ log.snssdk.com.bytedns.net
 log.stat.kugou.com
 log.tagtic.cn
 log.tbs.qq.com
-log.tpns.tencent.com
 log.umsns.com
 log.v2.hunantv.com
 log.vcgame.cn
@@ -10149,7 +10128,6 @@ marketing.wsljf.xyz
 marketingplatform.google.com
 marketingsolutions.yahoo.com
 marketo.com
-marketo.net
 markmedia.com
 masdk.3g.qq.com
 masdkv6.3g.qq.com
@@ -10392,7 +10370,6 @@ mingxianshanghang.cn
 mingysh.com
 mini-prog-drm.vodplayvideo.net
 mini.cpc.sogou.com
-mini.eastday.com
 mini.hao123.com
 mini.jijiplayer.com
 miniapp-ad.cdn.bcebos.com
@@ -10603,7 +10580,6 @@ mqq.zgdmsj.cn
 mqqad.cs0309.html5.qq.com
 mqqad.html5.qq.com
 mqqadr.reader.qq.com
-mqtt.zhihu.com
 mqwe01w.xyz
 mqwmgs.xyz
 mr.da.netease.com
@@ -10660,7 +10636,6 @@ msphoneclick.kuwo.cn
 mssdhde.cn
 mssdk-bu.bytedance.com
 mssdk-bu.snssdk.com
-mssdk.volces.com
 mssdk.zijieapi.com
 mssdk3-normal-lq.zijieapi.com
 mssp.baidu.com
@@ -11280,7 +11255,6 @@ opengw.xiaoying.com
 openjmacs.m.taobao.com
 openlog.cashcatads.com
 openmsf.3g.qq.com
-openrcv.baidu.com
 openstat.net
 openstorage.ad.cmvideo.cn
 openx.net
@@ -11333,7 +11307,6 @@ ota.ptqy.gitv.tv
 otf.msn.com
 oth.eve.mdt.qq.com
 oth.eve.qq.com
-oth.str.mdt.qq.com
 oth.update.mdt.qq.com
 otheve.play.aiseet.atianqi.com
 othstr.beacon.qq.com
@@ -11661,7 +11634,6 @@ pftdmmc.xyz
 pg.suiji.red
 pgcciax.icu
 pgdt.gtimg.com
-pgdt.ugdtimg.com
 pgght17.com
 pglstatp-toutiao.com
 pgszp.cn
@@ -11710,7 +11682,6 @@ pic.pic-img.com
 pic.punchbox.org
 pic.pxstda.com
 pic.usingde.com
-pic.zol-img.com.cn
 pic0.ptqy.gitv.tv
 pic1.59wd.com
 pic1.chelaile.net.cn
@@ -12281,7 +12252,6 @@ qq.tapiche.cn
 qq17.toytoy.xyz
 qq2.co
 qq61.com
-qqdata.ab.qq.com
 qqhuhu.com
 qqlogo.qq.com
 qqm98.com
@@ -12757,7 +12727,6 @@ ruliaoqi.com
 rulwph.xyz
 rum-collector.pingdom.net
 rum-static.pingdom.net
-rumt-zh.com
 run-syndicate.com
 run.haireig.com
 runative-syndicate.com
@@ -13258,7 +13227,6 @@ sestat.baidu.com
 setting.crashlytics.com
 setting.rayjump.com
 setting.snswin.qq.com
-settings-win.data.microsoft.com
 settings.crashlytics.com
 settings.luckyorange.net
 settings.ttwebview.com
@@ -14434,7 +14402,6 @@ tnjvz.cn
 tns-counter.ru
 tns.simba.taobao.com
 toastspinner.com
-tobapplog.ctobsnssdk.com
 tobapplog.volceapplog.com
 toblog.snssdk.com
 toblog.volceapplog.com
@@ -15293,7 +15260,6 @@ vhs.wwstat.com
 vhsutpgui.xyz
 vhulan.com
 vhutitpu.icu
-vi.l.qq.com
 vi0.mzy2014.com
 vi1.ku6img.net
 vi1.mzy2014.com
@@ -16034,7 +16000,6 @@ www.ppqqzkn.com
 www.ppslsa.com
 www.pufren.xyz
 www.q4ee.top
-www.qchannel01.cn
 www.qd3bcdn1130.top
 www.qhmxwux.com
 www.qinlinghe.com
@@ -16238,7 +16203,6 @@ xd3r.javgg.eu
 xdadevelopers.browsi.mobi
 xdbwc.com
 xdcqcyp.com
-xdcs-collector.ximalaya.com
 xddzshop.com
 xdns.asia
 xdrig.com
