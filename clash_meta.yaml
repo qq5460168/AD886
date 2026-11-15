@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-11-14 10:55:07（北京时间）
+# 生成时间: 2026-11-15 10:25:06（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -1748,7 +1748,6 @@ payload:
   - 'ads-img-al.xhscdn.com'
   - 'ads-img-bak.xhscdn.com'
   - 'ads-img-qc.xhscdn.com'
-  - 'ads-jp.tiktok.com'
   - 'ads-jssdk.vivo.com.cn'
   - 'ads-lb.serving-sys.cn'
   - 'ads-marketing-vivofs.vivo.com.cn'
@@ -1762,6 +1761,7 @@ payload:
   - 'ads-video-1251524319.cos.ap-shanghai.myqcloud.com'
   - 'ads-video-al.xhscdn.com'
   - 'ads-video-qc.xhscdn.com'
+  - 'ads-vp5.xhscdn.com'
   - 'ads.95516.com'
   - 'ads.adadapted.com'
   - 'ads.adfox.ru'
@@ -4241,6 +4241,7 @@ payload:
   - 'clickzs.com'
   - 'client-api.ele.me'
   - 'client-dmp.suishenyun.cn'
+  - 'client-upload.cn-shanghai.log.aliyuncs.com'
   - 'client.88tours.com'
   - 'client.show.qq.com'
   - 'client.sidesearch.lycos.com'
@@ -5492,6 +5493,7 @@ payload:
   - 'dts.akamai.startappexchange.com'
   - 'dtscout.com'
   - 'dtsxn.cn'
+  - 'du-app.cn-hangzhou.log.aliyuncs.com'
   - 'du.jd.com'
   - 'dualstack-logs.amap.com'
   - 'duanat.com'
@@ -9394,6 +9396,7 @@ payload:
   - 'log-api-mn.huxiu.com'
   - 'log-api.caoliao.net'
   - 'log-api.huxiu.com'
+  - 'log-auth.zztfly.com'
   - 'log-dmp.suishenyun.cn'
   - 'log-hl.snssdk.com'
   - 'log-klink.zijieapi.com'
@@ -13306,6 +13309,8 @@ payload:
   - 'shibeiou.com'
   - 'shiftrro.com'
   - 'shigl.top'
+  - 'shihuo-new.log.shihuocdn.cn'
+  - 'shihuo.log.shihuocdn.cn'
   - 'shijixinrui.cn'
   - 'shili.downxia.com'
   - 'shili.wanyx.com'
@@ -14945,6 +14950,7 @@ payload:
   - 'up-hl.3g.qq.com'
   - 'up.hiao.com'
   - 'up4.ucweb.com'
+  - 'upc.zztfly.com'
   - 'upd.faronicslabs.com'
   - 'update.avlyun.sec.miui.com'
   - 'update.baidu.com'

@@ -2,8 +2,8 @@
 ! Title: 酷安反馈反馈
 ! Homepage: https://github.com/qq5460168/AD886
 ! by: 酷安@那个谁520
-! Total Count: 17307
-! Update Time: 2026-11-14 10:55:07（北京时间）
+! Total Count: 17313
+! Update Time: 2026-11-15 10:25:06（北京时间）
 ||-normal-lq.zijieapi.com^
 ||0.r.msn.com^
 ||000123456789.online^
@@ -1751,7 +1751,6 @@
 ||ads-img-al.xhscdn.com^
 ||ads-img-bak.xhscdn.com^
 ||ads-img-qc.xhscdn.com^
-||ads-jp.tiktok.com^
 ||ads-jssdk.vivo.com.cn^
 ||ads-lb.serving-sys.cn^
 ||ads-marketing-vivofs.vivo.com.cn^
@@ -1765,6 +1764,7 @@
 ||ads-video-1251524319.cos.ap-shanghai.myqcloud.com^
 ||ads-video-al.xhscdn.com^
 ||ads-video-qc.xhscdn.com^
+||ads-vp5.xhscdn.com^
 ||ads.95516.com^
 ||ads.adadapted.com^
 ||ads.adfox.ru^
@@ -4244,6 +4244,7 @@
 ||clickzs.com^
 ||client-api.ele.me^
 ||client-dmp.suishenyun.cn^
+||client-upload.cn-shanghai.log.aliyuncs.com^
 ||client.88tours.com^
 ||client.show.qq.com^
 ||client.sidesearch.lycos.com^
@@ -5495,6 +5496,7 @@
 ||dts.akamai.startappexchange.com^
 ||dtscout.com^
 ||dtsxn.cn^
+||du-app.cn-hangzhou.log.aliyuncs.com^
 ||du.jd.com^
 ||dualstack-logs.amap.com^
 ||duanat.com^
@@ -9397,6 +9399,7 @@
 ||log-api-mn.huxiu.com^
 ||log-api.caoliao.net^
 ||log-api.huxiu.com^
+||log-auth.zztfly.com^
 ||log-dmp.suishenyun.cn^
 ||log-hl.snssdk.com^
 ||log-klink.zijieapi.com^
@@ -13309,6 +13312,8 @@
 ||shibeiou.com^
 ||shiftrro.com^
 ||shigl.top^
+||shihuo-new.log.shihuocdn.cn^
+||shihuo.log.shihuocdn.cn^
 ||shijixinrui.cn^
 ||shili.downxia.com^
 ||shili.wanyx.com^
@@ -14948,6 +14953,7 @@
 ||up-hl.3g.qq.com^
 ||up.hiao.com^
 ||up4.ucweb.com^
+||upc.zztfly.com^
 ||upd.faronicslabs.com^
 ||update.avlyun.sec.miui.com^
 ||update.baidu.com^

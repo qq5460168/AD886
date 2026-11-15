@@ -1,7 +1,7 @@
 # Title: Quantumult X Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2026-11-14 10:55:07（北京时间）
+# Update Time: 2026-11-15 10:25:06（北京时间）
 HOST-SUFFIX,-normal-lq.zijieapi.com,REJECT
 HOST-SUFFIX,0.r.msn.com,REJECT
 HOST-SUFFIX,000123456789.online,REJECT
@@ -1749,7 +1749,6 @@ HOST-SUFFIX,ads-drcn.platform.hihonorcloud.com,REJECT
 HOST-SUFFIX,ads-img-al.xhscdn.com,REJECT
 HOST-SUFFIX,ads-img-bak.xhscdn.com,REJECT
 HOST-SUFFIX,ads-img-qc.xhscdn.com,REJECT
-HOST-SUFFIX,ads-jp.tiktok.com,REJECT
 HOST-SUFFIX,ads-jssdk.vivo.com.cn,REJECT
 HOST-SUFFIX,ads-lb.serving-sys.cn,REJECT
 HOST-SUFFIX,ads-marketing-vivofs.vivo.com.cn,REJECT
@@ -1763,6 +1762,7 @@ HOST-SUFFIX,ads-union.jd.com,REJECT
 HOST-SUFFIX,ads-video-1251524319.cos.ap-shanghai.myqcloud.com,REJECT
 HOST-SUFFIX,ads-video-al.xhscdn.com,REJECT
 HOST-SUFFIX,ads-video-qc.xhscdn.com,REJECT
+HOST-SUFFIX,ads-vp5.xhscdn.com,REJECT
 HOST-SUFFIX,ads.95516.com,REJECT
 HOST-SUFFIX,ads.adadapted.com,REJECT
 HOST-SUFFIX,ads.adfox.ru,REJECT
@@ -4242,6 +4242,7 @@ HOST-SUFFIX,clicktracks.com,REJECT
 HOST-SUFFIX,clickzs.com,REJECT
 HOST-SUFFIX,client-api.ele.me,REJECT
 HOST-SUFFIX,client-dmp.suishenyun.cn,REJECT
+HOST-SUFFIX,client-upload.cn-shanghai.log.aliyuncs.com,REJECT
 HOST-SUFFIX,client.88tours.com,REJECT
 HOST-SUFFIX,client.show.qq.com,REJECT
 HOST-SUFFIX,client.sidesearch.lycos.com,REJECT
@@ -5493,6 +5494,7 @@ HOST-SUFFIX,dtrk.slimcdn.com,REJECT
 HOST-SUFFIX,dts.akamai.startappexchange.com,REJECT
 HOST-SUFFIX,dtscout.com,REJECT
 HOST-SUFFIX,dtsxn.cn,REJECT
+HOST-SUFFIX,du-app.cn-hangzhou.log.aliyuncs.com,REJECT
 HOST-SUFFIX,du.jd.com,REJECT
 HOST-SUFFIX,dualstack-logs.amap.com,REJECT
 HOST-SUFFIX,duanat.com,REJECT
@@ -9395,6 +9397,7 @@ HOST-SUFFIX,log-alibaba-taobao-douyin.cdn.bcebos.com,REJECT
 HOST-SUFFIX,log-api-mn.huxiu.com,REJECT
 HOST-SUFFIX,log-api.caoliao.net,REJECT
 HOST-SUFFIX,log-api.huxiu.com,REJECT
+HOST-SUFFIX,log-auth.zztfly.com,REJECT
 HOST-SUFFIX,log-dmp.suishenyun.cn,REJECT
 HOST-SUFFIX,log-hl.snssdk.com,REJECT
 HOST-SUFFIX,log-klink.zijieapi.com,REJECT
@@ -13307,6 +13310,8 @@ HOST-SUFFIX,shglegle.com,REJECT
 HOST-SUFFIX,shibeiou.com,REJECT
 HOST-SUFFIX,shiftrro.com,REJECT
 HOST-SUFFIX,shigl.top,REJECT
+HOST-SUFFIX,shihuo-new.log.shihuocdn.cn,REJECT
+HOST-SUFFIX,shihuo.log.shihuocdn.cn,REJECT
 HOST-SUFFIX,shijixinrui.cn,REJECT
 HOST-SUFFIX,shili.downxia.com,REJECT
 HOST-SUFFIX,shili.wanyx.com,REJECT
@@ -14946,6 +14951,7 @@ HOST-SUFFIX,uoyrsd.com,REJECT
 HOST-SUFFIX,up-hl.3g.qq.com,REJECT
 HOST-SUFFIX,up.hiao.com,REJECT
 HOST-SUFFIX,up4.ucweb.com,REJECT
+HOST-SUFFIX,upc.zztfly.com,REJECT
 HOST-SUFFIX,upd.faronicslabs.com,REJECT
 HOST-SUFFIX,update.avlyun.sec.miui.com,REJECT
 HOST-SUFFIX,update.baidu.com,REJECT

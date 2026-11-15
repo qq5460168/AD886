@@ -1,7 +1,7 @@
 # Title: SingBox SRS Rules
 # Homepage: https://github.com/qq5460168/AD886
 # by: 酷安@那个谁520
-# Update Time: 2026-11-14 10:55:07（北京时间）
+# Update Time: 2026-11-15 10:25:06（北京时间）
 DOMAIN-SUFFIX,-normal-lq.zijieapi.com,REJECT
 DOMAIN-SUFFIX,0.r.msn.com,REJECT
 DOMAIN-SUFFIX,000123456789.online,REJECT
@@ -1749,7 +1749,6 @@ DOMAIN-SUFFIX,ads-drcn.platform.hihonorcloud.com,REJECT
 DOMAIN-SUFFIX,ads-img-al.xhscdn.com,REJECT
 DOMAIN-SUFFIX,ads-img-bak.xhscdn.com,REJECT
 DOMAIN-SUFFIX,ads-img-qc.xhscdn.com,REJECT
-DOMAIN-SUFFIX,ads-jp.tiktok.com,REJECT
 DOMAIN-SUFFIX,ads-jssdk.vivo.com.cn,REJECT
 DOMAIN-SUFFIX,ads-lb.serving-sys.cn,REJECT
 DOMAIN-SUFFIX,ads-marketing-vivofs.vivo.com.cn,REJECT
@@ -1763,6 +1762,7 @@ DOMAIN-SUFFIX,ads-union.jd.com,REJECT
 DOMAIN-SUFFIX,ads-video-1251524319.cos.ap-shanghai.myqcloud.com,REJECT
 DOMAIN-SUFFIX,ads-video-al.xhscdn.com,REJECT
 DOMAIN-SUFFIX,ads-video-qc.xhscdn.com,REJECT
+DOMAIN-SUFFIX,ads-vp5.xhscdn.com,REJECT
 DOMAIN-SUFFIX,ads.95516.com,REJECT
 DOMAIN-SUFFIX,ads.adadapted.com,REJECT
 DOMAIN-SUFFIX,ads.adfox.ru,REJECT
@@ -4242,6 +4242,7 @@ DOMAIN-SUFFIX,clicktracks.com,REJECT
 DOMAIN-SUFFIX,clickzs.com,REJECT
 DOMAIN-SUFFIX,client-api.ele.me,REJECT
 DOMAIN-SUFFIX,client-dmp.suishenyun.cn,REJECT
+DOMAIN-SUFFIX,client-upload.cn-shanghai.log.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,client.88tours.com,REJECT
 DOMAIN-SUFFIX,client.show.qq.com,REJECT
 DOMAIN-SUFFIX,client.sidesearch.lycos.com,REJECT
@@ -5493,6 +5494,7 @@ DOMAIN-SUFFIX,dtrk.slimcdn.com,REJECT
 DOMAIN-SUFFIX,dts.akamai.startappexchange.com,REJECT
 DOMAIN-SUFFIX,dtscout.com,REJECT
 DOMAIN-SUFFIX,dtsxn.cn,REJECT
+DOMAIN-SUFFIX,du-app.cn-hangzhou.log.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,du.jd.com,REJECT
 DOMAIN-SUFFIX,dualstack-logs.amap.com,REJECT
 DOMAIN-SUFFIX,duanat.com,REJECT
@@ -9395,6 +9397,7 @@ DOMAIN-SUFFIX,log-alibaba-taobao-douyin.cdn.bcebos.com,REJECT
 DOMAIN-SUFFIX,log-api-mn.huxiu.com,REJECT
 DOMAIN-SUFFIX,log-api.caoliao.net,REJECT
 DOMAIN-SUFFIX,log-api.huxiu.com,REJECT
+DOMAIN-SUFFIX,log-auth.zztfly.com,REJECT
 DOMAIN-SUFFIX,log-dmp.suishenyun.cn,REJECT
 DOMAIN-SUFFIX,log-hl.snssdk.com,REJECT
 DOMAIN-SUFFIX,log-klink.zijieapi.com,REJECT
@@ -13307,6 +13310,8 @@ DOMAIN-SUFFIX,shglegle.com,REJECT
 DOMAIN-SUFFIX,shibeiou.com,REJECT
 DOMAIN-SUFFIX,shiftrro.com,REJECT
 DOMAIN-SUFFIX,shigl.top,REJECT
+DOMAIN-SUFFIX,shihuo-new.log.shihuocdn.cn,REJECT
+DOMAIN-SUFFIX,shihuo.log.shihuocdn.cn,REJECT
 DOMAIN-SUFFIX,shijixinrui.cn,REJECT
 DOMAIN-SUFFIX,shili.downxia.com,REJECT
 DOMAIN-SUFFIX,shili.wanyx.com,REJECT
@@ -14946,6 +14951,7 @@ DOMAIN-SUFFIX,uoyrsd.com,REJECT
 DOMAIN-SUFFIX,up-hl.3g.qq.com,REJECT
 DOMAIN-SUFFIX,up.hiao.com,REJECT
 DOMAIN-SUFFIX,up4.ucweb.com,REJECT
+DOMAIN-SUFFIX,upc.zztfly.com,REJECT
 DOMAIN-SUFFIX,upd.faronicslabs.com,REJECT
 DOMAIN-SUFFIX,update.avlyun.sec.miui.com,REJECT
 DOMAIN-SUFFIX,update.baidu.com,REJECT
