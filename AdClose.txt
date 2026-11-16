@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-11-15 10:25:06（北京时间）
+# 生成时间: 2026-11-16 10:35:18（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -11242,6 +11242,7 @@ domain, open.kwaizt.com
 domain, open.lalanuz.cn
 domain, open.oneplus.net
 domain, open.play.cn
+domain, open.snssdk.com
 domain, open.snssdk.com.bytedns.net
 domain, open.toutiao.com
 domain, open.ximalaya.com
