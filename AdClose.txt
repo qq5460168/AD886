@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-11-16 10:35:18（北京时间）
+# 生成时间: 2026-11-17 12:57:55（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -2094,6 +2094,7 @@ domain, adx.ads.heytapmobi.com
 domain, adx.ads.oppomobile.com
 domain, adx.adwangmai.com
 domain, adx.adxglobal.com
+domain, adx.anythinktech.com
 domain, adx.appsdk.com.cn
 domain, adx.chip.de
 domain, adx.dictapis.cn
@@ -3369,6 +3370,7 @@ domain, bianxianmao.com
 domain, bid-adx.vlion.cn
 domain, bid-adx2.vlion.cn
 domain, bid.adbiding.com
+domain, bid.shanghailingye.cn
 domain, bidder.criteo.com
 domain, biddingos.com
 domain, biddingx.com
@@ -4328,6 +4330,7 @@ domain, cmspapp83.com
 domain, cmspapp84.com
 domain, cmws.iad.apple.com
 domain, cmx.autohome.com.cn
+domain, cn-api-sec.anythinktech.com
 domain, cn-api.anythinktech.com
 domain, cn-beijing.log.aliyuncs.com
 domain, cn-da.anythinktech.com
@@ -4821,6 +4824,7 @@ domain, da.anythinktech.com
 domain, da.hunantv.com
 domain, da.mgtv.com
 domain, da.qiyukf.com
+domain, da.statisticslinks.com
 domain, da5.adfsda005.xyz
 domain, daa.shuzilm.cn
 domain, daadr.cn
@@ -6005,7 +6009,9 @@ domain, erlirscid.com
 domain, err.ifengcloud.ifeng.com
 domain, errdom.oss-cn-heyuan.aliyuncs.com
 domain, errlog.umeng.com
+domain, errlogos.umeng.com
 domain, errnewlog.umeng.com
+domain, errnewlogos.umeng.com
 domain, errnotice.oss-cn-shenzhen.aliyuncs.com
 domain, error.baidu.com
 domain, ers.baidu.com
@@ -13622,6 +13628,7 @@ domain, ss72269.com
 domain, ssac.suning.com
 domain, ssacher.com
 domain, ssancib.top
+domain, ssapi.anythinktech.com
 domain, ssasa.dvclw.cn
 domain, sscefsol.com
 domain, sscefsol.com.cn
@@ -14353,6 +14360,7 @@ domain, tk.anythinktech.com
 domain, tk.baidu.com
 domain, tk.d.mi.com
 domain, tk.optaim.com
+domain, tk.statisticslinks.com
 domain, tk029.click
 domain, tkcloud.iqiyi.com
 domain, tkd777.cn
