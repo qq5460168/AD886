@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-11-17 12:57:55（北京时间）
+# 生成时间: 2026-11-18 12:01:29（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -12506,6 +12506,7 @@ domain, regist.fotoable.com
 domain, register.app.jpy.jp
 domain, registeridm.com
 domain, regulationprivilegescan.top
+domain, reke.at.sohu.com
 domain, reksaidnslog.security.mihoyo.com
 domain, relafp.xyz
 domain, relap.io
@@ -15046,6 +15047,7 @@ domain, ushaqi.com
 domain, usingde.com
 domain, uslbaht.top
 domain, uslsxe.com
+domain, usnorbert.com
 domain, uspauline.com
 domain, usphfiona.com
 domain, usr-api.1sapp.com

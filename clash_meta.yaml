@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-11-17 12:57:55（北京时间）
+# 生成时间: 2026-11-18 12:01:29（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -12506,6 +12506,7 @@ payload:
   - 'register.app.jpy.jp'
   - 'registeridm.com'
   - 'regulationprivilegescan.top'
+  - 'reke.at.sohu.com'
   - 'reksaidnslog.security.mihoyo.com'
   - 'relafp.xyz'
   - 'relap.io'
@@ -15046,6 +15047,7 @@ payload:
   - 'usingde.com'
   - 'uslbaht.top'
   - 'uslsxe.com'
+  - 'usnorbert.com'
   - 'uspauline.com'
   - 'usphfiona.com'
   - 'usr-api.1sapp.com'
