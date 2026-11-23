@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-11-22 10:50:56（北京时间）
+# 生成时间: 2026-11-23 11:32:08（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -3946,7 +3946,6 @@ payload:
   - 'cdn.cmop.mgtv.com'
   - 'cdn.configcat.com'
   - 'cdn.cooguo.com'
-  - 'cdn.cookielaw.org'
   - 'cdn.creative-bars1.com'
   - 'cdn.dashenya.com'
   - 'cdn.districtm.io'
@@ -4405,7 +4404,6 @@ payload:
   - 'col.pagechoice.net'
   - 'collect.kugou.com'
   - 'collector.dcdn.baidu.com'
-  - 'collector.github.com'
   - 'collector.viki.io'
   - 'collector.wasu.cn'
   - 'collegepre.net'
@@ -6339,7 +6337,6 @@ payload:
   - 'fipabtomqok.com'
   - 'fips.uimserv.net'
   - 'firearmtire.com'
-  - 'firebase-settings.crashlytics.com'
   - 'firebasedynamiclinks.googleapis.com'
   - 'firebaseinstallations.googleapis.com'
   - 'firebaselogging-pa.googleapis.com'
@@ -11122,7 +11119,6 @@ payload:
   - 'oceanbot-steam.com'
   - 'oceanengine.com'
   - 'ocponcphaafb.com'
-  - 'ocsp.godaddy.com'
   - 'ocx.umeng.com'
   - 'odc.starwave.com'
   - 'odin.goo.mx'
@@ -14966,7 +14962,6 @@ payload:
   - 'update.baidu.com'
   - 'update.bainv.net'
   - 'update.coolyun.com'
-  - 'update.googleapis.com'
   - 'update.juw37xqo3x.com'
   - 'update.lejiao.tv'
   - 'update.minipage.2345.com'
