@@ -1,5 +1,5 @@
 # Clash Meta 专用规则 (简化域名列表格式)
-# 生成时间: 2026-11-25 13:14:51（北京时间）
+# 生成时间: 2026-11-26 12:43:06（北京时间）
 payload:
   - '-normal-lq.zijieapi.com'
   - '0.r.msn.com'
@@ -24,6 +24,7 @@ payload:
   - '01v62.xyz'
   - '020kqy.com'
   - '022003xs.com'
+  - '022022.cc'
   - '022aifang.com'
   - '023hysj.com'
   - '02539717.com'
@@ -318,6 +319,7 @@ payload:
   - '24smi.net'
   - '25.y25287524.vip'
   - '25.y25718211.vip'
+  - '256kpdz.com'
   - '256ppp.com'
   - '26.26678381.vip'
   - '2634273f48e9.com'
@@ -7603,6 +7605,7 @@ payload:
   - 'i.xicairencs.cn'
   - 'i.ys7.com'
   - 'i.zhuoyaju.com'
+  - 'i1.go2yd.com'
   - 'i1236.net'
   - 'i2.akjunshi.com'
   - 'i3818.com'
@@ -14166,6 +14169,7 @@ payload:
   - 'tb.code.twyxi.com'
   - 'tb060x.corp.youdao.com'
   - 'tb104x.corp.youdao.com'
+  - 'tb6999.com'
   - 'tbaocdn.com'
   - 'tbcgumkadc.xyz'
   - 'tbexpand.alicdn.com'

@@ -1,6 +1,6 @@
 # AdClose 专用广告规则
 # 格式：domain, <域名>
-# 生成时间: 2026-11-25 13:14:51（北京时间）
+# 生成时间: 2026-11-26 12:43:06（北京时间）
 domain, -normal-lq.zijieapi.com
 domain, 0.r.msn.com
 domain, 000123456789.online
@@ -24,6 +24,7 @@ domain, 01daa.luytr.com
 domain, 01v62.xyz
 domain, 020kqy.com
 domain, 022003xs.com
+domain, 022022.cc
 domain, 022aifang.com
 domain, 023hysj.com
 domain, 02539717.com
@@ -318,6 +319,7 @@ domain, 24klm.net
 domain, 24smi.net
 domain, 25.y25287524.vip
 domain, 25.y25718211.vip
+domain, 256kpdz.com
 domain, 256ppp.com
 domain, 26.26678381.vip
 domain, 2634273f48e9.com
@@ -7603,6 +7605,7 @@ domain, i.w55c.net
 domain, i.xicairencs.cn
 domain, i.ys7.com
 domain, i.zhuoyaju.com
+domain, i1.go2yd.com
 domain, i1236.net
 domain, i2.akjunshi.com
 domain, i3818.com
@@ -14166,6 +14169,7 @@ domain, taxismaned.top
 domain, tb.code.twyxi.com
 domain, tb060x.corp.youdao.com
 domain, tb104x.corp.youdao.com
+domain, tb6999.com
 domain, tbaocdn.com
 domain, tbcgumkadc.xyz
 domain, tbexpand.alicdn.com
